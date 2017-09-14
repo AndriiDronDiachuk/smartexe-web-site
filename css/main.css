@@ -1,4 +1,90 @@
 body {
     margin: 0;
     padding: 0;
+    color: #090b0e;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    color: #090b0e;
+    text-decoration: none;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header {
+    margin: 25px 0;
+}
+.logo {
+    float: left;
+    width: 190px;
+}
+.logo img {
+    width: 100%;
+}
+.navigation {
+    float: right;
+    margin: 25px 0 0;
+}
+.navigation li {
+    float: left;
+    margin: 0 16px;
+
+}
+.navigation li a {
+    font-size: 13px;
+    font-family: 'SofiaProLight', sans-serif;
+    text-transform: uppercase;
+    line-height: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.navigation li:first-child {
+    margin-left: 0;
+}
+.navigation li:last-child {
+    margin-right: 0;
+}
+.carousel {
+    position: relative;
+    height: 825px;
+    overflow-y: hidden;
+}
+.carousel:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 45px;
+    background-image: url("../images/layer_3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.carousel::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 127, 118, 0.82);
+    background: -webkit-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+    background: -o-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+    background: -moz-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+    background: linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+}
+.carousel div {
+    height: 825px;
+}
+.carousel .carousel-img-1 {
+    background-image: url(../images/carousel_bgi.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
 }

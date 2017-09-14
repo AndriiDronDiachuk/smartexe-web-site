@@ -1,0 +1,24 @@
+@media screen and (max-width: 1899px) {
+
+    .logo {
+        width: 150px;
+    }
+    .navigation {
+        margin-top: 15px;
+    }
+    .carousel {
+        height: 525px;
+    }
+    .carousel:after {
+        height: 30px;
+    }
+    .carousel::after {
+        height: 100%;
+    }
+    .carousel div {
+        height: 525px;
+    }
+    .carousel .carousel-img-1 {
+        background-position-y: 55%;
+    }
+}

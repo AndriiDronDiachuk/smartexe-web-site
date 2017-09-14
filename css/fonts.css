@@ -1,7 +1,10 @@
-/* font-family: "RobotoRegular"; */
+/* font-family: "SofiaProLight"; */
 @font-face {
-  font-family: "RobotoRegular";
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+  font-family: "SofiaProLight";
+  src: url("../fonts/sofiapro-light/sofiapro-light.eot");
+  src: url("../fonts/sofiapro-light/sofiapro-light.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/sofiapro-light/sofiapro-light.woff") format("woff"),
+       url("../fonts/sofiapro-light/sofiapro-light.ttf") format("truetype"),
+       url("../fonts/sofiapro-light/sofiapro-light.otf") format("opentype");
   font-style: normal;
   font-weight: normal; }
