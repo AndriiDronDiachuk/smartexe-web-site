@@ -9,10 +9,10 @@
     .carousel {
         height: 525px;
     }
-    .carousel:after {
+    .carousel:before {
         height: 30px;
     }
-    .carousel::after {
+    .carousel:after {
         height: 100%;
     }
     .carousel div {
