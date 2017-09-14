@@ -21,4 +21,7 @@
     .carousel .carousel-img-1 {
         background-position-y: 55%;
     }
+    .footer-1:before {
+        top: -2px;
+    }
 }
