@@ -100,7 +100,7 @@ header {
     background-position-y: 60%;
 }
 
-/*FOOTER*/
+/* FOOTER */
 
 .footer-1 {
     position: relative;
@@ -139,9 +139,9 @@ header {
 .footer-1 .label-1 {
     position: relative;
     top: 115px;
-    font-size: 35px;
+    font-size: 36px;
     font-weight: bold;
-    font-family: 'SofiaProLight', sans-serif;
+    font-family: 'SofiaProBold', sans-serif;
     line-height: 23px;
     letter-spacing: -2px;
     color: white;
@@ -151,9 +151,8 @@ header {
 .footer-1 .label-2 {
     position: relative;
     top: 105px;
-    font-size: 15px;
-    font-family: 'SofiaProLight', sans-serif;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: 'HintRegular', sans-serif;
     letter-spacing: 0;
     color: darkgray;
     z-index: 1;
@@ -162,11 +161,10 @@ header {
 .footer-1 .label-3 {
     position: relative;
     top: 105px;
-    font-size: 15px;
-    font-family: 'SofiaProLight', sans-serif;
+    font-size: 13px;
     font-weight: 100;
+    font-family: 'SofiaProRegular', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
     color: white;
     z-index: 1;
 }
@@ -176,13 +174,14 @@ header {
     height: 180px;
     background-size: 100%;
     background-color: black;
-    font-family: 'SofiaProLight', sans-serif;
-    font-weight: 100;
-    font-size: 13px;
 }
 
-.footer-2 a {
+.footer-2 a, .footer-2 label {
     color: rgb(140,140,140);
+    font-family: 'SofiaProRegular', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
 
 .footer-2 li {
@@ -192,7 +191,10 @@ header {
 .footer-2 .label-name {
     margin: 40px 0 20px 0;
     color: white;
-    font-size: 20px
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'SofiaProBold', sans-serif;
+    letter-spacing: 1px;
 }
 
 .footer-2 .fa{
@@ -205,10 +207,8 @@ header {
     background-size: 100%;
     background-color: rgb(33, 34, 36);
     color: rgb(140,140,140);
-    font-size: 15px;
-    font-family: 'Moncerat', sans-serif;
-    font-weight: bolder;
-    letter-spacing: 0;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-3 .label-1 {
@@ -221,17 +221,10 @@ header {
     float: right;
 }
 
-.footer-3 .label-2 a {
+.footer-3 .label-2 a, .footer-3 .label-2 li {
     color: rgb(140,140,140);
-    font-size: 15px;
-    font-family: 'Moncerat', sans-serif;
-    letter-spacing: 0;
 }
 
 .footer-3 .label-2 li {
-    color: rgb(140,140,140);
-    font-size: 15px;
-    font-family: 'Moncerat', sans-serif;
-    letter-spacing: 0;
     float: left;
 }
