@@ -11,6 +11,13 @@
  *   CSS and include that instead to use some of that
  *   hardware-accelerated goodness.
  */
+.unslider-nav {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  z-index: 2;
+}
 .unslider-nav ol {
   list-style: none;
   text-align: center;
@@ -20,14 +27,15 @@
   width: 6px;
   height: 6px;
   margin: 0 4px;
-  background: transparent;
+  background: #5a8a8c;
   border-radius: 5px;
   overflow: hidden;
   text-indent: -999em;
-  border: 2px solid #fff;
+  border: 2px solid #f2f2f2;
   cursor: pointer;
 }
 .unslider-nav ol li.unslider-active {
-  background: #fff;
+  border: 2px solid #5a8a8c;
+  background: #f2f2f2;
   cursor: default;
 }

@@ -1,11 +1,14 @@
 @media screen and (max-width: 1899px) {
 
+    /* HEADER */
     .logo {
         width: 150px;
     }
     .navigation {
         margin-top: 15px;
     }
+
+    /* CAROUSEL */
     .carousel {
         height: 525px;
     }
@@ -20,6 +23,199 @@
     }
     .carousel .carousel-img-1 {
         background-position-y: 55%;
+    }
+    .unslider-nav {
+        bottom: 0;
+    }
+    .under-block {
+        padding-top: 175px;
+    }
+    .under-block span {
+        font-size: 18px;
+    }
+    .under-block h1 {
+        font-size: 60px;
+    }
+    .button-style-1 {
+        margin-top: 15px;
+        padding: 20px 40px;
+    }
+
+    /* LAYER-1 */
+    .layer-1 {
+        padding: 80px 0 ;
+    }
+    .layer-1 .left {
+        font-size: 31px;
+    }
+    .layer-1 .right {
+        font-size: 16px;
+    }
+
+    /* LAYER-2 */
+    .layer-2 .col-lg-4 {
+        margin: 40px 0;
+    }
+    .layer-2 .block-1:before {
+        bottom: -40px;
+        left: 8px;
+        width: 50px;
+    }
+    .layer-2 .block-2:before {
+        bottom: -40px;
+        left: -60px;
+        width: 101px;
+    }
+    .layer-2 .block-2:after {
+        bottom: -91px;
+        left: -10px;
+        height: 101px;
+    }
+    .layer-2 .block-3:before {
+        bottom: -40px;
+        left: -50px;
+        width: 101px;
+    }
+    .layer-2 .block-3:after {
+        bottom: -91px;
+        left: 0;
+        height: 101px;
+    }
+    .layer-2 .block-6:before {
+        top: -40px;
+        right: 8px;
+        width: 50px;
+        height: 1px;
+    }
+
+    /* LAYER-3 */
+    .layer-3 {
+        height: 200px;
+        background-size: 124%;
+        padding-top: 65px;
+    }
+    .layer-3:before {
+        height: 48px;
+    }
+    .layer-3:after {
+        height: 25px;
+    }
+    .layer-3 .text h2 {
+        font-size: 30px;
+    }
+    .layer-3 .text p {
+        font-size: 16px;
+    }
+    .layer-4 .medium {
+        font-size: 16px;
+    }
+    .layer-4 li i {
+        font-size: 13px;
+        vertical-align: 5%;
+    }
+    .layer-4 li p {
+        font-size: 18px;
+    }
+    .layer-4 {
+        padding: 60px 0;
+    }
+    .layer-4 h2 {
+        font-size: 30px;
+    }
+    .layer-4 p {
+        font-size: 16px;
+    }
+
+    /* LAYER-5 */
+    .layer-5 {
+        height: 200px;
+        background: url(../images/layer_5_bgi.jpg) no-repeat 0 60%;
+        background-size: 100%;
+    }
+    .layer-5 .container {
+        padding-top: 80px;
+    }
+    .layer-5 .image {
+        height: 30px;
+        line-height: 30px;
+    }
+    .layer-5 span {
+        font-size: 33px;
+        line-height: 33px;
+        vertical-align: 5%;
+    }
+    .layer-5 p {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+    .layer-5 p:after {
+        bottom: -15px;
+    }
+
+    /* LAYER-6 */
+    .layer-6 h2 {
+        font-size: 30px;
+    }
+    .layer-6 span {
+        font-size: 17px;
+    }
+    .layer-6 .industries {
+        margin-top: 60px;
+        height: 612px;
+        background: url(../images/layer_6_bgi.jpg) no-repeat 50% 70%;
+        background-size: 100%;
+    }
+    .layer-6 .box {
+        width: 267px;
+        border-right: 12px solid #fff;
+        border-bottom: 12px solid #fff;
+    }
+    .layer-6 .no-border-right {
+        border-right: none;
+    }
+    .layer-6 .no-border-bottom {
+        border-bottom: none;
+    }
+    .layer-6 .small-box {
+        height: 250px;
+    }
+    .layer-6 .medium-box {
+        height: 300px;
+    }
+    .layer-6 .big-box {
+        height: 350px;
+    }
+    .layer-6 .box span {
+        bottom: 50px;
+        left: 30px;
+        font-size: 20px;
+    }
+
+    /* LAYER-7 */
+    .layer-7 .marquee-box {
+        width: 1150px;
+        margin: 0 auto;
+    }
+    .layer-7 h2 {
+        font-size: 30px;
+    }
+    .layer-7 span {
+        font-size: 17px;
+    }
+
+    /* FOOTER */
+    .footer-1 {
+        height: 325px;
+        background-size: 110%;
+        background-image: url(../images/footer_bgi.jpg);
+        background-position-y: 60%;
+        padding: 70px 0;
+    }
+    .footer-1 .label-1 {
+        font-size: 31px;
+    }
+    .footer-1 .label-2 {
+        font-size: 16px;
     }
     .footer-1:before {
         top: -2px;

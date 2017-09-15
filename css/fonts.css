@@ -1,4 +1,3 @@
-/* font-family: "SofiaPro"; */
 @font-face {
     font-family: "SofiaProRegular";
     src: url("../fonts/sofiapro/regular/sofia-pro-regular.eot");
@@ -42,3 +41,13 @@
     font-style: normal;
     font-weight: normal;
 }
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/myriadpro-regular/MyriadPro-Regular.eot") format("opentype");
+    src: url("../fonts/myriadpro-regular/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/myriadpro-regular/MyriadPro-Regular.woff") format("woff"),
+        url("../fonts/myriadpro-regular/MyriadPro-Regular.ttf") format("truetype"),
+        url("../fonts/myriadpro-regular/MyriadPro-Regular.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal; }

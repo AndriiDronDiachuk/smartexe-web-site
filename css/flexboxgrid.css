@@ -733,9 +733,10 @@
         width: 77.5rem;
     }
 
-    /*.row {*/
-        /*width: 77.5rem;*/
-    /*}*/
+    .row {
+        width: 70rem;
+        margin: 0 auto;
+    }
 
     .col-lg,
     .col-lg-1,
