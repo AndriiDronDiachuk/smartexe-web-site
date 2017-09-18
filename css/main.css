@@ -651,7 +651,7 @@ header {
     position: relative;
     height: 400px;
     background-size: 110%;
-    background-image: url(../images/footer_bgi.jpg);
+    background: url(../images/footer_bgi.jpg) no-repeat;
     background-position-y: 60%;
     text-align: center;
     padding: 90px 0;

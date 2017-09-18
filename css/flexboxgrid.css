@@ -41,6 +41,10 @@
     flex-direction: column-reverse;
 }
 
+.container {
+    width: 20rem;
+}
+
 .col-xs,
 .col-xs-1,
 .col-xs-2,
