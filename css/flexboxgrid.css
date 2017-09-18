@@ -42,7 +42,12 @@
 }
 
 .container {
+    width: 100vw;
+}
+
+.row {
     width: 20rem;
+    margin: 0 auto;
 }
 
 .col-xs,

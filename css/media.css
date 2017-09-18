@@ -626,6 +626,7 @@
     .carousel:before {
         height: 25px;
         background: url(../images/carousel_mobile_layer.png) no-repeat 50% 0;
+        background-size: 100%;
     }
     .unslider-arrow {
         display: none;
