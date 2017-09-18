@@ -13,6 +13,11 @@ a {
     color: #000;
     text-decoration: none;
 }
+a:hover,
+a:focus,
+button:focus {
+    outline: none;
+}
 .clearfix:after {
     content: '';
     display: block;
@@ -34,6 +39,9 @@ header {
 }
 .logo img {
     width: 100%;
+}
+#nav-bar {
+    display: none;
 }
 .navigation {
     float: right;
@@ -214,7 +222,7 @@ header {
 .social {
     position: absolute;
     right: -40px;
-    top: 180px;
+    top: 315px;
 }
 .social li {
     margin-bottom: 25px;
@@ -252,7 +260,7 @@ header {
 .layer-2 {
     padding: 30px 0;
 }
-.layer-2 .col-lg-4 {
+.layer-2 .box {
     position: relative;
     margin: 60px 0;
 }
@@ -341,7 +349,7 @@ header {
     position: relative;
     height: 225px;
     background-color: #4c8d97;
-    background: url(../images/layer_3_bgi.png) no-repeat;
+    background: url(../images/layer_3_bgi.png) no-repeat 50% 50%;
     background-size: 100%;
     box-sizing: border-box;
     padding-top: 80px;
@@ -352,7 +360,7 @@ header {
     position: absolute;
     left: 0;
     width: 100%;
-    background: url(../images/smooth_line.png) no-repeat 0 100%;
+    background: url(../images/smooth_line.png) no-repeat 0 0;
     background-size: 100%;
 }
 .layer-3:before {
@@ -610,21 +618,18 @@ header {
     float: left;
     margin-right: 70px;
 }
-.layer-7 marquee {
-    margin-top: 30px;
-    float: right;
+.layer-7 .marquee {
+    width: 1500px;
+    margin: 30px auto 0;
+    overflow: hidden;
     position: relative;
 }
-.layer-7 marquee img {
+.layer-7 .marquee img {
     filter: grayscale(100%);
 }
-.layer-7 .marquee-box {
-    position: relative;
-    width: 1400px;
-    margin: 0 auto;
-}
-.layer-7 .marquee-box:before,
-.layer-7 .marquee-box:after {
+
+.layer-7 .marquee:before,
+.layer-7 .marquee:after {
     position: absolute;
     top: 0;
     content: '';
@@ -632,11 +637,11 @@ header {
     height: 100%;
     z-index: 1;
 }
-.layer-7 .marquee-box:before {
+.layer-7 .marquee:before {
     left: 0;
     background: -webkit-linear-gradient(left, #fff, transparent);
 }
-.layer-7 .marquee-box:after {
+.layer-7 .marquee:after {
     right: 0;
     background: -webkit-linear-gradient(right, #fff, transparent);
 }
@@ -660,8 +665,7 @@ header {
     content: '';
     width: 100%;
     height: 46px;
-    background-image: url("../images/sharp_line.png");
-    background-repeat: no-repeat;
+    background: url("../images/sharp_line.png") no-repeat 0 0;
     background-size: 100%;
     transform: scale(1, -1);
     z-index: 1;
@@ -681,7 +685,6 @@ header {
 .footer-1 .label-1 {
     position: relative;
     font-size: 36px;
-    font-weight: bold;
     font-family: 'SofiaProBold', sans-serif;
     line-height: 23px;
     letter-spacing: -1px;
@@ -718,7 +721,6 @@ header {
 .footer-2 label {
     color: #989898;
     font-family: 'SofiaProRegular', sans-serif;
-    font-weight: 600;
     font-size: 13px;
     letter-spacing: 1px;
     transition: 0.5s;
@@ -736,7 +738,6 @@ header {
     margin-bottom: 20px;
     color: white;
     font-size: 18px;
-    font-weight: bold;
     font-family: 'SofiaProBold', sans-serif;
     letter-spacing: 1px;
 }
