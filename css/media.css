@@ -104,7 +104,7 @@
         padding-top: 65px;
     }
     .layer-3:before {
-        height: 48px;
+        height: 40px;
     }
     .layer-3:after {
         height: 25px;
@@ -303,6 +303,9 @@
         background-size: 159%;
         padding-top: 65px;
     }
+    .layer-3:before {
+        height: 35px;
+    }
     .layer-3 .text h2 {
         margin-top: 5px;
         font-size: 28px;
@@ -481,8 +484,11 @@
     /* LAYER-3 */
     .layer-3 {
         background-size: 195%;
-        padding-top: 50px;
-        height: 160px;
+        padding-top: 40px;
+        height: 150px;
+    }
+    .layer-3:before {
+        height: 25px;
     }
     .layer-3:after {
         height: 12px;

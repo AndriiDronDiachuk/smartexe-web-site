@@ -365,7 +365,7 @@ header {
 }
 .layer-3:before {
     top: 0;
-    height: 67px;
+    height: 65px;
     background-position-y: 100%;
 }
 .layer-3:after {
@@ -428,7 +428,7 @@ header {
 .layer-4 li a span {
     position: absolute;
     bottom: -10px;
-    left: 40px;
+    left: 0;
     content: '';
     width: 0;
     height: 1px;
@@ -436,7 +436,7 @@ header {
     transition: 0.5s;
 }
 .layer-4 li a:hover span{
-    width: 90%;
+    width: 100%;
 }
 
 /* LAYER-5 */
