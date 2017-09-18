@@ -366,6 +366,7 @@ header {
 .layer-3:before {
     top: 0;
     height: 67px;
+    background-position-y: 100%;
 }
 .layer-3:after {
     bottom: 0;
@@ -651,8 +652,7 @@ header {
     position: relative;
     height: 400px;
     background-size: 110%;
-    background: url(../images/footer_bgi.jpg) no-repeat;
-    background-position-y: 60%;
+    background: url(../images/footer_bgi.jpg) no-repeat 50% 60%;
     text-align: center;
     padding: 90px 0;
     box-sizing: border-box;
