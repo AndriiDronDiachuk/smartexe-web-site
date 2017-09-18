@@ -280,6 +280,11 @@
         width: 44rem;
     }
 
+    .row {
+        width: 44rem;
+        margin: 0 auto;
+    }
+
     .col-sm,
     .col-sm-1,
     .col-sm-2,
@@ -511,6 +516,11 @@
         width: 58rem;
     }
 
+    .row {
+        width: 58rem;
+        margin: 0 auto;
+    }
+
     .col-md,
     .col-md-1,
     .col-md-2,
@@ -740,6 +750,11 @@
 @media only screen and (min-width: 75em) {
     .container {
         width: 70rem;
+    }
+
+    .row {
+        width: 70rem;
+        margin: 0 auto;
     }
 
     .col-lg,
