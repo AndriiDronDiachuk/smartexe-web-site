@@ -33,7 +33,7 @@ button:focus {
 header {
     padding: 25px 0;
     position: fixed;
-    z-index: 21;
+    z-index: 3;
     background-color: #fff;
     top: 0;
     width: 100%;
@@ -45,7 +45,8 @@ header {
 .logo img {
     width: 100%;
 }
-#nav-bar {
+#nav-bar,
+#nav-bar-close {
     display: none;
 }
 .navigation {
@@ -475,7 +476,7 @@ header {
 }
 .layer-5 .container {
     position: relative;
-    z-index: 3;
+    z-index: 2;
     padding-top: 115px;
 }
 .layer-5 .box {
