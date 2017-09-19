@@ -13,6 +13,11 @@ a {
     color: #000;
     text-decoration: none;
 }
+button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
 a:hover,
 a:focus,
 button:focus {
@@ -155,8 +160,6 @@ header {
 .button-style-1 {
     margin-top: 15px;
     position: relative;
-    background-color: transparent;
-    border: none;
     font-family: 'SofiaProRegular', sans-serif;
     font-size: 13px;
     text-transform: uppercase;
@@ -524,7 +527,6 @@ header {
 .layer-6 h2 {
     font-family: 'SofiaProBold', sans-serif;
     font-size: 36px;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 .layer-6 span {
