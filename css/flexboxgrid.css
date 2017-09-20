@@ -513,7 +513,7 @@
 
 @media only screen and (min-width: 64em) {
     .container {
-        width: 58rem;
+        width: 91vw;
     }
 
     .row {
@@ -749,7 +749,7 @@
 
 @media only screen and (min-width: 75em) {
     .container {
-        width: 70rem;
+        width: 93vw;
     }
 
     .row {
@@ -985,7 +985,7 @@
 
 @media only screen and (min-width: 118.75em) {
     .container {
-        width: 108.75rem;
+        width: 94vw;
     }
 
     .row {

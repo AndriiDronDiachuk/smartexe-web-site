@@ -1,8 +1,10 @@
+/* CATEGORY-MAP */
 .category-map-block p {
     font-size: 16px;
     line-height: 34px;
-    font-family: 'Hind', sans-serif;
-    width: 1050px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
+    width: 1025px;
     margin: 0 auto;
     text-align: center;
 }
@@ -12,7 +14,8 @@
 }
 .category-map-block ul {
     list-style: inherit;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
     font-size: 16px;
 }
 .category-map-block .lists {
@@ -49,26 +52,34 @@
     margin: 30px 25px;
     position: relative;
     display: inline-block;
+    width: 200px;
     padding: 20px 60px 20px 120px;
     background-color: #f2f2f2;
     font-size: 14px;
     line-height: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #388875;
+    text-align: center;
+    transition: 0.5s;
+}
+.layer-8 a:hover {
+    background-color: #eee;
+    box-shadow: inset 0 0 5px #ccc;
 }
 .layer-8 a:after {
     content: '';
     position: absolute;
     bottom: 17px;
-    right: 60px;
     height: 1px;
-    background-color: #42a18b;
+    background-color: rgba(56, 136, 117, 0.8);
 }
 .layer-8 .left:after {
     width: 195px;
+    right: 63px;
 }
 .layer-8 .right:after {
     width: 155px;
+    right: 83px;
 }
 .layer-8 a:before {
     content: url(../images/expertise_download.png);
@@ -80,4 +91,5 @@
     line-height: 70px;
     height: 100%;
     background-color: #388875;
+    transition: 0.5s;
 }

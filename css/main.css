@@ -151,9 +151,6 @@ header {
 .navigation li:last-child {
     margin-right: 0;
 }
-.navigation img {
-    padding-top: 3px;
-}
 
 /* FOOTER */
 .footer-1 {
