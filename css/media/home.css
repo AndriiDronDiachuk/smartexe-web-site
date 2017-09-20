@@ -13,9 +13,6 @@
     .carousel div {
         height: 525px;
     }
-    .carousel .carousel-img-1 {
-        background-position-y: 55%;
-    }
     .unslider-nav {
         bottom: 0;
     }

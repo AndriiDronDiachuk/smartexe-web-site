@@ -1,6 +1,6 @@
 $(document).ready(function($) {
 
-    if (window.location.pathname.includes('index')) {
+    if (window.location.pathname.includes('index') || window.location.pathname === '/smartexe-web-site/') {
         $('.carousel').unslider({
             autoplay: true,
             speed: 1000,
