@@ -18,14 +18,13 @@
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/contact_us.css"/>
     <link rel="stylesheet" href="css/media/main.css"/>
-
 </head>
 <body class="contact-us">
 
 <header class="clearfix">
     <div class="container">
         <div class="logo">
-            <a href="#">
+            <a href="./index.html">
                 <img src="images/logo.svg" alt="logo">
             </a>
         </div>
@@ -46,7 +45,7 @@
                     <a href="#">About Us <span></span></a>
                 </li>
                 <li>
-                    <a href="#">Contact Us <span></span></a>
+                    <a href="./contact_us.html">Contact Us <span></span></a>
                 </li>
             </ul>
         </div>
@@ -125,30 +124,25 @@
                             <p>Its now easy to Contact Us</p>
                         </div>
                         <div class="input-fields">
-                            <form>
-                                <div class="input-item">
-                                    <input placeholder="Name *" type="text" class="input-text"/>
-                                </div>
-                                <div class="input-item">
-                                    <input placeholder="Phone *" type="text" class="input-text"/>
-                                </div>
-                                <div class="input-item email-input">
-                                    <!--<label>Email *</label>-->
-                                    <input placeholder="Email *" type="text" class="input-text"/>
-                                </div>
-                                <div class="input-item">
-                                    <!--<label>Company Name</label>-->
-                                    <input placeholder="Company Name" type="text" class="input-text"/>
-                                </div>
-                                <div class="input-item">
-                                    <!--<label>Title</label>-->
-                                    <input placeholder="Title" type="text" class="input-text"/>
-                                </div>
-                                <div class="input-item message-input">
-                                    <!--<label>Message</label>-->
-                                    <input placeholder="Message" type="text" class="input-text"/>
-                                </div>
-                            </form>
+                            <div class="input-item">
+                                <input placeholder="Name *" type="text" class="input-text"/>
+                            </div>
+                            <div class="input-item">
+                                <input placeholder="Phone *" type="text" class="input-text"/>
+                            </div>
+                            <div class="input-item email-input">
+                                <input placeholder="Email *" type="text" class="input-text"/>
+                            </div>
+                            <div class="input-item">
+                                <input placeholder="Company Name" type="text" class="input-text"/>
+                            </div>
+                            <div class="input-item">
+                                <input placeholder="Title" type="text" class="input-text"/>
+                            </div>
+                            <div class="input-item message-input">
+                                <input placeholder="Message" type="text" class="input-text"/>
+                            </div>
+
                         </div>
                         <div class="button clearfix">
                             <button class="button-style-2">
@@ -157,18 +151,20 @@
                                 <span class="second"></span>
                             </button>
                         </div>
-                        <form>
-                            <div class="label-2">
-                                Smart.exe Ltd
-                                <h3>Research and Development Centers:</h3>
-                                <p>•&#160;&#160;&#160;Spilna Sprava Ltd., Vinnitsa, Ukraine</p>
-                                <p>•&#160;&#160;&#160;iSource Ltd., Bitola, Macedonia</p>
-                            </div>
+                        <div class="label-2">
+                            Smart.exe Ltd
+                            <h3>Research and Development Centers:</h3>
+                            <p>•&#160;&#160;&#160;Spilna Sprava Ltd., Vinnitsa, Ukraine</p>
+                            <p>•&#160;&#160;&#160;iSource Ltd., Bitola, Macedonia</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<div class="category-google-map">
+    <div id="map"></div>
 </div>
 <footer>
     <div class="footer-1">
@@ -251,6 +247,8 @@
 
 <script src="libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/maps.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC07mHWUVrb7Xvg8gaoNYS_sYOeai3mKgA&callback=initMap"></script>
 <script src="js/common.js"></script>
 </body>
 </html>

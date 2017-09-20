@@ -20,6 +20,7 @@ button {
 }
 a:hover,
 a:focus,
+input:focus,
 button:focus {
     outline: none;
 }

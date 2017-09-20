@@ -24,7 +24,7 @@
     padding: 65px 0 35px 0;
 }
 .category-send-message-block .right-labels .label-1 {
-    padding: 38px 0;
+    padding: 28px 0;
 }
 
 .category-send-message-block .right-labels .label-1 p {
@@ -55,8 +55,8 @@
 
 .category-send-message-block .input-text {
     border: none;
+    width: 100%;
 }
-
 .category-send-message-block .input-text::-webkit-input-placeholder{
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 16px;
@@ -136,4 +136,15 @@
     font-size: 16px;
     font-weight: 400;
     margin: 5px;
+}
+
+.category-google-map {
+    width: 100%;
+    margin-bottom: 25px;
+}
+#map {
+    height: 420px;
+    width: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
