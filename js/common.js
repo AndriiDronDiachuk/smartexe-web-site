@@ -1,6 +1,6 @@
 $(document).ready(function($) {
 
-    if (window.location.pathname.includes('home')) {
+    if (window.location.pathname.includes('index')) {
         $('.carousel').unslider({
             autoplay: true,
             speed: 1000,
