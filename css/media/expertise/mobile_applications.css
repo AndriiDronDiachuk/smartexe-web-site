@@ -92,26 +92,39 @@
         font-size: 14px;
         line-height: 22px;
         box-sizing: border-box;
-        text-align: left;
     }
     .category-map-block .lists {
         padding: 0 18px;
     }
     .category-map-block .lists-item {
-        width: 100%;
+        width: 50%;
+        float: right;
     }
     .category-map-block h3 {
         margin-bottom: 5px;
         font-size: 15px;
     }
-    .category-map-block .lists-item-1 h3,
+    .category-map-block .lists-item-1 h3 {
+        width: 100%;
+        padding-left: 10px;
+    }
     .category-map-block .lists-item-2 h3 {
         padding-left: 0;
     }
-    .category-map-block .lists-item-1 ul,
+    .category-map-block .lists-item-1 ul {
+        padding-left: 27px;
+        font-size: 13px;
+    }
     .category-map-block .lists-item-2 ul {
         padding-left: 17px;
-        font-size: 12px;
+        font-size: 13px;
+    }
+    .category-map-block .lists-item-2 li:nth-child(1),
+    .category-map-block .lists-item-2 li:nth-child(3),
+    .category-map-block .lists-item-2 li:nth-child(5),
+    .category-map-block .lists-item-2 li:nth-child(6) {
+        line-height: 16px;
+        margin: 3px 0;
     }
 
     /* LAYER-9 */
@@ -122,13 +135,8 @@
         padding-left: 10px;
         font-size: 15px;
     }
-    .button-style-3 {
-        width: 195px;
-        padding-left: 60px;
-        padding-right: 25px;
-    }
     .button-style-3:after {
-        width: 116px;
-        right: 64px;
+        width: 115px;
+        right: 48px;
     }
 }

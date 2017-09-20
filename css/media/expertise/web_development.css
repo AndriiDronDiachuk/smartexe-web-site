@@ -121,35 +121,36 @@
         font-size: 14px;
         line-height: 22px;
         box-sizing: border-box;
-        text-align: left;
     }
     .category-map-block .lists-item {
         width: 33.33%;
     }
     .category-map-block h3 {
-        padding-left: 10px;
+        padding-left: 9px;
         margin-bottom: 5px;
         font-size: 15px;
     }
     .category-map-block .lists-item ul {
         padding-left: 25px;
-        font-size: 12px;
+        font-size: 13px;
     }
     .category-map-block .lists-item-5 h3,
     .category-map-block .lists-item-6 h3 {
         padding-left: 8px;
     }
-    .category-map-block .lists-item-3 li:nth-child(6) {
+    .category-map-block .lists-item-3 li:nth-child(6),
+    .category-map-block .lists-item-4 li:nth-child(3) {
         width: 70px;
         line-height: 16px;
+        margin: 3px 0;
     }
     .category-map-block .lists-item-2 ul,
     .category-map-block .lists-item-5 ul {
-        padding-left: 25px;
+        padding-left: 20px;
     }
     .category-map-block .lists-item-3 ul,
     .category-map-block .lists-item-6 ul {
-        padding-left: 25px;
+        padding-left: 20px;
     }
 
     /* LAYER-8 */
@@ -160,18 +161,14 @@
         font-size: 15px;
         padding-left: 10px;
     }
-    .layer-8 .button-style-3 {
-        padding-left: 70px;
-        padding-right: 40px;
-    }
     .layer-8 .left:after {
         width: 171px;
-        right: 40px;
+        right: 20px;
 
     }
     .layer-8 .right:after {
         width: 135px;
-        right: 58px;
+        right: 38px;
         bottom: 12px;
     }
 }
