@@ -84,16 +84,20 @@ button:focus {
 .button-style-1:hover {
     text-shadow: 0 0 1px #aaa;
 }
-.button-style-1:hover .first:after {
+.button-style-1:hover .first:after,
+.button-style-2:hover .first:after {
     left: 8%;
 }
-.button-style-1:hover .first:before {
+.button-style-1:hover .first:before,
+.button-style-2:hover .first:before {
     bottom: 25%;
 }
-.button-style-1:hover .second:after {
+.button-style-1:hover .second:after,
+.button-style-2:hover .second:after {
     right: 8%;
 }
-.button-style-1:hover .second:before {
+.button-style-1:hover .second:before,
+.button-style-2:hover .second:before {
     top: 25%;
 }
 
