@@ -1,0 +1,121 @@
+.category-img-block {
+    position: relative;
+    height: 300px;
+    background: url("../images/category_bgi.png") no-repeat 50% 67%;
+    background-size: 100%;
+}
+.category-img-block:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: rgba(0, 127, 118, 0.82);
+    background: -webkit-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+    background: -o-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+    background: -moz-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+    background: linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+}
+.category-under-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.category-under-block p {
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.category-under-block h1 {
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: -1px;
+    font-family: 'SofiaProBlack', sans-serif;
+}
+.category-map-block {
+    padding: 60px 0;
+    background: #fff url(../images/map.png) no-repeat 50%;
+    background-size: 100%;
+}
+.category-map-block p {
+    font-size: 16px;
+    line-height: 34px;
+    font-family: 'Hind', sans-serif;
+    width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+}
+.category-map-block h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-left: 40px;
+}
+.category-map-block ul {
+    list-style: inherit;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+}
+.category-map-block .lists {
+    padding: 0 222px;
+}
+.category-map-block .lists-item {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.category-map-block .lists-item ul {
+    padding-left: 100px;
+}
+
+/* LAYER-8 */
+.layer-8 {
+    margin-bottom: 100px;
+}
+.layer-8 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.layer-8 a {
+    margin: 30px 25px;
+    position: relative;
+    display: inline-block;
+    padding: 20px 60px 20px 120px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #388875;
+}
+.layer-8 a:after {
+    content: '';
+    position: absolute;
+    bottom: 17px;
+    right: 60px;
+    height: 1px;
+    background-color: #42a18b;
+}
+.layer-8 .left:after {
+    width: 195px;
+}
+.layer-8 .right:after {
+    width: 155px;
+}
+.layer-8 a:before {
+    content: url(../images/expertise_download.png);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    line-height: 70px;
+    height: 100%;
+    background-color: #388875;
+}

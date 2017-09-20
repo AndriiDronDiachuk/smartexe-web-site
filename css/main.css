@@ -1,5 +1,5 @@
 body {
-    margin: 103px 0 0;
+    margin: 116px 0 0;
     padding: 0;
     color: #000;
     font-family: 'SofiaProRegular', sans-serif;
@@ -547,6 +547,13 @@ header {
     border-right: 16px solid #fff;
     border-bottom: 16px solid #fff;
     position: relative;
+    transition: 0.5s;
+}
+.layer-6 .box:hover > span {
+    bottom: 60px;
+}
+.layer-6 .box:hover {
+    opacity: 0.9;
 }
 .layer-6 .second-row {
     float: right;
@@ -582,6 +589,7 @@ header {
     left: 30px;
     font-family: 'SofiaProBlack', sans-serif;
     font-size: 24px;
+    transition: 0.5s;
 }
 .layer-6 .grey-bgc span {
     color: #000000;
