@@ -11,6 +11,12 @@
         width: 28px;
     }
 
+    /* BUTTON STYLE */
+    .button-style-1 {
+        margin-top: 15px;
+        padding: 20px 40px;
+    }
+
     /* FOOTER */
     .footer-1 {
         height: 325px;
@@ -36,6 +42,12 @@
 
 @media screen and (max-width: 1199px) {
 
+    /* BUTTON STYLE */
+    .button-style-1 {
+        margin-top: 30px;
+        padding: 25px 50px;
+    }
+
     /* FOOTER */
     .footer-1:before {
         height: 30px;
@@ -55,6 +67,12 @@
 }
 
 @media screen and (max-width: 1023px) {
+
+    /* BUTTON STYLE */
+    .button-style-1 {
+        margin-top: 15px;
+        padding: 15px 30px;
+    }
 
     /* HEADER */
     body {

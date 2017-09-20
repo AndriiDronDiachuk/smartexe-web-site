@@ -30,10 +30,6 @@
     .under-block h1 {
         font-size: 60px;
     }
-    .button-style-1 {
-        margin-top: 15px;
-        padding: 20px 40px;
-    }
     .social {
         top: 180px;
         right: -33px;
@@ -331,10 +327,6 @@
     .under-block h1 {
         font-size: 37px;
     }
-    .button-style-1 {
-        margin-top: 15px;
-        padding: 15px 30px;
-    }
 
     /*  LAYER-1 */
     .layer-1 .left {
@@ -511,10 +503,6 @@
     }
     .under-block .button-style-1 {
         display: none;
-    }
-    .button-style-1 {
-        margin-top: 30px;
-        padding: 25px 50px;
     }
 
     /* LAYER 1 */
