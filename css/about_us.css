@@ -1,0 +1,40 @@
+.category-gray-label-block {
+    height: 562px;
+    background-color: rgb(247,247,247);
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.category-gray-label-block .right-labels{
+    margin-left: 100px;
+}
+.category-gray-label-block .right-labels span,
+.category-gray-label-block .left-labels h2 {
+    margin-top: 110px;
+}
+.category-gray-label-block .left-labels h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.category-gray-label-block .right-labels span {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+.category-gray-label-block .right-labels p {
+    font-size: 16px;
+    font-weight: 300;
+}
+.category-team-block{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.category-team-block h2 {
+    margin-top: 55px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+}
+.category-team-block p {
+    margin-bottom: 110px;
+    font-size: 16px;
+    font-weight: 400;
+}
+

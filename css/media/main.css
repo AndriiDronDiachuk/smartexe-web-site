@@ -16,6 +16,10 @@
         margin-top: 15px;
         padding: 20px 40px;
     }
+    /* ABOUT US BLOCK */
+    .category-gray-label-block .right-labels{
+        margin-left: 90px;
+    }
 
     /* FOOTER */
     .footer-1 {
@@ -40,12 +44,22 @@
     }
 }
 
+/*@media screen and (max-width: 18px) {
+    !* ABOUT US BLOCK *!
+
+}*/
+
 @media screen and (max-width: 1199px) {
 
     /* BUTTON STYLE */
     .button-style-1 {
         margin-top: 30px;
         padding: 25px 50px;
+    }
+
+    /* ABOUT US BLOCK */
+    .category-gray-label-block .right-labels{
+        margin-left: 75px;
     }
 
     /* FOOTER */
