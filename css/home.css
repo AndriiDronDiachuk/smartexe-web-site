@@ -498,8 +498,14 @@
 .layer-7 .marquee:before {
     left: 0;
     background: -webkit-linear-gradient(left, #fff, transparent);
+    background: -o-linear-gradient(left, #fff, transparent);
+    background: -moz-linear-gradient(left, #fff, transparent);
+    background: linear-gradient(left, #fff, transparent);
 }
 .layer-7 .marquee:after {
     right: 0;
     background: -webkit-linear-gradient(right, #fff, transparent);
+    background: -o-linear-gradient(right, #fff, transparent);
+    background: -moz-linear-gradient(right, #fff, transparent);
+    background: linear-gradient(right, #fff, transparent);
 }
