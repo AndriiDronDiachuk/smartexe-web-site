@@ -497,15 +497,15 @@
 }
 .layer-7 .marquee:before {
     left: 0;
-    background: -webkit-linear-gradient(left, #fff, transparent);
-    background: -o-linear-gradient(left, #fff, transparent);
-    background: -moz-linear-gradient(left, #fff, transparent);
-    background: linear-gradient(left, #fff, transparent);
+    background: -webkit-linear-gradient(left, #fff, rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(left, #fff, rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(left, #fff, rgba(255, 255, 255, 0));
+    background: linear-gradient(left, #fff, rgba(255, 255, 255, 0));
 }
 .layer-7 .marquee:after {
     right: 0;
-    background: -webkit-linear-gradient(right, #fff, transparent);
-    background: -o-linear-gradient(right, #fff, transparent);
-    background: -moz-linear-gradient(right, #fff, transparent);
-    background: linear-gradient(right, #fff, transparent);
+    background: -webkit-linear-gradient(right, #fff, rgba(255, 255, 255, 0));
+    background: -o-linear-gradient(right, #fff, rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(right, #fff, rgba(255, 255, 255, 0));
+    background: linear-gradient(right, #fff, rgba(255, 255, 255, 0));
 }
