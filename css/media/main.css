@@ -64,6 +64,10 @@
     .footer-2 ul:nth-child(5) label {
         letter-spacing: 1px;
     }
+
+    .category-send-message-block .email-input {
+        margin-right: 40px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -138,6 +142,21 @@
         float: none;
         text-align: center;
     }
+
+    /* CATEGORY-SEND-MESSAGE-BLOCK */
+    .category-send-message-block .label-2 {
+        margin-top: 60px;
+    }
+    .category-send-message-block .left-labels h2 {
+        font-size: 20px;
+    }
+    .category-send-message-block .left-labels p {
+        font-size: 14px;
+    }
+    .category-send-message-block .left-labels span {
+        font-size: 14px;
+    }
+
 
     /* FOOTER */
     .footer-1 {
@@ -266,6 +285,33 @@
     }
     .category-under-block h1 {
         font-size: 34px;
+    }
+
+    /* CATEGORY-SEND-MESSAGE-BLOCK */
+    .category-send-message-block {
+        padding-top: 35px;
+    }
+    .category-send-message-block .right-labels {
+        margin: 10px 0;
+    }
+    .category-send-message-block .right-labels .label-1 {
+        padding: 20px 0;
+    }
+    .category-send-message-block .right-labels h3 {
+        margin: 10px 0;
+    }
+    .category-send-message-block .right-labels .input-item {
+        margin-bottom: 25px;
+    }
+    .category-send-message-block .right-labels .button-style-2 {
+        float: left;
+        padding: 15px;
+        margin-top: 25px;
+    }
+    .category-send-message-block .right-labels .label-2 {
+        float: left;
+        text-align: left;
+        margin-top: 30px;
     }
 
     /* CATEGORY-MAP-BLOCK */

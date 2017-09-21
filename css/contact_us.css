@@ -54,6 +54,7 @@
 }
 
 .category-send-message-block .input-text {
+    font-size: 16px;
     border: none;
     width: 100%;
 }
@@ -67,7 +68,6 @@
 /* BUTTON2 STYLE */
 
 .button-style-2 {
-    margin-top: 15px;
     position: relative;
     font-family: 'SofiaProRegular', sans-serif;
     font-size: 13px;
