@@ -1,57 +1,80 @@
 @media screen and (max-width: 1899px) {
-
-    /* BUTTON-STYLE-3 */
-    .button-style-3 {
-        margin: 20px 15px;
-        padding: 20px 40px 20px 95px;
-        line-height: 15px;
+    .expertise .info h3 {
+        letter-spacing: -1px;
     }
-    .button-style-3:before {
-        width: 55px;
-        line-height: 65px;
+    .expertise .block-4 h3 {
+        letter-spacing: -2px;
+        line-height: 35px;
+        width: 320px;
+        font-size: 23px;
+        margin: 24px 0;
     }
 }
 
 @media screen and (max-width: 1199px) {
-
-    /* BUTTON-STYLE-3 */
-    .button-style-3 {
-        padding: 17px 35px 17px 85px;
-        line-height: 15px;
+    .expertise .block-2 .info p,
+    .expertise .block-5 .info p {
+        width: 100%;
     }
-    .button-style-3:before {
-        width: 50px;
-        line-height: 60px;
+    .expertise .box h3 {
+        height: 48px;
+        margin-bottom: 0;
+    }
+    .expertise .block-4 h3 {
+        letter-spacing: -1px;
+        width: 250px;
+        line-height: 24px;
+        font-size: 24px;
+        margin: 28px 0 0;
     }
 }
 
 @media screen and (max-width: 1023px) {
-
-    /* BUTTON-STYLE-3 */
-    .button-style-3 {
-        width: 185px;
-        padding: 15px 30px 15px 75px;
-        line-height: 15px;
-        font-size: 13px;
-    }
-    .button-style-3:before {
-        width: 45px;
-        line-height: 55px;
+    .expertise .block-1,
+    .expertise .block-2,
+    .expertise .block-3,
+    .expertise .block-4,
+    .expertise .block-5,
+    .expertise .block-6 {
+        width: 270px;
     }
 }
 
 @media screen and (max-width: 767px) {
-
-    /* BUTTON-STYLE-3 */
-    .button-style-3 {
-        margin: 5px auto;
-        width: 170px;
-        padding: 14px 20px 14px 55px;
-        line-height: 12px;
+    .expertise .box .info {
+        width: 135px;
+    }
+    .expertise .box h3 {
+        height: 37px;
+        font-size: 16px;
+    }
+    .expertise .block-4 h3 {
+        margin-top: 17px;
+        line-height: 17px;
+        width: 100%;
+    }
+    .expertise .block-6 h3 {
+        margin-top: 25px;
+        line-height: 22px;
+    }
+    .expertise .block-1,
+    .expertise .block-2,
+    .expertise .block-3,
+    .expertise .block-4,
+    .expertise .block-5,
+    .expertise .block-6 {
+        width: 100%;
+    }
+    .expertise .box .info span {
         font-size: 12px;
     }
-    .button-style-3:before {
-        width: 40px;
-        line-height: 52px;
+    .expertise .block-2:before {
+        top: 172px;
+    }
+    .expertise .block-2:after {
+        top: 110px;
+    }
+    .expertise .block-3:before {
+        top: 175px;
     }
 }
