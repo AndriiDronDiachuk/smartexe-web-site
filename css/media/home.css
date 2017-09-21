@@ -491,7 +491,7 @@
     }
     .under-block h1 {
         font-size: 30px;
-        width: 275px;
+        width: 100%;
         margin: 0 auto;
         line-height: 35px;
     }
