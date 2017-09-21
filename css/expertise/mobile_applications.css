@@ -20,6 +20,9 @@
 .category-map-block .lists-item-2 h3 {
     padding-left: 90px;
 }
+.category-map-block p {
+    width: 815px;
+}
 
 /* BUTTON-STYLE-3 */
 .button-style-3:after {
