@@ -62,6 +62,10 @@
         margin-left: 75px;
     }
 
+    .category-gray-label-block .left-labels h2 {
+        font-size: 28px;
+    }
+
     /* FOOTER */
     .footer-1:before {
         height: 30px;
@@ -155,6 +159,23 @@
         margin: 10px 0;
         float: none;
         text-align: center;
+    }
+
+    /* CATEGORY-ABOUT-US-BLOCK */
+    .category-teammates-block .gray-label {
+        margin-bottom: 25px;
+    }
+    .category-gray-label-block {
+        text-align: center;
+        height: auto;
+    }
+    .category-gray-label-block .left-labels h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .category-gray-label-block .right-labels {
+        display: none;
     }
 
     /* CATEGORY-SEND-MESSAGE-BLOCK */
@@ -285,7 +306,15 @@
         float: none;
     }
 
-    /* CATEGORY-IMG-BLOCK */
+    .category-teammates-block .gray-label {
+        margin-bottom: 25px;
+    }
+    .category-teammates-block .gray-label,
+    .category-teammates-block .about {
+        font-size: 14px;
+    }
+
+        /* CATEGORY-IMG-BLOCK */
     .category-img-block {
         position: relative;
         height: 200px;
