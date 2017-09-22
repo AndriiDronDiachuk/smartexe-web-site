@@ -1,5 +1,10 @@
-.expertise .block-2 .info p {
-    width: 330px;
+.expertise .block-1,
+.expertise .block-4 {
+    width: 360px;
+}
+.expertise .block-2,
+.expertise .block-5 {
+    width: 345px;
 }
 .expertise .block-5 .info p {
     width: 335px;
@@ -7,18 +12,4 @@
 .expertise .block-4 h3 {
     letter-spacing: -1px;
     width: 370px;
-}
-.expertise .box .info span {
-    color: rgb(72, 138, 150);
-    text-transform: uppercase;
-    font-size: 13px;
-    margin-top: 10px;
-    display: inline-block;
-    font-family: 'Hind', sans-serif;
-    font-weight: 700;
-    transition: 0.5s;
-    cursor: pointer;
-}
-.expertise .info:hover > span {
-    color: rgb(57, 109, 119);
 }

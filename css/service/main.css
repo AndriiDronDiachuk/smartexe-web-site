@@ -1,0 +1,27 @@
+.layer-10 {
+    margin-top: 50px;
+}
+.layer-10 .left {
+    padding-right: 58px;
+}
+.layer-10 .right {
+    padding-left: 35px;
+}
+.layer-10 h1 {
+    margin: 0;
+    font-family: 'SofiaProBold', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -1px;
+}
+.layer-10 p {
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 10px;
+}
+.layer-10 p:last-child {
+    font-weight: 400;
+    margin-top: 30px;
+}
