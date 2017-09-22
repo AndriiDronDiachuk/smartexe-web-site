@@ -1,4 +1,7 @@
 @media screen and (max-width: 1899px) {
+    .layer-10 {
+        margin-top: 80px;
+    }
     .layer-10 .left {
         padding-right: 31px;
     }
