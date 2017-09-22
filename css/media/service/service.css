@@ -21,10 +21,10 @@
         padding-left: 48px;
     }
     .layer-10 h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     .layer-10 p {
-        line-height: 26px;
+        line-height: 31px;
     }
 }
 
@@ -43,10 +43,22 @@
     }
     .layer-10 h1 {
         font-size: 26px;
+        line-height: 34px;
     }
 }
 
 @media screen and (max-width: 767px) {
+    .service .expertise {
+        padding-top: 30px;
+    }
+    .service .expertise .box .info {
+        width: 135px;
+    }
+    .service .expertise .box h3 {
+        height: 37px;
+        font-size: 16px;
+
+    }
     .layer-10 .left {
         padding: 0 40px;
     }

@@ -67,11 +67,14 @@
 }
 
 @media screen and (max-width: 767px) {
+    .expertise {
+        padding-top: 0;
+    }
     .expertise .box .info {
-        width: 135px;
+        width: 100%;
     }
     .expertise .box h3 {
-        height: 37px;
+        height: auto;
         font-size: 16px;
     }
     .expertise .block-4 h3 {

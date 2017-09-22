@@ -20,6 +20,9 @@
     .category-gray-label-block .right-labels{
         margin-left: 90px;
     }
+    .category-gray-label-block .left-labels h2 {
+        font-size: 31px;
+    }
 
     /* FOOTER */
     .footer-1 {
@@ -44,10 +47,6 @@
     }
 }
 
-/*@media screen and (max-width: 18px) {
-    !* ABOUT US BLOCK *!
-
-}*/
 
 @media screen and (max-width: 1199px) {
 
@@ -67,7 +66,7 @@
     .category-gray-label-block .right-labels span,
     .category-gray-label-block .right-labels p {
         font-size: 16px;
-        line-height: 26px;
+        line-height: 31px;
     }
 
     /* FOOTER */
@@ -203,6 +202,11 @@
     }
     .category-send-message-block .left-labels span {
         font-size: 14px;
+    }
+
+    .category-gray-label-block .left-labels h2 {
+        font-size: 26px;
+        line-height: 34px;
     }
 
 
@@ -359,6 +363,7 @@
     }
     .category-under-block h1 {
         font-size: 34px;
+        letter-spacing: -2px;
     }
 
     /* CATEGORY-SEND-MESSAGE-BLOCK */
