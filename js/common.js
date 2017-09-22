@@ -11,4 +11,8 @@ $(document).ready(function($) {
         $('body').toggleClass('body-shadow');
         $('header').toggleClass('header-shadow');
     });
+
+    $('#nav-menu a').bind( "tap", function () {
+        alert('TAP');
+    });
 });
