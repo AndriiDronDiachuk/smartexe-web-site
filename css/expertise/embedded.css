@@ -1,7 +1,21 @@
 /* CATEGORY-MAP */
 .category-map-block .lists {
-    padding: 0 150px;
+    padding: 0 150px 0 300px;
 }
-.category-map-block .lists {
-    padding: 0 150px;
+.category-map-block .lists-item-1 ul {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.category-map-block .lists-item-1 ul:first-child {
+    padding-left: 50px;
+}
+.category-map-block .lists-item-1 ul:first-child li:nth-child(2) {
+    width: 350px;
+}
+.category-map-block .lists-item-1 ul:last-child {
+    padding-left: 20px;
+}
+.category-map-block .lists-item-1 ul:last-child li:first-child {
+    width: 250px;
 }
