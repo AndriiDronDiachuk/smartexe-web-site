@@ -12,10 +12,14 @@
 }
 .category-map-block .lists-item-1 ul:first-child li:nth-child(2) {
     width: 350px;
+    line-height: 18px;
+    margin: 4px 0;
 }
 .category-map-block .lists-item-1 ul:last-child {
     padding-left: 20px;
 }
 .category-map-block .lists-item-1 ul:last-child li:first-child {
-    width: 250px;
+    width: 225px;
+    line-height: 18px;
+    margin: 4px 0;
 }
