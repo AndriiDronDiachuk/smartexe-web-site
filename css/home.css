@@ -114,14 +114,23 @@
     position: relative;
     margin: 60px 0;
 }
-.layer-2 .block-1,
-.layer-2 .block-3,
-.layer-2 .block-4 {
-    width: 320px;
+.layer-2 .block-1 {
+    width: 350px;
 }
-.layer-2 .block-2,
+.layer-2 .block-2 {
+    width: 300px;
+}
+.layer-2 .block-3 {
+    width: 325px;
+}
+.layer-2 .block-4 {
+    width: 350px;
+}
 .layer-2 .block-5 {
     width: 300px;
+}
+.layer-2 .block-6 {
+    width: 325px;
 }
 .layer-2 .block-2,
 .layer-2 .block-5 {
@@ -130,9 +139,6 @@
 .layer-2 .block-3,
 .layer-2 .block-6 {
     float: right;
-}
-.layer-2 .block-6 {
-    width: 325px;
 }
 .layer-2 .image {
     height: 74px;

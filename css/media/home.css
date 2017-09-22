@@ -47,6 +47,24 @@
     .layer-2 .box {
         margin: 40px 0;
     }
+    .layer-2 .block-1 {
+        width: 340px;
+    }
+    .layer-2 .block-2 {
+        width: 300px;
+    }
+    .layer-2 .block-3 {
+        width: 325px;
+    }
+    .layer-2 .block-4 {
+        width: 340px;
+    }
+    .layer-2 .block-5 {
+        width: 300px;
+    }
+    .layer-2 .block-6 {
+        width: 325px;
+    }
     .layer-2 .block-1:before {
         bottom: -40px;
         left: 8px;
@@ -54,12 +72,12 @@
     }
     .layer-2 .block-2:before {
         bottom: -40px;
-        left: -60px;
+        left: -55px;
         width: 101px;
     }
     .layer-2 .block-2:after {
         bottom: -91px;
-        left: -10px;
+        left: -5px;
         height: 101px;
     }
     .layer-2 .block-3:before {
@@ -233,7 +251,7 @@
     .layer-2 .block-4,
     .layer-2 .block-5,
     .layer-2 .block-6 {
-        width: 277px;
+        width: 250px;
     }
     .layer-2 .block-1:before {
         width: 30px;
@@ -245,14 +263,15 @@
     .layer-2 .block-2:after {
         bottom: -71px;
         height: 61px;
+        left: -10px;
     }
     .layer-2 .block-3:before {
-        left: -35px;
+        left: -27px;
         width: 61px;
     }
     .layer-2 .block-3:after {
         bottom: -71px;
-        left: -5px;
+        left: 3px;
         height: 61px;
     }
     .layer-2 .block-6:before {
@@ -352,11 +371,16 @@
     .layer-2 .block-4,
     .layer-2 .block-5,
     .layer-2 .block-6 {
-        width: 280px;
+        width: 300px;
         float: none;
         margin: 0 auto;
         text-align: center;
     }
+    /*.layer-2 .block-2,*/
+    /*.layer-2 .block-3,*/
+    /*.layer-2 .block-6 {*/
+        /*width: 250px;*/
+    /*}*/
     .layer-2 .block-1:before {
         width: 30px;
     }
