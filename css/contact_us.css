@@ -26,7 +26,14 @@
 .category-send-message-block .right-labels .label-1 {
     padding: 28px 0;
 }
-
+.category-send-message-block .right-labels .label-1 h2 {
+    font-size: 26px;
+    margin-top: 13px;
+}
+.category-send-message-block {
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
 .category-send-message-block .right-labels .label-1 p {
     margin: 3px 0;
 }

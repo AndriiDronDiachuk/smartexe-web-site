@@ -250,6 +250,9 @@
     .footer-2 ul:nth-child(5) li i {
         margin-top: 0;
     }
+    .category-send-message-block .right-labels .label-1 h2 {
+        font-size: 20px;
+    }
 
     /* CATEGORY-MAP-BLOCK */
     .category-map-block {
@@ -267,7 +270,9 @@
         margin-top: 8px;
         margin-right: 30px;
     }
-
+    .category-send-message-block .right-labels .label-1 h2 {
+        font-size: 20px;
+    }
     .category-gray-label-block .right-labels {
         display: none;
     }
