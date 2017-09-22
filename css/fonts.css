@@ -11,13 +11,20 @@
 
 @font-face {
     font-family: "SofiaProBlack";
-    src: url("../fonts/sofiapro/black/sofia-pro-black.eot");
+    src: url("../fonts/sofiapro/bold/sofia-pro-bold.eot");
+    src: url("../fonts/sofiapro/bold/sofia-pro-bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/sofiapro/bold/sofia-pro-bold.woff") format("woff"),
+    url("../fonts/sofiapro/bold/sofia-pro-bold.ttf") format("truetype"),
+    url("../fonts/sofiapro/bold/sofia-pro-bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+    /*src: url("../fonts/sofiapro/black/sofia-pro-black.eot");
     src: url("../fonts/sofiapro/black/sofia-pro-black.eot?#iefix") format("embedded-opentype"),
         url("../fonts/sofiapro/black/sofia-pro-black.woff") format("woff"),
         url("../fonts/sofiapro/black/sofia-pro-black.ttf") format("truetype"),
         url("../fonts/sofiapro/black/sofia-pro-black.otf") format("opentype");
     font-style: normal;
-    font-weight: normal;
+    font-weight: normal;*/
 }
 
 @font-face {

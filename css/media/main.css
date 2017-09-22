@@ -64,8 +64,10 @@
     .category-gray-label-block .left-labels h2 {
         font-size: 28px;
     }
+    .category-gray-label-block .right-labels span,
     .category-gray-label-block .right-labels p {
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     /* FOOTER */
@@ -177,7 +179,16 @@
         margin-bottom: 60px;
     }
     .category-gray-label-block .right-labels {
-        display: none;
+        margin: 0;
+    }
+    .category-gray-label-block .right-labels span {
+        margin-top: 25px;
+    }
+    .category-gray-label-block .left-labels h2 {
+        margin: 50px 0 0;
+    }
+    .category-gray-label-block .right-labels p{
+        margin: 25px 0 50px;
     }
 
     /* CATEGORY-SEND-MESSAGE-BLOCK */
@@ -251,6 +262,24 @@
     #nav-bar {
         margin-top: 8px;
         margin-right: 30px;
+    }
+
+    .category-gray-label-block .right-labels {
+        display: none;
+    }
+    .category-gray-label-block .left-labels h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 50px 0;
+        padding: 0 40px;
+    }
+    .category-team-block p {
+        margin-bottom: 50px;
+        padding: 0 20px;
+    }
+    .category-teammates-block .about,
+    .category-teammates-block .gray-label {
+        line-height: 24px;
     }
 
     /* FOOTER */
