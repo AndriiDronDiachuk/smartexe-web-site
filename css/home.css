@@ -239,7 +239,7 @@
     background-position-y: 100%;
 }
 .layer-3:after {
-    bottom: 0;
+    bottom: -1px;
     height: 25px;
     transform: rotate(180deg);
     background-position-y: 100%;
@@ -340,7 +340,7 @@
 }
 .layer-5:before {
     z-index: 2;
-    top: 0;
+    top: -1px;
     height: 45px;
     background-image: url(../images/sharp_line.png);
     background-position-y: 0;
