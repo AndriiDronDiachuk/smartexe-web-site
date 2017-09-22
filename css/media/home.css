@@ -114,7 +114,8 @@
     .layer-4 h2 {
         font-size: 30px;
     }
-    .layer-4 p {
+    .layer-4 p,
+    .layer-4 li div {
         font-size: 16px;
     }
 
@@ -270,10 +271,16 @@
         margin-top: 5px;
         font-size: 28px;
     }
+    .layer-3 .button-style-1 {
+        margin-top: 5px;
+    }
 
     /* LAYER-4 */
     .layer-4 .first-list {
-        padding-left: 150px;
+        padding-left: 60px;
+    }
+    .layer-4 .second-list {
+        padding-right: 60px;
     }
 
     /* LAYER-5 */
@@ -410,10 +417,22 @@
         font-size: 15px;
         line-height: 19px;
     }
+    .layer-3 .button-style-1 {
+        margin-top: 15px;
+    }
 
     /* LAYER-4 */
+    .layer-4 li i {
+        margin-right: 10px;
+    }
     .layer-4 .first-list {
         padding-left: 8px;
+    }
+    .layer-4 .second-list {
+        padding-right: 8px;
+    }
+    .layer-4 .second-list li:first-child a {
+        letter-spacing: -1px;
     }
 
     /* LAYER-5 */
@@ -625,13 +644,16 @@
         width: 100%;
         text-align: center;
     }
+    .layer-3 .button-style-1 {
+        margin-top: 25px;
+    }
 
     /* LAYER-4 */
     .layer-4 {
         padding: 20px 0;
     }
     .layer-4 .row div {
-        padding: 0 30px;
+        padding: 0 20px;
     }
     .layer-4 .row div:nth-child(3),
     .layer-4 .row div:nth-child(4) {
@@ -641,11 +663,16 @@
         font-size: 24px;
         margin-bottom: 0;
     }
-    .layer-4 p {
+    .layer-4 p,
+    .layer-4 .row table div {
         font-size: 14px;
     }
     .layer-4 li a {
         font-size: 16px;
+        height: auto;
+    }
+    .layer-4 li i {
+        margin-right: 10px;
     }
     .layer-4 li p {
         line-height: 20px;
@@ -655,6 +682,15 @@
     }
     .layer-4 .row div:last-child li:first-child p {
         margin: 0;
+    }
+    .layer-4 table {
+        width: 100%;
+    }
+    .layer-4 .row table div {
+        padding: 0;
+    }
+    .layer-4 .row table tr:first-child td:first-child {
+        width: 20px;
     }
 
     /* LAYER-5 */

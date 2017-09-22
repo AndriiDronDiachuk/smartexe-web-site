@@ -263,7 +263,10 @@
     font-size: 18px;
 }
 .layer-4 .first-list {
-    padding-left: 200px;
+    padding-left: 150px;
+}
+.layer-4 .second-list {
+    padding-right: 150px;
 }
 .layer-4 li i {
     font-size: 14px;
@@ -274,10 +277,13 @@
     font-family: 'SofiaProRegular', sans-serif;
     font-size: 20px;
     transition: 1s;
+    display: inline-block;
+    height: 30px;
+    cursor: pointer;
 }
 .layer-4 li a span {
     position: absolute;
-    bottom: -10px;
+    bottom: 0;
     left: 0;
     content: '';
     width: 0;
@@ -285,8 +291,14 @@
     background-color: #000;
     transition: 0.5s;
 }
-.layer-4 li a:hover span{
+.layer-4 li .active span,
+.layer-4 li a:hover span {
     width: 100%;
+}
+.layer-4 li div {
+    display: none;
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
 }
 
 /* LAYER-5 */
