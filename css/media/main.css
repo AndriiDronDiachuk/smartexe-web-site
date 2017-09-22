@@ -61,9 +61,11 @@
     .category-gray-label-block .right-labels{
         margin-left: 75px;
     }
-
     .category-gray-label-block .left-labels h2 {
         font-size: 28px;
+    }
+    .category-gray-label-block .right-labels p {
+        font-size: 14px;
     }
 
     /* FOOTER */
