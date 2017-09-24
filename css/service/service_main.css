@@ -1,0 +1,79 @@
+.service .layer-10 {
+    margin: 115px 0 25px;
+}
+.service .layer-10 h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -2px;
+    margin: 0;
+}
+.service .layer-10 p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 3px;
+}
+.service .layer-10 .right p:last-child {
+    margin: 45px 0 0;
+    line-height: 20px;
+}
+.service .layer-10 .semi-bold {
+    font-weight: 600;
+}
+
+.service .layer-10 .left {
+    padding-right: 50px;
+}
+.service .layer-10 .right {
+    padding: 0 15px 0 35px;
+}
+
+.service .layer-2 .block-1,
+.service .layer-2 .block-2,
+.service .layer-2 .block-3,
+.service .layer-2 .block-4,
+.service .layer-2 .block-5,
+.service .layer-2 .block-6 {
+    width: 350px;
+}
+.service .layer-2 .block-4 h3 {
+    letter-spacing: -1px;
+    width: 375px;
+}
+.layer-2 {
+    padding-bottom: 55px;
+    background: #fff url(../../images/map.png) no-repeat 50%;
+    background-size: 90%;
+}
+.service .layer-2 .block-3:after {
+    left: 10px;
+}
+.service .layer-2 .block-3:before {
+    left: -50px;
+}
+
+/* LAYER-11 */
+.layer-11 {
+    padding: 115px 0 25px;
+}
+.layer-11 .text-top {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+    padding: 0 160px;
+    margin: 0;
+}
+
+/* LAYER-12 */
+.layer-12 {
+    margin-bottom: 125px;
+}
+.layer-12 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0 50px;
+}

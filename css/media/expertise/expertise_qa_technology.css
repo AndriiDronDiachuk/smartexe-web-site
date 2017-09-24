@@ -1,0 +1,62 @@
+@media screen and (max-width: 1899px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+    .qa-technology .layer-8 .top-text {
+        width: 800px;
+    }
+    .qa-technology .layer-9 .button-style-3:before {
+        right: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .qa-technology .layer-8 .top-text {
+        width: 550px;
+    }
+    .qa-technology .layer-8 .block {
+        width: 300px;
+    }
+    .qa-technology .layer-9 .button-style-3:before {
+        width: 251px;
+        right: 29px;
+    }
+    .qa-technology .layer-8 .block-1 li:first-child,
+    .qa-technology .layer-8 .block-1 li:nth-child(2) {
+        line-height: 18px;
+        margin: 4px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .qa-technology .layer-8 .top-text {
+        width: 100%;
+    }
+    .qa-technology .layer-8 .block {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .qa-technology .layer-8 .block-2 .title {
+        height: 0;
+        margin-top: 0;
+    }
+    .qa-technology .layer-9 .button-style-3 {
+        padding: 12px 30px 13px 75px;
+        margin: 0;
+        width: 150px;
+        line-height: 15px;
+    }
+    .qa-technology .layer-9 .button-style-3:before {
+        width: 120px;
+        right: 45px;
+        bottom: 12px;
+    }
+    .layer-9 .button-style-3:after {
+        height: 54px;
+        line-height: 65px;
+    }
+
+}

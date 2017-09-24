@@ -1,0 +1,16 @@
+.mobile-applications .layer-8 .block {
+    width: 390px;
+}
+.mobile-applications .layer-8 .block-1 {
+    float: right;
+}
+.mobile-applications .layer-8 .block-2 {
+    margin: 0 auto;
+}
+.mobile-applications .layer-9 .button-style-3 {
+    width: 150px;
+}
+.mobile-applications .layer-9 .button-style-3:before {
+    width: 140px;
+    right: 65px;
+}

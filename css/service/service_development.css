@@ -1,0 +1,29 @@
+.development .layer-2 .block-1,
+.development .layer-2 .block-2,
+.development .layer-2 .block-3 {
+    width: 290px;
+    margin: 0 auto;
+    float: inherit;
+}
+.development .layer-2 .block-1:before,
+.development .layer-2 .block-2:after,
+.development .layer-2 .block-2:before,
+.development .layer-2 .block-3:after,
+.development .layer-2 .block-3:before {
+    display: none;
+}
+.development .layer-2 .block-1 li:nth-child(1) {
+    line-height: 17px;
+    margin: 7px 0;
+}
+.development .box ul {
+    padding-left: 20px;
+    list-style: inherit;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.development .button-style-3:before {
+    right: 60px;
+    width: 198px;
+}

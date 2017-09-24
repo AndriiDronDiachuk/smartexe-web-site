@@ -1,0 +1,88 @@
+@media screen and (max-width: 1899px) {
+
+    .quality-assurance .layer-2 .block-4:before {
+        top: -41px;
+    }
+    .quality-assurance .layer-2 {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .quality-assurance .layer-11 .text-top {
+        padding: 0 50px;
+    }
+    .quality-assurance .button-style-3:before {
+        right: 49px;
+    }
+    .quality-assurance .layer-2 .block-4:before {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .quality-assurance .layer-11 .text-top {
+        padding: 0 10px;
+    }
+    .quality-assurance .layer-2 .block-1,
+    .quality-assurance .layer-2 .block-2,
+    .quality-assurance .layer-2 .block-3,
+    .quality-assurance .layer-2 .block-4 {
+        width: 275px;
+    }
+    .quality-assurance .layer-2 .block-4 ul {
+        width: 300px;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .quality-assurance .layer-2 .block-4:before {
+        width: 30px;
+    }
+    .quality-assurance .button-style-3:before {
+        right: 29px;
+        width: 251px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .quality-assurance .layer-2 .block-1,
+    .quality-assurance .layer-2 .block-2,
+    .quality-assurance .layer-2 .block-3,
+    .quality-assurance .layer-2 .block-4 {
+        width: 100%;
+    }
+    .quality-assurance .layer-2 .info {
+        width: 125px;
+    }
+    .quality-assurance .layer-2 .block-1 h3,
+    .quality-assurance .layer-2 .block-3 h3 {
+        height: 40px;
+        line-height: 40px;
+    }
+    .quality-assurance .layer-2 .block-4 ul {
+        display: none;
+    }
+    .quality-assurance .layer-2 {
+        padding: 0;
+    }
+    .quality-assurance .layer-2 .block-2:before {
+        top: 148px;
+    }
+    .quality-assurance .layer-2 .block-2:after {
+        top: 84px;
+    }
+    .quality-assurance .button-style-3 {
+        width: 160px;
+        line-height: 15px;
+    }
+    .quality-assurance .button-style-3:before {
+        right: 35px;
+        width: 120px;
+        bottom: 12px;
+    }
+    .quality-assurance .button-style-3:after {
+        height: 54px;
+        line-height: 65px;
+    }
+}

@@ -1,0 +1,191 @@
+@media screen and (max-width: 1899px) {
+    .service .layer-10 {
+        margin: 80px 0 10px;
+    }
+    .service .layer-10 h2 {
+        font-size: 31px;
+    }
+    .service .layer-10 p {
+        font-size: 16px;
+    }
+    .service .layer-10 .left {
+        padding-right: 60px;
+    }
+    .service .layer-10 .right {
+        padding: 0 40px 0 25px;
+    }
+    .service .layer-2 {
+        padding-bottom: 40px;
+    }
+    .service .layer-2 .block-1,
+    .service .layer-2 .block-2,
+    .service .layer-2 .block-3,
+    .service .layer-2 .block-4,
+    .service .layer-2 .block-5,
+    .service .layer-2 .block-6 {
+        width: 325px;
+    }
+    .service .layer-2 .block-4 h3 {
+        letter-spacing: -1px;
+        width: 245px;
+        line-height: 20px;
+        margin-bottom: 19px;
+    }
+    .service .layer-2 .block-3:after {
+        left: 0;
+    }
+
+    /* LAYER-11 */
+    .layer-11 {
+        padding: 80px 0 10px;
+    }
+    .layer-11 .text-top {
+        font-size: 16px;
+    }
+
+    /* LAYER-12 */
+    .layer-12 {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .service .layer-10 h2 {
+        font-size: 28px;
+    }
+    .service .layer-10 .left {
+        padding-right: 80px;
+    }
+    .service .layer-10 .right {
+        padding: 0 5px 0 25px;
+    }
+    .service .layer-10 .right p:last-child {
+        margin: 35px 0 0;
+    }
+    .service .layer-2 .block-1,
+    .service .layer-2 .block-2,
+    .service .layer-2 .block-3,
+    .service .layer-2 .block-4,
+    .service .layer-2 .block-5,
+    .service .layer-2 .block-6 {
+        width: 250px;
+    }
+    .service .layer-2 .block-3:after {
+        left: 8px;
+    }
+    .service .layer-2 .block-3:before {
+        left: -23px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .service .layer-10 .left,
+    .service .layer-10 .right {
+        padding: 0;
+        text-align: center;
+    }
+    .layer-10 .left h2 {
+        line-height: 34px;
+        font-size: 26px;
+        padding: 0 75px;
+    }
+    .service .layer-10 .right p,
+    .service .layer-10 .right p:last-child {
+        margin-top: 25px;
+    }
+    .service .layer-2 .block-2,
+    .service .layer-2 .block-4,
+    .service .layer-2 .block-5 {
+        width: 275px;
+    }
+    .service .layer-2 .block-1 {
+        width: 260px;
+    }
+    .service .layer-2 .block-3 {
+        width: 285px;
+    }
+    .service .layer-2 .block-6 {
+        width: 250px;
+    }
+    .service .layer-2 .block-4 h3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service .layer-2 .block-3:before {
+        left: 321px;
+    }
+    .service .layer-2 .block-3:after {
+        left: 352px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .service .layer-10 {
+        margin: 30px 0 10px;
+    }
+    .layer-10 .left h2 {
+        line-height: 24px;
+        font-size: 18px;
+        padding: 0 15px;
+        letter-spacing: -1px;
+    }
+    .layer-10 .right {
+        display: none;
+    }
+    .service .layer-2 {
+        padding: 0;
+    }
+    .service .layer-2 .block-1,
+    .service .layer-2 .block-2,
+    .service .layer-2 .block-3,
+    .service .layer-2 .block-4,
+    .service .layer-2 .block-5,
+    .service .layer-2 .block-6 {
+        width: 100%;
+    }
+    .service .layer-2 .block-4 h3,
+    .service .layer-2 .block-6 h3 {
+        width: 150px;
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+    .service .layer-2 .block-6 h3 {
+        margin-top: 25px;
+    }
+    .service .layer-2 .block-3 h3,
+    .service .layer-2 .block-5 h3,
+    .service .layer-2 .block-6 h3 {
+        line-height: 40px;
+    }
+    .service .layer-2 .info {
+        width: 100%;
+    }
+    .service .layer-2 h3 {
+        height: 40px;
+    }
+    .service .layer-2 .block-3:before {
+        left: 98px;
+        top: 180px;
+    }
+    .service .layer-2 .block-3:after {
+        bottom: -105px;
+        left: 160px;
+    }
+
+    /* LAYER-11 */
+    .layer-11 {
+        padding: 30px 0 0;
+    }
+    .layer-11 .text-top {
+        line-height: 24px;
+        font-size: 16px;
+        padding: 0 15px;
+        letter-spacing: 0;
+    }
+
+    /* LAYER-12 */
+    .layer-12 {
+        margin-bottom: 30px;
+    }
+
+}

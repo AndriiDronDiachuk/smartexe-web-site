@@ -1,0 +1,32 @@
+.quality-assurance .layer-2 .block-1,
+.quality-assurance .layer-2 .block-2,
+.quality-assurance .layer-2 .block-3,
+.quality-assurance .layer-2 .block-4 {
+    width: 400px;
+    margin: 0 auto;
+    float: inherit;
+}
+.quality-assurance .layer-2 .block-3:after,
+.quality-assurance .layer-2 .block-3:before {
+    display: none;
+}
+.quality-assurance .layer-2 .block-4:before {
+    top: -60px;
+    right: 8px;
+    height: 1px;
+    width: 60px;
+    position: absolute;
+    content: '';
+    background-color: rgba(201, 201, 201, 0.79);
+}
+.quality-assurance .box ul {
+    padding-left: 20px;
+    list-style: inherit;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.quality-assurance .button-style-3:before {
+    right: 60px;
+    width: 269px;
+}

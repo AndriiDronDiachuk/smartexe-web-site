@@ -1,0 +1,18 @@
+.video-audio .layer-8 .block {
+    width: 300px;
+}
+.video-audio .layer-8 .block-1,
+.video-audio .layer-8 .block-4 {
+    float: right;
+}
+.video-audio .layer-8 .block-2,
+.video-audio .layer-8 .block-5 {
+    margin: 0 auto;
+}
+.video-audio .layer-8 .block-3,
+.video-audio .layer-8 .block-6 {
+    float: left;
+}
+.video-audio .layer-8 .block-2 .title {
+    width: 500px;
+}

@@ -1,0 +1,92 @@
+@media screen and (max-width: 1899px) {
+
+    .product-management .layer-2 .block-4:before {
+        top: -41px;
+    }
+    .product-management .layer-2 {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .product-management .layer-11 .text-top {
+        padding: 0 50px;
+    }
+    .product-management .button-style-3:before {
+        right: 49px;
+    }
+    .product-management .layer-2 .block-4:before {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .product-management .layer-11 .text-top {
+        padding: 0 10px;
+    }
+    .product-management .layer-2 .block-1,
+    .product-management .layer-2 .block-2,
+    .product-management .layer-2 .block-3,
+    .product-management .layer-2 .block-4 {
+        width: 300px;
+    }
+    .product-management .layer-2 .block-4 ul {
+        width: 200px;
+        list-style: none;
+        margin: 0 auto;
+    }
+    .product-management .layer-2 .block-4 li:nth-child(1),
+    .product-management .layer-2 .block-4 li:nth-child(2),
+    .product-management .layer-2 .block-4 li:nth-child(3) {
+        line-height: 15px;
+        margin: 5px 0;
+    }
+    .product-management .layer-2 .block-4:before {
+        width: 30px;
+    }
+    .product-management .button-style-3:before {
+        right: 29px;
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .product-management .layer-2 .block-1,
+    .product-management .layer-2 .block-2,
+    .product-management .layer-2 .block-3,
+    .product-management .layer-2 .block-4 {
+        width: 100%;
+    }
+    .product-management .layer-2 .info {
+        width: 125px;
+    }
+    .product-management .layer-2 .block-1 h3 {
+        height: 40px;
+        line-height: 40px;
+    }
+    .product-management .layer-2 .block-4 ul {
+        display: none;
+    }
+    .product-management .layer-2 {
+        padding: 0;
+    }
+    .product-management .layer-2 .block-2:before {
+        top: 148px;
+    }
+    .product-management .layer-2 .block-2:after {
+        top: 84px;
+    }
+    .product-management .button-style-3 {
+        width: 160px;
+        line-height: 15px;
+    }
+    .product-management .button-style-3:before {
+        right: 35px;
+        width: 120px;
+        bottom: 12px;
+    }
+    .product-management .button-style-3:after {
+        height: 54px;
+        line-height: 65px;
+    }
+}

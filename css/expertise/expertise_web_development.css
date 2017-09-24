@@ -1,0 +1,26 @@
+.web-development .layer-8 .block {
+    width: 225px;
+}
+.web-development .layer-8 .block-1,
+.web-development .layer-8 .block-4 {
+    float: right;
+}
+.web-development .layer-8 .block-2,
+.web-development .layer-8 .block-5 {
+    margin: 0 auto;
+}
+.web-development .layer-8 .block-3,
+.web-development .layer-8 .block-6 {
+    float: left;
+}
+.web-development .layer-9 a {
+    width: 210px;
+}
+.web-development .layer-9 .left a:before {
+    width: 200px;
+    right: 65px;
+}
+.web-development .layer-9 .right a:before {
+    width: 160px;
+    right: 85px;
+}

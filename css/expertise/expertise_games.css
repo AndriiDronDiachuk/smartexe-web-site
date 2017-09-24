@@ -1,0 +1,15 @@
+.games .layer-8 .block {
+    width: 175px;
+}
+.games .layer-8 .block-1 {
+    float: right;
+}
+.games .layer-8 .block-2 {
+    margin: 0 auto;
+}
+.games .layer-8 .block-3 {
+    float: left;
+}
+.games .layer-8 .block-1 .title {
+    width: 675px;
+}

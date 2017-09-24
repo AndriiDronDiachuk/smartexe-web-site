@@ -1,0 +1,32 @@
+.cloud-it .layer-2 .block-1,
+.cloud-it .layer-2 .block-2,
+.cloud-it .layer-2 .block-3,
+.cloud-it .layer-2 .block-4 {
+    width: 400px;
+    margin: 0 auto;
+    float: inherit;
+}
+.cloud-it .layer-2 .block-3:after,
+.cloud-it .layer-2 .block-3:before {
+    display: none;
+}
+.cloud-it .layer-2 .block-4:before {
+    top: -60px;
+    right: 8px;
+    height: 1px;
+    width: 60px;
+    position: absolute;
+    content: '';
+    background-color: rgba(201, 201, 201, 0.79);
+}
+.cloud-it .box ul {
+    padding-left: 20px;
+    list-style: inherit;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.cloud-it .button-style-3:before {
+    right: 60px;
+    width: 158px;
+}

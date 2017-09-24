@@ -1,0 +1,103 @@
+@media screen and (max-width: 1899px) {
+
+    .project-management .layer-2 {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .project-management .layer-11 .text-top {
+        padding: 0 50px;
+    }
+    .project-management .layer-2 .block-1 {
+        width: 275px;
+        float: left;
+    }
+    .project-management .layer-2 .block-2 {
+        width: 275px;
+        float: left;
+    }
+    .project-management .layer-2 .block-2 h3 {
+        width: 320px;
+    }
+    .project-management .layer-2 .block-3 {
+        width: 260px;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .project-management .layer-11 .text-top {
+        padding: 0 10px;
+    }
+    .project-management .layer-2 .block-1,
+    .project-management .layer-2 .block-2,
+    .project-management .layer-2 .block-3 {
+        width: 325px;
+    }
+    .project-management .layer-2 .block-1 ul {
+        list-style: none;
+        width: 275px;
+        padding: 0;
+    }
+    .project-management .layer-2 .block-2 h3 {
+        width: 100%;
+    }
+    .project-management .layer-2 .block-1:before,
+    .project-management .layer-2 .block-2:after,
+    .project-management .layer-2 .block-2:before,
+    .project-management .layer-2 .block-3:before {
+        display: block;
+    }
+    .project-management .layer-2 .block-3:before {
+        right: -344px;
+        width: 31px;
+        top: -41px;
+        left: auto;
+    }
+    .project-management .button-style-3:before {
+        right: 28px;
+        width: 272px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .project-management .layer-2 .block-1,
+    .project-management .layer-2 .block-2,
+    .project-management .layer-2 .block-3 {
+        width: 100%;
+    }
+    .project-management .layer-2 .info {
+        width: 125px;
+    }
+    .project-management .layer-2 .block-1 ul {
+        display: none;
+    }
+    .project-management .layer-2 .block-2:before {
+        top: 147px;
+    }
+    .project-management .layer-2 .block-2:after {
+        top: 85px;
+    }
+    .project-management .layer-2 .block-1:before,
+    .project-management .layer-2 .block-3:before {
+        display: none;
+    }
+
+    .project-management .layer-2 {
+        padding: 0;
+    }
+    .project-management .button-style-3 {
+        width: 160px;
+        line-height: 15px;
+    }
+    .project-management .button-style-3:before {
+        right: 35px;
+        width: 120px;
+        bottom: 12px;
+    }
+    .project-management .button-style-3:after {
+        height: 54px;
+        line-height: 65px;
+    }
+}
