@@ -707,9 +707,6 @@
     .layer-4 .br {
         margin: 0 0 0 75px;
     }
-    .layer-4 .row div:last-child li:first-child p {
-        margin: 0;
-    }
     .layer-4 table {
         width: 100%;
     }

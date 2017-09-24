@@ -62,6 +62,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .project-management .category-under-block h1 {
+        font-size: 32px;
+    }
     .project-management .layer-2 .block-1,
     .project-management .layer-2 .block-2,
     .project-management .layer-2 .block-3 {
