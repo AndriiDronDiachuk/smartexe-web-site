@@ -45,6 +45,7 @@
     .footer-2 ul:nth-child(3) {
         padding-left: 65px;
     }
+
 }
 
 
@@ -88,6 +89,20 @@
 
     .category-send-message-block .email-input {
         margin-right: 40px;
+    }
+
+    /* BUTTON-STYLE-3 */
+    .button-style-3 {
+        padding: 17px 50px 18px 105px;
+    }
+    .button-style-3:before {
+        bottom: 17px;
+        right: 50px;
+    }
+    .button-style-3:after {
+        width: 55px;
+        height: 55px;
+        line-height: 65px;
     }
 }
 
@@ -258,13 +273,27 @@
     .category-map-block {
         padding: 30px 0;
     }
+
+    /* BUTTON-STYLE-3 */
+    .button-style-3 {
+        padding: 15px 30px 15px 85px;
+        font-size: 13px;
+    }
+    .button-style-3:before {
+        bottom: 15px;
+    }
+    .button-style-3:after {
+        width: 50px;
+        height: 50px;
+        line-height: 60px;
+    }
 }
 
 @media screen and (max-width: 767px) {
 
     /* HEADER */
     .logo {
-        margin-left: 30px;
+        margin-left: 20px;
     }
     #nav-bar {
         margin-top: 8px;
@@ -403,5 +432,16 @@
         padding-bottom: 15px;
         background-size: 300%;
         background-position-y: 100%;
+    }
+
+    /* BUTTON-STYLE-3 */
+    .button-style-3 {
+        bottom: 13px;
+        padding: 12px 15px 13px 60px;
+    }
+    .button-style-3:after {
+        width: 45px;
+        height: 45px;
+        line-height: 55px;
     }
 }

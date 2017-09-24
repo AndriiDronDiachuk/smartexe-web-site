@@ -527,7 +527,7 @@
         display: none;
     }
     .under-block {
-        padding-top: 50px;
+        padding-top: 40px;
     }
     .under-block span {
         font-size: 13px;
@@ -553,6 +553,7 @@
         line-height: 24px;
         font-size: 18px;
         padding: 0 15px;
+        letter-spacing: -1px;
     }
     .layer-1 .right {
         display: none;
@@ -592,12 +593,12 @@
     .layer-2 .block-2:before {
         width: 125px;
         left: -63px;
-        top: 150px;
+        top: 180px;
     }
     .layer-2 .block-2:after {
         height: 125px;
         left: 0;
-        top: 87px;
+        top: 116px;
     }
     .layer-2 .block-3 .info {
         width: 100%;
@@ -605,7 +606,7 @@
     .layer-2 .block-3:before {
         left: 98px;
         width: 125px;
-        top: 130px;
+        top: 159px;
     }
     .layer-2 .block-3:after {
         bottom: -105px;
