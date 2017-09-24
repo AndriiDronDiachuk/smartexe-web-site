@@ -3,11 +3,11 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 17,
         center: uluru,
-        disableDefaultUI: true,
-        draggable: false,
+        disableDefaultUI: true
+        /*draggable: false,
         zoomControl: false,
-        scrollwheel: false,
-        disableDoubleClickZoom: true
+        scrollwheel: false,*/
+        /*disableDoubleClickZoom: true*/
     });
     var marker = new google.maps.Marker({
         clickable: true,
@@ -23,7 +23,7 @@ function initMap() {
     var infowindow = new google.maps.InfoWindow({
         content: contentString
     });
-    //marker.setIcon({url:'../images/temp_icon.png', size: new google.maps.Size(55, 70)});
+    marker.setIcon({url:'../images/map_marker.png', size: new google.maps.Size(55, 70)});
     marker.addListener('click', function() {
         infowindow.open(map, marker);
     });
