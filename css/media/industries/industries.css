@@ -1,4 +1,7 @@
 @media screen and (max-width: 1899px) {
+    .layer-1 {
+        background-position-y: 30px;
+    }
 
 }
 @media screen and (max-width: 1199px) {
@@ -15,6 +18,9 @@
     }
 }
 @media screen and (max-width: 1023px) {
+    .layer-1 {
+        background-position-y: center;
+    }
     .category-label-1-block,
     .category-label-2-block .label-block {
         line-height: 1.7;

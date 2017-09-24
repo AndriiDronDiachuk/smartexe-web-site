@@ -4,7 +4,7 @@
 .layer-1 {
     background-image: url(../../images/map.png);
     background-position-x: 50%;
-    background-position-y: center;
+    background-position-y: 30px;
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
     background-attachment: initial;
@@ -15,7 +15,7 @@
 }
 .category-label-1-block {
     text-align: center;
-    margin: 50px 50px 25px 50px;
+    margin: 80px 50px 25px 50px;
     font-size: 20px;
     line-height: 2;
     font-weight: 700;
