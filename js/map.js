@@ -14,7 +14,6 @@ function initMap() {
         position: new google.maps.LatLng(32.0940677,34.82323829999996),
         map: map
     });
-    //marker.setIcon({url:'images/map_marker.svg', size: new google.maps.Size(55, 70)});
     var contentString = '<div class="marker-content">'+
         '<h3>ISRAEL</h3>'+
         '<p>23, Bar Kochva st., 7th Floor, Bney Brak, Israel</p>'+
@@ -24,6 +23,7 @@ function initMap() {
     var infowindow = new google.maps.InfoWindow({
         content: contentString
     });
+    //marker.setIcon({url:'../images/temp_icon.png', size: new google.maps.Size(55, 70)});
     marker.addListener('click', function() {
         infowindow.open(map, marker);
     });
