@@ -201,7 +201,7 @@
     height: 1px;
 }
 .layer-2 .box .info span {
-    color: rgb(72, 138, 150);
+    color: rgba(72, 138, 150, 0.75);
     text-transform: uppercase;
     font-size: 13px;
     margin-top: 10px;
@@ -283,26 +283,35 @@
     font-weight: 600;
     font-size: 18px;
 }
+.layer-4 .list p {
+    font-size: 16px;
+}
 .layer-4 .first-list {
     padding-left: 150px;
 }
 .layer-4 .second-list {
     padding-right: 150px;
 }
+.layer-4 li {
+    margin: 15px 0;
+}
 .layer-4 li i {
     font-size: 14px;
     margin-right: 30px;
 }
-.layer-4 li a {
+.layer-4 li button {
     position: relative;
     font-family: 'SofiaProRegular', sans-serif;
     font-size: 20px;
-    transition: 1s;
+    transition: 0.5s;
     display: inline-block;
     height: 30px;
     cursor: pointer;
 }
-.layer-4 li a span {
+.layer-4 li button:hover {
+
+}
+.layer-4 li button span {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -312,14 +321,32 @@
     background-color: #000;
     transition: 0.5s;
 }
-.layer-4 li .active span,
-.layer-4 li a:hover span {
+.layer-4 li .active {
+
+}
+.layer-4 li .active span {
     width: 100%;
 }
 .layer-4 li div {
     display: none;
     font-family: 'Hind', sans-serif;
     font-size: 18px;
+}
+.layer-4 ul tr:last-child p {
+    margin-bottom: 0;
+}
+.layer-4 a span {
+    color: rgba(72, 138, 150, 0.75);
+    text-transform: uppercase;
+    font-size: 13px;
+    display: inline-block;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.layer-4 a:hover > div span {
+    color: rgb(57, 109, 119);
 }
 
 /* LAYER-5 */
