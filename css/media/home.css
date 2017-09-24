@@ -116,6 +116,8 @@
     .layer-3 .text p {
         font-size: 16px;
     }
+
+    /* LAYER-4 */
     .layer-4 .medium {
         font-size: 16px;
     }
@@ -455,7 +457,7 @@
     .layer-4 .second-list {
         padding-right: 8px;
     }
-    .layer-4 .second-list li:first-child a {
+    .layer-4 .second-list li:first-child button {
         letter-spacing: -1px;
     }
 
@@ -689,10 +691,10 @@
         margin-bottom: 0;
     }
     .layer-4 p,
-    .layer-4 .row table div {
+    .layer-4 .row table div p {
         font-size: 14px;
     }
-    .layer-4 li a {
+    .layer-4 li button {
         font-size: 16px;
         height: auto;
     }
