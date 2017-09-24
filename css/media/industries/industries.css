@@ -41,9 +41,11 @@
 @media screen and (max-width: 767px) {
     .category-under-block {
         padding-top: 0;
+        display: table;
     }
-    .category-under-block {
-        top: 20%
+    .need_to_center {
+        display: table-cell;
+        vertical-align: middle
     }
     .category-label-2-block .picture-block {
         background-size: 100%;
