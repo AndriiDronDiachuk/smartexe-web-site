@@ -178,6 +178,9 @@
         float: none;
         text-align: center;
     }
+    .navigation li a span {
+        display: none;
+    }
 
     /* CATEGORY-ABOUT-US-BLOCK */
     .category-teammates-block .gray-label {
