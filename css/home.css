@@ -569,3 +569,9 @@
     background: -moz-linear-gradient(right, #fff, rgba(255, 255, 255, 0));
     background: linear-gradient(right, #fff, rgba(255, 255, 255, 0));
 }
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
