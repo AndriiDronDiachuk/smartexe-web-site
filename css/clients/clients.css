@@ -1,0 +1,70 @@
+/* LAYER-13 */
+.layer-13 {
+    background-color: #f7f7f7;
+    padding: 115px 0 30px;
+}
+.layer-13 h2 {
+    margin: 0 auto 50px;
+    width: 900px;
+    font-size: 18px;
+    line-height: 31px;
+}
+.layer-13 h3,
+.layer-14 h3 {
+    margin: 0 auto 25px;
+    font-size: 23px;
+    line-height: 36px;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+}
+.layer-13 .client-carousel {
+    padding-bottom: 35px;
+    height: 325px;
+}
+.layer-13 .unslider-arrow {
+    content: url("../../images/clients_carousel/clients_carousel_arrow.png");
+    top: 182px;
+}
+.layer-13 .unslider-arrow.prev {
+    left: 0;
+}
+.layer-13 .unslider-arrow.next {
+    right: 0;
+}
+.layer-13 .client-carousel-item {
+    text-align: center;
+    padding: 25px 75px;
+}
+.layer-13 .client-carousel-item h4 {
+    margin-top: 0;
+    font-family: 'SofiaProBold', sans-serif;
+    font-size: 24px;
+}
+.layer-13 .client-carousel-item .description,
+.layer-13 .client-carousel-item .address,
+.layer-14 p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.layer-13 .client-carousel-item .address {
+    font-weight: 600;
+}
+
+/* LAYER-14 */
+.layer-14 {
+    padding: 30px 0 115px;
+}
+.layer-14 .client-box {
+    width: 12.5%;
+    text-align: center;
+    float: left;
+    margin-bottom: 10px;
+    height: 90px;
+}
+.layer-14 .client-box span {
+    display: block;
+    font-size: 14px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
