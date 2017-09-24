@@ -1,0 +1,42 @@
+.layer-6 {
+    padding: 50px 0 110px 0;
+}
+.layer-1 {
+    background-image: url(../../images/map.png);
+    background-position-x: 50%;
+    background-position-y: center;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    background-size: 90%;
+}
+.category-label-1-block {
+    text-align: center;
+    margin: 50px 50px 25px 50px;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 700;
+}
+.category-label-2-block {
+    margin: 50px 0 120px 0;
+}
+.category-label-2-block .picture-block {
+    padding: 0;
+    height: 375px;
+    background-image: url(../../images/industries/industries.PNG);
+    background-position-y: center;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: 90%;
+}
+.category-label-2-block .label-block {
+    padding: 0 75px 0 20px;
+    line-height: 2;
+}
+.category-label-2-block .label-block p {
+    margin: 20px 0;
+    font-weight: 300;
+}
