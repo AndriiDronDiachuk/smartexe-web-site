@@ -1,0 +1,33 @@
+@media screen and (max-width: 1899px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .layer-15 {
+        padding-bottom: 30px;
+    }
+    .layer-15 p {
+        padding: 0 15px;
+        margin-top: 0;
+    }
+    .layer-15 h3 {
+        font-size: 20px;
+        margin: 15px;
+    }
+    .layer-15 h4 {
+        font-size: 18px;
+        margin: 15px 15px 5px;
+    }
+    .layer-15 p {
+        font-size: 14px;
+    }
+}
