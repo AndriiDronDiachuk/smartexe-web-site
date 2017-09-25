@@ -21,6 +21,11 @@
     }
 }
 @media screen and (max-width: 767px) {
+
+    .category-send-message-block .left-labels {
+        padding: 10px 0;
+    }
+
     .category-send-message-block {
         padding-left: 20px;
         padding-right: 20px;
