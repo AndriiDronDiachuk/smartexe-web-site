@@ -682,6 +682,9 @@
     .layer-4 .row div {
         padding: 0 20px;
     }
+    .layer-4 .second-list li:first-child {
+        margin-top: 0;
+    }
     .layer-4 .row div:nth-child(3),
     .layer-4 .row div:nth-child(4) {
         display: none;
