@@ -310,6 +310,10 @@ header {
     background: -moz-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
     background: linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
 }
+.category-img-block a {
+    color: #fff;
+    text-decoration: underline;
+}
 .category-under-block {
     position: absolute;
     top: 0;
