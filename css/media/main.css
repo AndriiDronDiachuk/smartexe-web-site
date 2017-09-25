@@ -1,14 +1,14 @@
 @media screen and (max-width: 1899px) {
 
     body {
-        margin-top: 103px;
+        margin-top: 108px;
     }
     /* HEADER */
     .logo {
-        width: 150px;
+        width: 175px;
     }
     .navigation {
-        margin-top: 15px;
+        margin-top: 18px;
     }
 
     /* BUTTON STYLE */
@@ -94,7 +94,7 @@
 
     /* HEADER */
     body {
-        margin-top: 75px;
+        margin-top: 73px;
     }
     .body-shadow:before {
         position: fixed;

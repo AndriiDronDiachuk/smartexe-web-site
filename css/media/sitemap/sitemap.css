@@ -1,0 +1,45 @@
+@media screen and (max-width: 1899px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .layer-16 {
+        padding-bottom: 30px;
+    }
+    .layer-16 ul {
+        padding: 0 15px;
+        margin: 0 15px;
+        font-size: 14px;
+    }
+    .layer-16 ul li {
+        margin: 10px 0;
+        line-height: 15px;
+    }
+    .layer-16 a span {
+        bottom: 0;
+    }
+    .layer-16 h3 {
+        font-size: 20px;
+        margin: 15px;
+    }
+    .layer-16 h4 {
+        font-size: 16px;
+        margin: 15px 15px;
+    }
+    .layer-16 .first {
+        margin-right: 5px;
+    }
+    .layer-16 .second {
+        margin: 5px 0 0;
+        font-size: 13px;
+    }
+}
