@@ -44,9 +44,10 @@
     .web-development .layer-8 .block-4,
     .web-development .layer-8 .block-5,
     .web-development .layer-8 .block-6 {
-        width: 144px;
+        width: 100%;
         float: none;
         margin: 0 auto;
+        box-sizing: border-box;
     }
     .web-development .layer-8 .block-3 li:nth-child(6),
     .web-development .layer-8 .block-4 li:nth-child(3) {
