@@ -81,6 +81,8 @@
     .layer-13 .unslider-arrow {
         width: 15px;
         top: 100px;
+        height: 30px;
+        background-size: 100% ;
     }
 
     /* LAYER-14 */

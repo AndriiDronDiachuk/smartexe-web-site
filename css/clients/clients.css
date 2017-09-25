@@ -22,7 +22,7 @@
     height: 325px;
 }
 .layer-13 .unslider-arrow {
-    content: url("../../images/clients_carousel/clients_carousel_arrow.png");
+    background: url(../../images/clients_carousel/clients_carousel_arrow.png) no-repeat 50% 0;
     top: 182px;
 }
 .layer-13 .unslider-arrow.prev {
