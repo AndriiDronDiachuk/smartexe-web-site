@@ -1,0 +1,25 @@
+@media screen and (max-width: 1899px) {
+
+}
+@media screen and (max-width: 1199px) {
+
+}
+@media screen and (max-width: 1023px) {
+    .category-send-message-block .input-item {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .category-send-message-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* SEND US A MESSAGE BUTTON */
+    #outer {
+        width: 100%;
+        text-align: center;
+    }
+    #inner {
+        display: inline-block;
+    }
+}
