@@ -56,7 +56,7 @@
 }
 .category-send-message-block .input-text,
 .category-send-message-block .input-text::-webkit-input-placeholder,
-.category-send-message-block .message-input .textarea {
+.category-send-message-block .message-input textarea {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -76,7 +76,9 @@
     display: block;
     content:attr(data-text);
 }
-.category-send-message-block .message-input .textarea {
+textarea{
+    line-height: 1.4;
+    padding: 0;
     display:inline-block;
     overflow: auto;
     outline: none;
