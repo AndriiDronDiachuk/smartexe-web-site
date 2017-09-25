@@ -1,12 +1,77 @@
 @media screen and (max-width: 1899px) {
-
+    .category-gray-label-block .right-labels{
+        margin-left: 90px;
+    }
+    .category-gray-label-block .left-labels h2 {
+        font-size: 31px;
+    }
 }
 @media screen and (max-width: 1199px) {
-
+    .category-gray-label-block .right-labels{
+        margin-left: 75px;
+    }
+    .category-gray-label-block .left-labels h2 {
+        font-size: 28px;
+    }
+    .category-gray-label-block .right-labels span,
+    .category-gray-label-block .right-labels p {
+        font-size: 16px;
+        line-height: 31px;
+    }
 }
 @media screen and (max-width: 1023px) {
-
+    .category-teammates-block .gray-label {
+        margin-bottom: 25px;
+    }
+    .category-gray-label-block {
+        text-align: center;
+        height: auto;
+    }
+    .category-gray-label-block .left-labels h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .category-gray-label-block .right-labels {
+        margin: 0;
+    }
+    .category-gray-label-block .right-labels span {
+        margin-top: 25px;
+    }
+    .category-gray-label-block .left-labels h2 {
+        margin: 50px 0 0;
+    }
+    .category-gray-label-block .right-labels p{
+        margin: 25px 0 50px;
+    }
+    .category-gray-label-block .left-labels h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
 }
 @media screen and (max-width: 767px) {
-
+    .category-gray-label-block .right-labels {
+        display: none;
+    }
+    .category-gray-label-block .left-labels h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 50px 0;
+        padding: 0 40px;
+    }
+    .category-team-block p {
+        margin-bottom: 50px;
+        padding: 0 20px;
+    }
+    .category-teammates-block .about,
+    .category-teammates-block .gray-label {
+        line-height: 24px;
+    }
+    .category-teammates-block .gray-label {
+        margin-bottom: 25px;
+    }
+    .category-teammates-block .gray-label,
+    .category-teammates-block .about {
+        font-size: 14px;
+    }
 }

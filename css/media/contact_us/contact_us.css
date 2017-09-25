@@ -5,6 +5,17 @@
 
 }
 @media screen and (max-width: 1023px) {
+    /* CATEGORY-SEND-MESSAGE-BLOCK */
+    .category-send-message-block .label-2 {
+        margin-top: 60px;
+    }
+    .category-send-message-block .left-labels h2 {
+        font-size: 20px;
+    }
+    .category-send-message-block .left-labels p,
+    .category-send-message-block .left-labels span {
+        font-size: 14px;
+    }
     .category-send-message-block .input-item {
         width: 100%;
     }
@@ -13,7 +24,32 @@
     .category-send-message-block {
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 35px;
     }
+    .category-send-message-block .right-labels,
+    .category-send-message-block .right-labels h3 {
+        margin: 10px 0;
+    }
+    .category-send-message-block .right-labels .label-1 {
+        padding: 20px 0;
+    }
+    .category-send-message-block .right-labels .input-item {
+        margin-bottom: 25px;
+    }
+    .category-send-message-block .right-labels .button-style-2 {
+        float: left;
+        padding: 15px;
+        margin-top: 25px;
+    }
+    .category-send-message-block .right-labels .label-2 {
+        float: left;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .category-send-message-block .right-labels .label-1 h2 {
+        font-size: 20px;
+    }
+
     /* SEND US A MESSAGE BUTTON */
     #outer {
         width: 100%;
