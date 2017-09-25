@@ -1,0 +1,53 @@
+.layer-16 {
+    padding-bottom: 50px;
+}
+.layer-16 h3 {
+    position: relative;
+    font-family: 'SofiaProBlack', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 50px 0 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.layer-16 h4 {
+    font-family: 'SofiaProBlack', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.layer-16 ul {
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    border-left: 2px solid #02a2ae;
+    padding-left: 15px;
+    color: #888;
+}
+.layer-16 a {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: #028f9a;
+}
+.layer-16 a span {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #222;
+    transition: 0.5s;
+}
+.layer-16 a:hover {
+    color: #000;
+}
+.layer-16 a:hover span {
+    width: 100%;
+}
+.layer-16 .first {
+    margin-right: 10px;
+}
+.layer-16 .second {
+    color: #888;
+    margin-left: 10px;
+}
