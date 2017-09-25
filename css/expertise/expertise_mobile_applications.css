@@ -7,6 +7,9 @@
 .mobile-applications .layer-8 .block-2 {
     margin: 0 auto;
 }
+.mobile-applications .layer-8 .block-2 .title {
+    width: 410px;
+}
 .mobile-applications .layer-9 .button-style-3 {
     width: 150px;
 }
