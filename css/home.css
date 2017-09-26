@@ -1,8 +1,8 @@
 /* CAROUSEL */
 .carousel {
     position: relative;
-    height: 900px;
-    overflow-y: hidden;
+    height: 1000px;
+    overflow: hidden;
 }
 .carousel:before {
     position: absolute;
@@ -30,7 +30,7 @@
     background: linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
 }
 .carousel div {
-    height: 900px;
+    height: 1000px;
 }
 .carousel .carousel-img {
     background-size: 100%;
@@ -56,7 +56,7 @@
     height: 100%;
     text-align: center;
     color: #fff;
-    padding-top: 325px;
+    padding-top: 365px;
     box-sizing: border-box;
 }
 .under-block span {
@@ -72,7 +72,7 @@
 .social {
     position: absolute;
     right: -40px;
-    top: 350px;
+    top: 390px;
 }
 .social li {
     margin-bottom: 25px;

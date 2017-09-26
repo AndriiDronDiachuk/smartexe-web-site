@@ -1,3 +1,19 @@
+@media screen and (max-width: 2559px) {
+
+    .carousel {
+        height: 900px;
+    }
+    .carousel div {
+        height: 900px;
+    }
+    .under-block {
+        padding-top: 325px;
+    }
+    .social {
+        top: 350px;
+    }
+}
+
 @media screen and (max-width: 1899px) {
 
     /* CAROUSEL */
