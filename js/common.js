@@ -11,6 +11,4 @@ $(document).ready(function($) {
         $('body').toggleClass('body-shadow');
         $('header').toggleClass('header-shadow');
     });
-
-    new WOW().init();
 });

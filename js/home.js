@@ -22,4 +22,6 @@ $(document).ready(function ($) {
             $( item + '-text').slideToggle();
         });
     });
+
+    new WOW().init();
 });
