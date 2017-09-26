@@ -455,7 +455,7 @@
     position: relative;
     transition: 0.5s;
 }
-.layer-6 .box:hover > span {
+.layer-6 .box:hover > a span {
     bottom: 60px;
 }
 .layer-6 .box:hover {
@@ -481,6 +481,12 @@
 }
 .layer-6 .grey-bgc {
     background-color: rgba(205, 205, 205, 0.9);
+}
+.layer-6 .light-grey-bgc {
+    background-color: rgba(205, 205, 205, 0.75);
+}
+.layer-6 .light-grey-bgc:hover {
+    opacity: 0.8;
 }
 .layer-6 .blue-bgc {
     background-color: rgba(0, 142, 153, 0.85);
