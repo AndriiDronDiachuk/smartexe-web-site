@@ -38,13 +38,24 @@
     margin: 3px 0;
 }
 .category-send-message-block .input-item {
+    position: relative;
     border-bottom: 1px solid rgb(204,204,204);
     margin-right: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     width: 185px;
     float: left;
     box-sizing: border-box;
     display: inline;
+}
+.category-send-message-block .input-item label {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    opacity:  0.7;
+    transition: 0.5s;
+    position: absolute;
+    top:0;
+    left:0;
 }
 .category-send-message-block .email-input,
 .category-send-message-block .message-input{
@@ -54,6 +65,39 @@
     width: 100%;
     margin-bottom: 0;
 }
+.input-fields .has-success {
+    border-color: #2dcc70;
+    color: #2db259;
+}
+.input-fields .has-error {
+    border-color: red;
+    color: red;
+}
+.phone-input .form-error,
+.email-input .form-error {
+    bottom: -35px;
+}
+
+.form-error {
+    position: absolute;
+    bottom: -20px;
+    line-height: 15px;
+}
+
+
+/*.error-div {
+    !*color: red;*!
+    border-color: red;
+}*/
+/*.input-item.error{
+    background-color: red;
+}*/
+/*
+.input-text.error {
+    background-color: red;
+}
+*/
+
 
 /* CUSTOMIZE MESSAGE PLACEHOLDER */
 .input-fields .autoExpand:-moz-placeholder {

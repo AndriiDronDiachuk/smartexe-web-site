@@ -123,37 +123,45 @@
                     <h2>Contact Form</h2>
                     <p>Its now easy to Contact Us</p>
                 </div>
-                <div class="input-fields">
-                    <div class="input-item">
-                        <input placeholder="Name *" type="text" class="input-text"/>
-                    </div>
-                    <div class="input-item">
-                        <input placeholder="Phone *" type="text" class="input-text"/>
-                    </div>
-                    <div class="input-item email-input">
-                        <input placeholder="Email *" type="text" class="input-text"/>
-                    </div>
-                    <div class="input-item">
-                        <input placeholder="Company Name" type="text" class="input-text"/>
-                    </div>
-                    <div class="input-item">
-                        <input placeholder="Title" type="text" class="input-text"/>
-                    </div>
-                    <div class="input-item message-input">
-                        <textarea class='input-text autoExpand' rows='1' data-min-rows='1' placeholder='Message'></textarea>
-                    </div>
-                </div>
-                <div class="button clearfix">
-                    <div id="outer">
-                        <div id="inner">
-                            <button class="button-style-2">
-                                Send us a message
-                                <span class="first"></span>
-                                <span class="second"></span>
-                            </button>
+                <form id="contact-us-form">
+                    <div class="input-fields">
+                        <div class="input-item">
+                            <label class="input-label" for="name">Name *</label>
+                            <input id="name" data-validation-error-msg="Field Name is required" name="name" type="text" data-validation="length" data-validation-length="min1" class="input-text"/>
+                        </div>
+                        <div class="input-item phone-input">
+                            <label class="input-label" for="phone">Phone *</label>
+                            <input id="phone" data-validation-error-msg="Please, fill the correct phone number" name="phone" type="tel" data-validation="number" class="input-text"/>
+                        </div>
+                        <div class="input-item email-input">
+                            <label class="input-label" for="email">Email *</label>
+                            <input id="email" data-validation-error-msg="Please, fill the correct email address" name="email" type="text" data-validation="email" class="input-text"/>
+                        </div>
+                        <div class="input-item">
+                            <label class="input-label" for="company_name">Company Name</label>
+                            <input id="company_name" type="text" class="input-text"/>
+                        </div>
+                        <div class="input-item">
+                            <label class="input-label" for="title">Title</label>
+                            <input id="title" type="text" class="input-text"/>
+                        </div>
+                        <div class="input-item message-input">
+                            <label class="input-label" for="message">Message</label>
+                            <textarea id="message" class='input-text autoExpand' rows='1' data-min-rows='1'></textarea>
                         </div>
                     </div>
-                </div>
+                    <div class="button clearfix">
+                        <div id="outer">
+                            <div id="inner">
+                                <button type="submit" class="button-style-2">
+                                    Send us a message
+                                    <span class="first"></span>
+                                    <span class="second"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
                 <div class="label-2">
                     Smart.exe Ltd
                     <h3>Research and Development Centers:</h3>
@@ -248,9 +256,12 @@
 
 <script src="../libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 <script src="../js/map.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC07mHWUVrb7Xvg8gaoNYS_sYOeai3mKgA&callback=initMap"></script>
 <script src="../js/common.js"></script>
 <script src="../js/textarea_expand.js"></script>
+<script src="../js/contact_us_validator.js"></script>
+
 </body>
 </html>
