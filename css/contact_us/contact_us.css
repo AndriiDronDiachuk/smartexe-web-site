@@ -54,9 +54,39 @@
     width: 100%;
     margin-bottom: 0;
 }
-.category-send-message-block .input-text,
-.category-send-message-block .input-text::-webkit-input-placeholder,
-.category-send-message-block .message-input textarea {
+
+/* CUSTOMIZE MESSAGE PLACEHOLDER */
+.input-fields .autoExpand:-moz-placeholder {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    opacity:  0.7;
+} /* Mozilla Firefox 4 to 18 */
+
+.input-fields .autoExpand::-moz-placeholder {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    opacity:  0.7;
+ }/* Mozilla Firefox 19+ */
+.input-fields .autoExpand:-ms-input-placeholder {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.9;
+} /* Internet Explorer 10-11 */
+.input-fields .autoExpand:-ms-input-placeholder {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+} /* Microsoft Edge */
+
+.input-fields .input-text::-webkit-input-placeholder {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.input-fields .autoExpand::-webkit-input-placeholder {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -68,6 +98,12 @@
 [contentEditable=true]:empty:before,
 .category-send-message-block .input-text::-webkit-input-placeholder{
     color: rgb(90, 90, 90);
+}
+.input-fields .input-text,
+.input-fields .autoExpand {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 /* SEND MESSAGE BLOCK, MESSAGE INPUT */
