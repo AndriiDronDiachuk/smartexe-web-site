@@ -36,6 +36,21 @@
         list-style: none;
         margin: 0 auto;
     }
+    .cloud-it .layer-2 .block-4 ul li {
+        display: inline-block;
+        position: relative;
+        padding-left: 15px;
+    }
+    .cloud-it .layer-2 .block-4 ul li:after {
+        position: absolute;
+        top: 8px;
+        left: 0;
+        content: '';
+        width: 4px;
+        height: 4px;
+        background-color: #000;
+        border-radius: 50%;
+    }
     .cloud-it .layer-2 .block-4:before {
         width: 30px;
     }
@@ -52,15 +67,31 @@
     .cloud-it .layer-2 .block-4 {
         width: 100%;
     }
-    .cloud-it .layer-2 .info {
-        width: 100px;
+    .cloud-it .layer-2 p {
+        display: block;
+        padding: 0 10px;
     }
+    .cloud-it .layer-2 .info {
+        width: 100%;
+    }
+    .cloud-it .layer-2 .box {
+        margin: 40px 0 0;
+    }
+
+    .cloud-it .layer-2 .block-1 h3,
     .cloud-it .layer-2 .block-2 h3,
-    .cloud-it .layer-2 .block-3 h3 {
-        height: 40px;
-        line-height: 40px;
+    .cloud-it .layer-2 .block-3 h3,
+    .cloud-it .layer-2 .block-4 h3 {
+        line-height: 20px;
+    }
+    .cloud-it .layer-2 .block-4 {
+        margin-bottom: 40px;
     }
     .cloud-it .layer-2 .block-4 ul {
+        margin-top: 14px;
+    }
+    .cloud-it .layer-2 .block-2:after,
+    .cloud-it .layer-2 .block-2:before {
         display: none;
     }
     .cloud-it .layer-2 {
