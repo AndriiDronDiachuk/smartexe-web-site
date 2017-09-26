@@ -12,7 +12,5 @@ $(document).ready(function($) {
         $('header').toggleClass('header-shadow');
     });
 
-    // $('#nav-menu a').bind( "tap", function () {
-    //     alert('TAP');
-    // });
+    new WOW().init();
 });
