@@ -18,7 +18,7 @@
 
     /* CAROUSEL */
     .carousel {
-        height: 525px;
+        height: 625px;
     }
     .carousel:before {
         height: 30px;
@@ -27,7 +27,7 @@
         height: 100%;
     }
     .carousel div {
-        height: 525px;
+        height: 625px;
     }
     .unslider-nav {
         bottom: 0;
@@ -232,6 +232,22 @@
     }
     .layer-7 span {
         font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1599px) {
+
+    .carousel {
+        height: 525px;
+    }
+    .carousel div {
+    height: 525px;
+    }
+    .under-block {
+    padding-top: 175px;
+    }
+    .social {
+    top: 180px;
     }
 }
 
