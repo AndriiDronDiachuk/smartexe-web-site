@@ -18,6 +18,12 @@ $(document).ready(function ($) {
 
     homePageId.forEach(function(item)  {
         $(item).on('click', function () {
+
+            if (!$(this).hasClass('active')) {
+                $('.areas-button').removeClass('active');
+                $('.areas-text').slideUp();
+            }
+
             $(item).toggleClass('active');
             $( item + '-text').slideToggle();
         });
