@@ -46,10 +46,6 @@
         list-style: none;
         padding: 0;
     }
-    .graphic-design .layer-2 .block-4 ul li {
-        float: left;
-        padding-left: 5px;
-    }
     .graphic-design .layer-2 .block-4:before {
         width: 30px;
     }
@@ -82,27 +78,30 @@
     .graphic-design .layer-2 .block-4 {
         width: 100%;
     }
-    .graphic-design .layer-2 .info {
-        width: 125px;
+    .graphic-design .layer-2 .block-4 {
+        margin-bottom: 40px;
     }
-    .graphic-design .layer-2 .block-1 h3,
-    .graphic-design .layer-2 .block-2 h3,
-    .graphic-design .layer-2 .block-3 h3 {
-        height: 40px;
-        line-height: 40px;
+    .graphic-design .layer-2 .info {
+        width: 100%;
+    }
+    .graphic-design .layer-2 .box {
+        margin: 40px 0 0;
+    }
+    .graphic-design .layer-2 .block-2:after,
+    .graphic-design .layer-2 .block-2:before {
+        display: none;
     }
     .graphic-design .layer-2 .block-4 ul {
-        display: none;
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 14px;
     }
     .graphic-design .layer-2 {
         padding: 0;
     }
-    .graphic-design .layer-2 .block-2:before {
-        top: 148px;
-        left: -61px;
-    }
-    .graphic-design .layer-2 .block-2:after {
-        top: 84px;
+    .graphic-design .layer-2 p {
+        display: block;
+        padding: 0 10px;
     }
     .graphic-design .button-style-3:before {
         right: 15px;

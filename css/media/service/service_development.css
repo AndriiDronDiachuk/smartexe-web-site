@@ -30,6 +30,9 @@
     }
     .development .layer-2 .block-1 ul {
         list-style: none;
+        padding-left: 0;
+        width: 250px;
+        margin: 0 auto;
     }
     .development .layer-2 .block-1:before,
     .development .layer-2 .block-2:after,
@@ -55,26 +58,32 @@
     .development .layer-2 .block-3 {
         width: 100%;
     }
+    .development .layer-2 .block-3 {
+        margin-bottom: 40px;
+    }
+    .development .layer-2 .box {
+        margin: 40px 0 0;
+    }
     .development .layer-2 .info {
-        width: 125px;
+        width: 100%;
     }
     .development .layer-2 .block-1 ul {
-        display: none;
-    }
-    .development .layer-2 .block-2:before {
-        top: 147px;
-    }
-    .development .layer-2 .block-2:after {
-        top: 85px;
+        margin-top: 14px;
     }
     .development .layer-2 .block-1:before,
-    .development .layer-2 .block-3:before {
+    .development .layer-2 .block-3:before,
+    .development .layer-2 .block-2:after,
+    .development .layer-2 .block-2:before {
         display: none;
     }
-
+    .development .layer-2 p {
+        display: block;
+        padding: 0 10px;
+    }
     .development .layer-2 {
         padding: 0;
     }
+
     .development .button-style-3:before {
         right: 15px;
         width: 185px;

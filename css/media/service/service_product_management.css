@@ -34,6 +34,7 @@
         width: 200px;
         list-style: none;
         margin: 0 auto;
+        padding: 0;
     }
     .product-management .layer-2 .block-4 li:nth-child(1),
     .product-management .layer-2 .block-4 li:nth-child(2),
@@ -57,24 +58,32 @@
     .product-management .layer-2 .block-4 {
         width: 100%;
     }
+    .product-management .layer-2 .block-4 {
+        margin-bottom: 40px;
+    }
+    .product-management .layer-2 .box {
+        margin: 40px 0 0;
+    }
     .product-management .layer-2 .info {
-        width: 125px;
+        width: 100%;
     }
     .product-management .layer-2 .block-1 h3 {
         height: 40px;
         line-height: 40px;
     }
     .product-management .layer-2 .block-4 ul {
-        display: none;
+        margin-top: 14px;
     }
     .product-management .layer-2 {
         padding: 0;
     }
-    .product-management .layer-2 .block-2:before {
-        top: 148px;
-    }
+    .product-management .layer-2 .block-2:before,
     .product-management .layer-2 .block-2:after {
-        top: 84px;
+        display: none;
+    }
+    .product-management .layer-2 p {
+        display: block;
+        padding: 0 10px;
     }
     .product-management .button-style-3 {
         width: 160px;

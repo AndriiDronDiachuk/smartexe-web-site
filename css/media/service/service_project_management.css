@@ -39,6 +39,7 @@
         list-style: none;
         width: 275px;
         padding: 0;
+        margin: 0 auto;
     }
     .project-management .layer-2 .block-2 h3 {
         width: 100%;
@@ -70,23 +71,28 @@
     .project-management .layer-2 .block-3 {
         width: 100%;
     }
+    .project-management .layer-2 .block-3 {
+        margin-bottom: 40px;
+    }
+    .project-management .layer-2 .box {
+        margin: 40px 0 0;
+    }
     .project-management .layer-2 .info {
-        width: 125px;
+        width: 100%;
     }
     .project-management .layer-2 .block-1 ul {
-        display: none;
-    }
-    .project-management .layer-2 .block-2:before {
-        top: 147px;
-    }
-    .project-management .layer-2 .block-2:after {
-        top: 85px;
+        margin-top: 14px;
     }
     .project-management .layer-2 .block-1:before,
-    .project-management .layer-2 .block-3:before {
+    .project-management .layer-2 .block-3:before,
+    .project-management .layer-2 .block-2:before,
+    .project-management .layer-2 .block-2:after {
         display: none;
     }
-
+    .project-management .layer-2 p {
+        display: block;
+        padding: 0 10px;
+    }
     .project-management .layer-2 {
         padding: 0;
     }

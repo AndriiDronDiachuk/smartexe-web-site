@@ -52,25 +52,33 @@
     .quality-assurance .layer-2 .block-4 {
         width: 100%;
     }
-    .quality-assurance .layer-2 .info {
-        width: 125px;
+    .quality-assurance .layer-2 .block-4 {
+        margin-bottom: 40px;
     }
-    .quality-assurance .layer-2 .block-1 h3,
-    .quality-assurance .layer-2 .block-3 h3 {
-        height: 40px;
-        line-height: 40px;
+    .quality-assurance .layer-2 .box {
+        margin: 40px 0 0;
+    }
+    .quality-assurance .layer-2 .info {
+        width: 100%;
     }
     .quality-assurance .layer-2 .block-4 ul {
-        display: none;
+        margin-top: 14px;
+        width: 275px;
+    }
+    .quality-assurance .layer-2 .block-4 ul li:first-child {
+        line-height: 15px;
+        margin: 5px 0;
+    }
+    .quality-assurance .layer-2 p {
+        display: block;
+        padding: 0 10px;
     }
     .quality-assurance .layer-2 {
         padding: 0;
     }
-    .quality-assurance .layer-2 .block-2:before {
-        top: 148px;
-    }
+    .quality-assurance .layer-2 .block-2:before,
     .quality-assurance .layer-2 .block-2:after {
-        top: 84px;
+        display: none;
     }
     .quality-assurance .button-style-3 {
         width: 160px;

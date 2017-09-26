@@ -35,21 +35,7 @@
         width: 200px;
         list-style: none;
         margin: 0 auto;
-    }
-    .cloud-it .layer-2 .block-4 ul li {
-        display: inline-block;
-        position: relative;
-        padding-left: 15px;
-    }
-    .cloud-it .layer-2 .block-4 ul li:after {
-        position: absolute;
-        top: 8px;
-        left: 0;
-        content: '';
-        width: 4px;
-        height: 4px;
-        background-color: #000;
-        border-radius: 50%;
+        padding-left: 0;
     }
     .cloud-it .layer-2 .block-4:before {
         width: 30px;
