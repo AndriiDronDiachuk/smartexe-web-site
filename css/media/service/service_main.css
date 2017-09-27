@@ -186,5 +186,7 @@
     .layer-12 {
         margin-bottom: 30px;
     }
-
+    .layer-12 h3 {
+        margin-bottom: 30px;
+    }
 }

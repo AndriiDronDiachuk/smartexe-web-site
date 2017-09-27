@@ -44,6 +44,7 @@
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
     <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
 
     <style amp-custom>
         @font-face {
@@ -58,11 +59,11 @@
         }
         @font-face {
             font-family: "SofiaProBlack";
-            src: url("fonts/sofiapro/black/sofia-pro-black.eot");
-            src: url("fonts/sofiapro/black/sofia-pro-black.eot?#iefix") format("embedded-opentype"),
-            url("fonts/sofiapro/black/sofia-pro-black.woff") format("woff"),
-            url("fonts/sofiapro/black/sofia-pro-black.ttf") format("truetype"),
-            url("fonts/sofiapro/black/sofia-pro-black.otf") format("opentype");
+            src: url("fonts/sofiapro/bold/sofia-pro-bold.eot");
+            src: url("fonts/sofiapro/bold/sofia-pro-bold.eot?#iefix") format("embedded-opentype"),
+            url("fonts/sofiapro/bold/sofia-pro-bold.woff") format("woff"),
+            url("fonts/sofiapro/bold/sofia-pro-bold.ttf") format("truetype"),
+            url("fonts/sofiapro/bold/sofia-pro-bold.otf") format("opentype");
             font-style: normal;
             font-weight: normal;
         }
@@ -116,7 +117,8 @@
         }
         a:hover,
         a:focus,
-        button:focus {
+        button:focus,
+        h4:focus {
             outline: none;
         }
         .clearfix:after {
@@ -160,7 +162,7 @@
             width: 100%;
         }
         header {
-            padding: 15px 30px;
+            padding: 15px 30px 15px 20px;
             position: fixed;
             top: 0;
             left: 0;
@@ -226,7 +228,7 @@
             height: 100%;
             text-align: center;
             color: #fff;
-            padding-top: 50px;
+            padding-top: 40px;
             box-sizing: border-box;
             z-index: 1;
         }
@@ -250,7 +252,7 @@
             text-transform: uppercase;
             color: #fff;
             letter-spacing: 1px;
-            padding: 25px 50px;
+            padding: 15px 30px;
             cursor: pointer;
             transition: 0.5s;
         }
@@ -407,7 +409,7 @@
         .layer-3 {
             text-align: center;
             padding: 25px 30px;
-            height: 225px;
+            height: 200px;
             box-sizing: border-box;
         }
         .layer-3 h2 {
@@ -419,10 +421,10 @@
             line-height: 28px;
         }
         .layer-3 .button-style-1 {
-            margin-top: 30px;
+            margin-top: 25px;
         }
         .layer-4 {
-            padding: 20px 30px;
+            padding: 20px;
         }
         .layer-4 h2 {
             font-family: 'SofiaProBold', sans-serif;
@@ -432,30 +434,37 @@
         }
         .layer-4 p {
             font-family: 'Hind', sans-serif;
+
         }
         .layer-4 .list {
             margin-top: 35px;
         }
-        .layer-4 .list li {
+        .layer-4 .list h4 {
             position: relative;
-            padding-left: 45px;
+            padding: 0 0 0 25px;
+            background-color: #fff;
+            border: none;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 31px;
+            display: inline-block;
         }
-        .layer-4 .list li:before {
+        .layer-4 .list h4:before {
             position: absolute;
             content: '\f067';
-            top: 5px;
+            top: 1px;
             left: 0;
             font-family: 'FontAwesome';
-
+            font-size: 13px;
+            font-weight: 100;
         }
-        .layer-4 .list a {
+        .layer-4 .list .title {
             position: relative;
-            font-family: 'SofiaProRegular', sans-serif;
-            font-size: 16px;
+            display: inline-block;
         }
-        .layer-4 li span {
+        .layer-4 .list .title span {
             position: absolute;
-            bottom: -5px;
+            bottom: 0;
             left: 0;
             content: '';
             width: 0;
@@ -463,8 +472,31 @@
             background-color: #000;
             transition: 0.5s;
         }
-        .layer-4 li a:hover span{
+        .layer-4 .list section[expanded] span{
             width: 100%;
+        }
+        .layer-4 .list section {
+            margin: 15px 0;
+        }
+        .layer-4 .list section a {
+            padding-left: 25px;
+        }
+        .layer-4 .list section p {
+            margin-bottom: 0;
+            line-height: 20px;
+        }
+        .layer-4 .list section span {
+            color: rgba(72, 138, 150, 0.75);
+            text-transform: uppercase;
+            font-size: 13px;
+            display: inline-block;
+            font-family: 'Hind', sans-serif;
+            font-weight: 700;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .layer-4 .list section:nth-child(4) h4 {
+            letter-spacing: -1px;
         }
         .layer-6 {
             padding: 0 30px;
@@ -697,7 +729,7 @@
 
 <header class="clearfix">
     <div class="logo">
-        <amp-img src="images/logo.png" alt="logo" width="125" height="41"></amp-img>
+        <amp-img src="images/logo.svg" alt="logo" width="125" height="41"></amp-img>
     </div>
     <div class="button">
         <button on="tap:sidebar.toggle"><i class="fa fa-bars" aria-hidden="true"></i></button>
@@ -806,55 +838,111 @@
         services that enable your company to succeed in a wide range of technical capacities.</p>
 
     <div class="list">
-        <ul>
-            <li>
-                <p>
-                    <a href="#">
+        <amp-accordion>
+            <section>
+                <h4>
+                    <div class="title">
                         Product Management
                         <span></span>
-                    </a>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <a href="#">
+                    </div>
+                </h4>
+                <a href="./amp/service/service_product_management.amp.html">
+                    <p>
+                        Here at Smart.exe, we understand that work on a product continues well
+                        after its
+                        release. Our product management team is ready to help you plan and
+                        implement
+                        different
+                        product lifecycle stages to ensure continued success.
+                    </p>
+                    <span>Learn More</span>
+                </a>
+            </section>
+            <section>
+                <h4>
+                    <div class="title">
                         Project Management
                         <span></span>
-                    </a>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <a href="#">
+                    </div>
+                </h4>
+                <a href="./amp/service/service_project_management.amp.html">
+                    <p>
+                        Our teams possess solid leadership, communication and
+                        coordination skills, which help us manage projects on a global scale. We provide
+                        our clients with organization and efficiency, ensuring that projects are
+                        executed on-time and on-budget.
+                    </p>
+                    <span>Learn More</span>
+                </a>
+            </section>
+            <section>
+                <h4>
+                    <div class="title">
                         Development
                         <span></span>
-                    </a>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <a href="#">2D/3D Graphic<br>Design & Animation
+                    </div>
+                </h4>
+                <a href="./amp/service/service_development.amp.html">
+                    <p>
+                        Your great idea is just the beginning. While designing and developing a new
+                        product, you’ve got to plan and examine a variety of industry factors. Through
+                        an extensive Research and Development process, we’ll help you obtain a high
+                        return on your investment.
+                    </p>
+                    <span>Learn More</span>
+                </a>
+            </section>
+            <section>
+                <h4>
+                    <div class="title">
+                        2D/3D Graphic Design & Animation
                         <span></span>
-                    </a>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <a href="#">
+                    </div>
+                </h4>
+                <a href="./amp/service/service_graphic_design.amp.html">
+                    <p>
+                        Design: it must be bold, eye-catching – and intuitive. Prefer simplicity? Or,
+                        perhaps – like some – you desire a more complex, stylistically flamboyant flavor
+                        to your designs. Either way, we can help make sure your vision meets
+                        function.
+                    </p>
+                    <span>Learn More</span>
+                </a>
+            </section>
+            <section>
+                <h4>
+                    <div class="title">
                         Cloud IT
                         <span></span>
-                    </a>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <a href="#">
+                    </div>
+                </h4>
+                <a href="./amp/service/service_cloud_it.amp.html">
+                    <p>
+                        Virtualization is changing the IT industry. Cloud technology ensures software
+                        and data availability without expensive investments in hardware, and allows you
+                        to avoid significant maintenance costs. We offer a variety of cloud IT solutions
+                        for our clients.
+                    </p>
+                    <span>Learn More</span>
+                </a>
+            </section>
+            <section>
+                <h4>
+                    <div class="title">
                         Quality Assurance
                         <span></span>
-                    </a>
-                </p>
-            </li>
-        </ul>
+                    </div>
+                </h4>
+                <a href="./amp/service/service_quality_assurance.amp.html">
+                    <p>
+                        How can you ensure that your product lives up to your expectations and
+                        requirements? Our Quality Assurance team is here to help. We offer our clients
+                        QA solutions that are simple and thorough.
+                    </p>
+                    <span>Learn More</span>
+                </a>
+            </section>
+        </amp-accordion>
     </div>
 </div>
 
