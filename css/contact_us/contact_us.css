@@ -65,6 +65,12 @@
     width: 100%;
     margin-bottom: 0;
 }
+
+/* SEND MESSAGE BLOCK, MESSAGE INPUT */
+
+.input-fields .be-blue {
+    border-bottom-color: #2e8390;
+}
 .input-fields .has-success {
     border-color: #2dcc70;
     color: #2db259;
@@ -77,70 +83,16 @@
 .email-input .form-error {
     bottom: -35px;
 }
-
 .form-error {
     position: absolute;
     bottom: -20px;
     line-height: 15px;
 }
-
-
-/*.error-div {
-    !*color: red;*!
-    border-color: red;
-}*/
-/*.input-item.error{
-    background-color: red;
-}*/
-/*
-.input-text.error {
-    background-color: red;
-}
-*/
-
-
-/* CUSTOMIZE MESSAGE PLACEHOLDER */
-.input-fields .autoExpand:-moz-placeholder {
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    opacity:  0.7;
-} /* Mozilla Firefox 4 to 18 */
-
-.input-fields .autoExpand::-moz-placeholder {
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    opacity:  0.7;
- }/* Mozilla Firefox 19+ */
-.input-fields .autoExpand:-ms-input-placeholder {
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    opacity: 0.9;
-} /* Internet Explorer 10-11 */
-.input-fields .autoExpand:-ms-input-placeholder {
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-} /* Microsoft Edge */
-
-.input-fields .input-text::-webkit-input-placeholder {
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-}
-.input-fields .autoExpand::-webkit-input-placeholder {
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-}
 .category-send-message-block .input-text {
     border: none;
     width: 100%;
 }
-[contentEditable=true]:empty:before,
-.category-send-message-block .input-text::-webkit-input-placeholder{
+[contentEditable=true]:empty:before {
     color: rgb(90, 90, 90);
 }
 .input-fields .input-text,
@@ -149,9 +101,6 @@
     font-size: 16px;
     font-weight: 300;
 }
-
-/* SEND MESSAGE BLOCK, MESSAGE INPUT */
-
 [contentEditable=true]:empty:before{
     display: block;
     content:attr(data-text);

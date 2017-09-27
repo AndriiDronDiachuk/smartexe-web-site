@@ -21,12 +21,17 @@ $(document).ready(function ($) {
     $('.input-item .input-text')
         .on('focus', function () {
             var label = "label[for=" + $(this).attr('id') + "]";
-            $(label).css('top', '-20px');
+            $(label).parent().addClass('be-blue');
+            if ($(this).val().length === 0) {
+                $(label).css('top', '-20px');
+            }
 
         })
         .on('focusout', function () {
+            var label = "label[for=" + $(this).attr('id') + "]";
+            $(label).parent().removeClass('be-blue');
             if ($(this).val().length === 0) {
-                var label = "label[for=" + $(this).attr('id') + "]";
+
                 $(label).css('top', '0');
             }
         })
