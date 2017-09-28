@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>SmartExe AMP</title>
     <link rel="canonical" href="./index.html">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -57,6 +58,7 @@
             font-style: normal;
             font-weight: normal;
         }
+
         @font-face {
             font-family: "SofiaProBlack";
             src: url("fonts/sofiapro/bold/sofia-pro-bold.eot");
@@ -67,6 +69,7 @@
             font-style: normal;
             font-weight: normal;
         }
+
         @font-face {
             font-family: "SofiaProBold";
             src: url("fonts/sofiapro/bold/sofia-pro-bold.eot");
@@ -77,6 +80,7 @@
             font-style: normal;
             font-weight: normal;
         }
+
         @font-face {
             font-family: "SofiaProLightItalic";
             src: url("fonts/sofiapro/light-italic/sofia-pro-light-italic.eot");
@@ -87,6 +91,7 @@
             font-style: normal;
             font-weight: normal;
         }
+
         @font-face {
             font-family: "MyriadProRegular";
             src: url("fonts/myriadpro-regular/MyriadPro-Regular.eot") format("opentype");
@@ -97,57 +102,69 @@
             font-style: normal;
             font-weight: normal;
         }
+
         body {
             font-size: 14px;
             font-family: 'SofiaProRegular', sans-serif;
         }
+
         ul {
             margin: 0;
             padding: 0;
             list-style: none;
         }
+
         a {
             color: #000;
             text-decoration: none;
         }
+
         button {
             border: none;
             background-color: transparent;
             padding: 0;
         }
+
         a:hover,
         a:focus,
         button:focus,
         h4:focus {
             outline: none;
         }
+
         .clearfix:after {
             content: '';
             display: block;
             clear: both;
         }
+
         .sidebar {
             width: 100%;
             background-color: #fff;
         }
+
         .sidebar i {
             position: absolute;
             font-size: 20px;
             top: 25px;
             left: 15px;
         }
+
         .sidebar ul {
             padding: 20px 20px;
         }
+
         .sidebar li {
             padding: 10px 0;
             text-transform: uppercase;
             letter-spacing: 1px;
             text-align: center;
         }
+
         .sidebar li a {
             position: relative;
         }
+
         .sidebar li a span {
             position: absolute;
             content: '';
@@ -158,9 +175,11 @@
             background-color: #000;
             transition: 0.5s;
         }
+
         .sidebar li a:hover span {
             width: 100%;
         }
+
         header {
             padding: 15px 30px 15px 20px;
             position: fixed;
@@ -171,31 +190,39 @@
             background-color: #fff;
             z-index: 5;
         }
+
         header .logo {
             float: left;
         }
+
         header .button {
             float: right;
         }
+
         header button {
             color: #468a95;
             font-size: 24px;
             margin-top: 8px;
         }
+
         .amp-carousel-button {
             display: none
         }
+
         .carousel {
             position: relative;
         }
+
         .carousel amp-carousel {
             margin-top: 75px;
             position: relative;
         }
+
         .carousel amp-carousel .carousel-img {
             background: url(images/carousel_bgi.jpg) no-repeat 50%;
             background-size: 100%;
         }
+
         .carousel amp-carousel:before {
             position: absolute;
             bottom: 0;
@@ -207,6 +234,7 @@
             background-size: 100%;
             z-index: 1;
         }
+
         .carousel amp-carousel:after {
             position: absolute;
             top: 0;
@@ -220,6 +248,7 @@
             background: -moz-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
             background: linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
         }
+
         .under-block {
             position: absolute;
             top: 0;
@@ -232,10 +261,12 @@
             box-sizing: border-box;
             z-index: 1;
         }
+
         .under-block span {
             font-size: 13px;
             letter-spacing: 1px;
         }
+
         .under-block h1 {
             font-family: "SofiaProBlack", sans-serif;
             font-size: 30px;
@@ -244,6 +275,7 @@
             line-height: 35px;
             letter-spacing: -1px;
         }
+
         .button-style-1 {
             margin-top: 15px;
             position: relative;
@@ -256,6 +288,7 @@
             cursor: pointer;
             transition: 0.5s;
         }
+
         .first:before,
         .first:after,
         .second:after,
@@ -266,6 +299,7 @@
             z-index: 1;
             transition: 0.5s;
         }
+
         .first:before {
             bottom: 0;
             left: 0;
@@ -273,6 +307,7 @@
             width: 1px;
             box-shadow: 1px 0 1px #fff;
         }
+
         .first:after {
             bottom: 0;
             left: 0;
@@ -280,6 +315,7 @@
             width: 92%;
             box-shadow: 0 -1px 1px #fff;
         }
+
         .second:before {
             top: 0;
             right: 0;
@@ -287,6 +323,7 @@
             width: 1px;
             box-shadow: -1px 0 1px #fff;
         }
+
         .second:after {
             top: 0;
             right: 0;
@@ -294,21 +331,27 @@
             width: 92%;
             box-shadow: 0 1px 1px #fff;
         }
+
         .button-style-1:hover {
             text-shadow: 0 0 1px #aaa;
         }
+
         .button-style-1:hover .first:after {
             left: 8%;
         }
+
         .button-style-1:hover .first:before {
             bottom: 25%;
         }
+
         .button-style-1:hover .second:after {
             right: 8%;
         }
+
         .button-style-1:hover .second:before {
             top: 25%;
         }
+
         .dots {
             position: absolute;
             bottom: 0;
@@ -317,6 +360,7 @@
             text-align: center;
             z-index: 1;
         }
+
         .dots span {
             display: inline-block;
             width: 6px;
@@ -329,14 +373,17 @@
             border: 2px solid #f2f2f2;
             cursor: pointer;
         }
+
         .dots span.current {
             border: 2px solid #5a8a8c;
             background: #f2f2f2;
             cursor: default;
         }
+
         .layer-1-bgc {
             background-color: #f2f2f2;
         }
+
         .layer-1 {
             padding: 30px 15px;
             box-shadow: 0 -30px 0 #f2f2f2;
@@ -347,9 +394,11 @@
             text-align: center;
             box-sizing: border-box;
         }
+
         .layer-2 {
             padding: 30px 0;
         }
+
         .layer-2 .box {
             position: relative;
             width: 50%;
@@ -359,14 +408,17 @@
             box-sizing: border-box;
             text-align: center;
         }
+
         .layer-2 .info,
         .layer-2 .image {
             width: 110px;
             margin: 0 auto;
         }
+
         .layer-2 .image {
             height: 50px;
         }
+
         .layer-2 h3 {
             font-size: 18px;
             line-height: 20px;
@@ -374,12 +426,15 @@
             letter-spacing: -1px;
             font-family: 'SofiaProBlack', sans-serif;
         }
+
         .layer-2 .box-5 h3 {
             margin-top: 25px;
         }
+
         .layer-2 .box-6 h3 {
             margin-top: 10px;
         }
+
         .layer-2 .box-1:before,
         .layer-2 .box-1:after,
         .layer-2 .box-3:before,
@@ -388,6 +443,7 @@
             content: '';
             background-color: rgba(201, 201, 201, 0.79);
         }
+
         .layer-2 .box-1:before,
         .layer-2 .box-3:before {
             width: 125px;
@@ -395,6 +451,7 @@
             bottom: -41px;
             left: 98px;
         }
+
         .layer-2 .box-1:after,
         .layer-2 .box-3:after {
             width: 1px;
@@ -402,16 +459,19 @@
             bottom: -103px;
             right: -1px;
         }
+
         .layer-3-bgi {
             background: url("images/layer_3_mobile_bgi.png") no-repeat 50% 50%;
             background-size: 100%;
         }
+
         .layer-3 {
             text-align: center;
             padding: 25px 30px;
             height: 200px;
             box-sizing: border-box;
         }
+
         .layer-3 h2 {
             font-family: 'SofiaProBold', sans-serif;
             font-size: 24px;
@@ -420,25 +480,31 @@
             letter-spacing: -1px;
             line-height: 28px;
         }
+
         .layer-3 .button-style-1 {
             margin-top: 25px;
         }
+
         .layer-4 {
             padding: 20px;
         }
+
         .layer-4 h2 {
             font-family: 'SofiaProBold', sans-serif;
             font-size: 24px;
             letter-spacing: -1px;
             margin-bottom: 0;
         }
+
         .layer-4 p {
             font-family: 'Hind', sans-serif;
 
         }
+
         .layer-4 .list {
             margin-top: 35px;
         }
+
         .layer-4 .list h4 {
             position: relative;
             padding: 0 0 0 25px;
@@ -449,6 +515,7 @@
             line-height: 31px;
             display: inline-block;
         }
+
         .layer-4 .list h4:before {
             position: absolute;
             content: '\f067';
@@ -458,10 +525,12 @@
             font-size: 13px;
             font-weight: 100;
         }
+
         .layer-4 .list .title {
             position: relative;
             display: inline-block;
         }
+
         .layer-4 .list .title span {
             position: absolute;
             bottom: 0;
@@ -472,19 +541,24 @@
             background-color: #000;
             transition: 0.5s;
         }
-        .layer-4 .list section[expanded] span{
+
+        .layer-4 .list section[expanded] span {
             width: 100%;
         }
+
         .layer-4 .list section {
             margin: 15px 0;
         }
+
         .layer-4 .list section a {
             padding-left: 25px;
         }
+
         .layer-4 .list section p {
             margin-bottom: 0;
             line-height: 20px;
         }
+
         .layer-4 .list section span {
             color: rgba(72, 138, 150, 0.75);
             text-transform: uppercase;
@@ -495,17 +569,21 @@
             transition: 0.5s;
             cursor: pointer;
         }
+
         .layer-4 .list section:nth-child(4) h4 {
             letter-spacing: -1px;
         }
+
         .layer-6 {
             padding: 0 30px;
         }
+
         .layer-6 h2 {
             font-family: 'SofiaProBold', sans-serif;
             font-size: 24px;
             text-align: left;
         }
+
         .layer-6 .box {
             position: relative;
             float: left;
@@ -513,35 +591,45 @@
             border-right: 8px solid #fff;
             border-bottom: 8px solid #fff;
         }
+
         .layer-6 .small-box {
             height: 150px;
         }
+
         .layer-6 .medium-box {
             height: 175px;
         }
+
         .layer-6 .big-box {
             height: 200px;
         }
+
         .layer-6 .no-border-right {
             border-right: none;
         }
+
         .layer-6 .grey-bgc {
             background-color: rgba(205, 205, 205, 0.9);
         }
+
         .layer-6 .blue-bgc {
             color: #fff;
             background-color: rgba(0, 142, 153, 0.85);
         }
+
         .layer-6 .dark-blue-bgc {
             color: #fff;
             background-color: rgba(21, 31, 40, 0.95);
         }
+
         .layer-6 .box-3 {
             margin-top: -50px;
         }
+
         .layer-6 .box-8 {
             margin-top: -25px;
         }
+
         .layer-6 .box span {
             position: absolute;
             font-family: 'SofiaProBlack', sans-serif;
@@ -550,6 +638,7 @@
             left: 8px;
             font-size: 14px;
         }
+
         .layer-6 .box span:after {
             position: absolute;
             bottom: -5px;
@@ -559,31 +648,38 @@
             height: 2px;
             background-color: #fff;
         }
+
         .layer-6 .grey-bgc span:after,
         .layer-6 .dark-blue-bgc span:after {
             background-color: rgb(0, 142, 153);
         }
+
         .layer-7 {
             padding: 20px 0;
         }
+
         .layer-7 h2 {
             padding: 0 30px;
             font-family: 'SofiaProRegular', sans-serif;
             font-size: 24px;
             margin-bottom: 10px;
         }
+
         .layer-7 .client-box {
             text-align: center;
         }
+
         .layer-7 amp-img {
             margin: 0 10px;
             filter: grayscale(100%);
         }
+
         .footer-1-bgi {
             position: relative;
             background: url(images/footer_bgi.jpg) no-repeat 50%;
             background-size: 280%;
         }
+
         .footer-1-bgi:before,
         .footer-1-bgi:after {
             position: absolute;
@@ -591,6 +687,7 @@
             width: 100%;
             left: 0;
         }
+
         .footer-1-bgi:before {
             top: 0;
             height: 25px;
@@ -598,17 +695,20 @@
             background-size: 100%;
             z-index: 1;
         }
+
         .footer-1-bgi:after {
             bottom: 0;
             height: 100%;
-            background: rgba(0,0,0,0.85);
+            background: rgba(0, 0, 0, 0.85);
         }
+
         .footer-1 {
             padding: 30px 0;
             text-align: center;
             position: relative;
             z-index: 1;
         }
+
         .footer-1 h2 {
             font-family: 'SofiaProBold', sans-serif;
             line-height: 24px;
@@ -616,6 +716,7 @@
             letter-spacing: -1px;
             color: white;
         }
+
         .footer-1 p {
             width: 240px;
             margin: 25px auto 20px;
@@ -623,23 +724,28 @@
             font-family: 'Hind', sans-serif;
             color: rgba(255, 255, 255, 0.5);
         }
+
         .footer-1 .button-style-1 {
             margin-top: 5px;
             padding: 20px 45px;
         }
+
         .footer-2-bgc {
             background-color: #000;
         }
+
         .footer-2 {
             text-align: center;
             padding: 10px 0;
         }
+
         .footer-2 h3 {
             color: white;
             font-size: 18px;
             font-family: 'SofiaProBold', sans-serif;
             letter-spacing: 1px;
         }
+
         .footer-2 p,
         .footer-2 a {
             color: #989898;
@@ -647,37 +753,46 @@
             font-size: 13px;
             letter-spacing: 1px;
         }
+
         .footer-2 p {
             margin: 20px 0;
         }
+
         .footer-2 a {
             margin: 0 10px;
         }
+
         .footer-2 a:hover,
         .footer-3 a:hover {
             color: #fff;
         }
+
         .footer-3-bgc {
             background-color: rgb(33, 34, 36);
         }
+
         .footer-3 {
             text-align: center;
             padding: 20px 0;
         }
+
         .footer-3 ul {
             margin-top: 15px;
             display: inline-block;
         }
+
         .footer-3 span,
         .footer-3 li,
         .footer-3 a {
-            color: rgb(140,140,140);
+            color: rgb(140, 140, 140);
             font-size: 12px;
             font-family: 'Montserrat', sans-serif;
         }
+
         .footer-3 li {
             float: left;
         }
+
         .layer-1,
         .layer-2,
         .layer-3,
@@ -782,7 +897,8 @@
     <div class="box box-2">
         <a href="./amp/expertise/expertise_mobile_applications.amp.html">
             <div class="image">
-                <amp-img src="images/layer_3_mobile_applications.png" alt="applications" width="38" height="50"></amp-img>
+                <amp-img src="images/layer_3_mobile_applications.png" alt="applications" width="38"
+                         height="50"></amp-img>
             </div>
             <div class="info">
                 <h3>Mobile Applications</h3>
@@ -961,39 +1077,59 @@
 </div>
 
 <div class="layer-6 clearfix">
-    <h2>Industries</h2>
+    <a href="./amp/industries/industries_main.amp.html">
+        <h2>Industries</h2>
+    </a>
     <div class="box small-box grey-bgc">
-        <span>Multimedia</span>
+        <a class="fill-div" href="./amp/industries/industries_multimedia.amp.html">
+            <span>Multimedia</span>
+        </a>
     </div>
     <div class="box big-box dark-blue-bgc no-border-right">
-        <span>Mobile Applications</span>
+        <a class="fill-div" href="./amp/industries/industries_mobile_applications.amp.html">
+            <span>Mobile Applications</span>
+        </a>
     </div>
     <div class="box box-3 big-box blue-bgc">
-        <span>Cloud Solutions</span>
+        <a class="fill-div" href="./amp/industries/industries_cloud_solutions.amp.html">
+            <span>Cloud Solutions</span>
+        </a>
     </div>
     <div class="box small-box grey-bgc no-border-right">
-        <span>High-Tech Startups</span>
+        <a class="fill-div" href="./amp/industries/industries_high_tech_sturtups.amp.html">
+            <span>High-Tech Startups</span>
+        </a>
     </div>
     <div class="box medium-box blue-bgc">
-        <span>Telecommunication</span>
+        <a class="fill-div" href="./amp/industries/industries_telecommunication.amp.html">
+            <span>Telecommunication</span>
+        </a>
     </div>
     <div class="box small-box dark-blue-bgc no-border-right">
-        <span>Web Server/<br>Client applications</span>
+        <a class="fill-div" href="./amp/industries/industries_web_server_client_applications.amp.html">
+            <span>Web Server/<br>Client applications</span>
+        </a>
     </div>
     <div class="box medium-box dark-blue-bgc">
-        <span>Software & IT</span>
+        <a class="fill-div" href="./amp/industries/industries_software_and_it.amp.html">
+            <span>Software & IT</span>
+        </a>
     </div>
     <div class="box box-8 big-box blue-bgc no-border-right">
-        <span>E-Commerce</span>
+        <a class="fill-div" href="./amp/industries/industries_e_commerce.amp.html">
+            <span>E-Commerce</span>
+        </a>
     </div>
 </div>
 
 <div class="layer-7">
+    <div class="client-box" >
         <h2>
             <a href="./amp/clients/clients.amp.html">
                 Our Clients
             </a>
         </h2>
+    </div>
     <amp-carousel height="59"
                   layout="fixed-height"
                   loop
@@ -1212,10 +1348,14 @@
                 </li>
                 <li>
                     <p>
-                        <a href="https://www.facebook.com/SmartexeLtd" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/smartexe_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="http://il.linkedin.com/company/smart-exe-ltd-" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="https://plus.google.com/113977124895490903672" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/SmartexeLtd" target="_blank"><i class="fa fa-facebook"
+                                                                                          aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/smartexe_" target="_blank"><i class="fa fa-twitter"
+                                                                                   aria-hidden="true"></i></a>
+                        <a href="http://il.linkedin.com/company/smart-exe-ltd-" target="_blank"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://plus.google.com/113977124895490903672" target="_blank"><i
+                                class="fa fa-google-plus" aria-hidden="true"></i></a>
                     </p>
                 </li>
             </ul>
