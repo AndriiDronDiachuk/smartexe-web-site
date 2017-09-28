@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
@@ -241,7 +242,7 @@
             position: relative;
             border-bottom: 1px solid rgb(204, 204, 204);
             margin-right: 40px;
-            margin-bottom: 60px;
+            margin-bottom: 20px;
             width: 185px;
             float: left;
             box-sizing: border-box;
@@ -454,12 +455,10 @@
             margin-bottom: 20px;
         }
 
-        /*.category-google-map {
-            width: 100%;
-            margin-bottom: 25px;
-        }*/
-
-        /**/
+        .input-fields .input-item input,
+        .input-fields .input-item input:focus {
+            outline: none;
+        }
 
         .footer-1-bgi:before,
         .footer-1-bgi:after {
@@ -703,31 +702,22 @@
                 <form id="contact-us-form">
                     <div class="input-fields">
                         <div class="input-item">
-                            <label class="input-label" for="name">Name *</label>
-                            <input id="name" data-validation-error-msg="Field Name is required" name="name" type="text"
-                                   data-validation="length" data-validation-length="min1" class="input-text"/>
+                            <input placeholder="Name *" type="text" class="input-text" required pattern="[A-Za-z]{1,}"/>
                         </div>
-                        <div class="input-item phone-input">
-                            <label class="input-label" for="phone">Phone *</label>
-                            <input id="phone" data-validation-error-msg="Please, fill the correct phone number"
-                                   name="phone" type="tel" data-validation="number" class="input-text"/>
+                        <div class="input-item">
+                            <input placeholder="Phone *" type="tel" class="input-text" required pattern="\d{3}[\-]\d{3}[\-]\d{4}"/>
                         </div>
                         <div class="input-item email-input">
-                            <label class="input-label" for="email">Email *</label>
-                            <input id="email" data-validation-error-msg="Please, fill the correct email address"
-                                   name="email" type="text" data-validation="email" class="input-text"/>
+                            <input placeholder="Email *" type="email" class="input-text" required/>
                         </div>
                         <div class="input-item">
-                            <label class="input-label" for="company_name">Company Name</label>
-                            <input id="company_name" type="text" class="input-text"/>
+                            <input placeholder="Company Name" type="text" class="input-text"/>
                         </div>
                         <div class="input-item">
-                            <label class="input-label" for="title">Title</label>
-                            <input id="title" type="text" class="input-text"/>
+                            <input placeholder="Title" type="text" class="input-text"/>
                         </div>
                         <div class="input-item message-input">
-                            <label class="input-label" for="message">Message</label>
-                            <textarea id="message" class='input-text autoExpand' rows='1' data-min-rows='1'></textarea>
+                            <input placeholder='Message' type="text" class='input-text autoExpand'/>
                         </div>
                     </div>
                     <div class="button clearfix">
