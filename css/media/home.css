@@ -550,18 +550,34 @@
 
     /* CAROUSEL */
     .carousel {
-        height: 205px;
+        height: 195px;
+    }
+    .carousel div {
+        height: 195px;
     }
     .carousel:before {
         height: 25px;
         background: url(../../images/carousel_mobile_layer.png) no-repeat 50% 0;
+        background-size: auto;
+        bottom: -9px;
+    }
+    .carousel .carousel-img-1,
+    .carousel .carousel-img-2,
+    .carousel .carousel-img-3 {
+        background: url(../../images/carousel_bgi.jpg) no-repeat 50%;
         background-size: 100%;
+    }
+    .unslider {
+        overflow: hidden;
+    }
+    .unslider-nav {
+        bottom: -4px;
     }
     .unslider-arrow {
         display: none;
     }
     .under-block {
-        padding-top: 40px;
+        padding-top: 45px;
     }
     .under-block span {
         font-size: 13px;
@@ -575,7 +591,7 @@
     .under-block i {
         display: block;
     }
-    .under-block .button-style-1 {
+    .under-block a {
         display: none;
     }
 
@@ -860,5 +876,24 @@
     }
     .layer-7 .client-box {
         margin-right: 25px;
+    }
+
+    /* FOOTER */
+    .footer-1:before {
+        display: none;
+    }
+    .footer-1 .row {
+        position: relative;
+    }
+    .footer-1 .row:after {
+        position: absolute;
+        top: -37px;
+        left: 0;
+        content: '';
+        background: url("../../images/mobile_sharp_line.png") no-repeat 50% 100%;
+        background-size: 100%;
+        width: 95%;
+        height: 15px;
+        z-index: 1;
     }
 }
