@@ -426,6 +426,27 @@
     left: 0;
     background-color: #ffffff;
 }
+.layer-5 .text span {
+    display: inline-block;
+    position: relative;
+}
+.layer-5 #spincrement-project-completed {
+    width: 70px;
+}
+.layer-5 #spincrement-years-of-experience {
+    width: 35px;
+}
+.layer-5 #spincrement-clients {
+    width: 55px;
+}
+.layer-5 .text span:after {
+    content: '+';
+    position: absolute;
+    top: 0;
+    right: -25px;
+    font-size: 35px;
+
+}
 
 /* LAYER-6 */
 .layer-6 {
