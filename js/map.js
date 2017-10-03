@@ -4,10 +4,6 @@ function initMap() {
         zoom: 17,
         center: uluru,
         disableDefaultUI: true
-        /*draggable: false,
-        zoomControl: false,
-        scrollwheel: false,*/
-        /*disableDoubleClickZoom: true*/
     });
     var marker = new google.maps.Marker({
         clickable: true,
@@ -23,21 +19,8 @@ function initMap() {
     var infowindow = new google.maps.InfoWindow({
         content: contentString
     });
-    marker.setIcon({url:'../images/map_marker.png', size: new google.maps.Size(55, 70)});
+    marker.setIcon({url:'../../images/map_marker.png', size: new google.maps.Size(55, 70)});
     marker.addListener('click', function() {
         infowindow.open(map, marker);
     });
-
-    /*var image = {
-        url: '../images/map_marker.svg',
-        // This marker is 20 pixels wide by 32 pixels high.
-        size: new google.maps.Size(55, 70),
-        // The origin for this image is (0, 0).
-        origin: new google.maps.Point(0, 0),
-        // The anchor for this image is the base of the flagpole at (0, 32).
-        anchor: new google.maps.Point(0, 70),
-        //scale,
-        scaledSize: new google.maps.Size(55, 70)
-    };*/
-
 }
