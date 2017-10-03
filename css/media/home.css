@@ -1,16 +1,32 @@
 @media screen and (max-width: 2559px) {
 
     .carousel {
-        height: 900px;
+        height: 925px;
     }
     .carousel div {
-        height: 900px;
+        height: 925px;
     }
     .under-block {
-        padding-top: 325px;
+        padding-top: 350px;
     }
     .social {
-        top: 350px;
+        top: 360px;
+    }
+}
+
+@media screen and (max-width: 2199px) {
+
+    .carousel {
+        height: 850px;
+    }
+    .carousel div {
+        height: 850px;
+    }
+    .under-block {
+        padding-top: 300px;
+    }
+    .social {
+        top: 325px;
     }
 }
 
@@ -561,10 +577,16 @@
         background-size: auto;
         bottom: -9px;
     }
-    .carousel .carousel-img-1,
-    .carousel .carousel-img-2,
-    .carousel .carousel-img-3 {
+    .carousel .carousel-img-1 {
         background: url(../../images/index_top_carousel/carousel_bgi_1.jpg) no-repeat 50%;
+        background-size: 100%;
+    }
+    .carousel .carousel-img-2 {
+        background: url(../../images/index_top_carousel/carousel_bgi_2.jpg) no-repeat 50%;
+        background-size: 100%;
+    }
+    .carousel .carousel-img-3 {
+        background: url(../../images/index_top_carousel/carousel_bgi_3.jpg) no-repeat 50%;
         background-size: 100%;
     }
     .unslider {
@@ -679,6 +701,10 @@
         width: 55px;
         max-width: 55px;
         max-height: 55px;
+    }
+    .layer-2 .image img {
+        max-width: 50px;
+        max-height: 50px;
     }
     .layer-2 .block-5 h3 {
         margin-top: 20px;

@@ -36,19 +36,17 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.carousel .carousel-img-1,
-.carousel .carousel-img-2,
-.carousel .carousel-img-3 {
-    background-position-y: 45%;
-}
 .carousel .carousel-img-1 {
     background-image: url(../images/index_top_carousel/carousel_bgi_1.jpg);
+    background-position-y: 45%;
 }
 .carousel .carousel-img-2 {
     background-image: url(../images/index_top_carousel/carousel_bgi_2.jpg);
+    background-position-y: 25%;
 }
 .carousel .carousel-img-3 {
     background-image: url(../images/index_top_carousel/carousel_bgi_3.jpg);
+    background-position-y: 50%;
 }
 .under-block {
     position: absolute;
@@ -144,6 +142,10 @@
 }
 .layer-2 .image {
     height: 74px;
+}
+.layer-2 .image img {
+    max-width: 74px;
+    max-height: 74px;
 }
 .layer-2 h3 {
     font-family: 'SofiaProBlack', sans-serif;
