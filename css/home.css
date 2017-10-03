@@ -36,17 +36,19 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.carousel .carousel-img-1 {
-    background-image: url(../images/carousel_bgi.jpg);
+.carousel .carousel-img-1,
+.carousel .carousel-img-2,
+.carousel .carousel-img-3 {
     background-position-y: 45%;
+}
+.carousel .carousel-img-1 {
+    background-image: url(../images/index_top_carousel/carousel_bgi_1.jpg);
 }
 .carousel .carousel-img-2 {
-    background-image: url(../images/carousel_bgi.jpg);
-    background-position-y: 45%;
+    background-image: url(../images/index_top_carousel/carousel_bgi_2.jpg);
 }
 .carousel .carousel-img-3 {
-    background-image: url(../images/carousel_bgi.jpg);
-    background-position-y: 45%;
+    background-image: url(../images/index_top_carousel/carousel_bgi_3.jpg);
 }
 .under-block {
     position: absolute;
