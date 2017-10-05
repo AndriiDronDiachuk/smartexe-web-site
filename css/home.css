@@ -37,15 +37,15 @@
     background-repeat: no-repeat;
 }
 .carousel .carousel-img-1 {
-    background-image: url(../images/index_top_carousel/carousel_bgi_1.jpg);
+    background-image: url(../images/main_carousel/carousel_bgi_1.jpg);
     background-position-y: 45%;
 }
 .carousel .carousel-img-2 {
-    background-image: url(../images/index_top_carousel/carousel_bgi_2.jpg);
+    background-image: url(../images/main_carousel/carousel_bgi_2.jpg);
     background-position-y: 25%;
 }
 .carousel .carousel-img-3 {
-    background-image: url(../images/index_top_carousel/carousel_bgi_3.jpg);
+    background-image: url(../images/main_carousel/carousel_bgi_3.jpg);
     background-position-y: 50%;
 }
 .under-block {
