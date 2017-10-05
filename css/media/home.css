@@ -646,7 +646,7 @@
     .layer-2 .image {
         height: 50px;
     }
-    .layer-2 img {
+    .layer-2 .image svg {
         max-height: 50px;
         max-width: 50px;
     }
@@ -693,18 +693,18 @@
         top: -41px;
         left: -344px;
     }
+    .layer-2 .image svg {
+        max-width: 50px;
+        max-height: 50px;
+    }
     .layer-2 .block-5 .image,
-    .layer-2 .block-5 img {
+    .layer-2 .block-5 svg {
         height: 55px;
     }
-    .layer-2 .block-5 img {
+    .layer-2 .block-5 svg {
         width: 55px;
         max-width: 55px;
         max-height: 55px;
-    }
-    .layer-2 .image img {
-        max-width: 50px;
-        max-height: 50px;
     }
     .layer-2 .block-5 h3 {
         margin-top: 20px;
