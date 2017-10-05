@@ -42,11 +42,11 @@
 }
 .carousel .carousel-img-2 {
     background-image: url(../images/main_carousel/carousel_bgi_2.jpg);
-    background-position-y: 25%;
+    background-position-y: 0;
 }
 .carousel .carousel-img-3 {
     background-image: url(../images/main_carousel/carousel_bgi_3.jpg);
-    background-position-y: 50%;
+    background-position-y: 0;
 }
 .under-block {
     position: absolute;
@@ -143,9 +143,14 @@
 .layer-2 .image {
     height: 74px;
 }
-.layer-2 .image img {
+.layer-2 .image svg {
     max-width: 74px;
     max-height: 74px;
+}
+.layer-2 .image svg path,
+.layer-2 .image svg rect,
+.layer-2 .image svg polygon {
+    fill: #4b8e97;
 }
 .layer-2 h3 {
     font-family: 'SofiaProBlack', sans-serif;

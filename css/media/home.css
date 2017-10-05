@@ -17,16 +17,16 @@
 @media screen and (max-width: 2199px) {
 
     .carousel {
-        height: 850px;
+        height: 800px;
     }
     .carousel div {
-        height: 850px;
+        height: 800px;
     }
     .under-block {
-        padding-top: 300px;
+        padding-top: 275px;
     }
     .social {
-        top: 325px;
+        top: 300px;
     }
 }
 
