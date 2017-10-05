@@ -147,6 +147,12 @@ header {
     background-color: #000;
     transition: 0.5s;
 }
+.navigation li a.active {
+    cursor: default;
+}
+.navigation li a.active span {
+    width: 100%;
+}
 .navigation li a:hover span {
     width: 100%;
 }
