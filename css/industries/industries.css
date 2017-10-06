@@ -31,6 +31,7 @@
     background-origin: initial;
     background-clip: initial;
     background-size: 90%;
+    height: 375px;
 }
 .category-label-2-block .label-block {
     padding: 0 75px 0 20px;
