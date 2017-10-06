@@ -4,6 +4,9 @@
     }
 }
 @media screen and (max-width: 1199px) {
+    .need-bottom-margin {
+        margin-bottom: 0;
+    }
     .category-label-2-block {
         margin: 30px 0 50px 0;
     }
@@ -29,7 +32,7 @@
         margin: 25px 0;
     }
     .category-label-2-block {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .category-label-2-block .label-block {
         font-size: 12px;
@@ -39,6 +42,9 @@
     }
 }
 @media screen and (max-width: 767px) {
+    .layer-12 {
+        margin-bottom: 30px;
+    }
     .industries-body .layer-6 {
         margin: 10px 0 30px;
     }

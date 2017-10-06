@@ -21,7 +21,7 @@
     font-weight: 700;
 }
 .category-label-2-block {
-    margin: 50px 0 120px 0;
+    margin: 50px 0 30px 0;
 }
 .category-label-2-block .picture-block {
     background: url(../../images/industries/industries.png) no-repeat;
@@ -47,4 +47,12 @@ a.fill-div {
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+
+.layer-12 {
+    margin-bottom: 80px;
+}
+
+.need-bottom-margin {
+    margin-bottom: 80px;
 }
