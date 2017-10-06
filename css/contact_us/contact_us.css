@@ -9,6 +9,9 @@
     font-weight: bold;
     margin: 5px 0;
 }
+.category-send-message-block .left-labels a {
+    color: #2e8390;
+}
 .category-send-message-block .left-labels span {
     font-weight: normal;
 }
@@ -64,6 +67,15 @@
 .category-send-message-block .message-input {
     width: 100%;
     margin-bottom: 0;
+}
+
+.category-send-message-block .message-input {
+    min-height: 28px;
+}
+.category-send-message-block .autoExpand {
+    padding-top: 1px;
+    margin-top: 7px;
+    margin-bottom: -7px;
 }
 
 /* SEND MESSAGE BLOCK, MESSAGE INPUT */
