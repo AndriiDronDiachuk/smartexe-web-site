@@ -1,5 +1,5 @@
 $(document).ready(function ($) {
-
+    $('.input-item .input-text').val('');
     $.validate({
         form: '#contact-us-form',
         scrollToTopOnError: false,
@@ -25,15 +25,12 @@ $(document).ready(function ($) {
             if ($(this).val().length === 0) {
                 $(label).css('top', '-20px');
             }
-
         })
         .on('focusout', function () {
             var label = "label[for=" + $(this).attr('id') + "]";
             $(label).parent().removeClass('be-blue');
             if ($(this).val().length === 0) {
-
                 $(label).css('top', '0');
             }
-        })
-
+        });
 });
