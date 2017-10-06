@@ -14,7 +14,7 @@ function initMap() {
         '<h3>ISRAEL</h3>'+
         '<p>23, Bar Kochva st., 7th Floor, Bney Brak, Israel</p>'+
         '<p>+972-3-6133886</p>'+
-        '<a class="marker-mail" href="mailto:info.west.europe@smartexe.com" target="_blank" style="color: #2e8390;">info@smartexe.com</a>';
+        '<strong><a class="marker-mail" href="mailto:info.west.europe@smartexe.com" target="_blank" style="color: #000;">info@smartexe.com</a></strong>';
 
     var infowindow = new google.maps.InfoWindow({
         content: contentString
