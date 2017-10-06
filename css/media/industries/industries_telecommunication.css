@@ -1,0 +1,35 @@
+@media screen and (max-width: 1899px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+    .telecommunication .button-style-3:before {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .telecommunication .button-style-3:before {
+        right: 30px;
+        width: 263px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .telecommunication .button-style-3 {
+        width: 160px;
+        line-height: 15px;
+    }
+    .telecommunication .button-style-3:before {
+        right: 38px;
+        width: 113px;
+        bottom: 12px;
+    }
+    .telecommunication .button-style-3:after {
+        height: 54px;
+        line-height: 65px;
+    }
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width: 1899px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+    .e-commerce .button-style-3:before {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .e-commerce .button-style-3:before {
+        width: 181px;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .e-commerce .button-style-3:before {
+        width: 181px;
+        right: 16px;
+    }
+}
