@@ -128,27 +128,27 @@
                     <div class="input-fields">
                         <div class="input-item">
                             <label class="input-label" for="name">Name *</label>
-                            <input id="name" data-validation-error-msg="Field Name is required" name="name" type="text" data-validation="length" data-validation-length="min1" class="input-text"/>
+                            <input maxlength="80" id="name" data-validation-error-msg="Field Name is required" name="name" type="text" data-validation="length" data-validation-length="min1" class="input-text"/>
                         </div>
                         <div class="input-item phone-input">
                             <label class="input-label" for="phone">Phone *</label>
-                            <input id="phone" data-validation-error-msg="Please, fill the correct phone number" name="phone" type="tel" data-validation="number" class="input-text"/>
+                            <input maxlength="15" id="phone" data-validation-error-msg="Please, fill the correct phone number" name="phone" type="tel" data-validation="number" class="input-text"/>
                         </div>
                         <div class="input-item email-input">
                             <label class="input-label" for="email">Email *</label>
-                            <input id="email" data-validation-error-msg="Please, fill the correct email address" name="email" type="text" data-validation="email" class="input-text"/>
+                            <input maxlength="255" id="email" data-validation-error-msg="Please, fill the correct email address" name="email" type="text" data-validation="email" class="input-text"/>
                         </div>
                         <div class="input-item">
                             <label class="input-label" for="company_name">Company Name</label>
-                            <input id="company_name" type="text" class="input-text"/>
+                            <input maxlength="80" id="company_name" type="text" class="input-text"/>
                         </div>
                         <div class="input-item">
                             <label class="input-label" for="title">Title</label>
-                            <input id="title" type="text" class="input-text"/>
+                            <input maxlength="40" id="title" type="text" class="input-text"/>
                         </div>
                         <div class="input-item message-input">
                             <label class="input-label" for="message">Message</label>
-                            <textarea id="message" class='input-text autoExpand' rows='1' data-min-rows='1'></textarea>
+                            <textarea maxlength="1000" id="message" class='input-text autoExpand' rows='1' data-min-rows='1'></textarea>
                         </div>
                     </div>
                     <div class="button clearfix">
