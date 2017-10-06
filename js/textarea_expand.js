@@ -10,4 +10,7 @@ $(document)
         this.rows = minRows;
         rows = Math.ceil((this.scrollHeight - this.baseScrollHeight) / 26);
         this.rows = minRows + rows;
+    })
+    .on("focusout.autoExpand", 'textarea.autoExpand', function () {
+        $(this).scrollTop(0);
     });
