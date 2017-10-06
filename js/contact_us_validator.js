@@ -1,7 +1,7 @@
 $(document).ready(function ($) {
     $('.input-item .input-text').val('');
     $.validate({
-        form: '',
+        form: '#contact-us-form',
         scrollToTopOnError: false,
         onError: function ($form) {
         },
