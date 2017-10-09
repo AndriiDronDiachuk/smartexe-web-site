@@ -1,33 +1,48 @@
 $(document).ready(function ($) {
     $('.input-item .input-text').val('');
-    $.validate({
-        form: '#contact-us-form',
-        scrollToTopOnError: false,
-        onError: function ($form) {
+
+    $('#contact-us-form').validate({
+        rules: {
+            name: {
+                required: true,
+                maxlength: 100
+            },
+            phone: {
+                required: true,
+                number: true,
+                maxlength: 10,
+                minlength: 10
+            },
+            email: {
+                required: true,
+                maxlength: 100
+            }
         },
-        onSuccess: function ($form) {
-        },
-        onValidate: function ($form) {
-        },
-        onElementValidate: function (valid, $el, $form, errorMess) {
+        messages: {
+            name: {
+                required: "This field is required"
+            },
+            phone: {
+                required: "This field is required",
+                maxlength: "Please enter 10 characters",
+                minlength: "Please enter 10 characters"
+            },
+            email: {
+                required: "This field is required"
+            }
         }
     });
-    $('input')
-        .on('beforeValidation', function (value, lang, config) {
-        })
-        .on('validation', function (evt, valid) {
-        });
 
     $('.input-item .input-text')
         .on('focus', function () {
-            var label = "label[for=" + $(this).attr('id') + "]";
+            var label = "label." + $(this).attr('id');
             $(label).parent().addClass('be-blue');
             if ($(this).val().length === 0) {
                 $(label).css('top', '-20px');
             }
         })
         .on('focusout', function () {
-            var label = "label[for=" + $(this).attr('id') + "]";
+            var label = "label." + $(this).attr('id');
             $(label).parent().removeClass('be-blue');
             if ($(this).val().length === 0) {
                 $(label).css('top', '0');

@@ -127,27 +127,36 @@
                 <form id="contact-us-form">
                     <div class="input-fields">
                         <div class="input-item">
-                            <label class="input-label" for="name">Name *</label>
-                            <input maxlength="80" id="name" data-validation-error-msg="Field Name is required" name="name" type="text" data-validation="length" data-validation-length="min1" class="input-text"/>
+                            <label class="input-label name" for="name">Name *</label>
+                            <input id="name"
+                                   name="name"
+                                   type="text"
+                                   class="input-text"/>
                         </div>
-                        <div class="input-item phone-input">
-                            <label class="input-label" for="phone">Phone *</label>
-                            <input maxlength="15" id="phone" data-validation-error-msg="Please, fill the correct phone number" name="phone" type="tel" data-validation="number" class="input-text"/>
+                        <div class="input-item phone-input phone">
+                            <label class="input-label phone" for="phone">Phone *</label>
+                            <input id="phone"
+                                   name="phone"
+                                   type="text"
+                                   class="input-text"/>
                         </div>
-                        <div class="input-item email-input">
-                            <label class="input-label" for="email">Email *</label>
-                            <input maxlength="255" id="email" data-validation-error-msg="Please, fill the correct email address" name="email" type="text" data-validation="email" class="input-text"/>
+                        <div class="input-item email-input email">
+                            <label class="input-label email" for="email">Email *</label>
+                            <input id="email"
+                                   name="email"
+                                   type="email"
+                                   class="input-text"/>
                         </div>
                         <div class="input-item">
-                            <label class="input-label" for="company_name">Company Name</label>
+                            <label class="input-label company_name" for="company_name">Company Name</label>
                             <input maxlength="80" id="company_name" type="text" class="input-text"/>
                         </div>
                         <div class="input-item">
-                            <label class="input-label" for="title">Title</label>
+                            <label class="input-label title" for="title">Title</label>
                             <input maxlength="40" id="title" type="text" class="input-text"/>
                         </div>
                         <div class="input-item message-input">
-                            <label class="input-label" for="message">Message</label>
+                            <label class="input-label message" for="message">Message</label>
                             <textarea maxlength="1000" id="message" class='input-text autoExpand' rows='1' data-min-rows='1'></textarea>
                         </div>
                     </div>
@@ -257,7 +266,7 @@
 
 <script src="../../libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<script src="../../libs/jquery-validation/jquery.validate.min.js"></script>
 <script src="../../js/map.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC07mHWUVrb7Xvg8gaoNYS_sYOeai3mKgA&callback=initMap"></script>
 <script src="../../js/common.js"></script>
