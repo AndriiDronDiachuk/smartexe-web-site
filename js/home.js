@@ -33,7 +33,7 @@ $(document).ready(function ($) {
         numberTop = numbers.getBoundingClientRect().top;
 
     window.addEventListener('scroll', function onScroll() {
-        if(window.pageYOffset > numberTop - window.innerHeight * 0.5) {
+        if(window.pageYOffset > numberTop - window.innerHeight * 0.75) {
             this.removeEventListener('scroll', onScroll);
 
             $("#spincrement-project-completed").spincrement({

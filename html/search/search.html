@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>SmartExe - Cloud Solutions</title>
+    <meta charset="utf-8"/>
+    <title>SmartExe - Search</title>
     <meta http-equiv="Content-Type" content="text/html;">
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--<link rel="amphtml" href="../../amp/expertise/expertise_main.amp.html">-->
     <link rel="shortcut icon" href="../../images/favicon.ico"/>
-    <link rel="amphtml" href="../../amp/industries/industries_cloud_solutions.amp.html">
+
     <link rel="stylesheet" href="../../css/flexboxgrid.css"/>
     <link rel="stylesheet" href="../../css/fonts.css"/>
     <link rel="stylesheet" href="../../libs/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="../../libs/unslider-master/unslider.css">
-    <link rel="stylesheet" href="../../libs/unslider-master/unslider-dots.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+
     <link rel="stylesheet" href="../../css/main.css"/>
     <link rel="stylesheet" href="../../css/home.css"/>
-    <link rel="stylesheet" href="../../css/industries/industries_main.css"/>
-    <link rel="stylesheet" href="../../css/industries/industries_cloud_solutions.css"/>
+    <link rel="stylesheet" href="../../css/sitemap/sitemap.css"/>
+    <link rel="stylesheet" href="../../css/search/search.css"/>
+
     <link rel="stylesheet" href="../../css/media/main.css"/>
     <link rel="stylesheet" href="../../css/media/home.css"/>
-    <link rel="stylesheet" href="../../css/media/industries/industries_main.css"/>
-    <link rel="stylesheet" href="../../css/media/industries/industries_cloud_solutions.css"/>
+    <link rel="stylesheet" href="../../css/media/search/search.css"/>
 </head>
-<body class="cloud-solution">
+<body class="expertise">
 
 <header class="clearfix">
     <div class="container">
@@ -207,7 +207,7 @@
                     <a href="../contact_us/contact_us.html">Contact Us <span></span></a>
                 </li>
                 <li>
-                    <a href="../search/search.html">
+                    <a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                             <defs>
                                 <style>
@@ -226,34 +226,22 @@
     </div>
 </header>
 
-<div class="container">
-    <div class="category-img-block">
-        <div class="category-under-block">
-            <div class="need_to_center">
-                <p><a href="../../index.html">Home</a> > <a href="industries_main.html">Industries</a> > Cloud Solutions</p>
-                <h1>Cloud Solutions</h1>
+<div class="search">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <form>
+                    <input id="search-input" type="text" placeholder="Enter your keywords">
+                    <button id="search-button" class="button-style-1 disabled-button">
+                        Search
+                        <span class="first"></span>
+                        <span class="second"></span>
+                    </button>
+                </form>
             </div>
-        </div>
-    </div>
-</div>
-<div class="layer-1 container need-bottom-margin">
-    <div class="row">
-        <div class="category-label-1-block">
-            It seems you just can’t get away from this term. In fact, you’ve probably seen us talking about it all over
-            this website; we only hope you realize how committed we are to this technology.
-        </div>
-        <div class="category-label-2-block row">
-            <div class="picture-block col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12"></div>
-            <div class="label-block col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <p>If you’re looking to join the cloud, you’ve chosen a great starting point. The cloud provides a
-                    refreshing new way to access and control data, programs, and even remote workstations. You’ll also
-                    find a few other fringe benefits: efficiency, and cost savings. The majority of cloud-based
-                    providers charge on a pay-per-use structure, which will save you significant licensing and hardware
-                    fees.
-                </p>
-                <p>Even if you’re just looking to dip your toes into the growing cloud-based internet pool, we’ll hold
-                    your hand. You’ve got unique needs, we’ve got unique solutions.
-                </p>
+            <div class="col-xs-12">
+                <div id="search-result-title"></div>
+                <div id="search-result"></div>
             </div>
         </div>
     </div>
@@ -297,15 +285,15 @@
                 </ul>
                 <ul class="col-md-2 col-sm-3">
                     <li class="label-name">Expertise</li>
-                    <li><a href="../expertise/expertise_web_development.html">Web</a></li>
-                    <li><a href="../expertise/expertise_mobile_applications.html">Mobile</a></li>
-                    <li><a href="../expertise/expertise_video_audio.html">Video & Audio</a></li>
+                    <li><a href="expertise_web_development.html">Web</a></li>
+                    <li><a href="expertise_mobile_applications.html">Mobile</a></li>
+                    <li><a href="expertise_video_audio.html">Video & Audio</a></li>
                 </ul>
                 <ul class="col-lg-3 col-sm-2">
                     <li class="label-name">&#160;</li>
-                    <li><a href="../expertise/expertise_embedded.html">Embedded</a></li>
-                    <li><a href="../expertise/expertise_games.html">Games</a></li>
-                    <li><a href="../expertise/expertise_qa_technology.html">QA Technology</a></li>
+                    <li><a href="expertise_embedded.html">Embedded</a></li>
+                    <li><a href="expertise_games.html">Games</a></li>
+                    <li><a href="expertise_qa_technology.html">QA Technology</a></li>
                 </ul>
                 <ul class="col-lg-2 col-md-3 col-xs-12">
                     <li class="label-name">Contact Us</li>
@@ -345,5 +333,6 @@
 <script src="../../libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="../../js/common.js"></script>
+<script src="../../js/search.js"></script>
 </body>
 </html>

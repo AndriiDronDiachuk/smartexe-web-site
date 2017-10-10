@@ -79,7 +79,8 @@
 
 /* SEND MESSAGE BLOCK, MESSAGE INPUT */
 
-.input-fields .be-blue {
+.input-fields .be-blue,
+.input-fields .be-blue textarea {
     border-bottom-color: #2e8390;
 }
 .input-fields .has-success {
