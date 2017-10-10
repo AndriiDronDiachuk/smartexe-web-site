@@ -774,16 +774,16 @@
                     <h2>Contact Form</h2>
                     <p>Its now easy to Contact Us</p>
                 </div>
-                <form id="contact-us-form">
+                <form id="contact-us-form" action="#" target="_top">
                     <div class="input-fields">
                         <div class="input-item">
                             <input placeholder="Name *" type="text" class="input-text" required pattern="[A-Za-z]{1,}"/>
                         </div>
                         <div class="input-item">
-                            <input placeholder="Phone *" type="tel" class="input-text" required pattern="\d{3}[\-]\d{3}[\-]\d{4}"/>
-                        </div>
+                            <input required placeholder="Phone *" type="tel" class="input-text"/>
+                        </div><!--pattern="\d{3}[\-]\d{3}[\-]\d{4}"-->
                         <div class="input-item email-input">
-                            <input placeholder="Email *" type="email" class="input-text" required/>
+                            <input required placeholder="Email *" type="email" class="input-text"/>
                         </div>
                         <div class="input-item">
                             <input placeholder="Company Name" type="text" class="input-text"/>
