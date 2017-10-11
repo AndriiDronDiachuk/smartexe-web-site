@@ -1,482 +1,478 @@
 <!DOCTYPE html>
 <html ⚡>
-
-<meta charset="utf-8">
-<title>SmartExe - Web Server/Client Applications</title>
-<link rel="canonical" href="../../html/industries/industries_web_server_client_applications.html">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"
-      integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:300,400,500,600,700" rel="stylesheet">
-<link rel="shortcut icon" href="../../images/favicon.ico"/>
-<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-<script async src="https://cdn.ampproject.org/v0.js"></script>
-<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
-
-<style amp-custom>
-    @font-face {
-        font-family: "SofiaProRegular";
-        src: url("../../fonts/sofiapro/regular/sofia-pro-regular.eot");
-        src: url("../../fonts/sofiapro/regular/sofia-pro-regular.eot?#iefix") format("embedded-opentype"),
-        url("../../fonts/sofiapro/regular/sofia-pro-regular.woff") format("woff"),
-        url("../../fonts/sofiapro/regular/sofia-pro-regular.ttf") format("truetype"),
-        url("../../fonts/sofiapro/regular/sofia-pro-regular.otf") format("opentype");
-        font-style: normal;
-        font-weight: normal;
-    }
-
-    body {
-        font-size: 14px;
-        font-family: 'SofiaProRegular', sans-serif;
-    }
-
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    a {
-        color: #000;
-        text-decoration: none;
-    }
-
-    button {
-        border: none;
-        background-color: transparent;
-        padding: 0;
-    }
-
-    a:hover,
-    a:focus,
-    button:focus {
-        outline: none;
-    }
-
-    .clearfix:after {
-        content: '';
-        display: block;
-        clear: both;
-    }
-
-    .sidebar {
-        width: 100%;
-        background-color: #fff;
-    }
-
-    .sidebar i {
-        position: absolute;
-        font-size: 20px;
-        top: 25px;
-        left: 15px;
-    }
-
-    .sidebar ul {
-        padding: 20px 20px;
-    }
-
-    .sidebar li {
-        padding: 10px 0;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        text-align: center;
-    }
-
-    .sidebar li a {
-        position: relative;
-    }
-
-    .sidebar li a span {
-        position: absolute;
-        content: '';
-        left: 0;
-        bottom: -5px;
-        width: 0;
-        height: 1px;
-        background-color: #000;
-        transition: 0.5s;
-    }
-
-    .sidebar li a:hover span {
-        width: 100%;
-    }
-
-    header {
-        padding: 15px 30px 15px 20px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        box-sizing: border-box;
-        background-color: #fff;
-        z-index: 5;
-    }
-
-    header .logo {
-        float: left;
-    }
-
-    header .button {
-        float: right;
-    }
-
-    header button {
-        color: #468a95;
-        font-size: 24px;
-        margin-top: 8px;
-    }
-    header .image svg .st0{
-        fill:#828792;
-    }
-    header .image svg .st1 {
-        fill: #4C8B95;
-    }
-    header .image svg .st2 {
-        fill: #131314;
-    }
-    header .image svg {
-        height: 43px;
-    }
-
-    .category-img-block {
-        margin-top: 75px;
-        background: url(../../images/category_bgi.png) no-repeat 50% 67%;
-        background-size: 100%;
-        height: 200px;
-        position: relative;
-    }
-
-    .category-img-block:after {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        content: '';
-        background: rgba(0, 127, 118, 0.82);
-        background: -webkit-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
-        background: -o-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
-        background: -moz-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
-        background: linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
-    }
-
-    .category-under-block {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        color: #fff;
-        padding-top: 65px;
-        box-sizing: border-box;
-        z-index: 1;
-    }
-
-    .category-under-block p {
-        margin: 0;
-        letter-spacing: 1px;
-        font-size: 13px;
-    }
-
-    .category-img-block a {
-        color: #fff;
-        text-decoration: underline;
-    }
-
-    .category-under-block h1 {
-        font-size: 34px;
-        font-family: 'SofiaProBlack', sans-serif;
-        margin: 0;
-        letter-spacing: -2px;
-    }
-
-    /* CONTENT */
-
-    .layer-1 {
-        background: url(../../images/map.png) no-repeat;
-        background-position-x: 50%;
-        background-position-y: 30px;
-        background-repeat-x: no-repeat;
-        background-repeat-y: no-repeat;
-        background-attachment: initial;
-        background-origin: initial;
-        background-clip: initial;
-        background-color: rgb(255, 255, 255);
-        background-size: 90%;
-    }
-
-    .category-label-1-block {
-        text-align: center;
-        margin: 80px 50px 25px 50px;
-        font-size: 20px;
-        line-height: 2;
-        font-weight: 700;
-    }
-
-    .category-label-2-block {
-        margin: 50px 0 50px 0;
-    }
-
-    .category-label-2-block .picture-block {
-        background: url(../../images/industries/industries.png) no-repeat;
-        background-color: transparent;
-        background-position-y: center;
-        background-attachment: initial;
-        background-origin: initial;
-        background-clip: initial;
-        background-size: 90%;
-    }
-
-    .category-label-2-block .label-block {
-        padding: 0 18px 0 18px;
-        line-height: 2;
-    }
-
-    .category-label-2-block .label-block p {
-        margin: 20px 0;
-        font-weight: 300;
-    }
-
-    .category-label-1-block {
-        margin: 25px 20px;
-    }
-
-    .category-under-block {
-        padding-top: 0;
-        display: table;
-    }
-
-    .need_to_center {
-        display: table-cell;
-        vertical-align: middle
-    }
-
-    .category-label-2-block .picture-block {
-        background-size: 100%;
-        height: 210px;
-    }
-
-    .category-label-2-block .label-block {
-        text-align: center;
-    }
-
-    .category-label-2-block .label-block p {
-        margin: 15px 0;
-        font-size: 14px;
-    }
-
-    /* BUTTON STYLE */
-
-    .button-style-1 {
-        margin-top: 15px;
-        position: relative;
-        font-family: 'SofiaProRegular', sans-serif;
-        font-size: 13px;
-        text-transform: uppercase;
-        color: #fff;
-        letter-spacing: 1px;
-        padding: 30px 50px;
-        cursor: pointer;
-        transition: 0.5s;
-    }
-
-    .button-style-1 .first:before,
-    .button-style-1 .first:after,
-    .button-style-1 .second:after,
-    .button-style-1 .second:before {
-        position: absolute;
-        content: '';
-        background-color: #fff;
-        z-index: 1;
-        transition: 0.5s;
-    }
-
-    .button-style-1 .first:before {
-        bottom: 0;
-        left: 0;
-        height: 75%;
-        width: 1px;
-        box-shadow: 1px 0 1px #fff;
-    }
-
-    .button-style-1 .first:after {
-        bottom: 0;
-        left: 0;
-        height: 1px;
-        width: 92%;
-        box-shadow: 0 -1px 1px #fff;
-    }
-
-    .button-style-1 .second:before {
-        top: 0;
-        right: 0;
-        height: 75%;
-        width: 1px;
-        box-shadow: -1px 0 1px #fff;
-    }
-
-    .button-style-1 .second:after {
-        top: 0;
-        right: 0;
-        height: 1px;
-        width: 92%;
-        box-shadow: 0 1px 1px #fff;
-    }
-
-    .button-style-1:hover {
-        text-shadow: 0 0 1px #aaa;
-    }
-
-    .button-style-1:hover .first:after,
-    .button-style-2:hover .first:after {
-        left: 8%;
-    }
-
-    .button-style-1:hover .first:before,
-    .button-style-2:hover .first:before {
-        bottom: 25%;
-    }
-
-    .button-style-1:hover .second:after,
-    .button-style-2:hover .second:after {
-        right: 8%;
-    }
-
-    .button-style-1:hover .second:before,
-    .button-style-2:hover .second:before {
-        top: 25%;
-    }
-
-    .footer-1-bgi {
-        position: relative;
-        background: url(../../images/footer_bgi.jpg) no-repeat 50%;
-        background-size: 280%;
-    }
-
-    .footer-1:before,
-    .footer-1-bgi:after {
-        position: absolute;
-        content: '';
-        width: 100%;
-        left: 0;
-    }
-    .footer-1:before {
-        top: -1px;
-        height: 15px;
-        background: url(../../images/mobile_sharp_line.png) no-repeat 0 100%;
-        background-size: 100%;
-        z-index: 1;
-    }
-    .footer-1-bgi:after {
-        bottom: 0;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.85);
-    }
-
-    .footer-1 {
-        padding: 30px 0;
-        text-align: center;
-        position: relative;
-        z-index: 1;
-    }
-
-    .footer-1 h2 {
-        font-family: 'SofiaProBold', sans-serif;
-        line-height: 24px;
-        font-size: 24px;
-        letter-spacing: -1px;
-        color: white;
-    }
-
-    .footer-1 p {
-        width: 240px;
-        margin: 25px auto 20px;
-        font-size: 15px;
-        font-family: 'Hind', sans-serif;
-        color: rgba(255, 255, 255, 0.5);
-    }
-
-    .footer-1 .button-style-1 {
-        margin-top: 5px;
-        padding: 20px 45px;
-    }
-
-    .footer-2-bgc {
-        background-color: #000;
-    }
-
-    .footer-2 {
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    .footer-2 h3 {
-        color: white;
-        font-size: 18px;
-        font-family: 'SofiaProBold', sans-serif;
-        letter-spacing: 1px;
-    }
-
-    .footer-2 p,
-    .footer-2 a {
-        color: #989898;
-        font-family: 'SofiaProRegular', sans-serif;
-        font-size: 13px;
-        letter-spacing: 1px;
-    }
-
-    .footer-2 p {
-        margin: 20px 0;
-    }
-
-    .footer-2 a {
-        margin: 0 10px;
-    }
-
-    .footer-2 a:hover,
-    .footer-3 a:hover {
-        color: #fff;
-    }
-
-    .footer-3-bgc {
-        background-color: rgb(33, 34, 36);
-    }
-
-    .footer-3 {
-        text-align: center;
-        padding: 20px 0;
-    }
-
-    .footer-3 ul {
-        margin-top: 15px;
-        display: inline-block;
-    }
-
-    .footer-3 span,
-    .footer-3 li,
-    .footer-3 a {
-        color: rgb(140, 140, 140);
-        font-size: 12px;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .footer-3 li {
-        float: left;
-    }
-
-    .layer-1,
-    .footer-1,
-    .footer-2,
-    .footer-3 {
-        width: 320px;
-        margin: 0 auto;
-        box-sizing: border-box;
-    }
-</style>
+<head>
+    <meta charset="utf-8">
+    <title>SmartExe - Web Server/Client Applications</title>
+    <link rel="canonical" href="../../html/industries/industries_web_server_client_applications.html">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:300,400,500,600,700" rel="stylesheet">
+    <link rel="shortcut icon" href="../../images/favicon.ico"/>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+
+    <style amp-custom>
+        @font-face {
+            font-family: "SofiaProRegular";
+            src: url("../../fonts/sofiapro/regular/sofia-pro-regular.eot");
+            src: url("../../fonts/sofiapro/regular/sofia-pro-regular.eot?#iefix") format("embedded-opentype"),
+            url("../../fonts/sofiapro/regular/sofia-pro-regular.woff") format("woff"),
+            url("../../fonts/sofiapro/regular/sofia-pro-regular.ttf") format("truetype"),
+            url("../../fonts/sofiapro/regular/sofia-pro-regular.otf") format("opentype");
+            font-style: normal;
+            font-weight: normal;
+        }
+
+        body {
+            font-size: 14px;
+            font-family: 'SofiaProRegular', sans-serif;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+            padding: 0;
+        }
+
+        a:hover,
+        a:focus,
+        button:focus {
+            outline: none;
+        }
+
+        .clearfix:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .sidebar {
+            width: 100%;
+            background-color: #fff;
+        }
+
+        .sidebar i {
+            position: absolute;
+            font-size: 20px;
+            top: 25px;
+            left: 15px;
+        }
+
+        .sidebar ul {
+            padding: 20px 20px;
+        }
+
+        .sidebar li {
+            padding: 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .sidebar li a {
+            position: relative;
+        }
+
+        .sidebar li a span {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: -5px;
+            width: 0;
+            height: 1px;
+            background-color: #000;
+            transition: 0.5s;
+        }
+
+        .sidebar li a:hover span {
+            width: 100%;
+        }
+
+        header {
+            padding: 15px 30px 15px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: #fff;
+            z-index: 5;
+        }
+
+        header .logo {
+            float: left;
+        }
+
+        header .button {
+            float: right;
+        }
+
+        header button {
+            color: #468a95;
+            font-size: 24px;
+            margin-top: 8px;
+        }
+        header .image svg .st0{
+            fill:#828792;
+        }
+        header .image svg .st1 {
+            fill: #4C8B95;
+        }
+        header .image svg .st2 {
+            fill: #131314;
+        }
+        header .image svg {
+            height: 43px;
+        }
+
+        .category-img-block {
+            margin-top: 75px;
+            background: url(../../images/category_bgi.png) no-repeat 50% 67%;
+            background-size: 100%;
+            height: 200px;
+            position: relative;
+        }
+
+        .category-img-block:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: '';
+            background: rgba(0, 127, 118, 0.82);
+            background: -webkit-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+            background: -o-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+            background: -moz-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+            background: linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+        }
+
+        .category-under-block {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            color: #fff;
+            padding-top: 65px;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+        .category-under-block p {
+            margin: 0;
+            letter-spacing: 1px;
+            font-size: 13px;
+        }
+
+        .category-img-block a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .category-under-block h1 {
+            font-size: 34px;
+            font-family: 'SofiaProBlack', sans-serif;
+            margin: 0;
+            letter-spacing: -2px;
+        }
+
+        /* CONTENT */
+
+        .layer-1 {
+            background: url(../../images/map.png) no-repeat;
+            background-position-x: 50%;
+            background-position-y: 30px;
+            background-repeat-x: no-repeat;
+            background-repeat-y: no-repeat;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: rgb(255, 255, 255);
+            background-size: 90%;
+        }
+
+        .category-label-1-block {
+            text-align: center;
+            margin: 55px 20px 25px 20px;
+            font-size: 16px;
+            line-height: 1.7;
+            font-weight: 700;
+        }
+
+        .category-label-2-block {
+            margin: 50px 0;
+        }
+
+        .category-label-2-block .picture-block {
+            background: url(../../images/industries/industries.png) no-repeat;
+            background-color: transparent;
+            background-position-y: center;
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-size: 90%;
+        }
+
+        .category-label-2-block .label-block {
+            padding: 0 18px;
+            line-height: 1.7;
+        }
+
+        .category-label-2-block .label-block p {
+            margin: 20px 0;
+            font-weight: 300;
+        }
+
+        .category-under-block {
+            padding-top: 0;
+            display: table;
+        }
+
+        .need_to_center {
+            display: table-cell;
+            vertical-align: middle
+        }
+
+        .category-label-2-block .picture-block {
+            background-size: 100%;
+            height: 210px;
+        }
+
+        .category-label-2-block .label-block {
+            text-align: center;
+        }
+
+        .category-label-2-block .label-block p {
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+        /* BUTTON STYLE */
+
+        .button-style-1 {
+            margin-top: 15px;
+            position: relative;
+            font-family: 'SofiaProRegular', sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 1px;
+            padding: 30px 50px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        .button-style-1 .first:before,
+        .button-style-1 .first:after,
+        .button-style-1 .second:after,
+        .button-style-1 .second:before {
+            position: absolute;
+            content: '';
+            background-color: #fff;
+            z-index: 1;
+            transition: 0.5s;
+        }
+
+        .button-style-1 .first:before {
+            bottom: 0;
+            left: 0;
+            height: 75%;
+            width: 1px;
+            box-shadow: 1px 0 1px #fff;
+        }
+
+        .button-style-1 .first:after {
+            bottom: 0;
+            left: 0;
+            height: 1px;
+            width: 92%;
+            box-shadow: 0 -1px 1px #fff;
+        }
+
+        .button-style-1 .second:before {
+            top: 0;
+            right: 0;
+            height: 75%;
+            width: 1px;
+            box-shadow: -1px 0 1px #fff;
+        }
+
+        .button-style-1 .second:after {
+            top: 0;
+            right: 0;
+            height: 1px;
+            width: 92%;
+            box-shadow: 0 1px 1px #fff;
+        }
+
+        .button-style-1:hover {
+            text-shadow: 0 0 1px #aaa;
+        }
+
+        .button-style-1:hover .first:after,
+        .button-style-2:hover .first:after {
+            left: 8%;
+        }
+
+        .button-style-1:hover .first:before,
+        .button-style-2:hover .first:before {
+            bottom: 25%;
+        }
+
+        .button-style-1:hover .second:after,
+        .button-style-2:hover .second:after {
+            right: 8%;
+        }
+
+        .button-style-1:hover .second:before,
+        .button-style-2:hover .second:before {
+            top: 25%;
+        }
+
+        .footer-1-bgi {
+            position: relative;
+            background: url(../../images/footer_bgi.jpg) no-repeat 50%;
+            background-size: 280%;
+        }
+
+        .footer-1:before,
+        .footer-1-bgi:after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            left: 0;
+        }
+        .footer-1:before {
+            top: -1px;
+            height: 15px;
+            background: url(../../images/mobile_sharp_line.png) no-repeat 0 100%;
+            background-size: 100%;
+            z-index: 1;
+        }
+        .footer-1-bgi:after {
+            bottom: 0;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+        }
+
+        .footer-1 {
+            padding: 30px 0;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .footer-1 h2 {
+            font-family: 'SofiaProBold', sans-serif;
+            line-height: 24px;
+            font-size: 24px;
+            letter-spacing: -1px;
+            color: white;
+        }
+
+        .footer-1 p {
+            width: 240px;
+            margin: 25px auto 20px;
+            font-size: 15px;
+            font-family: 'Hind', sans-serif;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .footer-1 .button-style-1 {
+            margin-top: 5px;
+            padding: 20px 45px;
+        }
+
+        .footer-2-bgc {
+            background-color: #000;
+        }
+
+        .footer-2 {
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer-2 h3 {
+            color: white;
+            font-size: 18px;
+            font-family: 'SofiaProBold', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        .footer-2 p,
+        .footer-2 a {
+            color: #989898;
+            font-family: 'SofiaProRegular', sans-serif;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+
+        .footer-2 p {
+            margin: 20px 0;
+        }
+
+        .footer-2 a {
+            margin: 0 10px;
+        }
+
+        .footer-2 a:hover,
+        .footer-3 a:hover {
+            color: #fff;
+        }
+
+        .footer-3-bgc {
+            background-color: rgb(33, 34, 36);
+        }
+
+        .footer-3 {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .footer-3 ul {
+            margin-top: 15px;
+            display: inline-block;
+        }
+
+        .footer-3 span,
+        .footer-3 li,
+        .footer-3 a {
+            color: rgb(140, 140, 140);
+            font-size: 12px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .footer-3 li {
+            float: left;
+        }
+
+        .layer-1,
+        .footer-1,
+        .footer-2,
+        .footer-3 {
+            width: 320px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
 <amp-state id="selected">
