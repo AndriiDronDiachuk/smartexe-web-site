@@ -578,15 +578,15 @@
         bottom: -9px;
     }
     .carousel .carousel-img-1 {
-        background: url(../../images/main_carousel/carousel_bgi_1.jpg) no-repeat 50%;
+        background: url(../../images/mobile/carousel_bgi_1.jpg) no-repeat 50%;
         background-size: 100%;
     }
     .carousel .carousel-img-2 {
-        background: url(../../images/main_carousel/carousel_bgi_2.jpg) no-repeat 50%;
+        background: url(../../images/mobile/carousel_bgi_2.jpg) no-repeat 50%;
         background-size: 100%;
     }
     .carousel .carousel-img-3 {
-        background: url(../../images/main_carousel/carousel_bgi_3.jpg) no-repeat 50%;
+        background: url(../../images/mobile/carousel_bgi_3.jpg) no-repeat 50%;
         background-size: 100%;
     }
     .unslider {
