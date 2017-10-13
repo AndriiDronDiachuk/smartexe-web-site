@@ -24,11 +24,13 @@ $(document).ready(function ($) {
             },
             phone: {
                 required: "This field is required",
+                number: "Please enter a valid number",
                 maxlength: "Please enter 10 characters",
                 minlength: "Please enter 10 characters"
             },
             email: {
-                required: "This field is required"
+                required: "This field is required",
+                email: "Please enter a valid email address"
             }
         }
     });
