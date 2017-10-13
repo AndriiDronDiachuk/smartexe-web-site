@@ -165,28 +165,24 @@ textarea{
     left: 0;
     height: 75%;
     width: 1px;
-    box-shadow: 1px 0 1px black;
 }
 .button-style-2 .first:after {
     bottom: 0;
     left: 0;
     height: 1px;
     width: 92%;
-    box-shadow: 0 -1px 1px black;
 }
 .button-style-2 .second:before {
     top: 0;
     right: 0;
     height: 75%;
     width: 1px;
-    box-shadow: -1px 0 1px black;
 }
 .button-style-2 .second:after {
     top: 0;
     right: 0;
     height: 1px;
     width: 92%;
-    box-shadow: 0 1px 1px black;
 }
 .category-send-message-block .button-style-2{
     float: right;
