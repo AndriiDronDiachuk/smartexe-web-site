@@ -20,15 +20,15 @@
     width: 100%;
     background-color: #028f9a;
 }
-.search input {
+.search input[type="text"] {
     /* try fix ios */
-    -webkit-appearance: none;
-    -webkit-border-radius:0;
-    border-radius: 0;
-    box-shadow: none;
-    outline: none;
+    -webkit-appearance: none; !important;
+    -webkit-border-radius:0; !important;
+    @include border-radius(0); !important;
+    box-shadow: none; !important;
+    outline: none; !important;
     /**/
-    border: none;
+    border: none; !important;
     border-bottom: 1px solid #333;
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 14px;
