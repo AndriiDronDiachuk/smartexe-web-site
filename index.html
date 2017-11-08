@@ -25,34 +25,11 @@
     <link rel="stylesheet" href="css/media/main.css"/>
     <link rel="stylesheet" href="css/media/home.css"/>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="http://ip-api.com/json/?fields=country,city&callback=showCity"></script>
     <script>
-        $.getJSON("http://ip-api.com/json/?fields=timezone,countryCode", function (data) {
-//            var phoneNumber;
-                console.log(data);
-//            try {
-//                var countryCode = data.countryCode,
-//                    timezone = data.timezone.split('/')[0];
-//
-//                if (timezone === 'Europe' && countryCode === 'IL') {
-//                    phoneNumber = 'Call Us: +972-3-6133886'; // Israel
-//                }
-//                else if (timezone === 'America') {
-//                    phoneNumber = 'Call Us: +1 (215) 948-8178'; // America
-//                }
-//                else {
-//                    phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
-//                }
-//
-//            } catch (err) {
-//                phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
-//            }
-//
-//            $('#phoneNumber').text(phoneNumber);
-        })
-//            .fail(function (err) {
-//                $('#phoneNumber').text('Call Us: +45-30-48-56-40'); // Europe
-//            });
+        function showCity(o) {
+            alert(o.country + ' - ' + o.city)
+        }
     </script>
 
 </head>
