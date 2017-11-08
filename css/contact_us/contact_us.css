@@ -209,12 +209,36 @@ textarea{
     width: 100%;
     margin-bottom: 25px;
 }
-#map {
+.map {
     height: 420px;
     width: 100%;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    display: none;
+}
+
+.submenu {
+    height: 0;
+    overflow: hidden;  /* <-- Add This */
+    transition: height 300ms ease 0ms;
+}
+
+/* under-map block */
+.map-region .picture {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+.map-region .label {
+    font-size: 14px;
+    float: left;
 }
 .IL {
     display: none;
+}
+
+.category-office-maps-block {
+    margin: 50px auto;
 }
