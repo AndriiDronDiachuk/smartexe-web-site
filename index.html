@@ -25,17 +25,17 @@
     <link rel="stylesheet" href="css/media/main.css"/>
     <link rel="stylesheet" href="css/media/home.css"/>
 
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=en-US" type="text/javascript"></script>
+    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             ymaps.ready(function() {
                 var country = ymaps.geolocation.country;
                 var city = ymaps.geolocation.city;
-                var countryCode = ymaps.geolocation.countryCode;
                 var region = ymaps.geolocation.region;
 
-                console.log( country, city, countryCode, region);
+                console.log( country, city, region);
             });
         });
     </script>
@@ -1305,7 +1305,7 @@
     </div>
 </footer>
 
-<script src="libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+<!--<script src="libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>-->
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script src="libs/unslider-master/unslider-min.js"></script>
 <script src="libs/marquee-master/jquery.marquee.min.js"></script>
