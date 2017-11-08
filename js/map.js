@@ -26,5 +26,5 @@ function initMap() {
 }
 
 $.getJSON("http://ip-api.com/json/?fields=countryCode", function(data) {
-    if (data.countryCode === 'IL') $('#IL').css('display', 'block');
+    if (data.countryCode === 'IL') $('.IL').css('display', 'block');
 });
