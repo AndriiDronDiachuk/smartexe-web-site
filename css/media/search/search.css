@@ -8,18 +8,29 @@
         padding: 0 10px;
         box-sizing: border-box;
     }
+    .search .search-input-div:after {
+        width: 214px;
+    }
+    .search .search-input-div {
+        height: 24px;
+        width: 214px;
+        float: left;
+        padding: 0;
+    }
     .search input {
+        font-size: 16px;
+        padding: 0;
         width: 214px;
         float: left;
     }
     .search .button-style-1 {
         float: left;
         width: 70px;
-        padding: 6px 0;
+        padding: 0;
         margin: 0;
         border-bottom: 1px solid #333;
         text-align: right;
-        font-size: 14px;
+        font-size: 16px;
     }
     .search .button-style-1 span {
         display: none;
