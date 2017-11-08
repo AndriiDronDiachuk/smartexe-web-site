@@ -25,6 +25,6 @@ function initMap() {
     });
 }
 
-// $.getJSON("https://ip-api.com/json/?fields=countryCode", function(data) {
+// $.getJSON("http://ip-api.com/json/?fields=countryCode", function(data) {
 //     if (data.countryCode === 'IL') $('.IL').css('display', 'block');
 // });

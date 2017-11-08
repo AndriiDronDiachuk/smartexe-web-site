@@ -26,17 +26,34 @@
     <link rel="stylesheet" href="css/media/home.css"/>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            ymaps.ready(function() {
-                var country = ymaps.geolocation.country;
-
-                alert(country);
-            });
-        });
+    <script>
+        $.getJSON("http://ip-api.com/json/?fields=timezone,countryCode", function (data) {
+//            var phoneNumber;
+                console.log(data);
+//            try {
+//                var countryCode = data.countryCode,
+//                    timezone = data.timezone.split('/')[0];
+//
+//                if (timezone === 'Europe' && countryCode === 'IL') {
+//                    phoneNumber = 'Call Us: +972-3-6133886'; // Israel
+//                }
+//                else if (timezone === 'America') {
+//                    phoneNumber = 'Call Us: +1 (215) 948-8178'; // America
+//                }
+//                else {
+//                    phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
+//                }
+//
+//            } catch (err) {
+//                phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
+//            }
+//
+//            $('#phoneNumber').text(phoneNumber);
+        })
+//            .fail(function (err) {
+//                $('#phoneNumber').text('Call Us: +45-30-48-56-40'); // Europe
+//            });
     </script>
-
 
 </head>
 <body>
