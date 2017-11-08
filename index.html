@@ -24,6 +24,14 @@
     <link rel="stylesheet" href="css/home.css"/>
     <link rel="stylesheet" href="css/media/main.css"/>
     <link rel="stylesheet" href="css/media/home.css"/>
+
+    <script src="http://ip-api.com/json/?fields=country,city&callback=showCity"></script>
+    <script>
+        function showCity(o) {
+            alert(o.country + ' - ' + o.city)
+        }
+    </script>
+
 </head>
 <body>
 
@@ -1288,14 +1296,6 @@
         </div>
     </div>
 </footer>
-
-<script>
-    function showCity(o) {
-        alert(o.country + ' - ' + o.city)
-    }
-</script>
-<script src="http://ip-api.com/json/?fields=country,city&callback=showCity"></script>
-
 
 <script src="libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
