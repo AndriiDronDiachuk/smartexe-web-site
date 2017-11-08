@@ -25,11 +25,19 @@
     <link rel="stylesheet" href="css/media/main.css"/>
     <link rel="stylesheet" href="css/media/home.css"/>
 
-    <script src="http://ip-api.com/json/?fields=country,city&callback=showCity"></script>
-    <script>
-        function showCity(o) {
-            alert(o.country + ' - ' + o.city)
-        }
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=en-US" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            ymaps.ready(function() {
+                var country = ymaps.geolocation.country;
+                var city = ymaps.geolocation.city;
+                var countryCode = ymaps.geolocation.countryCode;
+                var region = ymaps.geolocation.region;
+
+                console.log( country, city, countryCode, region);
+            });
+        });
     </script>
 
 </head>
