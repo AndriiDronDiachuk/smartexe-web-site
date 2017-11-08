@@ -12,7 +12,7 @@ $(document).ready(function($) {
         $('header').toggleClass('header-shadow');
     });
 
-    $.getJSON("http://ip-api.com/json/?fields=timezone,countryCode", function (data) {
+    $.getJSON("https://ip-api.com/json/?fields=timezone,countryCode", function (data) {
         var phoneNumber;
 
         try {
