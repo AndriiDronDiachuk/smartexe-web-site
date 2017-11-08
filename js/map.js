@@ -97,7 +97,8 @@ $('.div-region').on('click', function () {
             mapIsraelVis = false;
         }
     }
-})
+});
+
 // $.getJSON("http://ip-api.com/json/?fields=countryCode", function(data) {
 //     if (data.countryCode === 'IL') $('.IL').css('display', 'block');
 // });

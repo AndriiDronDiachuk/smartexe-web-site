@@ -30,11 +30,20 @@
     <script type="text/javascript">
         $(document).ready(function () {
             ymaps.ready(function () {
-                var country = ymaps.geolocation.country;
-                var city = ymaps.geolocation.city;
-                var region = ymaps.geolocation.region;
+                var country = ymaps.geolocation.country,
+                    phoneNumber;
 
-                console.log(11111111111111, country, city, region);
+                if (country === 'Israel') {
+                    phoneNumber = 'Call Us: +972-3-6133886'; // Israel
+                }
+                else if (country === 'United States' || country === 'Canada') {
+                    phoneNumber = 'Call Us: +1 (215) 948-8178'; // America or Canada
+                }
+                else {
+                    phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
+                }
+
+                $('#phoneNumber').text(phoneNumber);
             });
         });
     </script>
