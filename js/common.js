@@ -12,13 +12,13 @@ $(document).ready(function($) {
         $('header').toggleClass('header-shadow');
     });
 
-    ymaps.ready(function () {
-        var country = ymaps.geolocation.country;
-        var city = ymaps.geolocation.city;
-        var region = ymaps.geolocation.region;
-
-        console.log(country, city, region);
-    });
+    // ymaps.ready(function () {
+    //     var country = ymaps.geolocation.country;
+    //     var city = ymaps.geolocation.city;
+    //     var region = ymaps.geolocation.region;
+    //
+    //     console.log(11111111111111, country, city, region);
+    // });
 
     // $.getJSON("http://ip-api.com/json/?fields=timezone,countryCode", function (data) {
     //     var phoneNumber;
