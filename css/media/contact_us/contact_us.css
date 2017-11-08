@@ -64,4 +64,21 @@
     #inner {
         display: inline-block;
     }
+
+    /* under-map block */
+    .category-office-maps-block {
+        padding-left: 8px;
+        padding-right: 8px;
+        /*padding-top: 35px;*/
+        margin: 0 auto;
+    }
+    .map-region {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .map-region .label,
+    .map-region .picture {
+        width: 100%;
+    }
 }
