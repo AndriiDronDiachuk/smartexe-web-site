@@ -25,28 +25,13 @@
     <link rel="stylesheet" href="css/media/main.css"/>
     <link rel="stylesheet" href="css/media/home.css"/>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-    <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=en-US" type="text/javascript"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            ymaps.ready(function () {
-                var country = ymaps.geolocation.country,
-                    phoneNumber;
+    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>-->
 
-                if (country === 'Israel') {
-                    phoneNumber = 'Call Us: +972-3-6133886'; // Israel
-                }
-                else if (country === 'United States' || country === 'Canada') {
-                    phoneNumber = 'Call Us: +1 (215) 948-8178'; // America or Canada
-                }
-                else {
-                    phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
-                }
-
-                $('#phoneNumber').text(phoneNumber);
-            });
-        });
-    </script>
+    <!--<script type="text/javascript">-->
+        <!--$(document).ready(function () {-->
+            <!---->
+        <!--});-->
+    <!--</script>-->
 
 </head>
 <body>
@@ -1314,6 +1299,7 @@
 </footer>
 
 <script src="libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=en-US" type="text/javascript"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script src="libs/unslider-master/unslider-min.js"></script>
 <script src="libs/marquee-master/jquery.marquee.min.js"></script>

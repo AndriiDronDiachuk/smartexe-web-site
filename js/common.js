@@ -12,6 +12,25 @@ $(document).ready(function($) {
         $('header').toggleClass('header-shadow');
     });
 
+    ymaps.ready(function () {
+        var country = ymaps.geolocation.country,
+            phoneNumber;
+
+        alert(country);
+
+        if (country === 'Israel') {
+            phoneNumber = 'Call Us: +972-3-6133886'; // Israel
+        }
+        else if (country === 'United States' || country === 'Canada') {
+            phoneNumber = 'Call Us: +1 (215) 948-8178'; // America or Canada
+        }
+        else {
+            phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
+        }
+
+        $('#phoneNumber').text(phoneNumber);
+    });
+
     // $.getJSON("http://ip-api.com/json/?fields=timezone,countryCode", function (data) {
     //     var phoneNumber;
     //
