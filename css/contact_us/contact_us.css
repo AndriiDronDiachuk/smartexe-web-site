@@ -43,9 +43,9 @@
 .category-send-message-block .input-item {
     position: relative;
     border-bottom: 1px solid rgb(204,204,204);
-    margin-right: 40px;
+    margin-right: 2%;
     margin-bottom: 60px;
-    width: 185px;
+    width: 32%;
     float: left;
     box-sizing: border-box;
     display: inline;
