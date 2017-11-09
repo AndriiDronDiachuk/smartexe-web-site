@@ -1,6 +1,7 @@
 .category-send-message-block {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 14px;
+    padding-top: 65px;
 }
 .category-send-message-block .left-labels {
     padding: 15px 0 15px 0;
@@ -23,19 +24,12 @@
     margin: 5px 0;
     font-size: 26px;
 }
-.category-send-message-block {
-    padding: 65px 0 35px 0;
-}
 .category-send-message-block .right-labels .label-1 {
     padding: 28px 0;
 }
 .category-send-message-block .right-labels .label-1 h2 {
     font-size: 26px;
     margin-top: 13px;
-}
-.category-send-message-block {
-    padding-top: 65px;
-    padding-bottom: 45px;
 }
 .category-send-message-block .right-labels .label-1 p {
     margin: 3px 0;
@@ -209,7 +203,11 @@ textarea{
     width: 100%;
     margin-bottom: 25px;
 }
+.category-google-map {
+    padding-top: 100px;
+}
 .map {
+
     height: 420px;
     width: 100%;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -224,6 +222,12 @@ textarea{
 }
 
 /* under-map block */
+
+.map-region {
+
+
+}
+
 .map-region .picture {
     height: 150px;
     width: 150px;
@@ -234,11 +238,18 @@ textarea{
 .map-region .label {
     font-size: 14px;
     float: left;
+    text-align: left;
 }
 .IL {
     display: none;
 }
 
-.category-office-maps-block {
-    margin: 50px auto;
+.category-office-maps-block .label p {
+    font-weight: bold;
+}
+.category-office-maps-block .label a {
+    color: #2e8390;
+}
+.category-office-maps-block .label span {
+    font-weight: normal;
 }

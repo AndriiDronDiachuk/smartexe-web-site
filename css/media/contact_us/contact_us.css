@@ -42,6 +42,9 @@
     .category-send-message-block .right-labels .input-item {
         margin-bottom: 50px;
     }
+    .category-send-message-block .right-labels .message-input {
+        margin-bottom: 25px;
+    }
     .category-send-message-block .right-labels .button-style-2 {
         float: left;
         padding: 15px;
@@ -69,7 +72,6 @@
     .category-office-maps-block {
         padding-left: 8px;
         padding-right: 8px;
-        /*padding-top: 35px;*/
         margin: 0 auto;
     }
     .map-region {
@@ -79,6 +81,13 @@
     }
     .map-region .label,
     .map-region .picture {
+        margin-right: 0;
         width: 100%;
+    }
+    .map-region .label {
+        text-align: center;
+    }
+    .category-google-map {
+        padding-top: 80px;
     }
 }

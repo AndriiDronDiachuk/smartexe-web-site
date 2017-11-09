@@ -41,6 +41,9 @@ $('.div-region').on('click', function () {
             $('.map').css('display', 'block');
             $('.map').removeClass('submenu');
             initMap();
+            $('html, body').animate({
+                scrollTop: $(".category-google-map").offset().top
+            });
             mapIsraelVis = true;
         } else {
             $('.map').addClass('submenu');
@@ -64,6 +67,9 @@ $('.div-region').on('click', function () {
             $('.map').css('display', 'block');
             $('.map').removeClass('submenu');
             initMap();
+            $('html, body').animate({
+                scrollTop: $(".category-google-map").offset().top
+            });
             mapNorthAmericaVis = true;
         } else {
             $('.map').addClass('submenu');
@@ -85,6 +91,9 @@ $('.div-region').on('click', function () {
             $('.map').css('display', 'block');
             $('.map').removeClass('submenu');
             initMap();
+            $('html, body').animate({
+                scrollTop: $(".category-google-map").offset().top
+            });
             mapEuropelVis = true;
         } else {
             $('.map').addClass('submenu');
