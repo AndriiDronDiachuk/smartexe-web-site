@@ -99,6 +99,10 @@ $('.div-region').on('click', function () {
     }
 });
 
-// $.getJSON("http://ip-api.com/json/?fields=countryCode", function(data) {
-//     if (data.countryCode === 'IL') $('.IL').css('display', 'block');
-// });
+ymaps.ready(function () {
+    var country = ymaps.geolocation.country;
+
+    if (country === 'Israel') {
+        $('.IL').css('display', 'block');
+    }
+});
