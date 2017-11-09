@@ -56,8 +56,7 @@
     .footer-2 label {
         letter-spacing: 0;
     }
-    .footer-2 ul:nth-child(3),
-    .footer-2 ul:nth-child(5) {
+    .footer-2 ul:nth-child(3) {
         padding-left: 55px;
     }
 
