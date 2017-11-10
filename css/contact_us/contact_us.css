@@ -244,6 +244,9 @@ textarea{
     display: none;
 }
 
+.category-office-maps-block {
+    margin-bottom: 80px;
+}
 .category-office-maps-block .label p {
     font-weight: bold;
 }

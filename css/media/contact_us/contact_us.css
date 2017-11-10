@@ -3,6 +3,16 @@
 }
 @media screen and (max-width: 1199px) {
 
+    .map-region .picture {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .map-region .label {
+        float: none;
+        text-align: center;
+    }
+
 }
 @media screen and (max-width: 1023px) {
     /* CATEGORY-SEND-MESSAGE-BLOCK */
