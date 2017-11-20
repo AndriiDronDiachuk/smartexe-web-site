@@ -22,8 +22,9 @@
 }
 form div {
     position: relative;
-    display: inline-block;
     width: auto;
+    display: table-cell;
+    vertical-align: bottom;
 }
 .search .search-input-div:after {
     position: absolute;
