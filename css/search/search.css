@@ -41,6 +41,7 @@ form div {
     font-size: 14px;
     font-weight: 300;
     width: 300px;
+    padding: 10px 0;
 }
 .search input::placeholder {
     color: #333;
