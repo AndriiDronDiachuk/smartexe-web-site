@@ -76,6 +76,9 @@
     .service .layer-2 .block-3:before {
         left: -23px;
     }
+    .service .layer-2 .block-3 h3 {
+        letter-spacing: -1px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -107,6 +110,7 @@
     .service .layer-2 .block-6 {
         width: 250px;
     }
+    .service .layer-2 .block-3 h3,
     .service .layer-2 .block-4 h3 {
         margin-left: auto;
         margin-right: auto;
@@ -148,9 +152,18 @@
         font-size: 16px;
         margin-bottom: 0;
     }
+    .service .layer-2 .block-3 h3 {
+        width: 146px;
+        font-size: 16px;
+        margin-bottom: 0;
+        line-height: 20px !important;
+    }
     .service .layer-2 .block-6 h3 {
         width: 125px;
         margin: 25px auto 0;
+    }
+    .service .layer-2 .block-6:after { /*strange line appears*/
+        display: none;
     }
     .service .layer-2 .block-3 h3,
     .service .layer-2 .block-5 h3 {
