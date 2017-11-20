@@ -99,7 +99,7 @@ $(document).ready(function ($) {
         },
 
         '../service/service_development.html': {
-            title: 'Development',
+            title: 'Software Development',
             text: '' +
             'If you need technical help developing a product, you’ve come to the right place. Here at Smart.exe, we’ll help with every phase of the development process, from planning to testing. Whether you’re missing that one developer to help make your dream software a reality, or if you’d rather focus your own talented staff elsewhere, we can provide the expertise you need to finish the job. ' +
             'Specific Services: • Software development: planning, implementation, testing, documentation, and deployment; • Prototyping and Proof of Concept; • Architectural design; • Client-server sites; • Offshore development. ' +

@@ -70,12 +70,21 @@
     margin: 10px 0 20px;
 }
 .social {
-    position: absolute;
-    right: -40px;
-    top: 390px;
+    position: fixed;
+    top: 0;
+    right: 10px;
+    height: 100vh;
+    z-index: 2;
 }
 .social li {
+    border: 1px solid #ccc;
     margin-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
 }
 .social a {
     color: #989898;
@@ -83,6 +92,9 @@
 }
 .social a:hover {
     color: #000;
+}
+.social ul {
+    margin-top: 485px;
 }
 
 /* LAYER-1 */
@@ -579,7 +591,7 @@
     position: relative;
 }
 .layer-7 .marquee img {
-    /*filter: grayscale(100%);*/
+    filter: grayscale(100%);
 }
 
 .layer-7 .marquee:before,

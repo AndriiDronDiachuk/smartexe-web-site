@@ -10,7 +10,10 @@
         padding-top: 350px;
     }
     .social {
-        top: 360px;
+        top: 0;
+    }
+    .social ul {
+        margin-top: 455px;
     }
 }
 
@@ -25,9 +28,12 @@
     .under-block {
         padding-top: 275px;
     }
-    .social {
-        top: 300px;
+    .social ul {
+        margin-top: 400px;
     }
+    /*.social {
+        top: 300px;
+    }*/
 }
 
 @media screen and (max-width: 1899px) {
@@ -59,9 +65,12 @@
     .under-block h1 {
         font-size: 60px;
     }
-    .social {
+    /*.social {
         top: 180px;
         right: -33px;
+    }*/
+    .social ul {
+        margin-top: 315px;
     }
 
     /* LAYER-1 */
@@ -262,8 +271,21 @@
     .under-block {
     padding-top: 175px;
     }
+
     .social {
-    top: 180px;
+        right: 7px;
+    }
+    .social li {
+        width: 25px;
+        height: 25px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+    .social li a {
+        font-size: 13px;
+    }
+    .social ul {
+        margin-top: 290px;
     }
 }
 
@@ -284,8 +306,12 @@
     .under-block h1 {
         font-size: 53px;
     }
-    .social {
+    /*.social {
         right: -35px;
+    }*/
+
+    .social {
+        right: 10px;
     }
 
     /* LAYER-1 */
