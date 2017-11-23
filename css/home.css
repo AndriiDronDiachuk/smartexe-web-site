@@ -585,7 +585,9 @@
     margin-right: 70px;
 }
 .layer-7 .marquee {
+    opacity: 0;
     width: 1500px;
+    height: 63px;
     margin: 30px auto 0;
     overflow: hidden;
     position: relative;

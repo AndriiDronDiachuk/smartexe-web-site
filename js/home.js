@@ -6,7 +6,9 @@ $(document).ready(function ($) {
         delay: 10000
     });
 
-    $('.marquee').marquee({
+    $('.marquee')
+        .css("opacity", "1")
+        .marquee({
         duration: 25000,
         gap: 1,
         delayBeforeStart: 0,
