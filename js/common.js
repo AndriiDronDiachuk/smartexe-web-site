@@ -12,7 +12,27 @@ $(document).ready(function($) {
         $('header').toggleClass('header-shadow');
     });
 
-    if (navigator.geolocation) {
+
+    if(navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+            var latlong = latitude + ',' + longitude;
+
+            'https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=AIzaSyBHLAF4f2qD4OxWrpZJWLGtTADiRlsCGjA'
+
+            $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latlong + '&key=AIzaSyBHLAF4f2qD4OxWrpZJWLGtTADiRlsCGjA',
+                function (data) {
+                    console.log(data);
+                    console.log('Our place', data.results[5].formatted_address);
+                })
+
+        });
+    }
+
+
+
+    /*if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
 
             $.getJSON('https://ws.geonames.org/countryCode', {
@@ -37,5 +57,5 @@ $(document).ready(function($) {
                 $('#phoneNumber').text(phoneNumber);
             });
         });
-    }
+    }*/
 });
