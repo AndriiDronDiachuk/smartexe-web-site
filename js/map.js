@@ -112,7 +112,15 @@ if(navigator.geolocation) {
 
         $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latlong + '&key=AIzaSyBHLAF4f2qD4OxWrpZJWLGtTADiRlsCGjA',
             function (data) {
-                var country = data.results[5].formatted_address;
+                var country;
+
+                if(data.results[5]) {
+                    country = data.results[5].formatted_address;
+                }
+                else {
+                    country = data.results[4].formatted_address;
+                }
+
                 if (country === 'Israel') {
                     $('.IL').css('display', 'block');
                 }
