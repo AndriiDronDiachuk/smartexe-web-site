@@ -104,10 +104,20 @@ $('.div-region').on('click', function () {
     }
 });
 
-ymaps.ready(function () {
-    var country = ymaps.geolocation.country;
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function (position) {
 
-    if (country === 'Israel') {
-        $('.IL').css('display', 'block');
-    }
-});
+        $.getJSON('http://ws.geonames.org/countryCode', {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+            type: 'JSON',
+            username: 'smartexeDron'
+        }, function (result) {
+
+            var country = result.countryName;
+            if (country === 'Israel') {
+                $('.IL').css('display', 'block');
+            }
+        })
+    })
+}
