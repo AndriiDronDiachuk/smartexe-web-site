@@ -107,12 +107,13 @@ $('.div-region').on('click', function () {
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function (position) {
 
-        $.getJSON('http://ws.geonames.org/countryCode', {
+        $.getJSON('https://ws.geonames.org/countryCode', {
             lat: position.coords.latitude,
             lng: position.coords.longitude,
             type: 'JSON',
             username: 'smartexeDron'
         }, function (result) {
+            console.log(result);
 
             var country = result.countryName;
             if (country === 'Israel') {
