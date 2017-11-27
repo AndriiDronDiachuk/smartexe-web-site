@@ -19,43 +19,22 @@ $(document).ready(function($) {
             var longitude = position.coords.longitude;
             var latlong = latitude + ',' + longitude;
 
-            'https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=AIzaSyBHLAF4f2qD4OxWrpZJWLGtTADiRlsCGjA'
-
             $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latlong + '&key=AIzaSyBHLAF4f2qD4OxWrpZJWLGtTADiRlsCGjA',
                 function (data) {
-                    console.log(data);
-                    console.log('Our place', data.results[5].formatted_address);
-                })
+                    var country = data.results[5].formatted_address, phoneNumber;
 
+                    if (country === 'Israel') {
+                        phoneNumber = 'Call Us: +972-3-6133886'; // Israel
+                    }
+                    else if (country === 'United States' || country === 'Canada') {
+                        phoneNumber = 'Call Us: +1 (215) 948-8178'; // America or Canada
+                    }
+                    else {
+                        phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
+                    }
+
+                    $('#phoneNumber').text(phoneNumber);
+                })
         });
     }
-
-
-
-    /*if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function (position) {
-
-            $.getJSON('https://ws.geonames.org/countryCode', {
-                lat: position.coords.latitude,
-                lng: position.coords.longitude,
-                type: 'JSON',
-                username: 'smartexeDron'
-            }, function (result) {
-
-                var country = result.countryName, phoneNumber;
-
-                if (country === 'Israel') {
-                    phoneNumber = 'Call Us: +972-3-6133886'; // Israel
-                }
-                else if (country === 'United States' || country === 'Canada') {
-                    phoneNumber = 'Call Us: +1 (215) 948-8178'; // America or Canada
-                }
-                else {
-                    phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
-                }
-
-                $('#phoneNumber').text(phoneNumber);
-            });
-        });
-    }*/
 });

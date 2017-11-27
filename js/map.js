@@ -103,30 +103,19 @@ $('.div-region').on('click', function () {
         }
     }
 });
-/*
 
 if(navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
+    navigator.geolocation.getCurrentPosition(function (position) {
         var latitude = position.coords.latitude;
         var longitude = position.coords.longitude;
-    });
-}
+        var latlong = latitude + ',' + longitude;
 
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function (position) {
-
-        $.getJSON('https://ws.geonames.org/countryCode', {
-            lat: position.coords.latitude,
-            lng: position.coords.longitude,
-            type: 'JSON',
-            username: 'smartexeDron'
-        }, function (result) {
-            console.log(result);
-
-            var country = result.countryName;
-            if (country === 'Israel') {
-                $('.IL').css('display', 'block');
-            }
-        })
+        $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latlong + '&key=AIzaSyBHLAF4f2qD4OxWrpZJWLGtTADiRlsCGjA',
+            function (data) {
+                var country = data.results[5].formatted_address;
+                if (country === 'Israel') {
+                    $('.IL').css('display', 'block');
+                }
+            })
     })
-}*/
+}
