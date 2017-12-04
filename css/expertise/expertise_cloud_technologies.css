@@ -1,0 +1,16 @@
+.embedded .layer-8 .block {
+    width: 420px;
+}
+.embedded .layer-8 .block-1 {
+    float: right;
+}
+.embedded .layer-8 .block-2 {
+    margin: 0 auto;
+}
+.embedded .layer-8 .block-1 .title {
+    width: 700px;
+}
+.embedded .layer-8 .block-1 li:nth-child(2) {
+    line-height: 18px;
+    margin: 4px 0;
+}
