@@ -11,7 +11,7 @@
     margin: 5px 0;
 }
 .category-send-message-block .left-labels a {
-    color: #2e8390;
+    color: rgb(255, 149, 101);
 }
 .category-send-message-block .left-labels span {
     font-weight: normal;
@@ -75,7 +75,7 @@
 
 .input-fields .be-blue,
 .input-fields .be-blue textarea {
-    border-bottom-color: #2e8390;
+    border-bottom-color: rgb(255, 149, 101);
 }
 .input-fields .has-success {
     border-color: #2dcc70;
@@ -252,7 +252,7 @@ textarea{
     font-weight: bold;
 }
 .category-office-maps-block .label a {
-    color: #2e8390;
+    color: rgb(255, 149, 101);
 }
 .category-office-maps-block .label span {
     font-weight: normal;

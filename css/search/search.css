@@ -18,7 +18,7 @@
     left: 0;
     height: 2px;
     width: 100%;
-    background-color: #028f9a;
+    background-color: rgba(255, 102, 51, 0.95);
 }
 form div {
     position: relative;
@@ -84,7 +84,7 @@ form div {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background-color: #028f9a;
+    background-color: rgb(255, 102, 51);
     top: 6px;
     left: -20px;
 }
@@ -95,7 +95,7 @@ form div {
     margin-top: 0;
 }
 .search-link {
-    color: #028f9a;
+    color: rgb(255, 102, 51);
     font-size: 25px;
     display: inline-block;
     position: relative;

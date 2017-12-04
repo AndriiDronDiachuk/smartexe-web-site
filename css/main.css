@@ -307,11 +307,12 @@ header {
     width: 100%;
     height: 100%;
     content: '';
-    background: rgba(0, 127, 118, 0.82);
-    background: -webkit-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
-    background: -o-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
-    background: -moz-linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
-    background: linear-gradient(bottom, rgba(0, 131, 102, 0.82), rgba(0, 124, 132, 0.82));
+    background: rgba(255, 102, 51, 0.3);
+    background: -webkit-linear-gradient(bottom, rgba(102, 102, 102, 0.55), rgba(255, 102, 51, 0.45));
+    background: -o-linear-gradient(bottom, rgba(102, 102, 102, 0.55), rgba(255, 102, 51, 0.45));
+    background: -moz-linear-gradient(bottom, rgba(102, 102, 102, 0.55), rgba(255, 102, 51, 0.45));
+    background: linear-gradient(bottom, rgba(102, 102, 102, 0.55), rgba(255, 102, 51, 0.45));
+
 }
 .category-img-block a {
     color: #fff;
@@ -362,7 +363,7 @@ header {
     padding: 20px 60px 20px 120px;
     background-color: #f2f2f2;
     position: relative;
-    color: #388875;
+    color: rgb(255, 102, 51);
     margin: 0 20px;
     box-shadow: inset 0 0 5px #ddd;
     transition: 0.5s;
@@ -373,7 +374,7 @@ header {
     bottom: 19px;
     content: '';
     height: 1px;
-    background-color: #388875;
+    background-color: rgba(255, 102, 51, 0.75);
 }
 .button-style-3:after {
     content: url(../images/expertise_download.png);
@@ -383,7 +384,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #388875;
+    background-color: rgb(255, 102, 51);
     text-align: center;
 }
 .button-style-3:hover {
