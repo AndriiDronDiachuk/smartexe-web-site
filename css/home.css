@@ -126,30 +126,29 @@
     position: relative;
     margin: 60px 0;
 }
-.layer-2 .block-1 {
+.layer-2 .block-1,
+.layer-2 .block-4,
+.layer-2 .block-7 {
     width: 350px;
 }
-.layer-2 .block-2 {
+.layer-2 .block-2,
+.layer-2 .block-5,
+.layer-2 .block-8 {
     width: 300px;
 }
-.layer-2 .block-3 {
-    width: 325px;
-}
-.layer-2 .block-4 {
-    width: 350px;
-}
-.layer-2 .block-5 {
-    width: 300px;
-}
-.layer-2 .block-6 {
+.layer-2 .block-3,
+.layer-2 .block-6,
+.layer-2 .block-9 {
     width: 325px;
 }
 .layer-2 .block-2,
-.layer-2 .block-5 {
+.layer-2 .block-5,
+.layer-2 .block-8 {
     margin: 0 auto;
 }
 .layer-2 .block-3,
-.layer-2 .block-6 {
+.layer-2 .block-6,
+.layer-2 .block-9 {
     float: right;
 }
 .layer-2 .image {
@@ -162,7 +161,13 @@
 .layer-2 .image svg path,
 .layer-2 .image svg rect,
 .layer-2 .image svg polygon {
-    fill: rgb(255, 102, 51)
+    fill: rgb(255, 102, 51);
+}
+.layer-2 .block-9 svg path,
+.layer-2 .block-9 svg circle {
+    fill: none;
+    stroke: rgb(255, 102, 51);
+    stroke-width: 10;
 }
 .layer-2 h3 {
     font-family: 'SofiaProBlack', sans-serif;
@@ -179,47 +184,57 @@
 .layer-2 .block-2:after,
 .layer-2 .block-3:before,
 .layer-2 .block-3:after,
-.layer-2 .block-6:before {
+.layer-2 .block-4:before,
+.layer-2 .block-4:after,
+.layer-2 .block-5:before,
+.layer-2 .block-5:after,
+.layer-2 .block-6:before,
+.layer-2 .block-6:after {
     position: absolute;
     content: '';
     background-color: rgba(201, 201, 201, 0.79);
 }
-.layer-2 .block-1:before {
+.layer-2 .block-1:before,
+.layer-2 .block-4:before {
     bottom: -60px;
     left: 8px;
     width: 60px;
     height: 1px;
 }
-.layer-2 .block-2:before {
+.layer-2 .block-1:after,
+.layer-2 .block-4:after {
     bottom: -60px;
-    left: -75px;
+    right: -45px;
     width: 121px;
     height: 1px;
 }
-.layer-2 .block-2:after {
+.layer-2 .block-2:before,
+.layer-2 .block-5:before {
+    bottom: -60px;
+    right: -75px;
+    width: 121px;
+    height: 1px;
+}
+.layer-2 .block-2:after,
+.layer-2 .block-5:after {
     bottom: -121px;
     left: -15px;
     width: 1px;
     height: 121px;
 }
-.layer-2 .block-3:before {
+.layer-2 .block-3:before,
+.layer-2 .block-6:before {
     bottom: -60px;
-    left: -45px;
-    width: 121px;
+    width: 60px;
     height: 1px;
+    right: 8px;
 }
-.layer-2 .block-3:after {
+.layer-2 .block-3:after,
+.layer-2 .block-6:after {
     bottom: -121px;
     left: 15px;
     width: 1px;
     height: 121px;
-}
-
-.layer-2 .block-6:before {
-    top: -60px;
-    right: 8px;
-    width: 60px;
-    height: 1px;
 }
 .layer-2 .box .info span {
     color: rgba(255, 102, 51, 0.6);
