@@ -350,4 +350,10 @@ $(document).ready(function ($) {
         $('#search-result').append(template);
     });
 
+    if (localStorage.getItem('searchPhrase') !== null ) {
+        $('#search-input').val(localStorage.getItem('searchPhrase'));
+        $('#search-button').click();
+        localStorage.clear('searchPhrase');
+    }
+
 });

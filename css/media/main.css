@@ -160,8 +160,12 @@
         float: none;
         text-align: center;
     }
-    .navigation li a span {
+    .navigation li a span,
+    .big-nav {
         display: none;
+    }
+    .small-nav {
+        display: block;
     }
 
     /* FOOTER */

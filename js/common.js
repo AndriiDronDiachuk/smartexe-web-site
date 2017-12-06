@@ -12,6 +12,23 @@ $(document).ready(function($) {
         $('header').toggleClass('header-shadow');
     });
 
+    var searchInput = $('#search-input');
+
+    $('#search-icon').on('click', function () {
+        if (searchInput.val() === '') {
+            $('#search-input').toggleClass('active');
+        }
+        else {
+            localStorage.setItem('searchPhrase', searchInput.val());
+            window.location.href = "/smartexe-web-site/html/search/search.html";
+        }
+    });
+
+    $("#search-input").keyup(function(event) {
+        if (event.keyCode === 13) {
+            $('#search-icon').click();
+        }
+    });
 
     if(navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {

@@ -132,6 +132,7 @@ header {
     line-height: 23px;
     letter-spacing: 1px;
     position: relative;
+    cursor: pointer;
 }
 .navigation li a span {
     position: absolute;
@@ -158,6 +159,28 @@ header {
 .navigation li:last-child {
     margin-right: 0;
     margin-top: 3px;
+    position: relative;
+}
+.navigation input {
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    border: none;
+    height: 20px;
+    border-bottom: 1px solid #555;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.navigation input.active {
+    width: 525px;
+}
+.small-nav {
+    display: none;
+}
+.big-nav {
+    display: block;
 }
 
 /* FOOTER */
