@@ -19,11 +19,9 @@
 
     /* FOOTER */
     .footer-1 {
-        height: 325px;
-        background-size: 110%;
         background-image: url(../../images/footer_bgi.jpg);
-        background-position-y: 60%;
         padding: 70px 0;
+        background-size: 145%;
     }
     .footer-1 .label-1 {
         font-size: 31px;
@@ -40,6 +38,13 @@
     }
 }
 
+@media screen and (max-width: 1499px) {
+    .footer-1 {
+        background-image: url(../../images/footer_bgi.jpg);
+        background-size: 180%;
+    }
+}
+
 @media screen and (max-width: 1199px) {
 
     /* BUTTON STYLE */
@@ -49,6 +54,10 @@
     }
 
     /* FOOTER */
+    .footer-1 {
+        background-image: url(../../images/footer_bgi.jpg);
+        background-size: 210%;
+    }
     .footer-1:before {
         height: 30px;
     }
@@ -157,7 +166,8 @@
 
     /* FOOTER */
     .footer-1 {
-        height: 250px;
+        background-image: url(../../images/footer_bgi.jpg);
+        background-size: 350%;
         padding: 35px 0;
     }
     .footer-1:before {
@@ -168,6 +178,9 @@
     }
     .footer-1 .label-2 {
         font-size: 15px;
+    }
+    .footer-1 .input-item {
+        width: 100%;
     }
     .footer-2 {
         padding: 30px 0;
@@ -237,6 +250,9 @@
         background-position: 50% 60%;
         background-image: url(../../images/mobile/footer_bgi.jpg);
         padding: 35px 0 0;
+    }
+    .footer-1 form {
+        display: none;
     }
     .footer-1:before {
         background: url(../../images/mobile_sharp_line.png) no-repeat 0 100%;

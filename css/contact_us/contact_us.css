@@ -109,6 +109,7 @@
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    background-color: rgba(255, 255, 255, 0);
 }
 [contentEditable=true]:empty:before{
     display: block;
