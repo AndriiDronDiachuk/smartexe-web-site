@@ -21,7 +21,7 @@
     .footer-1 {
         background-image: url(../../images/footer_bgi.jpg);
         padding: 70px 0;
-        background-size: 145%;
+        background-size: 155%;
     }
     .footer-1 .label-1 {
         font-size: 31px;
@@ -41,7 +41,7 @@
 @media screen and (max-width: 1499px) {
     .footer-1 {
         background-image: url(../../images/footer_bgi.jpg);
-        background-size: 180%;
+        background-size: 190%;
     }
 }
 
@@ -56,7 +56,7 @@
     /* FOOTER */
     .footer-1 {
         background-image: url(../../images/footer_bgi.jpg);
-        background-size: 210%;
+        background-size: 220%;
     }
     .footer-1:before {
         height: 30px;
@@ -171,7 +171,7 @@
     /* FOOTER */
     .footer-1 {
         background-image: url(../../images/footer_bgi.jpg);
-        background-size: 350%;
+        background-size: 360%;
         padding: 35px 0;
     }
     .footer-1:before {
@@ -250,9 +250,9 @@
     /* FOOTER */
     .footer-1 {
         height: 300px;
-        background-size: 280%;
-        background-position: 50% 60%;
         background-image: url(../../images/mobile/footer_bgi.jpg);
+        background-size: 285%;
+        background-position: 50% 60%;
         padding: 35px 0 0;
     }
     .footer-1 form {

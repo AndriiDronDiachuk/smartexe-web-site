@@ -216,7 +216,11 @@ header {
     background: rgba(0,0,0,0.85);
     background-size: 100%;
 }
-
+.footer-1 .label-1,
+.footer-1 .label-2,
+.footer-1 .label-3 {
+    width: 100%;
+}
 .footer-1 .label-1 {
     position: relative;
     font-size: 36px;
