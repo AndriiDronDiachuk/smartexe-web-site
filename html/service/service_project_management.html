@@ -567,13 +567,56 @@
                     <p class="label-2">Smart.exe serves as your technical partner, working with you to make your ideas a
                         reality.</p>
                     <p class="label-3">
-                        <a href="../contact_us/contact_us.html">
-                            <button class="button-style-1">
-                                Send us a message
-                                <span class="first"></span>
-                                <span class="second"></span>
-                            </button>
-                        </a>
+
+                    <form id="contact-us-form">
+                        <div class="input-fields">
+                            <div class="input-item">
+                                <label class="input-label name" for="name">Name *</label>
+                                <input id="name"
+                                       name="name"
+                                       type="text"
+                                       class="input-text"/>
+                            </div>
+                            <div class="input-item phone-input phone">
+                                <label class="input-label phone" for="phone">Phone *</label>
+                                <input id="phone"
+                                       name="phone"
+                                       type="text"
+                                       class="input-text"/>
+                            </div>
+                            <div class="input-item email-input email">
+                                <label class="input-label email" for="email">Email *</label>
+                                <input id="email"
+                                       name="email"
+                                       type="email"
+                                       class="input-text"/>
+                            </div>
+                            <div class="input-item">
+                                <label class="input-label company_name" for="company_name">Company Name</label>
+                                <input maxlength="80" id="company_name" type="text" class="input-text"/>
+                            </div>
+                            <div class="input-item">
+                                <label class="input-label title" for="title">Title</label>
+                                <input maxlength="40" id="title" type="text" class="input-text"/>
+                            </div>
+                            <div class="input-item message-input">
+                                <label class="input-label message" for="message">Message</label>
+                                <textarea maxlength="1000" id="message" class='input-text autoExpand' rows='1' data-min-rows='1'></textarea>
+                            </div>
+                        </div>
+                        <div class="button clearfix">
+                            <div id="outer">
+                                <div id="inner">
+                                    <button type="submit" class="button-style-2">
+                                        Send
+                                        <span class="first"></span>
+                                        <span class="second"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
                     </p>
                 </div>
             </div>
@@ -644,5 +687,7 @@
 <script src="../../libs/WOW-master/wow.min.js"></script>
 <script src="../../js/common.js"></script>
 <script src="../../js/wow.js"></script>
+<script src="../../libs/jquery-validation/jquery.validate.min.js"></script>
+<script src="../../js/contact_us_validator.js"></script>
 </body>
 </html>
