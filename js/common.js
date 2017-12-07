@@ -14,17 +14,29 @@ $(document).ready(function($) {
 
     var searchInput = $('#search-input');
 
-    $('#search-icon').on('click', function () {
-        if (searchInput.val() === '') {
-            $('#search-input').toggleClass('active');
-        }
-        else {
-            localStorage.setItem('searchPhrase', searchInput.val());
-            window.location.href = "/smartexe-web-site/html/search/search.html";
-        }
+    $('#search-icon').on('click', function (event) {
+            console.log(111, event.target);
+
+            if (searchInput.val() === '' && !searchInput.hasClass('active')) {
+                searchInput
+                    .addClass('active')
+                    .focus();
+            }
+            else if (searchInput.val() !== '' && searchInput.hasClass('active')) {
+                localStorage.setItem('searchPhrase', searchInput.val());
+                window.location.href = "/smartexe-web-site/html/search/search.html";
+            }
     });
 
-    $("#search-input").keyup(function(event) {
+    searchInput.on('blur', function () {
+        setTimeout(function () {
+            searchInput.val('');
+            searchInput.removeClass('active');
+        }, 10);
+
+    });
+
+    searchInput.keyup(function(event) {
         if (event.keyCode === 13) {
             $('#search-icon').click();
         }
