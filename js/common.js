@@ -14,9 +14,7 @@ $(document).ready(function($) {
 
     var searchInput = $('#search-input');
 
-    $('#search-icon').on('click', function (event) {
-            console.log(111, event.target);
-
+    $('#search-icon').on('click', function () {
             if (searchInput.val() === '' && !searchInput.hasClass('active')) {
                 searchInput
                     .addClass('active')
@@ -32,7 +30,7 @@ $(document).ready(function($) {
         setTimeout(function () {
             searchInput.val('');
             searchInput.removeClass('active');
-        }, 10);
+        }, 100);
 
     });
 

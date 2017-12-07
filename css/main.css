@@ -171,10 +171,12 @@ header {
     border-bottom: 1px solid #555;
     font-size: 14px;
     transition: .5s;
+    opacity: 0;
 }
 
 .navigation input.active {
     width: 525px;
+    opacity: 1;
 }
 .small-nav {
     display: none;
