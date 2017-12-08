@@ -288,6 +288,10 @@ header {
     margin: 20px 20px 0 0;
 }
 
+.footer-2 ul:nth-child(3) {
+    padding-left: 65px;
+}
+
 .footer-3 {
     position: relative;
     height: 40px;
@@ -321,6 +325,7 @@ header {
 .footer-3 a:hover {
     color: #fff;
 }
+
 
 /* CATEGORY-IMG-BLOCK */
 .category-img-block {

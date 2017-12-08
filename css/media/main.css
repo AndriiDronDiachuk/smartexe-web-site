@@ -33,9 +33,10 @@
         top: -2px;
         height: 40px;
     }
-    .footer-2 ul:nth-child(3) {
-        padding-left: 65px;
+    .footer-2 ul:nth-child(6) li:nth-child(2) {
+        width: 200px;
     }
+
 }
 
 @media screen and (max-width: 1499px) {
@@ -66,10 +67,10 @@
         letter-spacing: 0;
     }
     .footer-2 ul:nth-child(3) {
-        padding-left: 55px;
+        padding-left: 40px;
     }
 
-    .footer-2 ul:nth-child(5) label {
+    .footer-2 ul:nth-child(6) label {
         letter-spacing: 1px;
     }
 
@@ -189,27 +190,27 @@
     .footer-2 {
         padding: 30px 0;
     }
-    .footer-2 ul:nth-child(5) {
+    .footer-2 ul:nth-child(3) {
+        padding-left: 8px;
+    }
+    .footer-2 ul:nth-child(6) {
         padding-left: 8px;
         margin-top: 25px;
     }
-    .footer-2 ul:nth-child(5) li {
+    .footer-2 ul:nth-child(6) li {
         margin: 0;
         float: left;
         padding: 0 8px;
     }
-    .footer-2 ul:nth-child(5) li:first-child {
+    .footer-2 ul:nth-child(6) li:first-child {
         width: 160px;
         padding-left: 0;
     }
-    .footer-2 ul:nth-child(5) li:nth-child(2) {
-        width: 218px;
+    .footer-2 ul:nth-child(6) li:last-child {
+        /*width: 223px;*/
+        /*padding-left: 55px;*/
     }
-    .footer-2 ul:nth-child(5) li:last-child {
-        width: 223px;
-        padding-left: 55px;
-    }
-    .footer-2 ul:nth-child(5) li i {
+    .footer-2 ul:nth-child(6) li i {
         margin-top: 0;
     }
     .category-send-message-block .right-labels .label-1 h2 {
@@ -283,13 +284,14 @@
     .footer-2 .row ul:first-child,
     .footer-2 .row ul:nth-child(2),
     .footer-2 .row ul:nth-child(3),
-    .footer-2 .row ul:nth-child(4) {
+    .footer-2 .row ul:nth-child(4),
+    .footer-2 .row ul:nth-child(5) {
         display: none;
     }
-    .footer-2 ul:nth-child(5) {
+    .footer-2 ul:nth-child(6) {
         margin: 0;
     }
-    .footer-2 ul:nth-child(5) li {
+    .footer-2 ul:nth-child(6) li {
         width: 100% !important;
         padding: 10px 0 !important;
         text-align: center;
