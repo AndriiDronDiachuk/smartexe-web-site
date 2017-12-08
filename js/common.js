@@ -49,6 +49,8 @@ $(document).ready(function($) {
             $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latlong + '&key=AIzaSyBHLAF4f2qD4OxWrpZJWLGtTADiRlsCGjA',
                 function (data) {
 
+                console.log( data );
+
                     var country, phoneNumber;
                     if(data.results[5]) {
                         country = data.results[5].formatted_address;
@@ -58,16 +60,20 @@ $(document).ready(function($) {
                     }
 
                     if (country === 'Israel') {
-                        phoneNumber = 'Call Us: +972-3-6133886'; // Israel
+                        phoneNumber = '<span>Call Us:</span> +972-3-6133886'; // Israel
+
                     }
                     else if (country === 'United States' || country === 'Canada') {
-                        phoneNumber = 'Call Us: +1 (215) 948-8178'; // America or Canada
+                        phoneNumber = '<span>Call Us:</span> +1 (215) 948-8178'; // America or Canada
                     }
                     else {
-                        phoneNumber = 'Call Us: +45-30-48-56-40'; // Europe
+                        phoneNumber = '<span>Call Us:</span> +45-30-48-56-40'; // Europe
                     }
 
-                    $('#phoneNumber').text(phoneNumber);
+                    $('#phoneNumber').html(phoneNumber);
+                    $('#header-phone')
+                        .html(phoneNumber)
+                        .css('opacity', 1);
                 })
         });
     }
