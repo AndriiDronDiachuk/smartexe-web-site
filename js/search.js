@@ -13,7 +13,7 @@ $(document).ready(function ($) {
         },
 
         '../expertise/expertise_web_development.html': {
-            title: 'Web Development',
+            title: 'Web',
             text: '' +
                 'Our developers have experience crafting websites for clients within a variety of industries, from tourism to high-technology. We can generate pages based on any form of code, bringing your digital presence to life on any web-browser or mobile platform. Below, we’ve listed the various languages we’ll use to make your website the way you like. ' +
                 'Front-end: • JavaScript; • ES6; • WebSockets; • Comet; • AJAX; • JSONP; • Server Side Even; • angular.js; • react.js; • async.js; • jQuery; • lodash.js; • underscore.j; • bootstrap.js; • chart.js; • json; • Yeoman; • Gulp.js; • Grunt; • HTML5; • CSS3; • Responsive Web Design; • SASS; • LESS; • Bootstrap.css. ' +
@@ -24,7 +24,7 @@ $(document).ready(function ($) {
         },
 
         '../expertise/expertise_mobile_applications.html': {
-            title: 'Mobile Applications.',
+            title: 'Mobile',
             text: '' +
                 'The mobile world is upon us. You, your employees, and your customers are all on the move – perhaps even as you read this. This calls for a new era of design, a new way of thinking. Your mobile applications and devices must be as responsive and stylish as the customers who use them. Whether you need help with your software or hardware, we’re ready to assist. We know, there’s an overwhelming variety of mobile hardware and operating systems. Don’t worry! We’ve got just as many skilled team members ready to handle the variety. Here are some areas we can help with: ' +
                 'Applications: • Business-to-Business (B2B); • Client-Server; • Games and Entertainment; • Native Mobile; • PhoneGap, Xamarin, Marmalade SDK; • Special-Purpose Proprietary; • Social Networking. ' +
@@ -57,7 +57,7 @@ $(document).ready(function ($) {
         },
 
         '../expertise/expertise_qa_technology.html': {
-            title: 'QA Techniques',
+            title: 'QA',
             text: '' +
                 'Technology is such a dynamic creature. It requires constant attention to detail, constant problem-solving. We’re here to help you in your quest to eradicate glitches, bugs and imperfections. We’ve got the tools and expertise you need to develop a product exactly as you imagined it. Our QA teams are located at each of our research and development facilities throughout the world. Our VP of quality assurance orchestrates these teams in harmony to develop and troubleshoot a product you can be proud of. ' +
                 'Here’s how we can help: • Functional Testing (both manual and automated); • Software Test Document (STD) creation; • Performance Testing; • Load testing; • Security testing; • Penetration testing; • Risk analysis. ' +
