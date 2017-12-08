@@ -50,7 +50,7 @@ $(document).ready(function($) {
                     phoneNumber += '+972-3-6133886'; // Israel
 
                 }
-                else if (data.country_code === 'USA' || data.country_code === 'CA') {
+                else if (data.country_code === 'US' || data.country_code === 'CA') {
                     phoneNumber += '+1 (215) 948-8178'; // America or Canada
                 }
                 else {
