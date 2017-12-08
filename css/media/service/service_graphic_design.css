@@ -1,13 +1,6 @@
 @media screen and (max-width: 1899px) {
 
     .graphic-design .layer-2 .block-2:before {
-        left: -60px;
-    }
-    .graphic-design .layer-2 .block-2:after {
-        left: -10px;
-    }
-    .graphic-design .layer-2 .block-4:before {
-        top: -41px;
         width: 50px;
     }
     .graphic-design .layer-2 {
@@ -19,14 +12,8 @@
     .graphic-design .layer-11 .text-top {
         padding: 0 10px;
     }
-    .graphic-design .button-style-3:before {
-        right: 49px;
-    }
     .graphic-design .layer-2 .block-2:before {
-        left: -45px;
-    }
-    .graphic-design .layer-2 .block-2:after {
-        left: -15px;
+        width: 30px;
     }
 }
 
@@ -46,18 +33,9 @@
         list-style: none;
         padding: 0;
     }
-    .graphic-design .layer-2 .block-4:before {
-        width: 30px;
-    }
     .graphic-design .button-style-3:before {
         right: 29px;
         width: 127px;
-    }
-    .graphic-design .layer-2 .block-2:before {
-        left: -30px;
-    }
-    .graphic-design .layer-2 .block-2:after {
-        left: 0;
     }
 }
 
@@ -87,6 +65,8 @@
     .graphic-design .layer-2 .box {
         margin: 40px 0 0;
     }
+    .graphic-design .layer-2 .block-1:after,
+    .graphic-design .layer-2 .block-1:before,
     .graphic-design .layer-2 .block-2:after,
     .graphic-design .layer-2 .block-2:before {
         display: none;

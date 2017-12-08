@@ -1,7 +1,7 @@
 @media screen and (max-width: 1899px) {
 
-    .quality-assurance .layer-2 .block-4:before {
-        top: -41px;
+    .quality-assurance .layer-2 .block-2:before {
+        width: 50px;
     }
     .quality-assurance .layer-2 {
         padding: 40px 0;
@@ -15,7 +15,7 @@
     .quality-assurance .button-style-3:before {
         right: 49px;
     }
-    .quality-assurance .layer-2 .block-4:before {
+    .quality-assurance .layer-2 .block-2:before {
         width: 30px;
     }
 }
@@ -35,9 +35,6 @@
         list-style: none;
         margin: 0 auto;
         padding: 0;
-    }
-    .quality-assurance .layer-2 .block-4:before {
-        width: 30px;
     }
     .quality-assurance .button-style-3:before {
         right: 29px;
@@ -76,6 +73,8 @@
     .quality-assurance .layer-2 {
         padding: 0;
     }
+    .quality-assurance .layer-2 .block-1:before,
+    .quality-assurance .layer-2 .block-1:after,
     .quality-assurance .layer-2 .block-2:before,
     .quality-assurance .layer-2 .block-2:after {
         display: none;

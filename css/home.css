@@ -238,8 +238,7 @@
 }
 .layer-2 .box .info span {
     color: rgba(255, 102, 51, 0.6);
-    text-transform: uppercase;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 10px;
     display: inline-block;
     font-family: 'Hind', sans-serif;
@@ -373,8 +372,7 @@
 }
 .layer-4 a span {
     color: rgba(255, 102, 51, 0.6);
-    text-transform: uppercase;
-    font-size: 13px;
+    font-size: 15px;
     display: inline-block;
     font-family: 'Hind', sans-serif;
     font-weight: 700;

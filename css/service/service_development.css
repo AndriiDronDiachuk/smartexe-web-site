@@ -5,6 +5,7 @@
     margin: 0 auto;
     float: inherit;
 }
+.development .layer-2 .block-1:after,
 .development .layer-2 .block-1:before,
 .development .layer-2 .block-2:after,
 .development .layer-2 .block-2:before,
@@ -25,5 +26,5 @@
 }
 .development .button-style-3:before {
     right: 60px;
-    width: 198px;
+    width: 205px;
 }

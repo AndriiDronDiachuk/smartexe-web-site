@@ -1,7 +1,6 @@
 @media screen and (max-width: 1899px) {
 
-    .cloud-it .layer-2 .block-4:before {
-        top: -41px;
+    .cloud-it .layer-2 .block-2:before {
         width: 50px;
     }
     .cloud-it .layer-2 {
@@ -13,10 +12,7 @@
     .cloud-it .layer-11 .text-top {
         padding: 0 50px;
     }
-    .cloud-it .button-style-3:before {
-        right: 49px;
-    }
-    .cloud-it .layer-2 .block-4:before {
+    .cloud-it .layer-2 .block-2:before {
         width: 30px;
     }
 }
@@ -36,9 +32,6 @@
         list-style: none;
         margin: 0 auto;
         padding-left: 0;
-    }
-    .cloud-it .layer-2 .block-4:before {
-        width: 30px;
     }
     .cloud-it .button-style-3:before {
         right: 29px;
@@ -76,6 +69,8 @@
     .cloud-it .layer-2 .block-4 ul {
         margin-top: 14px;
     }
+    .cloud-it .layer-2 .block-:after,
+    .cloud-it .layer-2 .block-1:before,
     .cloud-it .layer-2 .block-2:after,
     .cloud-it .layer-2 .block-2:before {
         display: none;

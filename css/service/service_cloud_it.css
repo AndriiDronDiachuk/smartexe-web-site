@@ -7,17 +7,14 @@
     float: inherit;
 }
 .cloud-it .layer-2 .block-3:after,
-.cloud-it .layer-2 .block-3:before {
+.cloud-it .layer-2 .block-3:before,
+.cloud-it .layer-2 .block-4:after,
+.cloud-it .layer-2 .block-4:before {
     display: none;
 }
-.cloud-it .layer-2 .block-4:before {
-    top: -60px;
+.cloud-it .layer-2 .block-2:before {
     right: 8px;
-    height: 1px;
     width: 60px;
-    position: absolute;
-    content: '';
-    background-color: rgba(201, 201, 201, 0.79);
 }
 .cloud-it .box ul {
     padding-left: 20px;

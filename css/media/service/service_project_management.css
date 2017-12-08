@@ -45,16 +45,10 @@
         width: 100%;
     }
     .project-management .layer-2 .block-1:before,
-    .project-management .layer-2 .block-2:after,
+    .project-management .layer-2 .block-1:after,
     .project-management .layer-2 .block-2:before,
-    .project-management .layer-2 .block-3:before {
+    .project-management .layer-2 .block-2:after {
         display: block;
-    }
-    .project-management .layer-2 .block-3:before {
-        right: -344px;
-        width: 31px;
-        top: -41px;
-        left: auto;
     }
     .project-management .button-style-3:before {
         right: 28px;
@@ -84,7 +78,7 @@
         margin-top: 14px;
     }
     .project-management .layer-2 .block-1:before,
-    .project-management .layer-2 .block-3:before,
+    .project-management .layer-2 .block-1:after,
     .project-management .layer-2 .block-2:before,
     .project-management .layer-2 .block-2:after {
         display: none;
