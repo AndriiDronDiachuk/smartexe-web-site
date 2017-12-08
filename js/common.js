@@ -40,41 +40,31 @@ $(document).ready(function($) {
         }
     });
 
-    if(navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function(position) {
-            var latitude = position.coords.latitude;
-            var longitude = position.coords.longitude;
-            var latlong = latitude + ',' + longitude;
 
-            $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latlong + '&key=AIzaSyBHLAF4f2qD4OxWrpZJWLGtTADiRlsCGjA',
-                function (data) {
+    $.getJSON('https://freegeoip.net/json/',
+        function (data) {
+            var  phoneNumber = '<span>Call Us: </span>';
 
-                console.log( data );
+            if (data !== undefined) {
+                if (data.country_code === 'IL') {
+                    phoneNumber += '+972-3-6133886'; // Israel
 
-                    var country, phoneNumber;
-                    if(data.results[5]) {
-                        country = data.results[5].formatted_address;
-                    }
-                    else {
-                        country = data.results[4].formatted_address;
-                    }
+                }
+                else if (data.country_code === 'USA' || data.country_code === 'CA') {
+                    phoneNumber += '+1 (215) 948-8178'; // America or Canada
+                }
+                else {
+                    phoneNumber += '+45-30-48-56-40'; // Europe
+                }
+            }
+            else {
+                phoneNumber += '+45-30-48-56-40';
+            }
 
-                    if (country === 'Israel') {
-                        phoneNumber = '<span>Call Us:</span> +972-3-6133886'; // Israel
+            $('#phoneNumber').html(phoneNumber);
+            $('#header-phone')
+                .html(phoneNumber)
+                .css('opacity', 1);
+        })
 
-                    }
-                    else if (country === 'United States' || country === 'Canada') {
-                        phoneNumber = '<span>Call Us:</span> +1 (215) 948-8178'; // America or Canada
-                    }
-                    else {
-                        phoneNumber = '<span>Call Us:</span> +45-30-48-56-40'; // Europe
-                    }
-
-                    $('#phoneNumber').html(phoneNumber);
-                    $('#header-phone')
-                        .html(phoneNumber)
-                        .css('opacity', 1);
-                })
-        });
-    }
 });
