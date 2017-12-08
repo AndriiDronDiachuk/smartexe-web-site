@@ -104,26 +104,12 @@ $('.div-region').on('click', function () {
     }
 });
 
-if(navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function (position) {
-        var latitude = position.coords.latitude;
-        var longitude = position.coords.longitude;
-        var latlong = latitude + ',' + longitude;
+$.getJSON('https://freegeoip.net/json/',
+    function (data) {
+        if (data !== undefined) {
+            if (data.country_code === 'IL') {
+                $('.IL').css('display', 'block');
+            }
+        }
+    });
 
-        $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latlong + '&key=AIzaSyBHLAF4f2qD4OxWrpZJWLGtTADiRlsCGjA',
-            function (data) {
-                var country;
-
-                if(data.results[5]) {
-                    country = data.results[5].formatted_address;
-                }
-                else {
-                    country = data.results[4].formatted_address;
-                }
-
-                if (country === 'Israel') {
-                    $('.IL').css('display', 'block');
-                }
-            })
-    })
-}
