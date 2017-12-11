@@ -302,7 +302,7 @@ header {
 }
 
 .footer-2 .fa{
-    margin: 20px 20px 0 0;
+    margin: 0 20px 0 0;
 }
 
 .footer-2 ul:nth-child(3) {
@@ -557,6 +557,16 @@ header {
     min-height: 25px;
     max-height: 99px;
     overflow-y: hidden;
+}
+#phoneNumber p:nth-child(2) {
+    display: inline-block;
+}
+#phoneNumber p:last-child {
+    margin-top: 5px;
+    line-height: 21px;
+}
+#phoneNumber p {
+    margin: 0;
 }
 
 /* BUTTON2 STYLE */
