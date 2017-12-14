@@ -480,9 +480,10 @@
     }
 
     .layer-2 .block-1:before,
-    .layer-2 .block-3:before,
-    .layer-2 .block-5:before,
-    .layer-2 .block-7:before {
+    .layer-2 .block-3:before
+    /*.layer-2 .block-5:before,*/
+    /*.layer-2 .block-7:before */
+    {
         width: 30px;
         height: 1px;
         left: 8px;
@@ -491,9 +492,10 @@
     }
 
     .layer-2 .block-1:after,
-    .layer-2 .block-3:after,
-    .layer-2 .block-5:after,
-    .layer-2 .block-7:after {
+    .layer-2 .block-3:after
+    /*.layer-2 .block-5:after,*/
+    /*.layer-2 .block-7:after */
+    {
         right: -30px;
         width: 61px;
         height: 1px;
@@ -502,9 +504,10 @@
     }
 
     .layer-2 .block-2:after,
-    .layer-2 .block-4:after,
-    .layer-2 .block-6:after,
-    .layer-2 .block-8:after {
+    .layer-2 .block-4:after
+    /*.layer-2 .block-6:after,*/
+    /*.layer-2 .block-8:after */
+    {
         bottom: -70px;
         height: 61px;
         width: 1px;
@@ -512,9 +515,10 @@
         right: auto;
     }
     .layer-2 .block-2:before,
-    .layer-2 .block-4:before,
-    .layer-2 .block-6:before,
-    .layer-2 .block-8:before {
+    .layer-2 .block-4:before
+    /*.layer-2 .block-6:before,*/
+    /*.layer-2 .block-8:before */
+    {
         right: 8px;
         width: 31px;
         height: 1px;
@@ -725,16 +729,18 @@
         display: none;
     }
     .layer-2 .block-1:after,
-    .layer-2 .block-3:after,
-    .layer-2 .block-5:after,
-    .layer-2 .block-7:after {
+    .layer-2 .block-3:after
+    /*.layer-2 .block-5:after,*/
+    /*.layer-2 .block-7:after */
+    {
         right: -60px;
         width: 121px;
     }
     .layer-2 .block-2:after,
-    .layer-2 .block-4:after,
-    .layer-2 .block-6:after,
-    .layer-2 .block-8:after {
+    .layer-2 .block-4:after
+    /*.layer-2 .block-6:after,*/
+    /*.layer-2 .block-8:after */
+    {
         bottom: -97px;
         height: 121px;
     }
@@ -744,7 +750,6 @@
     }
     .layer-2 .block-5 h3 {
         margin-top: 10px;
-        line-height: 40px;
     }
     .layer-2 .info {
         width: 110px;

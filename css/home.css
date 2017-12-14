@@ -111,7 +111,7 @@
     letter-spacing: -2px;
 }
 .layer-1 .right {
-    padding: 30px 8px 0 72px;
+    padding: 20px 8px 0 70px;
     font-family: 'Hind', sans-serif;
     font-size: 18px;
     line-height: 36px;
@@ -189,48 +189,56 @@
 .layer-2 .block-5:before,
 .layer-2 .block-5:after,
 .layer-2 .block-6:before,
-.layer-2 .block-6:after {
+.layer-2 .block-6:after
+{
     position: absolute;
     content: '';
     background-color: rgba(201, 201, 201, 0.79);
 }
-.layer-2 .block-1:before,
-.layer-2 .block-4:before {
+.layer-2 .block-1:before
+/*.layer-2 .block-4:before */
+{
     bottom: -60px;
     left: 8px;
     width: 60px;
     height: 1px;
 }
-.layer-2 .block-1:after,
-.layer-2 .block-4:after {
+
+.layer-2 .block-1:after
+/*.layer-2 .block-4:after */
+{
     bottom: -60px;
     right: -45px;
     width: 121px;
     height: 1px;
 }
-.layer-2 .block-2:before,
-.layer-2 .block-5:before {
+.layer-2 .block-2:before
+/*.layer-2 .block-5:before */
+{
     bottom: -60px;
     right: -75px;
     width: 121px;
     height: 1px;
 }
-.layer-2 .block-2:after,
-.layer-2 .block-5:after {
+.layer-2 .block-2:after
+/*.layer-2 .block-5:after */
+{
     bottom: -121px;
     left: -15px;
     width: 1px;
     height: 121px;
 }
-.layer-2 .block-3:before,
-.layer-2 .block-6:before {
+.layer-2 .block-3:before
+/*.layer-2 .block-6:before */
+{
     bottom: -60px;
     width: 60px;
     height: 1px;
     right: 8px;
 }
-.layer-2 .block-3:after,
-.layer-2 .block-6:after {
+.layer-2 .block-3:after
+/*.layer-2 .block-6:after */
+{
     bottom: -121px;
     left: 15px;
     width: 1px;
@@ -281,14 +289,14 @@
     background-position-y: 100%;
 }
 .layer-3 .text {
-    float: left;
+    /*float: left;*/
+    text-align: center;
 }
 .layer-3 .text h2 {
     font-family: 'SofiaProBold', sans-serif;
-    font-size: 36px;
-    color: #fffefe;
-    margin: 10px 0 5px;
-    letter-spacing: -1px;
+    font-size: 26px;
+    color: #fff;
+    margin: 30px 0 0;
 }
 .layer-3 .text p {
     font-family: 'Hind', sans-serif;
