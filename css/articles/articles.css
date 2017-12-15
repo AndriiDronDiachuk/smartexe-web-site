@@ -1,0 +1,111 @@
+.articles.clearfix {
+    margin: 115px 0 90px;
+    background: #fff url(../../images/map.png) no-repeat 50%;
+    background-size: 90%;
+}
+.articles.home {
+    margin-bottom: 0;
+    background: rgba(255, 255, 255, 0);
+}
+.articles h2 {
+    font-size: 36px;
+    margin: 0 0 10px;
+    color: #000;
+}
+.articles .article-item {
+    margin: 30px 0;
+    min-height: 285px;
+}
+.articles .image {
+    width: 48%;
+    float: left;
+    position: relative;
+}
+.articles .image img {
+    width: 100%;
+}
+.articles .image .links {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.articles .image .links a {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+    margin-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.articles .image .links a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.articles .info {
+    padding-top: 15px;
+    width: 48%;
+    height: 100%;
+    float: right;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.articles .info .date {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'SofiaProRegular', sans-serif;
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-top: 0;
+    line-height: 14px;
+}
+.articles .info h3 {
+    font-family: 'SofiaProBold', sans-serif;
+    font-size: 26px;
+    color: #202020;
+    margin: 14px 0 0;
+}
+.articles .info .text {
+    font-size: 16px;
+    font-family: 'SofiaProRegular', sans-serif;
+}
+.articles .info a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.articles p:last-child {
+    margin-bottom: 0;
+}
+.articles a {
+    color: rgba(255, 102, 51, 0.6);
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 16px;
+}
+.articles a:hover {
+    color: rgb(255, 102, 51);
+}
+.articles .more-articles {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'SofiaProRegular', sans-serif;
+    background-color: #fafafa;
+    text-transform: uppercase;
+    transition: .5s;
+    border: 1px solid #fafafa;
+}
+.articles .more-articles:hover {
+    background-color: #f3f3f3;
+    border: 1px solid #eeeeee;
+}

@@ -1,0 +1,117 @@
+@media screen and (max-width: 1899px) {
+
+    .articles.clearfix {
+        margin-top: 80px;
+    }
+    .articles .article-item {
+        min-height: 250px;
+    }
+    .articles .info .date {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .articles .info h3 {
+        font-size: 22px;
+        margin: 10px 0 0;
+    }
+    .articles .info .text {
+        font-size: 15px;
+    }
+    .articles h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .category-img-block.articles {
+        background: url(../../../images/article/article_bgi.png) no-repeat 50%;
+        background-size: 157%;
+    }
+
+}
+@media screen and (max-width: 1199px) {
+
+    .articles .article-item {
+        min-height: 210px;
+    }
+    .articles .info h3 {
+        font-size: 18px;
+        margin: 8px 0 0;
+    }
+    .articles .info .text {
+        font-size: 14px;
+        margin: 8px 0;
+    }
+    .articles a {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .category-img-block.articles {
+        background: url(../../../images/article/article_bgi.png) no-repeat 50%;
+        background-size: 190%;
+    }
+}
+@media screen and (max-width: 1023px) {
+
+    .articles .image {
+        width: 35%;
+    }
+    .articles .info {
+        width: 62%;
+    }
+    .articles .image .links a {
+        width: 25px;
+        height: 25px;
+        line-height: 30px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .articles .image .links {
+        left: 10px;
+        bottom: 10px;
+    }
+    .category-img-block.articles {
+        background: url(../../../images/article/article_bgi.png) no-repeat 50%;
+        background-size: 251%;
+    }
+}
+@media screen and (max-width: 767px) {
+
+    .articles.clearfix {
+        margin: 30px 0;
+    }
+    .articles .row > div {
+        padding: 0 20px;
+    }
+    .articles h2 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .articles .image,
+    .articles .info {
+        width: 100%;
+    }
+    .articles .image .links {
+        left: 55px;
+        bottom: 48px;
+    }
+    .articles .image .links a {
+        width: 35px;
+        height: 35px;
+        line-height: 40px;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+    .articles .info .date {
+        font-size: 14px;
+        line-height: 14px;
+        top: 8px;
+    }
+    .articles .info {
+        height: auto;
+        padding: 20px 0 10px;
+    }
+    .category-img-block.articles {
+         background: url(../../../images/article/article_bgi.png) no-repeat 50%;
+        background-size: 370%;
+    }
+}

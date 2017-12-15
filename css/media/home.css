@@ -156,7 +156,7 @@
         height: 25px;
     }
     .layer-3 .text h2 {
-        margin-top: 5px;
+        margin-top: 0;
         font-size: 30px;
     }
     .layer-3 .text p {
@@ -377,7 +377,6 @@
         height: 35px;
     }
     .layer-3 .text h2 {
-        margin-top: 5px;
         font-size: 28px;
     }
     .layer-3 .button-style-1 {
@@ -537,9 +536,6 @@
     }
     .layer-3:after {
         height: 12px;
-    }
-    .layer-3 .text {
-        width: 450px;
     }
     .layer-3 .text h2 {
         margin-top: 5px;
@@ -762,9 +758,9 @@
     /* LAYER-3 */
     .layer-3 {
         background: url("../../images/layer_3_mobile_bgi.png") no-repeat 50% 50%;
-        background-size: 200%;
+        background-size: 156%;
         padding: 25px 0;
-        height: 200px;
+        height: 175px;
     }
     .layer-3:before,
     .layer-3:after {

@@ -1,0 +1,68 @@
+.category-img-block.articles {
+    background: url("../../images/article/article_bgi.png") no-repeat 50%;
+    background-size: 100%;
+}
+.article-item.clearfix {
+    margin: 25px 0;
+}
+.article-item .category-img-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article-item .category-under-block {
+    padding-top: 0;
+    position: relative;
+    height: auto;
+}
+.article-item .category-under-block p:first-child {
+    margin-top: 0;
+}
+.article-item .category-under-block p:last-child {
+    margin-bottom: 0;
+}
+.article-item .links a {
+    display: inline-block;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    transition: .5s;
+}
+.article-item .links a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.article-item .medium-width {
+    width: 1050px;
+    margin: 50px auto;
+}
+.article-item p {
+    margin: 20px 0;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.article-item h3 {
+    margin: 0;
+}
+.article-item .medium {
+    font-weight: 500;
+}
+.article-item .image img {
+    width: 100%;
+}
+.article-item .max-width > div {
+    width: 48%;
+}
+.article-item .max-width > div:first-child {
+    float: left;
+}
+.article-item .max-width > div:last-child {
+    float: right;
+}
