@@ -57,13 +57,13 @@ $(document).ready(function($) {
                     phoneNumberAndEmail += '<p>+1 (215) 948-8178</p><p>info@smartexe.com</p>'; // America or Canada
                 }
                 else {
-                    phoneNumber += '+45-30-48-56-40'; // Europe
-                    phoneNumberAndEmail += '<p>+45-30-48-56-40</p><p>contacteu@smartexe.com</p>'; // Europe
+                    phoneNumber += '+45 30485640'; // Europe
+                    phoneNumberAndEmail += '<p>+45 30485640</p><p>contacteu@smartexe.com</p>'; // Europe
                 }
             }
             else {
                 phoneNumber += '+45-30-48-56-40';
-                phoneNumberAndEmail += '<p>+45-30-48-56-40</p><p>contacteu@smartexe.com</p>';
+                phoneNumberAndEmail += '<p>+45 30485640</p><p>contacteu@smartexe.com</p>';
             }
 
             $('#phoneNumber').html(phoneNumberAndEmail);

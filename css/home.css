@@ -390,6 +390,9 @@
 .layer-4 a:hover > div span {
     color: rgb(255, 102, 51);
 }
+.layer-4 table tr {
+    cursor: pointer;
+}
 
 /* LAYER-5 */
 .layer-5 {

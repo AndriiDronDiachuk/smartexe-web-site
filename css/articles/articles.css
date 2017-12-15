@@ -9,8 +9,10 @@
 }
 .articles h2 {
     font-size: 36px;
+    line-height: 36px;
     margin: 0 0 10px;
     color: #000;
+    font-family: 'SofiaProBold', sans-serif;
 }
 .articles .article-item {
     margin: 30px 0;

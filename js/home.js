@@ -28,7 +28,7 @@ $(document).ready(function ($) {
             }
 
             $(item).toggleClass('active');
-            $( item + '-text').slideToggle();
+            $(item + '-text').slideToggle();
         });
     });
 
