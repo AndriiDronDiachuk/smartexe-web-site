@@ -23,11 +23,19 @@
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(51, 51, 51, 0.5);
-    background: -webkit-linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(239, 83, 44, 0.92));
-    background: -o-linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(239, 83, 44, 0.92));
-    background: -moz-linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(239, 83, 44, 0.92));
-    background: linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(239, 83, 44, 0.92));
+    background: rgba(51, 51, 51, 0.25);
+    background: -webkit-linear-gradient(bottom, rgba(149, 117, 109, 0.4), rgba(51, 51, 51, 0.25));
+
+    /*background: -webkit-linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(51, 51, 51, 0.25));*/
+    /*background: -o-linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(51, 51, 51, 0.25));*/
+    /*background: -moz-linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(51, 51, 51, 0.25));*/
+    /*background: linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(51, 51, 51, 0.25));*/
+
+    /*background: rgba(51, 51, 51, 0.5);*/
+    /*background: -webkit-linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(239, 83, 44, 0.92));*/
+    /*background: -o-linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(239, 83, 44, 0.92));*/
+    /*background: -moz-linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(239, 83, 44, 0.92));*/
+    /*background: linear-gradient(bottom, rgba(149, 117, 109, 0.55), rgba(239, 83, 44, 0.92));*/
 }
 .carousel div {
     height: 1000px;
@@ -111,10 +119,9 @@
     letter-spacing: -2px;
 }
 .layer-1 .right {
-    padding: 20px 8px 0 70px;
+    padding: 25px 8px 0 70px;
     font-family: 'Hind', sans-serif;
     font-size: 18px;
-    line-height: 36px;
     text-align: justify;
 }
 
@@ -175,7 +182,7 @@
 }
 .layer-2 p {
     font-family: 'Hind', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
 }
 .layer-2 .block-1:before,
@@ -246,7 +253,7 @@
 }
 .layer-2 .box .info span {
     color: rgba(255, 102, 51, 0.6);
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 10px;
     display: inline-block;
     font-family: 'Hind', sans-serif;
@@ -289,14 +296,16 @@
     background-position-y: 100%;
 }
 .layer-3 .text {
-    /*float: left;*/
     text-align: center;
 }
 .layer-3 .text h2 {
-    font-family: 'SofiaProBold', sans-serif;
+    display: inline-block;
+    width: 745px;
+    font-family: 'SofiaProRegular', sans-serif;
+    font-weight: 500;
     font-size: 26px;
     color: #fff;
-    margin: 30px 0 0;
+    margin: 15px 0 0;
 }
 .layer-3 .text p {
     font-family: 'Hind', sans-serif;
@@ -319,18 +328,19 @@
 }
 .layer-4 p {
     font-family: 'Hind', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 .layer-4 .medium {
     font-family: 'MyriadProRegular', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 .layer-4 .list p {
     font-size: 16px;
 }
 .layer-4 .first-list {
-    padding-left: 150px;
+    padding-left: 125px;
+    padding-right: 25px;
 }
 .layer-4 .second-list {
     padding-right: 150px;
@@ -380,7 +390,7 @@
 }
 .layer-4 a span {
     color: rgba(255, 102, 51, 0.6);
-    font-size: 15px;
+    font-size: 16px;
     display: inline-block;
     font-family: 'Hind', sans-serif;
     font-weight: 700;
@@ -457,7 +467,7 @@
 .layer-5 p {
     color: #fff;
     font-family: 'SofiaProLightItalic', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-style: italic;
     position: relative;
     letter-spacing: 2px;
@@ -546,19 +556,19 @@
     border-bottom: none;
 }
 .layer-6 .grey-bgc {
-    background-color: rgba(205, 205, 205, 0.9);
+    background-color: rgba(205, 205, 205, 0.75);
 }
 .layer-6 .light-grey-bgc {
-    background-color: rgba(205, 205, 205, 0.75);
+    background-color: rgba(205, 205, 205, 0.6);
 }
 .layer-6 .light-grey-bgc:hover {
     opacity: 0.8;
 }
 .layer-6 .blue-bgc {
-    background-color: rgba(239, 83, 44, 0.85);
+    background-color: rgba(239, 83, 44, 0.6);
 }
 .layer-6 .dark-blue-bgc {
-    background-color: rgba(21, 31, 40, 0.95);
+    background-color: rgba(21, 31, 40, 0.7);
 }
 .layer-6 .box span {
     letter-spacing: -1px;

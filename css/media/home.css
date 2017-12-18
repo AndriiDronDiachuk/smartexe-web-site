@@ -156,8 +156,7 @@
         height: 25px;
     }
     .layer-3 .text h2 {
-        margin-top: 0;
-        font-size: 30px;
+        margin-top: 5px;
     }
     .layer-3 .text p {
         font-size: 16px;
@@ -180,10 +179,10 @@
     .layer-4 h2 {
         font-size: 30px;
     }
-    .layer-4 p,
-    .layer-4 li div {
-        font-size: 16px;
-    }
+    /*.layer-4 p,*/
+    /*.layer-4 li div {*/
+        /*font-size: 17px;*/
+    /*}*/
 
     /* LAYER-5 */
     .layer-5 {
@@ -377,7 +376,7 @@
         height: 35px;
     }
     .layer-3 .text h2 {
-        font-size: 28px;
+        font-size: 22px;
     }
     .layer-3 .button-style-1 {
         margin-top: 5px;
@@ -538,6 +537,7 @@
         height: 12px;
     }
     .layer-3 .text h2 {
+        width: 690px;
         margin-top: 5px;
         font-size: 24px;
     }
@@ -555,13 +555,17 @@
     }
     .layer-4 .first-list {
         padding-left: 8px;
+        padding-right: 8px;
     }
     .layer-4 .second-list {
         padding-right: 8px;
     }
-    .layer-4 .second-list li:first-child button {
-        letter-spacing: -1px;
+    .layer-4 li button {
+        font-size: 18px;
     }
+    /*.layer-4 .second-list li:nth-child(2) button {*/
+        /*letter-spacing: -1px;*/
+    /*}*/
 
     /* LAYER-5 */
     .layer-5 {
@@ -773,6 +777,7 @@
         float: none;
     }
     .layer-3 .text h2 {
+        width: auto;
         line-height: 28px;
     }
     .layer-3 .text p {
@@ -812,6 +817,7 @@
     .layer-4 li button {
         font-size: 16px;
         height: auto;
+        text-align: left;
     }
     .layer-4 li i {
         margin-right: 10px;

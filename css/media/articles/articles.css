@@ -6,17 +6,17 @@
     .articles .article-item {
         min-height: 250px;
     }
-    .articles .info .date {
-        font-size: 12px;
-        line-height: 12px;
-    }
+    /*.articles .info .date {*/
+        /*font-size: 12px;*/
+        /*line-height: 12px;*/
+    /*}*/
     .articles .info h3 {
         font-size: 22px;
         margin: 10px 0 0;
     }
-    .articles .info .text {
-        font-size: 15px;
-    }
+    /*.articles .info .text {*/
+        /*font-size: 15px;*/
+    /*}*/
     .articles h2 {
         font-size: 30px;
         margin-bottom: 0;
@@ -40,13 +40,17 @@
         font-size: 14px;
         margin: 8px 0;
     }
-    .articles a {
-        font-size: 14px;
-        line-height: 14px;
-    }
+    /*.articles a {*/
+        /*font-size: 14px;*/
+        /*line-height: 14px;*/
+    /*}*/
     .category-img-block.articles {
         background: url(../../../images/article/article_bgi.png) no-repeat 50%;
         background-size: 190%;
+    }
+    .articles span {
+        font-size: 14px;
+        line-height: 14px;
     }
 }
 @media screen and (max-width: 1023px) {

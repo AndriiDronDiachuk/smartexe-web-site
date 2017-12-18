@@ -23,8 +23,10 @@
     .category-teammates-block .gray-label {
         margin-bottom: 25px;
     }
+    .category-teammates-block .photo img {
+        width: 65%;
+    }
     .category-gray-label-block {
-        text-align: center;
         height: auto;
     }
     .category-gray-label-block .left-labels h2 {
@@ -50,6 +52,21 @@
     }
 }
 @media screen and (max-width: 767px) {
+    .category-teammates-block .founder-name p,
+    .category-teammates-block .name p {
+        font-size: 20px;
+    }
+    .category-teammates-block .founder-name,
+    .category-teammates-block .name {
+        font-size: 15px;
+    }
+    .category-teammates-block .teammates-item {
+        text-align: center;
+        padding: 40px 0;
+    }
+    .category-teammates-block .photo img {
+        width: 45%;
+    }
     .category-gray-label-block .right-labels {
         display: none;
     }
@@ -73,5 +90,6 @@
     .category-teammates-block .gray-label,
     .category-teammates-block .about {
         font-size: 14px;
+        padding: 0 8px;
     }
 }

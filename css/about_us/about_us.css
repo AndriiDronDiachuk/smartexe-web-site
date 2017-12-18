@@ -5,7 +5,7 @@
     margin-left: 100px;
 }
 .category-gray-label-block .right-labels span {
-    margin-top: 80px;
+    margin-top: 85px;
     font-family: 'Hind', sans-serif;
 }
 .category-gray-label-block .left-labels h2 {
@@ -13,7 +13,7 @@
     line-height: 42px;
     font-weight: 700;
     font-family: 'SofiaProBold', sans-serif;
-    margin-top: 75px;
+    margin: 75px 0;
 }
 .category-gray-label-block .right-labels span {
     line-height: 31px;
@@ -25,12 +25,13 @@
 }
 .category-gray-label-block .right-labels p {
     line-height: 31px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
     font-family: 'Hind', sans-serif;
     margin-bottom: 30px;
 }
 .category-team-block{
+    width: 100%;
     font-family: 'Hind Siliguri', sans-serif;
 }
 .category-team-block h2 {
@@ -41,15 +42,26 @@
 }
 .category-team-block p {
     margin-bottom: 110px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 31px;
 }
 .category-teammates-block {
     font-family: 'Hind Siliguri', sans-serif;
 }
-.category-teammates-block .photo-empty,
-.category-teammates-block img {
+.category-teammates-block .photo {
+    text-align: center;
+    width: 100%;
+}
+.category-teammates-block .photo img {
+    width: 55%;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.category-teammates-block .teammates-item {
+    padding: 75px 0;
+}
+.category-teammates-block .photo-empty {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -66,22 +78,23 @@
 .category-teammates-block .founder-name,
 .category-teammates-block .name {
     vertical-align: top;
-    margin-left: 40px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
 .category-teammates-block .name span {
     opacity: 0.5;
 }
 .category-teammates-block .founder-name p,
 .category-teammates-block .name p {
-    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    margin: 0;
     font-weight: 700;
     font-size: 26px;
 }
 .category-teammates-block .about {
-    line-height: 40px;
-    margin: 25px 30px 80px 70px;
+    /*line-height: 40px;*/
+    /*margin: 25px 30px 80px 70px;*/
     font-weight: 300;
     font-size: 16px;
 }

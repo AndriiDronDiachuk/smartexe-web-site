@@ -14,7 +14,7 @@ $(document).ready(function ($) {
             phone: {
                 required: true,
                 phone: true,
-                maxlength: 18,
+                maxlength: 20,
                 minlength: 10
             },
             email: {
@@ -32,7 +32,7 @@ $(document).ready(function ($) {
             phone: {
                 required: "This field is required",
                 phone: "Please enter a valid phone number",
-                maxlength: "Max 18 symbols required",
+                maxlength: "Max 20 symbols required",
                 minlength: "Min 10 symbols required"
             },
             email: {

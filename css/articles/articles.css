@@ -35,7 +35,7 @@
     width: 30px;
     height: 30px;
     text-align: center;
-    line-height: 35px;
+    line-height: 30px;
     display: inline-block;
     color: #fff;
     font-size: 22px;
@@ -43,6 +43,7 @@
     border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0);
+    transition: .5s;
 }
 .articles .image .links a:hover {
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -75,7 +76,7 @@
 }
 .articles .info .text {
     font-size: 16px;
-    font-family: 'SofiaProRegular', sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 .articles .info a {
     position: absolute;
@@ -85,7 +86,8 @@
 .articles p:last-child {
     margin-bottom: 0;
 }
-.articles a {
+.articles span,
+.articles .more-articles {
     color: rgba(255, 102, 51, 0.6);
     font-family: 'Hind', sans-serif;
     font-weight: 700;
@@ -94,10 +96,17 @@
     font-size: 16px;
     line-height: 16px;
 }
-.articles a:hover {
+.articles span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.articles span:hover,
+.articles .more-articles:hover {
     color: rgb(255, 102, 51);
 }
 .articles .more-articles {
+    letter-spacing: 1px;
     display: block;
     text-align: center;
     padding: 20px 0;
