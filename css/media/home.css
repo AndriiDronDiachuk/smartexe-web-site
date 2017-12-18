@@ -882,7 +882,7 @@
     }
     .layer-6 .industries div:nth-child(5) {
         height: 160px;
-        background-color: rgba(21, 31, 40, 0.95);
+        background-color: rgba(21, 31, 40, 0.7);
     }
     .layer-6 .industries div:nth-child(5) span,
     .layer-6 .industries div:nth-child(7) span {
@@ -892,19 +892,19 @@
         border-right: 8px solid #fff;
         height: 180px;
         border-bottom: 8px solid #fff;
-        background-color: rgba(239, 83, 44, 0.85);
+        background-color: rgba(239, 83, 44, 0.6);
     }
     .layer-6 .industries div:nth-child(7) {
         border-right: none;
         height: 200px;
-        background-color: rgba(239, 83, 44, 0.85);
+        background-color: rgba(239, 83, 44, 0.6);
         margin-top: -20px;
     }
     .layer-6 .industries div:nth-child(8) {
         border-right: none;
         height: 180px;
         margin-top: 0!important;
-        background-color: rgba(21, 31, 40, 0.95);
+        background-color: rgba(21, 31, 40, 0.7);
         border-right: 8px solid #fff;
     }
     .layer-6 .small-box {
