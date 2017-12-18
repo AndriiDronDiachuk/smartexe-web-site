@@ -275,8 +275,8 @@
     .footer-1 {
         height: auto;
         background: #333 url(../../images/mobile/footer_bgi.jpg) no-repeat 50% 60%;
-        background-size: 215%;
-        padding: 35px 0 0;
+        background-size: 235%;
+        padding: 35px 0;
     }
     .footer-1 form {
         display: none;
@@ -288,12 +288,12 @@
         z-index: 1;
     }
     .footer-1 .label-1 {
-        margin-top: 0;
+        margin: 0;
         font-size: 24px;
     }
     .footer-1 .label-2 {
         width: 240px;
-        margin: 0 auto;
+        margin: 0 auto 28px;
     }
     .footer-1 .label-3 {
         margin-top: 0;
