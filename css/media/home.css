@@ -325,6 +325,13 @@
     }
 
     /* LAYER-2 */
+    .layer-2 p {
+        font-size: 15px;
+    }
+    .layer-2 h3 {
+        font-size: 22px;
+    }
+
     .layer-2 .block-1,
     .layer-2 .block-2,
     .layer-2 .block-3,
