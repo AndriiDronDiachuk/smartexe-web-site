@@ -113,7 +113,7 @@ $(document).ready(function ($) {
 
                     showSuccessSendMessage();
                 });
-        }
+        }l
     });
 
     var successMessage = $('#success-message');
