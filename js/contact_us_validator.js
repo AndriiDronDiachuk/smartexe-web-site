@@ -74,16 +74,20 @@ $(document).ready(function ($) {
 
                     if (data !== undefined) {
                         if (data.time_zone.includes('Europe')) {
-                            // sendToEmail = 'contacteu@smartexe.com';
+                            sendToEmail = 'contacteu@smartexe.com';
                             sendSubject = 'Smartexe - ContactUs / Europe'
+                        }
+                        else {
+                            sendToEmail = 'contact@smartexe.com';
+                            sendSubject = 'Smartexe - ContactUs / Other'
                         }
                     }
                     else {
-                        // sendToEmail = 'contact@smartexe.com';
+                        sendToEmail = 'contact@smartexe.com';
                         sendSubject = 'Smartexe - ContactUs / Other'
                     }
 
-                    sendToEmail = 'vladiknorik@gmail.com'; // <<< TEST EMAIL
+                    // sendToEmail = 'vladiknorik@gmail.com'; // <<< TEST EMAIL
 
                     console.log( sendToEmail, sendSubject );
 
