@@ -485,7 +485,6 @@ header {
 }
 .footer-1 .input-item {
     position: relative;
-    border-bottom: 1px solid rgb(204,204,204);
     margin-right: 8%;
     margin-bottom: 60px;
     width: 46%;
@@ -504,8 +503,8 @@ header {
     opacity:  0.7;
     transition: 0.5s;
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     color: #fff;
     height: 18px;
 }
@@ -520,7 +519,6 @@ header {
 }
 
 .footer-1 .message-input {
-    min-height: 30px;
     border-bottom: none;
 }
 .footer-1 .autoExpand {
@@ -553,6 +551,7 @@ header {
 }
 .footer-1 .input-text {
     border: none;
+    border-bottom: 1px solid rgb(204,204,204);
     width: 100%;
 }
 .footer-1 .message-input {
@@ -575,19 +574,19 @@ header {
 }
 .footer-1 .message-input .input-text {
     border-bottom: 1px solid rgb(204,204,204);
-    height: 26px;
 }
 .footer-1 textarea{
-    line-height: 25px;
+    line-height: 21px;
     padding: 0;
     display: inline-block;
     overflow: auto;
     outline: none;
     resize: none;
     width: 100%;
-    min-height: 25px;
+    /*min-height: 25px;*/
     max-height: 99px;
     overflow-y: hidden;
+    box-sizing: border-box;
 }
 #phoneNumber p:nth-child(2) {
     display: inline-block;
