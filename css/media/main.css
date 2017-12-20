@@ -33,9 +33,6 @@
         top: -2px;
         height: 40px;
     }
-    .footer-2 ul:nth-child(6) li:nth-child(2) {
-        width: 200px;
-    }
 
     .category-img-block {
         height: 250px;
@@ -115,17 +112,6 @@
     }
     .footer-1:before {
         height: 30px;
-    }
-    .footer-2 a,
-    .footer-2 label {
-        letter-spacing: 0;
-    }
-    .footer-2 ul:nth-child(3) {
-        padding-left: 40px;
-    }
-
-    .footer-2 ul:nth-child(6) label {
-        letter-spacing: 1px;
     }
 
     /* BUTTON-STYLE-3 */
@@ -272,31 +258,7 @@
     .footer-1 .input-item {
         width: 100%;
     }
-    .footer-2 {
-        padding: 30px 0;
-    }
-    .footer-2 ul:nth-child(3) {
-        padding-left: 8px;
-    }
-    .footer-2 ul:nth-child(5) {
-        padding-left: 8px;
-        margin-top: 25px;
-    }
-    .footer-2 ul:nth-child(5) li {
-        margin: 0;
-        float: left;
-        padding: 0 8px;
-    }
-    .footer-2 ul:nth-child(5) li:first-child {
-        width: 160px;
-        padding-left: 0;
-    }
-    .footer-2 ul:nth-child(5) li:last-child {
-        padding-left: 130px;
-    }
-    .footer-2 ul:nth-child(5) li i {
-        margin-top: 0;
-    }
+
     .category-send-message-block .right-labels .label-1 h2 {
         font-size: 20px;
     }
@@ -392,34 +354,6 @@
     }
     .footer-1 .label-3 .button-style-1 {
         padding: 20px 45px;
-    }
-    .footer-2 {
-        padding: 15px 0;
-    }
-    .footer-2 .row ul:first-child,
-    .footer-2 .row ul:nth-child(2),
-    .footer-2 .row ul:nth-child(3),
-    .footer-2 .row ul:nth-child(4) {
-        display: none;
-    }
-    .footer-2 ul:nth-child(5) {
-        margin: 0;
-    }
-    .footer-2 ul:nth-child(5) li {
-        width: 100% !important;
-        padding: 10px 0 !important;
-        text-align: center;
-    }
-    .footer-2 i {
-        margin: 0 10px !important;
-    }
-    .footer-3 {
-        height: auto;
-        text-align: center;
-        padding: 10px 0 30px;
-    }
-    .footer-3 .label-2 {
-        float: none;
     }
 
     /* CATEGORY-IMG-BLOCK */

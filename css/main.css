@@ -276,79 +276,69 @@ header {
 }
 
 .footer-2 {
-    padding: 50px 0 40px;
-    position: relative;
-    background-size: 100%;
-    background-color: black;
+    padding: 50px 0;
+    background-color: #000;
+    color: #999;
 }
-
-.footer-2 a,
-.footer-2 label {
-    color: #989898;
-    font-family: 'SofiaProRegular', sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
-    transition: 0.5s;
+.footer-2 ul {
+    width: 100%;
 }
-
-.footer-2 a:hover {
-    color: #fff;
-}
-
 .footer-2 li {
-    margin: 5px 0 5px 0;
-}
-
-.footer-2 .label-name {
-    margin-bottom: 20px;
-    color: white;
-    font-size: 18px;
-    font-family: 'SofiaProBold', sans-serif;
-    letter-spacing: 1px;
-}
-
-.footer-2 .fa{
-    margin: 0 20px 0 0;
-}
-
-.footer-2 ul:nth-child(3) {
-    padding-left: 65px;
-}
-
-.footer-3 {
-    position: relative;
-    height: 40px;
-    background-size: 100%;
-    background-color: rgb(33, 34, 36);
-    color: rgb(140,140,140);
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.footer-3 .label-1,
-.footer-3 .label-2 {
-    display: inline-block;
-    margin: 10px 0;
-}
-
-.footer-3 .label-2 {
-    float: right;
-}
-
-.footer-3 .label-2 a,
-.footer-3 .label-2 li {
-    color: rgb(140,140,140);
-    transition: 0.5s;
-}
-
-.footer-3 .label-2 li {
     float: left;
 }
 
-.footer-3 a:hover {
+.footer-2 .first-ul {
+    margin-bottom: 60px;
+}
+.footer-2 .first-ul li {
+    margin-right: 42px;
+}
+.footer-2 .first-ul li:nth-child(7) {
+    margin-right: 0;
+}
+.footer-2 .first-ul li:nth-child(8),
+.footer-2 .first-ul li:last-child {
+    float: right;
+}
+.footer-2 .first-ul li:nth-child(8) {
+    margin-right: 0;
+}
+.footer-2 .first-ul a {
+    color: #ccc;
+    transition: .5s;
+    font-size: 16px;
+}
+.footer-2 .first-ul a:hover {
     color: #fff;
 }
 
+.footer-2 .second-ul {
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+}
+.footer-2 .second-ul li {
+    width: 33.33%;
+}
+.footer-2 .second-ul li:nth-child(2) {
+    text-align: center;
+}
+.footer-2 .second-ul li:last-child {
+    text-align: right;
+}
+.footer-2 .second-ul a {
+    color: #999;
+    transition: .5s;
+}
+.footer-2 .second-ul a:hover {
+    color: #fff;
+}
+.footer-2 .second-ul span {
+    margin: 0 5px;
+}
+.footer-2 .second-ul .footer-social {
+    font-size: 18px;
+    margin: 0 15px;
+}
 
 /* CATEGORY-IMG-BLOCK */
 .category-img-block {
@@ -497,7 +487,7 @@ header {
     color: #fff;
 }
 .footer-1 .input-item label {
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Hind', sans-serif;
     font-size: 16px;
     font-weight: 300;
     opacity:  0.7;
@@ -564,10 +554,12 @@ header {
 }
 .footer-1 .input-fields .input-text,
 .footer-1 .input-fields .autoExpand {
-    font-family: 'Hind Siliguri', sans-serif;
+    /*font-family: 'Hind', sans-serif;*/
     font-size: 16px;
     font-weight: 300;
     background-color: rgba(255, 255, 255, 0);
+    line-height: 25px;
+    min-height: 25px;
 }
 [contentEditable=true]:empty:before{
     display: block;
@@ -577,14 +569,14 @@ header {
     border-bottom: 1px solid rgb(204,204,204);
 }
 .footer-1 textarea{
-    line-height: 18px;
+    line-height: 25px;
     padding: 1px 0;
     display: inline-block;
     overflow: auto;
     outline: none;
     resize: none;
     width: 100%;
-    min-height: 18px;
+    min-height: 25px;
     max-height: 99px;
     overflow-y: hidden;
 }
