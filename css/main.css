@@ -555,6 +555,7 @@ header {
     width: 100%;
 }
 .footer-1 .message-input {
+    padding-top: 1px;
     border-bottom: none;
 }
 
@@ -576,17 +577,16 @@ header {
     border-bottom: 1px solid rgb(204,204,204);
 }
 .footer-1 textarea{
-    line-height: 21px;
-    padding: 0;
+    line-height: 18px;
+    padding: 1px 0;
     display: inline-block;
     overflow: auto;
     outline: none;
     resize: none;
     width: 100%;
-    /*min-height: 25px;*/
+    min-height: 18px;
     max-height: 99px;
     overflow-y: hidden;
-    box-sizing: border-box;
 }
 #phoneNumber p:nth-child(2) {
     display: inline-block;
