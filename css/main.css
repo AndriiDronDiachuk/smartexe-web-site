@@ -569,7 +569,7 @@ header {
     border-bottom: 1px solid rgb(204,204,204);
 }
 .footer-1 textarea{
-    line-height: 25px;
+    height: 25px;
     padding: 1px 0;
     display: inline-block;
     overflow: auto;
