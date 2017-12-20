@@ -1,6 +1,6 @@
 .category-img-block.articles {
-    background: url("../../images/article/article_bgi.png") no-repeat 50%;
-    background-size: 100%;
+    background: url("../../images/articles.png") no-repeat 50%;
+    background-size: 125%;
 }
 .article-item.clearfix {
     margin: 25px 0;

@@ -1,7 +1,7 @@
 @media screen and (max-width: 1899px) {
 
     .category-img-block.articles {
-        background: url("../../../images/article/article_bgi.png") no-repeat 50%;
+        background: url("../../../images/articles.png") no-repeat 50%;
         background-size: 160%;
     }
     .articles .category-under-block h1 {
@@ -21,7 +21,7 @@
 @media screen and (max-width: 1199px) {
 
     .category-img-block.articles {
-        background: url(../../../images/article/article_bgi.png) no-repeat 50%;
+        background: url(../../../images/articles.png) no-repeat 50%;
         background-size: 190%;
     }
     .articles .category-under-block h1 {
@@ -32,7 +32,7 @@
 @media screen and (max-width: 1023px) {
 
     .category-img-block.articles {
-        background: url(../../../images/article/article_bgi.png) no-repeat 50%;
+        background: url(../../../images/articles.png) no-repeat 50%;
         background-size: 250%;
     }
     .articles .category-under-block h1 {
@@ -62,7 +62,7 @@
         margin: 10px 0;
     }
     .category-img-block.articles {
-        background: url(../../../images/article/article_bgi.png) no-repeat 50%;
+        background: url(../../../images/articles.png) no-repeat 50%;
         background-size: 370%;
     }
     .article-item .row > div {

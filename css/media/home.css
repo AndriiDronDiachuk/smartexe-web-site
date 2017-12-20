@@ -221,7 +221,6 @@
         font-size: 17px;
     }
     .layer-6 .industries {
-        margin-top: 60px;
         height: 612px;
         background: url(../../images/layer_6_bgi.jpg) no-repeat 50% 70%;
         background-size: 100%;
@@ -624,6 +623,13 @@
     }
     .layer-7 .marquee {
         width: 672px;
+    }
+
+    .layer-4 h2:after,
+    .layer-6 h2:after,
+    .articles h2:after
+    {
+        display: none;
     }
 }
 

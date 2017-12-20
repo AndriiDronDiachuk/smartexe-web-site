@@ -37,9 +37,9 @@
 .category-send-message-block .input-item {
     position: relative;
     border-bottom: 1px solid rgb(204,204,204);
-    margin-right: 2%;
+    margin-right: 8%;
     margin-bottom: 60px;
-    width: 32%;
+    width: 46%;
     float: left;
     box-sizing: border-box;
     display: inline;
@@ -54,7 +54,8 @@
     top:0;
     left:0;
 }
-.category-send-message-block .email-input,
+.category-send-message-block .phone-input,
+.category-send-message-block .company-input,
 .category-send-message-block .message-input{
     margin-right: 0;
 }

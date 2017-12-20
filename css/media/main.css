@@ -37,12 +37,58 @@
         width: 200px;
     }
 
+    .category-img-block {
+        height: 250px;
+    }
+    .category-under-block {
+        padding-top: 90px;
+    }
+    .category-img-block.about-img {
+        background: url("../../images/about.png") no-repeat 50%;
+        background-size: 135%;
+    }
+    .category-img-block.service-img {
+        background: url("../../images/services.png") no-repeat 50%;
+        background-size: 135%;
+    }
+    .category-img-block.tech-img {
+        background: url("../../images/tech.png") no-repeat 50%;
+        background-size: 135%;
+    }
+    .category-img-block.industr-img {
+        background: url("../../images/industr.png") no-repeat 50%;
+        background-size: 135%;
+    }
+
 }
 
 @media screen and (max-width: 1499px) {
     .footer-1 {
         background-image: url(../../images/footer_bgi.jpg);
         background-size: 190%;
+    }
+
+    .category-img-block {
+        height: 225px;
+    }
+    .category-under-block {
+        padding-top: 75px;
+    }
+    .category-img-block.about-img {
+        background: url("../../images/about.png") no-repeat 50%;
+        background-size: 155%;
+    }
+    .category-img-block.service-img {
+        background: url("../../images/services.png") no-repeat 50%;
+        background-size: 155%;
+    }
+    .category-img-block.tech-img {
+        background: url("../../images/tech.png") no-repeat 50%;
+        background-size: 155%;
+    }
+    .category-img-block.industr-img {
+        background: url("../../images/industr.png") no-repeat 50%;
+        background-size: 155%;
     }
 }
 
@@ -94,6 +140,29 @@
         width: 55px;
         height: 55px;
         line-height: 65px;
+    }
+
+    .category-img-block {
+        height: 200px;
+    }
+    .category-under-block {
+        padding-top: 65px;
+    }
+    .category-img-block.about-img {
+        background: url("../../images/about.png") no-repeat 50%;
+        background-size: 161%;
+    }
+    .category-img-block.service-img {
+        background: url("../../images/services.png") no-repeat 50%;
+        background-size: 161%;
+    }
+    .category-img-block.tech-img {
+        background: url("../../images/tech.png") no-repeat 50%;
+        background-size: 161%;
+    }
+    .category-img-block.industr-img {
+        background: url("../../images/industr.png") no-repeat 50%;
+        background-size: 161%;
     }
 }
 
@@ -250,6 +319,29 @@
         height: 50px;
         line-height: 60px;
     }
+
+    .category-img-block {
+        height: 175px;
+    }
+    .category-under-block {
+        padding-top: 50px;
+    }
+    .category-img-block.about-img {
+        background: url("../../images/about.png") no-repeat 50%;
+        background-size: 190%;
+    }
+    .category-img-block.service-img {
+        background: url("../../images/services.png") no-repeat 50%;
+        background-size: 190%;
+    }
+    .category-img-block.tech-img {
+        background: url("../../images/tech.png") no-repeat 50%;
+        background-size: 190%;
+    }
+    .category-img-block.industr-img {
+        background: url("../../images/industr.png") no-repeat 50%;
+        background-size: 190%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -345,7 +437,7 @@
     }
     .category-under-block h1 {
         font-size: 34px;
-        letter-spacing: -2px;
+        letter-spacing: 0;
     }
 
     /* CATEGORY-MAP-BLOCK */
@@ -363,5 +455,28 @@
         width: 45px;
         height: 45px;
         line-height: 55px;
+    }
+
+    .category-img-block {
+        height: 150px;
+    }
+    .category-under-block {
+        padding-top: 50px;
+    }
+    .category-img-block.about-img {
+        background: url("../../images/about.png") no-repeat 50%;
+        background-size: 355%;
+    }
+    .category-img-block.service-img {
+        background: url("../../images/services.png") no-repeat 35% 50%;
+        background-size: 355%;
+    }
+    .category-img-block.tech-img {
+        background: url("../../images/tech.png") no-repeat 58% 50%;
+        background-size: 355%;
+    }
+    .category-img-block.industr-img {
+        background: url("../../images/industr.png") no-repeat 35% 50%;
+        background-size: 355%;
     }
 }

@@ -45,7 +45,7 @@
 .layer-13 .client-carousel-item .address,
 .layer-14 p {
     font-family: 'Hind Siliguri', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
@@ -58,11 +58,19 @@
     padding: 30px 0 115px;
 }
 .layer-14 .client-box {
+    padding: 10px;
     width: 12.5%;
     text-align: center;
     float: left;
     margin-bottom: 10px;
-    height: 90px;
+    height: 105px;
+    transition: .5s;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.layer-14 .client-box:hover {
+    background-color: #f7f7f7;
+
 }
 .layer-14 .client-box span {
     display: block;

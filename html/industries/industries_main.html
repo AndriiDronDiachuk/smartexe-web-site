@@ -274,7 +274,7 @@
 </header>
 
 <div class="container">
-    <div class="category-img-block">
+    <div class="category-img-block industr-img">
         <div class="category-under-block">
             <div class="need_to_center">
                 <!--<p><a href="../../index.html">Home</a> > Industries</p>-->
@@ -292,44 +292,56 @@
             <div class="col-xs-12">
                 <div class="industries">
                     <div class="box small-box grey-bgc light-grey-bgc">
-                        <a class="fill-div" href="industries_multimedia.html">
-                            <span>Multimedia</span>
-                        </a>
-                    </div>
-                    <div class="box big-box dark-blue-bgc">
-                        <a class="fill-div" href="industries_mobile_applications.html">
-                            <span>Mobile Applications</span>
-                        </a>
-                    </div>
-                    <div class="box medium-box blue-bgc">
-                        <a class="fill-div" href="industries_telecommunication.html">
+                        <a class="fill-div" href="./industries_telecommunication.html">
                             <span>Telecommunication</span>
                         </a>
                     </div>
+                    <div class="box big-box dark-blue-bgc">
+                        <a class="fill-div" href="./industries_multimedia.html">
+                            <span>Multimedia</span>
+                        </a>
+                    </div>
+                    <div class="box medium-box blue-bgc">
+                        <a class="fill-div" href="./industries_high_tech_software.html">
+                            <span>High-Tech Software</span>
+                        </a>
+                    </div>
                     <div class="box small-box dark-blue-bgc no-border-right">
-                        <a class="fill-div" href="industries_web_server_client_applications.html">
-                            <span>Web Server/<br>Client applications</span>
+                        <a class="fill-div">
+                            <span>Games Development</span>
                         </a>
                     </div>
                     <div class="box big-box blue-bgc no-border-right no-border-bottom second-row">
-                        <a class="fill-div" href="industries_e_commerce.html">
-                            <span>E-Commerce</span>
+                        <a class="fill-div">
+                            <span>Cryptocurrency</span>
                         </a>
                     </div>
                     <div class="box medium-box dark-blue-bgc no-border-bottom second-row">
-                        <a class="fill-div" href="industries_software_and_it.html">
-                            <span>Software & IT</span>
+                        <a class="fill-div" href="./industries_cloud_computing.html">
+                            <span>Cloud Computing</span>
                         </a>
                     </div>
                     <div class="box small-box grey-bgc no-border-bottom second-row">
-                        <a class="fill-div" href="industries_high_tech_sturtups.html">
-                            <span>High-Tech Startups</span>
+                        <a class="fill-div">
+                            <span>Media & Marketing</span>
                         </a>
                     </div>
                     <div class="box big-box blue-bgc no-border-bottom second-row" style="margin-top: -100px;">
-                        <a class="fill-div" href="industries_cloud_solutions.html">
-                            <span>Cloud Solutions</span>
+                        <a class="fill-div" href="./industries_e_commerce.html">
+                            <span>E-Commerce</span>
                         </a>
+
+                        <!--<a class="fill-div" href="html/industries/industries_mobile_applications.html">-->
+                        <!--<span>Mobile Applications</span>-->
+                        <!--</a>-->
+
+                        <!--<a class="fill-div" href="html/industries/industries_software_and_it.html">-->
+                        <!--<span>Software & IT</span>-->
+                        <!--</a>-->
+
+                        <!--<a class="fill-div" href="html/industries/industries_web_server_client_applications.html">-->
+                        <!--<span>Web Server/<br>Client applications</span>-->
+                        <!--</a>-->
                     </div>
                 </div>
             </div>
@@ -355,33 +367,32 @@
                                 <input id="name"
                                        name="name"
                                        type="text"
-                                       class="input-text"/>
+                                       class="input-text"
+                                       autocomplete="off"/>
                             </div>
                             <div class="input-item phone-input phone">
-                                <label class="input-label phone" for="phone">Phone *</label>
+                                <label class="input-label phone" for="phone">Phone</label>
                                 <input id="phone"
                                        name="phone"
                                        type="text"
-                                       class="input-text"/>
+                                       class="input-text"
+                                       autocomplete="off"/>
                             </div>
                             <div class="input-item email-input email">
                                 <label class="input-label email" for="email">Email *</label>
                                 <input id="email"
                                        name="email"
                                        type="email"
-                                       class="input-text"/>
+                                       class="input-text"
+                                       autocomplete="off"/>
                             </div>
-                            <div class="input-item">
+                            <div class="input-item company-input">
                                 <label class="input-label company_name" for="company_name">Company Name</label>
-                                <input maxlength="80" id="company_name" type="text" class="input-text"/>
-                            </div>
-                            <div class="input-item">
-                                <label class="input-label title" for="title">Title</label>
-                                <input maxlength="40" id="title" type="text" class="input-text"/>
+                                <input maxlength="80" id="company_name" name="company" type="text" class="input-text" autocomplete="off"/>
                             </div>
                             <div class="input-item message-input">
-                                <label class="input-label message" for="message">Message</label>
-                                <textarea maxlength="1000" id="message" class='input-text autoExpand' rows='1' data-min-rows='1'></textarea>
+                                <label class="input-label message" for="message">Message *</label>
+                                <textarea maxlength="500" id="message" name="message" class='input-text autoExpand' rows='1' data-min-rows='1' autocomplete="off"></textarea>
                             </div>
                         </div>
                         <div class="button clearfix">

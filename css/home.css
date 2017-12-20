@@ -508,7 +508,7 @@
 .layer-6 h2 {
     font-family: 'SofiaProBold', sans-serif;
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .layer-6 span {
     font-family: 'Hind', sans-serif;
@@ -516,7 +516,6 @@
     color: rgba(20, 20, 20, 0.5);
 }
 .layer-6 .industries {
-    margin-top: 75px;
     height: 816px;
     background: url(../images/layer_6_bgi.jpg) no-repeat 50% 100%;
     background-size: 105%;
@@ -533,7 +532,7 @@
     bottom: 60px;
 }
 .layer-6 .box:hover {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .layer-6 .second-row {
     float: right;
@@ -656,4 +655,31 @@ a.fill-div {
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+
+.layer-4 h2,
+.layer-6 h2,
+.articles h2
+{
+    display: inline-block;
+    position: relative;
+}
+.layer-4 h2:after,
+.layer-6 h2:after,
+.articles h2:after
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: .5s;
+}
+.layer-4 h2:hover:after,
+.layer-6 h2:hover:after,
+.articles h2:hover:after
+{
+    width: 100%;
 }

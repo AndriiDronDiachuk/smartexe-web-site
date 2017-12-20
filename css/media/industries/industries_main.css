@@ -2,6 +2,9 @@
     .layer-1 {
         background-position-y: 30px;
     }
+    .industries-body .layer-6 .industries {
+        margin-top: 35px;
+    }
 }
 @media screen and (max-width: 1199px) {
     .need-bottom-margin {

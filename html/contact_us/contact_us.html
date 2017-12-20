@@ -284,6 +284,7 @@
                 <div class="label-1">
                     <h2>Send us a message</h2>
                 </div>
+
                 <form id="contact-us-form">
                     <div class="input-fields">
                         <div class="input-item">
@@ -291,33 +292,32 @@
                             <input id="name"
                                    name="name"
                                    type="text"
-                                   class="input-text"/>
+                                   class="input-text"
+                                   autocomplete="off"/>
                         </div>
                         <div class="input-item phone-input phone">
-                            <label class="input-label phone" for="phone">Phone *</label>
+                            <label class="input-label phone" for="phone">Phone</label>
                             <input id="phone"
                                    name="phone"
                                    type="text"
-                                   class="input-text"/>
+                                   class="input-text"
+                                   autocomplete="off"/>
                         </div>
                         <div class="input-item email-input email">
                             <label class="input-label email" for="email">Email *</label>
                             <input id="email"
                                    name="email"
                                    type="email"
-                                   class="input-text"/>
+                                   class="input-text"
+                                   autocomplete="off"/>
                         </div>
-                        <div class="input-item">
+                        <div class="input-item company-input">
                             <label class="input-label company_name" for="company_name">Company Name</label>
-                            <input maxlength="80" id="company_name" name="company" type="text" class="input-text"/>
-                        </div>
-                        <div class="input-item">
-                            <label class="input-label title" for="title">Title</label>
-                            <input maxlength="40" id="title" name="title" type="text" class="input-text"/>
+                            <input maxlength="80" id="company_name" name="company" type="text" class="input-text" autocomplete="off"/>
                         </div>
                         <div class="input-item message-input">
-                            <label class="input-label message" for="message">Message</label>
-                            <textarea maxlength="1000" id="message" name="message" class='input-text autoExpand' rows='1' data-min-rows='1'></textarea>
+                            <label class="input-label message" for="message">Message *</label>
+                            <textarea maxlength="500" id="message" name="message" class='input-text autoExpand' rows='1' data-min-rows='1' autocomplete="off"></textarea>
                         </div>
                     </div>
                     <div class="button clearfix">
@@ -332,6 +332,7 @@
                         </div>
                     </div>
                 </form>
+
             </div>
         </div>
     </div>
