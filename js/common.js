@@ -79,4 +79,13 @@ $(document).ready(function($) {
         $('.footer-1').toggleClass('active');
     });
 
+    document.getElementById('shareBtn').onclick = function() {
+        FB.ui({
+            method: 'share',
+            mobile_iframe: true,
+            message: 'Test message',
+            href: 'https://andriidrondiachuk.github.io/smartexe-web-site/html/articles/articles-items/article_item_1.html'
+        }, function(response){});
+    }
+
 });
