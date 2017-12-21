@@ -79,13 +79,13 @@ $(document).ready(function($) {
         $('.footer-1').toggleClass('active');
     });
 
-    document.getElementById('shareBtn').onclick = function() {
-        FB.ui({
-            method: 'share',
-            mobile_iframe: true,
-            message: 'Test message',
-            href: 'https://andriidrondiachuk.github.io/smartexe-web-site/html/articles/articles-items/article_item_1.html'
-        }, function(response){});
-    }
+    // $('#share').on('click', function () {
+    //     FB.ui({
+    //         method: 'share',
+    //         mobile_iframe: true,
+    //         display: 'popup',
+    //         href: 'https://www.facebook.com/dialog/share?app_id=145634995501895&display=popup&href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2F&redirect_uri=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fexplorer'
+    //     }, function(response){});
+    // });
 
 });

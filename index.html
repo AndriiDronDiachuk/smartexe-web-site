@@ -1215,7 +1215,7 @@
                         <img src="./images/article/article_1.png" alt="article_1">
                     </a>
                     <div class="links">
-                        <a id="shareBtn">
+                        <a target="_blank" href="https://www.facebook.com/dialog/share?app_id=145634995501895&display=popup&href=https://andriidrondiachuk.github.io/smartexe-web-site/html/articles/articles-items/article_item_1.html">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                         <a href="https://twitter.com/smartexe_" target="_blank">
@@ -1648,24 +1648,13 @@
 <script src="libs/jquery-3.2.1/jquery-3.2.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId            : '144059183038419',
-            autoLogAppEvents : true,
-            xfbml            : true,
-            version          : 'v2.11'
-        });
-    };
-
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.11&appId=144059183038419';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <script src="libs/unslider-master/unslider-min.js"></script>
 <script src="libs/marquee-master/jquery.marquee.min.js"></script>
