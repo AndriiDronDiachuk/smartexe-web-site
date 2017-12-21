@@ -16,14 +16,18 @@
 .product-management .layer-2 .block-4:after {
     display: none;
 }
+.product-management .layer-2 .block-4 li:nth-child(1) {
+    line-height: 21px;
+    margin: 0 0 7px;
+}
 .product-management .box ul {
-    padding-left: 20px;
+    padding: 2px 0 0 20px;
     list-style: inherit;
     font-family: 'Hind', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
 }
 .product-management .button-style-3:before {
     right: 60px;
-    width: 290px;
+    width: 296px;
 }

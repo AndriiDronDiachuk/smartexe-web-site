@@ -24,7 +24,6 @@
     /* LAYER-14 */
     .layer-14 .client-box {
         width: 16.66%;
-        height: 100px;
     }
 }
 @media screen and (max-width: 1023px) {
@@ -48,7 +47,7 @@
         padding-bottom: 50px;
     }
     .layer-14 .client-box {
-        height: 85px;
+        padding: 5px;
     }
     .layer-14 .small-text {
         font-size: 13px;
@@ -100,7 +99,6 @@
     }
     .layer-14 .client-box {
         width: 33.33%;
-        height: 75px;
     }
     .layer-14 .client-box span {
         font-size: 13px;

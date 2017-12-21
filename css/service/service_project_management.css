@@ -19,17 +19,20 @@
 .project-management .layer-2 .block-1 li:nth-child(1),
 .project-management .layer-2 .block-1 li:nth-child(2),
 .project-management .layer-2 .block-1 li:nth-child(3) {
-    line-height: 17px;
+    line-height: 21px;
     margin: 7px 0;
 }
+.project-management .layer-2 .block-1 li:nth-child(1) {
+    margin-top: 0;
+}
 .project-management .box ul {
-    padding-left: 20px;
+    padding: 2px 0 0 20px;
     list-style: inherit;
     font-family: 'Hind', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
 }
 .project-management .button-style-3:before {
     right: 60px;
-    width: 290px;
+    width: 297px;
 }

@@ -24,6 +24,13 @@
         width: 260px;
         float: right;
     }
+    .project-management .box ul {
+        font-size: 15px;
+    }
+    .project-management .button-style-3:before {
+        right: 49px;
+        width: 297px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -52,14 +59,11 @@
     }
     .project-management .button-style-3:before {
         right: 28px;
-        width: 272px;
+        width: 278px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .project-management .category-under-block h1 {
-        font-size: 32px;
-    }
     .project-management .layer-2 .block-1,
     .project-management .layer-2 .block-2,
     .project-management .layer-2 .block-3 {

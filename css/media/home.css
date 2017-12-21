@@ -261,10 +261,6 @@
     .layer-7 span {
         font-size: 17px;
     }
-
-    .footer-2 .first-ul li {
-        margin-right: 30px;
-    }
 }
 
 @media screen and (max-width: 1599px) {
@@ -293,10 +289,6 @@
     }
     .social ul {
         margin-top: 312px;
-    }
-
-    .footer-2 .first-ul li {
-        margin-right: 25px;
     }
 }
 
@@ -423,13 +415,6 @@
     /* LAYER-7 */
     .layer-7 .marquee {
         width: 928px;
-    }
-
-    .footer-2 .first-ul {
-        margin-bottom: 75px;
-    }
-    .footer-2 .first-ul li:last-child {
-        margin-right: 0;
     }
 }
 

@@ -15,6 +15,13 @@
     .cloud-it .layer-2 .block-2:before {
         width: 30px;
     }
+    .cloud-it .box ul {
+        font-size: 15px;
+    }
+    .cloud-it .button-style-3:before {
+        right: 50px;
+        width: 162px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -34,7 +41,7 @@
         padding-left: 0;
     }
     .cloud-it .button-style-3:before {
-        right: 29px;
+        right: 30px;
         width: 148px;
     }
 }
@@ -69,7 +76,7 @@
     .cloud-it .layer-2 .block-4 ul {
         margin-top: 14px;
     }
-    .cloud-it .layer-2 .block-:after,
+    .cloud-it .layer-2 .block-1:after,
     .cloud-it .layer-2 .block-1:before,
     .cloud-it .layer-2 .block-2:after,
     .cloud-it .layer-2 .block-2:before {
@@ -86,7 +93,7 @@
     }
     .cloud-it .button-style-3:before {
         right: 15px;
-        width: 147px;
+        width: 149px;
         bottom: 12px;
     }
 }

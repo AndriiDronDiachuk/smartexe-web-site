@@ -13,6 +13,9 @@
         line-height: 36px;
         width: 100%;
     }
+    .layer-8 .list {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1023px) {

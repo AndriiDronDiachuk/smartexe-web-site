@@ -14,9 +14,13 @@
     }
     .quality-assurance .button-style-3:before {
         right: 49px;
+        width: 276px;
     }
     .quality-assurance .layer-2 .block-2:before {
         width: 30px;
+    }
+    .quality-assurance .box ul {
+        font-size: 15px;
     }
 }
 
@@ -38,7 +42,7 @@
     }
     .quality-assurance .button-style-3:before {
         right: 29px;
-        width: 251px;
+        width: 256px;
     }
 }
 

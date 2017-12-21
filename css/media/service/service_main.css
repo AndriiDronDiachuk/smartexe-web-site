@@ -25,12 +25,13 @@
     .service .layer-2 .block-6 {
         width: 325px;
     }
-    .service .layer-2 .block-4 h3 {
+    .service .layer-2 .block-5 h3 {
         letter-spacing: -1px;
         width: 245px;
-        line-height: 20px;
+        line-height: 25px;
         margin-bottom: 19px;
     }
+
 
     /* LAYER-11 */
     .layer-11 {
@@ -67,8 +68,8 @@
     .service .layer-2 .block-6 {
         width: 250px;
     }
-    .service .layer-2 .block-3 h3 {
-        letter-spacing: -1px;
+    .service .layer-2 .block-5 h3 {
+        width: 225px;
     }
 }
 
@@ -105,7 +106,14 @@
     .service .layer-2 .block-4 h3 {
         margin-left: auto;
         margin-right: auto;
+        width: auto;
     }
+    .service .layer-2 .block-5 h3 {
+        width: 225px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .service .layer-2 .block-4:after,
     .service .layer-2 .block-4:before {
         display: block;
@@ -136,27 +144,21 @@
     .service .layer-2 .block-6 {
         width: 100%;
     }
-    .service .layer-2 .block-4 h3 {
-        width: 146px;
-        font-size: 16px;
-        margin-bottom: 0;
-    }
     .service .layer-2 .block-3 h3 {
-        width: 146px;
-        font-size: 16px;
+        width: 130px;
+        line-height: 20px;
+    }
+    .service .layer-2 .block-5 h3 {
+        width: auto;
+        line-height: 20px;
+        font-size: 17px;
         margin-bottom: 0;
-        line-height: 20px !important;
     }
     .service .layer-2 .block-6 h3 {
-        width: 125px;
-        margin: 25px auto 0;
+        line-height: 40px;
     }
     .service .layer-2 .block-6:after { /*strange line appears*/
         display: none;
-    }
-    .service .layer-2 .block-3 h3,
-    .service .layer-2 .block-5 h3 {
-        line-height: 40px;
     }
     .service .layer-2 .info {
         width: 100%;

@@ -14,14 +14,14 @@
     display: none;
 }
 .development .layer-2 .block-1 li:nth-child(1) {
-    line-height: 17px;
-    margin: 7px 0;
+    line-height: 21px;
+    margin: 0 0 7px;
 }
 .development .box ul {
-    padding-left: 20px;
+    padding: 3px 0 0 20px;
     list-style: inherit;
     font-family: 'Hind', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
 }
 .development .button-style-3:before {

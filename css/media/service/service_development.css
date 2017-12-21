@@ -17,6 +17,9 @@
     .development .layer-2 .block-3 {
         width: 260px;
     }
+    .development .layer-2 .block-1 ul {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -48,11 +51,16 @@
     }
     .development .button-style-3:before {
         right: 28px;
-        width: 187px;
+        width: 192px;
     }
 }
 
 @media screen and (max-width: 767px) {
+
+    .development .category-under-block h1 {
+        width: 90%;
+        margin: 0 auto;
+    }
     .development .layer-2 .block-1,
     .development .layer-2 .block-2,
     .development .layer-2 .block-3 {
@@ -84,12 +92,13 @@
         padding: 0;
     }
     .development .button-style-3 {
-        padding-left: 55px;
-        padding-right: 10px;
+        width: 195px;
+        padding-left: 60px;
+        padding-right: 15px;
     }
     .development .button-style-3:before {
-        right: 15px;
-        width: 185px;
+        right: 17px;
+        width: 190px;
         bottom: 12px;
     }
 }

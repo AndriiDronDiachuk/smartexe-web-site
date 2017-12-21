@@ -15,6 +15,13 @@
     .product-management .layer-11 .text-top {
         padding: 0 50px;
     }
+    .product-management .box ul {
+        font-size: 15px;
+    }
+    .product-management .button-style-3:before {
+        right: 49px;
+        width: 299px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -31,17 +38,20 @@
         width: 200px;
         list-style: none;
         margin: 0 auto;
-        padding: 0;
+        padding: 2px 0 0;
     }
     .product-management .layer-2 .block-4 li:nth-child(1),
     .product-management .layer-2 .block-4 li:nth-child(2),
     .product-management .layer-2 .block-4 li:nth-child(3) {
-        line-height: 15px;
-        margin: 5px 0;
+        line-height: 17px;
+        margin: 10px 0;
+    }
+    .product-management .layer-2 .block-4 li:nth-child(1) {
+        margin-top: 0;
     }
     .product-management .button-style-3:before {
         right: 29px;
-        width: 270px;
+        width: 277px;
     }
 }
 

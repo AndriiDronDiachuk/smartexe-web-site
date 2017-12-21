@@ -73,6 +73,10 @@ $(document).ready(function($) {
             $('#header-phone')
                 .html(phoneNumber)
                 .css('opacity', 1);
-        })
+        });
+
+    $('#contact-mobile').on('click', function () {
+        $('.footer-1').toggleClass('active');
+    });
 
 });

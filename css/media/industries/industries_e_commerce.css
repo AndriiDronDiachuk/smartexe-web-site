@@ -12,7 +12,7 @@
 @media screen and (max-width: 1023px) {
 
     .e-commerce .button-style-3:before {
-        width: 181px;
+        width: 187px;
         right: 30px;
     }
 }
@@ -20,7 +20,7 @@
 @media screen and (max-width: 767px) {
 
     .e-commerce .button-style-3:before {
-        width: 181px;
+        width: 187px;
         right: 16px;
     }
 }

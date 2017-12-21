@@ -6,6 +6,9 @@
     .graphic-design .layer-2 {
         padding: 40px 0;
     }
+    .graphic-design .box ul {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -14,6 +17,10 @@
     }
     .graphic-design .layer-2 .block-2:before {
         width: 30px;
+    }
+    .graphic-design .button-style-3:before {
+        right: 49px;
+        width: 139px;
     }
 }
 
@@ -31,24 +38,22 @@
     }
     .graphic-design .layer-2 .block-4 ul {
         list-style: none;
-        padding: 0;
+        padding: 1px 0 0;
+    }
+    .graphic-design .layer-2 .block-4 li:first-child {
+        width: 80%;
+        margin: 3px auto;
+        line-height: 17px;
     }
     .graphic-design .button-style-3:before {
         right: 29px;
-        width: 127px;
+        width: 129px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .graphic-design .category-under-block {
-        padding-top: 45px;
-    }
     .graphic-design .category-under-block p {
         padding: 0 20px;
-    }
-    .graphic-design .category-under-block h1 {
-        font-size: 30px;
-        line-height: 38px;
     }
     .graphic-design .layer-2 .block-1,
     .graphic-design .layer-2 .block-2,
@@ -58,6 +63,9 @@
     }
     .graphic-design .layer-2 .block-4 {
         margin-bottom: 40px;
+    }
+    .graphic-design .layer-2 .block-4 li:first-child {
+        width: 70%;
     }
     .graphic-design .layer-2 .info {
         width: 100%;
@@ -85,7 +93,7 @@
     }
     .graphic-design .button-style-3:before {
         right: 15px;
-        width: 124px;
+        width: 127px;
         bottom: 12px;
     }
 }

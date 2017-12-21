@@ -215,7 +215,7 @@ header {
     text-align: center;
     padding: 90px 0;
     box-sizing: border-box;
-    background-size: 120%;
+    background-size: 125%;
 }
 
 .footer-1:before {
@@ -283,25 +283,18 @@ header {
 .footer-2 ul {
     width: 100%;
 }
-.footer-2 li {
-    float: left;
-}
 
-.footer-2 .first-ul {
+.footer-2 .first-ul,
+.footer-2 .second-ul {
+    display: table;
     margin-bottom: 60px;
 }
+.footer-2 .first-ul li,
+.footer-2 .second-ul li {
+    display: table-cell;
+}
 .footer-2 .first-ul li {
-    margin-right: 42px;
-}
-.footer-2 .first-ul li:nth-child(7) {
-    margin-right: 0;
-}
-.footer-2 .first-ul li:nth-child(8),
-.footer-2 .first-ul li:last-child {
-    float: right;
-}
-.footer-2 .first-ul li:nth-child(8) {
-    margin-right: 0;
+    text-align: left;
 }
 .footer-2 .first-ul a {
     color: #ccc;
@@ -312,30 +305,35 @@ header {
     color: #fff;
 }
 
-.footer-2 .second-ul {
+.footer-2 .second-ul li {
+    text-align: right;
+}
+
+.footer-2 .third-ul {
+    display: table;
     font-size: 13px;
     font-family: "Montserrat", sans-serif;
 }
-.footer-2 .second-ul li {
-    width: 33.33%;
+.footer-2 .third-ul li {
+    display: table-cell;
 }
-.footer-2 .second-ul li:nth-child(2) {
+.footer-2 .third-ul li:nth-child(2) {
     text-align: center;
 }
-.footer-2 .second-ul li:last-child {
+.footer-2 .third-ul li:last-child {
     text-align: right;
 }
-.footer-2 .second-ul a {
+.footer-2 .third-ul a {
     color: #999;
     transition: .5s;
 }
-.footer-2 .second-ul a:hover {
+.footer-2 .third-ul a:hover {
     color: #fff;
 }
-.footer-2 .second-ul span {
+.footer-2 .third-ul span {
     margin: 0 5px;
 }
-.footer-2 .second-ul .footer-social {
+.footer-2 .third-ul .footer-social {
     font-size: 18px;
     margin: 0 15px;
 }
@@ -387,6 +385,9 @@ header {
     color: #fff;
 }
 .category-under-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -394,7 +395,6 @@ header {
     height: 100%;
     text-align: center;
     color: #fff;
-    padding-top: 115px;
     box-sizing: border-box;
     z-index: 1;
 }
@@ -539,6 +539,10 @@ header {
     font-size: 14px;
     opacity: 0.9;
 }
+.footer-1 .message-input label.error {
+    top: 33px;
+}
+
 .footer-1 .input-text {
     border: none;
     border-bottom: 1px solid rgb(204,204,204);
@@ -580,6 +584,9 @@ header {
     max-height: 99px;
     overflow-y: hidden;
 }
+.footer-1 #contact-mobile {
+    display: none;
+}
 #phoneNumber p:nth-child(2) {
     display: inline-block;
 }
@@ -598,7 +605,7 @@ header {
     font-family: 'SofiaProRegular', sans-serif;
     font-size: 13px;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(204,204,204);
     letter-spacing: 1px;
     padding: 20px 50px;
     cursor: pointer;
@@ -611,7 +618,7 @@ header {
 .button-style-2 .second:before {
     position: absolute;
     content: '';
-    background-color: #fff;
+    background-color: rgb(204,204,204);
     z-index: 1;
     transition: 0.5s;
 }
