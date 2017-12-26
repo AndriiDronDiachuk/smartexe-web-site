@@ -129,6 +129,8 @@ $(document).ready(function ($) {
                         },
                         error: function (err) {
                             console.error(err);
+
+                            showErrorSendMessage();
                         }
                     });
                 });
@@ -145,5 +147,17 @@ $(document).ready(function ($) {
 
     function showSuccessSendMessage() {
         successMessage.css('bottom', ($(window).height() - $('#success-message').height()) / 2);
+    }
+
+    var errorsMessage = $('#error-message');
+
+    errorsMessage.css('left', ($(window).width() - $('#error-message').width()) / 2);
+
+    $('#close-error-message').on('click', function () {
+        errorsMessage.css('bottom', '-125%');
+    });
+
+    function showErrorSendMessage() {
+        errorsMessage.css('bottom', ($(window).height() - $('#error-message').height()) / 2);
     }
 });
