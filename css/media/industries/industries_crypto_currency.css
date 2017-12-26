@@ -1,0 +1,27 @@
+@media screen and (max-width: 1899px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+    .crypto-currency .button-style-3:before {
+        right: 49px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .crypto-currency .button-style-3:before {
+        right: 29px;
+        width: 148px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .crypto-currency .button-style-3:before {
+        right: 15px;
+        width: 147px;
+        bottom: 12px;
+    }
+}
