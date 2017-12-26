@@ -99,35 +99,38 @@ $(document).ready(function ($) {
                         data.country_name = '-';
                     }
 
-                    // sendToEmail = 'vladiknorik@gmail.com'; // <<< TEST EMAIL
-                    // console.log( 'Name: ' + dataArr[0].value + '\n' +
-                    //     'Phone: ' + dataArr[1].value + '\n' +
-                    //     'Email: ' + dataArr[2].value + '\n' +
-                    //     'Company name: ' + dataArr[3].value + '\n' +
-                    //     'Country: ' + data.country_name + '\n' +
-                    //     'Message: ' + dataArr[4].value );
+                    dataArr.push({
+                        name: 'country',
+                        value: data.country_name
+                    },{
+                        name: 'sendToEmail',
+                        value: sendToEmail
+                    },{
+                        name: 'sendSubject',
+                        value: sendSubject
+                    });
 
-                    Email.send("smartexe.contactus@gmail.com",
-                        sendToEmail,
-                        sendSubject,
-                        'Name: ' + dataArr[0].value + '<br>' +
-                        'Phone: ' + dataArr[1].value + '<br>' +
-                        'Email: ' + dataArr[2].value + '<br>' +
-                        'Company name: ' + dataArr[3].value + '<br>' +
-                        'Country: ' + data.country_name + '<br>' +
-                        'Message: ' + dataArr[4].value,
-                        "smtp.elasticemail.com",
-                        "smartexe.contactus@gmail.com",
-                        "e5c570a6-ba49-4d8f-807f-6f0015a7b22c");
+                    console.log(dataArr);
 
-                    $('#name').val('').blur();
-                    $('#phone').val('').blur();
-                    $('#email').val('').blur();
-                    $('#company_name').val('').blur();
-                    $('#title').val('').blur();
-                    $('#message').val('').blur();
+                    $.ajax({
+                        url: 'https://mailer-for-smartexe.herokuapp.com/',
+                        type: 'post',
+                        data: dataArr,
+                        success: function () {
 
-                    showSuccessSendMessage();
+                            $('#name').val('').blur();
+                            $('#phone').val('').blur();
+                            $('#email').val('').blur();
+                            $('#company_name').val('').blur();
+                            $('#title').val('').blur();
+                            $('#message').val('').blur();
+
+                            showSuccessSendMessage();
+                        },
+                        error: function (err) {
+                            console.error(err);
+                        }
+                    });
                 });
         }
     });
