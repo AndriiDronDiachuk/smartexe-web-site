@@ -160,6 +160,9 @@ $(document).ready(function ($) {
     });
 
     function showErrorSendMessage() {
+
+        successMessage.css('bottom', '-125%');
+
         errorsMessage.css('bottom', ($(window).height() - $('#error-message').height()) / 2);
         setTimeout(function () {
             errorsMessage.css('bottom', '-125%');
