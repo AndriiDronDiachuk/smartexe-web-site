@@ -47,10 +47,11 @@ $('.div-region').on('click', function () {
             mapIsraelVis = true;
         } else {
             $('.map').addClass('submenu');
-            mapNorthAmericaVis = false;
-            mapEuropelVis = false;
             mapIsraelVis = false;
         }
+
+        mapNorthAmericaVis = false;
+        mapEuropelVis = false;
 
     } else if (mapRegion === 'region-north-america') {
         if(!mapNorthAmericaVis) {
@@ -74,9 +75,10 @@ $('.div-region').on('click', function () {
         } else {
             $('.map').addClass('submenu');
             mapNorthAmericaVis = false;
-            mapEuropelVis = false;
-            mapIsraelVis = false;
         }
+        mapEuropelVis = false;
+        mapIsraelVis = false;
+
     } else {
         if(!mapEuropelVis) {
             mapId = 'map';
@@ -97,10 +99,11 @@ $('.div-region').on('click', function () {
             mapEuropelVis = true;
         } else {
             $('.map').addClass('submenu');
-            mapNorthAmericaVis = false;
             mapEuropelVis = false;
-            mapIsraelVis = false;
         }
+
+        mapNorthAmericaVis = false;
+        mapIsraelVis = false;
     }
 });
 
@@ -112,4 +115,3 @@ $.getJSON('https://freegeoip.net/json/',
             }
         }
     });
-

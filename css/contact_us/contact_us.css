@@ -251,6 +251,9 @@ textarea{
 .category-office-maps-block {
     margin-bottom: 80px;
 }
+.category-office-maps-block .label h2 {
+    margin-top: 0;
+}
 .category-office-maps-block .label p {
     font-weight: bold;
 }

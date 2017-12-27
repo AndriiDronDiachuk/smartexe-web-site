@@ -110,14 +110,14 @@
     box-shadow: 0 -30px 0 #f2f2f2;
 }
 .layer-1 .left {
-    padding: 0 75px 0 8px;
+    padding: 0 8px;
     font-family: 'SofiaProBold', sans-serif;
-    font-size: 36px;
+    font-size: 35px;
     line-height: 42px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 .layer-1 .right {
-    padding: 25px 8px 0 70px;
+    padding: 5px 8px 0 50px;
     font-family: 'Hind', sans-serif;
     font-size: 18px;
     text-align: justify;
