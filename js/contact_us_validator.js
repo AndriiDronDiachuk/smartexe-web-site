@@ -110,22 +110,12 @@ $(document).ready(function ($) {
                         value: sendSubject
                     });
 
-                    console.log(dataArr);
-
                     $.ajax({
                         url: 'https://mailer-for-smartexe.herokuapp.com/',
                         type: 'post',
                         data: dataArr,
                         success: function () {
 
-                            $('#name').val('').blur();
-                            $('#phone').val('').blur();
-                            $('#email').val('').blur();
-                            $('#company_name').val('').blur();
-                            $('#title').val('').blur();
-                            $('#message').val('').blur();
-
-                            showSuccessSendMessage();
                         },
                         error: function (err) {
                             console.error(err);
@@ -133,6 +123,15 @@ $(document).ready(function ($) {
                             showErrorSendMessage();
                         }
                     });
+
+                    $('#name').val('').blur();
+                    $('#phone').val('').blur();
+                    $('#email').val('').blur();
+                    $('#company_name').val('').blur();
+                    $('#title').val('').blur();
+                    $('#message').val('').blur();
+
+                    showSuccessSendMessage();
                 });
         }
     });
@@ -147,6 +146,9 @@ $(document).ready(function ($) {
 
     function showSuccessSendMessage() {
         successMessage.css('bottom', ($(window).height() - $('#success-message').height()) / 2);
+        setTimeout(function () {
+            successMessage.css('bottom', '-125%');
+        }, 5000)
     }
 
     var errorsMessage = $('#error-message');
@@ -159,5 +161,8 @@ $(document).ready(function ($) {
 
     function showErrorSendMessage() {
         errorsMessage.css('bottom', ($(window).height() - $('#error-message').height()) / 2);
+        setTimeout(function () {
+            errorsMessage.css('bottom', '-125%');
+        }, 5000)
     }
 });
