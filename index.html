@@ -1219,7 +1219,7 @@
                         <img src="./images/article/article_1.png" alt="article_1">
                     </a>
                     <div class="links">
-                        <a target="_blank" href="https://www.facebook.com/dialog/share?app_id=144059183038419&display=popup&href=http://www.smartexe.com/html/articles/articles-items/benefits_of_software_development_in_offshore.html">
+                        <a id="facebookShareLink">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
 
@@ -1668,13 +1668,19 @@
 
 <!--Facebook-->
 <script>
-    (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.11&appId=144059183038419';
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.11&appId=144059183038419';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    $("#facebookShareLink").on("click", function () {
+        var fbpopup = window.open("https://www.facebook.com/sharer/sharer.php?u=http://www.smartexe.com/html/articles/articles-items/benefits_of_software_development_in_offshore.html");
+        return false;
+    });
 </script>
 <!--Facebook-->
 
