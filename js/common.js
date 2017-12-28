@@ -53,8 +53,8 @@ $(document).ready(function($) {
 
                 }
                 else if (data.country_code === 'US' || data.country_code === 'CA') {
-                    phoneNumber += '+1 (215) 948-8178'; // America or Canada
-                    email = 'info@smartexe.com'; // America or Canada
+                    phoneNumber += '+1 (215) 565-6150'; // America or Canada
+                    email = 'contact@smartexe.com'; // America or Canada
                 }
                 else {
                     phoneNumber += '+45 30485640'; // Europe
