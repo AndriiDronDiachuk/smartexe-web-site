@@ -22,7 +22,7 @@ $(document).ready(function($) {
             }
             else if (searchInput.val() !== '' && searchInput.hasClass('active')) {
                 localStorage.setItem('searchPhrase', searchInput.val());
-                window.location.href = "/smartexe-web-site/html/search/search.html";
+                window.location.href = "/html/search/search.html";
             }
     });
 
