@@ -265,7 +265,7 @@ $(document).ready(function ($) {
         '../contact_us/contact_us.html': {
             title: 'Contact Us',
             text: 'Contact Us. ' +
-            'Send us a message. North America. USA, PA. Direct: +1 (215) 565-6150. Email: contact@smartexe.com. ' +
+            'Send us a message. USA. Philadelphia, PA. Direct: +1 (215) 565-6150. Email: contact@smartexe.com. ' +
                 'Europe. Aarhus, Denmark. Direct: +45 30485640. Email: contacteu@smartexe.com. '
         },
 
