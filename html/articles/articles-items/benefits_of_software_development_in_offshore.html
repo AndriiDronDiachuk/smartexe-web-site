@@ -297,11 +297,11 @@
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
 
-                <a target="_blank" href="https://twitter.com/share?text=Benefits%20Of%20Software%20Development%20In%20Offshore&url=https://andriidrondiachuk.github.io/smartexe-web-site/html/articles/articles-items/benefits_of_software_development_in_offshore.html&via=Smartexe">
+                <a id="twitterShareLink">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
 
-                <a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https://andriidrondiachuk.github.io/smartexe-web-site/html/articles/articles-items/benefits_of_software_development_in_offshore.html&title=Benefits%20Of%20Software%20Development%20In%20Offshore">
+                <a id="linkedinShareLink">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
             </p>
@@ -582,22 +582,6 @@
 <script src="../../../libs/jquery-validation/jquery.validate.min.js"></script>
 <script src="../../../js/contact_us_validator.js"></script>
 <script src="https://smtpjs.com/v2/smtp.js"></script>
-
-<!--Facebook-->
-<script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.11&appId=144059183038419';
-    fjs.parentNode.insertBefore(js, fjs);
-
-    $("#facebookShareLink").on("click", function () {
-        var fbpopup = window.open("https://www.facebook.com/sharer/sharer.php?u=http://www.smartexe.com/html/articles/articles-items/benefits_of_software_development_in_offshore.html");
-        return false;
-    });
-}(document, 'script', 'facebook-jssdk'));</script>
-<!--Facebook-->
 
 </body>
 </html>

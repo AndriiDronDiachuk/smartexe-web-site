@@ -47,6 +47,7 @@
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0);
     transition: .5s;
+    cursor: pointer;
 }
 .articles .image .links a:last-child {
     margin-right: 0;
@@ -92,8 +93,7 @@
 .articles p:last-child {
     margin-bottom: 0;
 }
-.articles span,
-.articles .more-articles {
+.articles span {
     color: rgba(255, 102, 51, 0.6);
     font-family: 'Hind', sans-serif;
     font-weight: 700;
@@ -107,22 +107,6 @@
     bottom: 0;
     left: 0;
 }
-.articles span:hover,
-.articles .more-articles:hover {
+.articles span:hover {
     color: rgb(255, 102, 51);
-}
-.articles .more-articles {
-    letter-spacing: 1px;
-    display: block;
-    text-align: center;
-    padding: 20px 0;
-    font-family: 'SofiaProRegular', sans-serif;
-    background-color: #fafafa;
-    text-transform: uppercase;
-    transition: .5s;
-    border: 1px solid #fafafa;
-}
-.articles .more-articles:hover {
-    background-color: #f3f3f3;
-    border: 1px solid #eeeeee;
 }
