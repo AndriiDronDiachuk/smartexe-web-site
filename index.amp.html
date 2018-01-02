@@ -728,138 +728,378 @@
             width: 100%;
             text-decoration: none;
         }
-        .footer-1-bgi {
-            position: relative;
-            background: url(images/footer_bgi.jpg) no-repeat 50%;
-            background-size: 280%;
-        }
 
-        .footer-1:before,
-        .footer-1-bgi:after {
-            position: absolute;
-            content: '';
-            width: 100%;
-            left: 0;
+        /* FOOTER */
+        .footer-1 {
+            position: relative;
+            background: url(../images/footer_bgi.jpg) no-repeat 50% 60%;
+            text-align: center;
+            padding: 90px 0;
+            box-sizing: border-box;
+            background-size: 125%;
         }
 
         .footer-1:before {
-            top: -1px;
-            height: 15px;
-            background: url(images/mobile_sharp_line.png) no-repeat 0 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: '';
+            width: 100%;
+            height: 46px;
+            background: url("../images/sharp_line.png") no-repeat 0 0;
             background-size: 100%;
+            transform: scale(1, -1);
             z-index: 1;
         }
 
-        .footer-1-bgi:after {
+        .footer-1:after {
+            position: absolute;
             bottom: 0;
+            left: 0;
+            content: '';
+            width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.85);
+            background: rgba(0,0,0,0.85);
+            background-size: 100%;
         }
-
-        .footer-1 {
-            padding: 30px 0;
-            text-align: center;
+        .footer-1 .label-1,
+        .footer-1 .label-2,
+        .footer-1 .label-3 {
+            width: 100%;
+        }
+        .footer-1 .label-1 {
             position: relative;
-            z-index: 1;
-        }
-
-        .footer-1 h2 {
+            font-size: 36px;
             font-family: 'SofiaProBold', sans-serif;
-            line-height: 24px;
-            font-size: 24px;
+            line-height: 23px;
             letter-spacing: -1px;
             color: white;
+            z-index: 1;
         }
 
-        .footer-1 p {
-            width: 240px;
-            margin: 25px auto 20px;
-            font-size: 15px;
+        .footer-1 .label-2 {
+            position: relative;
+            font-size: 18px;
             font-family: 'Hind', sans-serif;
+            letter-spacing: 0;
             color: rgba(255, 255, 255, 0.5);
+            z-index: 1;
         }
 
-        .footer-1 .button-style-1 {
-            margin-top: 5px;
-            padding: 20px 45px;
-        }
-
-        .footer-2-bgc {
-            background-color: #000;
+        .footer-1 .label-3 {
+            margin: 75px 0 0;
+            position: relative;
+            font-size: 13px;
+            font-family: 'SofiaProRegular', sans-serif;
+            text-transform: uppercase;
+            color: white;
+            z-index: 1;
         }
 
         .footer-2 {
-            text-align: center;
-            padding: 10px 0;
+            padding: 50px 0;
+            background-color: #000;
+            color: #999;
+        }
+        .footer-2 ul {
+            width: 100%;
         }
 
-        .footer-2 h3 {
-            color: white;
-            font-size: 18px;
-            font-family: 'SofiaProBold', sans-serif;
-            letter-spacing: 1px;
+        .footer-2 .first-ul,
+        .footer-2 .second-ul {
+            display: table;
+            margin-bottom: 60px;
         }
-
-        .footer-2 p,
-        .footer-2 a {
-            color: #989898;
-            font-family: 'SofiaProRegular', sans-serif;
-            font-size: 13px;
-            letter-spacing: 1px;
+        .footer-2 .first-ul li,
+        .footer-2 .second-ul li {
+            display: table-cell;
         }
-
-        .footer-2 p {
-            margin: 20px 0;
+        .footer-2 .first-ul li {
+            text-align: left;
         }
-
-        .footer-2 a {
-            margin: 0 10px;
+        .footer-2 .first-ul a {
+            color: #ccc;
+            transition: .5s;
+            font-size: 16px;
         }
-
-        .footer-2 a:hover,
-        .footer-3 a:hover {
+        .footer-2 .first-ul a:hover {
             color: #fff;
         }
 
-        .footer-3-bgc {
-            background-color: rgb(33, 34, 36);
+        .footer-2 .second-ul li {
+            text-align: right;
         }
 
-        .footer-3 {
+        .footer-2 .third-ul {
+            display: table;
+            font-size: 13px;
+            font-family: "Montserrat", sans-serif;
+        }
+        .footer-2 .third-ul li {
+            display: table-cell;
+        }
+        .footer-2 .third-ul li:nth-child(2) {
             text-align: center;
-            padding: 20px 0;
+        }
+        .footer-2 .third-ul li:last-child {
+            text-align: right;
+        }
+        .footer-2 .third-ul a {
+            color: #999;
+            transition: .5s;
+        }
+        .footer-2 .third-ul a:hover {
+            color: #fff;
+        }
+        .footer-2 .third-ul span {
+            margin: 0 5px;
+        }
+        .footer-2 .third-ul .footer-social {
+            font-size: 18px;
+            margin: 0 15px;
         }
 
-        .footer-3 ul {
-            margin-top: 15px;
+        .footer-1 form {
+            z-index: 1;
+            position: relative;
+        }
+        .footer-1 .label-1 {
+            padding: 28px 0;
+        }
+        .footer-1 .label-1 h2 {
+            font-size: 26px;
+            margin-top: 13px;
+        }
+        .footer-1 .label-1 p {
+            margin: 3px 0;
+        }
+        .footer-1 .input-item {
+            position: relative;
+            margin-right: 8%;
+            margin-bottom: 60px;
+            width: 46%;
+            float: left;
+            box-sizing: border-box;
+            display: inline;
+        }
+        .footer-1 .input-item input,
+        .footer-1 .input-item textarea {
+            color: #fff;
+        }
+        .footer-1 .input-item label {
+            font-family: 'Hind', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            opacity:  0.7;
+            transition: 0.5s;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            height: 18px;
+        }
+        .footer-1 .phone-input,
+        .footer-1 .company-input,
+        .footer-1 .message-input{
+            margin-right: 0;
+        }
+        .footer-1 .message-input {
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        .footer-1 .message-input {
+            border-bottom: none;
+        }
+        .footer-1 .autoExpand {
+            margin-bottom: 0;
+        }
+
+        /* SEND MESSAGE BLOCK, MESSAGE INPUT */
+
+        .footer-1 .input-fields .be-blue,
+        .footer-1 .input-fields .be-blue textarea {
+            border-bottom-color: rgb(255, 149, 101);
+        }
+        .footer-1 .input-fields .has-success {
+            border-color: #2dcc70;
+            color: #2db259;
+        }
+        .footer-1 .input-fields label.error {
+            text-align: left;
+            position: absolute;
+            width: 100%;
+            height: 18px;
+            border-color: rgba(255, 0, 0, 1);
+            color: rgba(255, 0, 0, 1);
+            line-height: 15px;
+            bottom: auto;
+            top: 31px;
+            left: 0;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .footer-1 .message-input label.error {
+            top: 33px;
+        }
+
+        .footer-1 .input-text {
+            border: none;
+            border-bottom: 1px solid rgb(204,204,204);
+            width: 100%;
+        }
+        .footer-1 .message-input {
+            padding-top: 1px;
+            border-bottom: none;
+        }
+
+        [contentEditable=true]:empty:before {
+            color: rgb(90, 90, 90);
+        }
+        .footer-1 .input-fields .input-text,
+        .footer-1 .input-fields .autoExpand {
+            /*font-family: 'Hind', sans-serif;*/
+            font-size: 16px;
+            font-weight: 300;
+            background-color: rgba(255, 255, 255, 0);
+            line-height: 25px;
+            min-height: 25px;
+        }
+        [contentEditable=true]:empty:before{
+            display: block;
+            content:attr(data-text);
+        }
+        .footer-1 .message-input .input-text {
+            border-bottom: 1px solid rgb(204,204,204);
+        }
+        .footer-1 textarea{
+            height: 25px;
+            padding: 1px 0;
+            display: inline-block;
+            overflow: auto;
+            outline: none;
+            resize: none;
+            width: 100%;
+            min-height: 25px;
+            max-height: 99px;
+            overflow-y: hidden;
+        }
+        .footer-1 #contact-mobile {
+            display: none;
+        }
+        #phoneNumber p:nth-child(2) {
             display: inline-block;
         }
-
-        .footer-3 span,
-        .footer-3 li,
-        .footer-3 a {
-            color: rgb(140, 140, 140);
-            font-size: 12px;
-            font-family: 'Montserrat', sans-serif;
+        #phoneNumber p:last-child {
+            margin-top: 5px;
+            line-height: 21px;
+        }
+        #phoneNumber p {
+            margin: 0;
         }
 
-        .footer-3 li {
-            float: left;
-        }
+        /* FROM MEDIA need to delete useless css!!!  */
 
-        .layer-1,
-        .layer-2,
-        .layer-3,
-        .layer-4,
-        .layer-6,
-        .layer-7,
-        .footer-1,
-        .footer-2,
-        .footer-3 {
-            width: 320px;
+        .footer-1 .label-2 {
+            font-size: 15px;
+        }
+        .footer-1 {
+            height: auto;
+            background: #fff url(./images/mobile/footer_bgi.jpg) no-repeat 34% 60%;
+            background-size: 725%;
+            padding: 35px 0;
+        }
+        .footer-1 form {
+            padding: 0 8px;
+            /*display: none;*/
+        }
+        .footer-1:before {
+            background: url(./images/mobile_sharp_line.png) no-repeat 0 100%;
+            background-size: 100%;
+            transform: none;
+            z-index: 1;
+            width: 95%;
+            height: 15px;
+        }
+        .footer-1 .label-1 {
+            display: none;
+            margin: 0;
+            font-size: 24px;
+        }
+        .footer-1 form {
+            height: 0;
+            overflow: hidden;
+            transition: 1s;
+        }
+        .footer-1.active form {
+            margin-top: 30px;
+            height: 500px;
+        }
+        .footer-1 .label-2 {
+            width: 240px;
             margin: 0 auto;
-            box-sizing: border-box;
         }
+        .footer-1 .label-3 {
+            margin-top: 0;
+        }
+        .footer-1 .label-3 .button-style-1 {
+            padding: 20px 45px;
+        }
+        .footer-1 #contact-mobile {
+            display: block;
+        }
+
+        .footer-2 {
+            padding: 30px 0 50px;
+        }
+        .footer-2 .first-ul {
+            width: 96%;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .footer-2 .first-ul li,
+        .footer-2 .second-ul li {
+            width: 100%;
+            display: block;
+            float: left;
+            text-align: center !important;
+        }
+        .footer-2 .first-ul li {
+            margin-bottom: 5px;
+        }
+        .footer-2 .second-ul {
+            display: block;
+            margin-bottom: 30px;
+        }
+        .footer-2 .second-ul li {
+            font-size: 14px;
+            width: 100%;
+            text-align: center !important;
+        }
+        .footer-2 .third-ul {
+            padding-bottom: 80px;
+            display: block;
+            position: relative;
+        }
+        .footer-2 .third-ul li {
+            display: block;
+            width: 100%;
+            font-size: 13px;
+            text-align: center !important;
+            margin-bottom: 0;
+            float: right;
+        }
+        .footer-2 .third-ul li:first-child {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        .footer-2 .third-ul li:last-child {
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+        }
+
     </style>
 </head>
 <body>
@@ -1809,51 +2049,127 @@
 </div>
 
 <footer>
-    <div class="footer-1-bgi">
-        <div class="footer-1">
-            <h2>Don't be shy, Write Us</h2>
-            <p>Smart.exe serves as your technical partner, working with you to make your ideas areality.</p>
-            <button class="button-style-1">
-                Send us a message
-                <span class="first"></span>
-                <span class="second"></span>
-            </button>
-        </div>
-    </div>
-    <div class="footer-2-bgc">
-        <div class="footer-2">
-            <ul>
-                <li>
-                    <h3>Contact Us</h3>
-                </li>
-                <li>
-                    <p>Call Us: +972-3-6133886</p>
-                </li>
-                <li>
-                    <p>
-                        <a href="https://www.facebook.com/SmartexeLtd" target="_blank"><i class="fa fa-facebook"
-                                                                                          aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/smartexe_" target="_blank"><i class="fa fa-twitter"
-                                                                                   aria-hidden="true"></i></a>
-                        <a href="http://il.linkedin.com/company/smart-exe-ltd-" target="_blank"><i
-                                class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="https://plus.google.com/113977124895490903672" target="_blank"><i
-                                class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <div class="footer-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="label-1">Contact Us</p>
+                    <p class="label-1" id="contact-mobile">Contact Us</p>
+                    <p class="label-2">
+                        Tell us how we can help, one of our representatives will get back to you as soon as possible
                     </p>
-                </li>
-            </ul>
+                    <p class="label-3">
+
+                    <form id="contact-us-form">
+                        <div class="input-fields">
+                            <div class="input-item">
+                                <label class="input-label name" for="name">Name *</label>
+                                <input id="name"
+                                       name="name"
+                                       type="text"
+                                       class="input-text"
+                                       autocomplete="off"/>
+                            </div>
+                            <div class="input-item phone-input phone">
+                                <label class="input-label phone" for="phone">Phone</label>
+                                <input id="phone"
+                                       name="phone"
+                                       type="text"
+                                       class="input-text"
+                                       autocomplete="off"/>
+                            </div>
+                            <div class="input-item email-input email">
+                                <label class="input-label email" for="email">Email *</label>
+                                <input id="email"
+                                       name="email"
+                                       type="email"
+                                       class="input-text"
+                                       autocomplete="off"/>
+                            </div>
+                            <div class="input-item company-input">
+                                <label class="input-label company_name" for="company_name">Company Name</label>
+                                <input maxlength="80" id="company_name" name="company" type="text" class="input-text"
+                                       autocomplete="off"/>
+                            </div>
+                            <div class="input-item message-input">
+                                <label class="input-label message" for="message">Message *</label>
+                                <textarea maxlength="500" id="message" name="message" class='input-text autoExpand'
+                                          rows='1' data-min-rows='1' autocomplete="off"></textarea>
+                            </div>
+                        </div>
+                        <div class="button clearfix">
+                            <div id="outer">
+                                <div id="inner">
+                                    <button type="submit" class="button-style-2">
+                                        Send
+                                        <span class="first"></span>
+                                        <span class="second"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="footer-3-bgc">
-        <div class="footer-3">
-            <span>Smart.exe Ltd. © 2017 All Rights Reserved</span>
-            <ul class="label-2 end-lg clearfix">
-                <li><a href="./amp/terms_of_use_privacy_policy/terms_of_use.amp.html">Terms of Use</a></li>
-                <li>&#160; | &#160;</li>
-                <li><a href="./amp/terms_of_use_privacy_policy/privacy_policy.amp.html">Privacy Policy</a></li>
-                <li>&#160; | &#160;</li>
-                <li><a href="./amp/sitemap/sitemap.amp.html">Site Map</a></li>
-            </ul>
+    <div class="footer-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-7 col-xs-12 center-xs">
+                    <ul class="first-ul clearfix">
+                        <li>
+                            <a href="./html/service/service_main.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="./html/technologies/technologies_main.html">Technologies</a>
+                        </li>
+                        <li>
+                            <a href="./html/industries/industries_main.html">Industries</a>
+                        </li>
+                        <li>
+                            <a href="./html/articles/articles_list.html">Articles</a>
+                        </li>
+                        <li>
+                            <a href="./html/clients/clients.html">Clients</a>
+                        </li>
+                        <li>
+                            <a href="./html/about_us/about_us.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="./html/contact_us/contact_us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-lg-5 col-xs-12">
+                    <ul class="second-ul clearfix">
+                        <li id="footer-phone"></li>
+                        <li id="footer-email"></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12">
+                    <ul class="third-ul clearfix">
+                        <li>
+                            Smart.exe Ltd. © 2018 All Rights Reserved
+                        </li>
+                        <li>
+                            <a class="footer-social" href="https://www.facebook.com/SmartexeSince2004/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a class="footer-social" href="https://twitter.com/smartexe_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a class="footer-social" href="http://il.linkedin.com/company/smart-exe-ltd-" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="html/terms_of_use_privacy_policy/terms_of_use.html">Terms of Use</a>
+                            <span>|</span>
+                            <a href="html/terms_of_use_privacy_policy/privacy_policy.html">Privacy Policy</a>
+                            <span>|</span>
+                            <a href="html/sitemap/sitemap.html">Site Map</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
     </div>
 </footer>
