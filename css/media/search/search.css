@@ -20,11 +20,10 @@
     .search input {
         font-size: 16px;
         position: absolute;
-        top: 4px;
+        top: 5px;
         width: 214px;
         margin: 0 !important;
         padding: 0 !important;
-        height: 16px;
     }
     .search .button-style-1 {
         float: left;
