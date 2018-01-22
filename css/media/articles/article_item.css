@@ -5,7 +5,7 @@
         background-size: 160%;
     }
     .articles .category-under-block h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .article-item .medium-width {
         width: 800px;
@@ -25,7 +25,7 @@
         background-size: 190%;
     }
     .articles .category-under-block h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
 }
@@ -36,7 +36,7 @@
         background-size: 250%;
     }
     .articles .category-under-block h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .article-item .medium-width {
         width: 100%;
@@ -69,12 +69,15 @@
         padding: 0 16px;
     }
     .articles .category-under-block h1 {
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 0px;
         width: 300px;
         margin: 0 auto;
     }
     .article-item h3 {
         font-size: 16px;
+    }
+    .article-item .category-under-block p:last-child {
+        margin-top: 0;
     }
 }

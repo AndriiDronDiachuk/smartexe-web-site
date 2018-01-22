@@ -81,19 +81,19 @@ $(document).ready(function($) {
 
     var FBModalParams = "width=560, height=660, scrollbars=no, left=" + (($(window).width() - 560) / 2) + ', top=' + ((($(window).height() - 660) / 2) + 50);
     $("#facebookShareLink").on("click",function(){
-        window.open("https://www.facebook.com/sharer/sharer.php?u=http://www.smartexe.com/html/articles/articles-items/benefits_of_software_development_in_offshore.html", "pop", FBModalParams);
+        window.open("https://www.facebook.com/sharer/sharer.php?u=http://www.smartexe.com/html/articles/articles-items/7_reasons_why_every_company_must_consider_a_nearshore_development_team.html", "pop", FBModalParams);
         return false;
     });
 
     var TwitterModalParams = "width=700, height=460, scrollbars=no, left=" + (($(window).width() - 700) / 2) + ', top=' + ((($(window).height() - 460) / 2)  + 50);
     $("#twitterShareLink").on("click",function(){
-        window.open("https://twitter.com/share?text=Benefits%20Of%20Software%20Development%20In%20Offshore&url=http://www.smartexe.com/html/articles/articles-items/benefits_of_software_development_in_offshore.html&via=Smartexe", "pop", TwitterModalParams);
+        window.open("https://twitter.com/share?text=7%20reasons%20why%20every%20company%20must%20consider%20a%20nearshore%20development%20team&url=http://www.smartexe.com/html/articles/articles-items/7_reasons_why_every_company_must_consider_a_nearshore_development_team.html&via=Smartexe", "pop", TwitterModalParams);
         return false;
     });
 
     var LinkedinModalParams = "width=1000, height=750, scrollbars=no, left=" + (($(window).width() - 1000) / 2) + ', top=' + ((($(window).height() - 750) / 2) + 50);
     $("#linkedinShareLink").on("click",function(){
-        window.open("http://www.linkedin.com/shareArticle?mini=true&url=http://www.smartexe.com/html/articles/articles-items/benefits_of_software_development_in_offshore.html&title=Benefits%20Of%20Software%20Development%20In%20Offshore", "pop", LinkedinModalParams);
+        window.open("http://www.linkedin.com/shareArticle?mini=true&url=http://www.smartexe.com/html/articles/articles-items/7_reasons_why_every_company_must_consider_a_nearshore_development_team.html&title=7%20reasons%20why%20every%20company%20must%20consider%20a%20nearshore%20development%20team", "pop", LinkedinModalParams);
         return false;
     });
 
