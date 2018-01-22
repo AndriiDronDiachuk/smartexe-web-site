@@ -19,8 +19,8 @@
     }
     .search input {
         font-size: 16px;
-        padding: 0;
-        margin: 5px 0 !important;
+        position: absolute;
+        top: -5px;
         width: 214px;
         float: left;
     }
