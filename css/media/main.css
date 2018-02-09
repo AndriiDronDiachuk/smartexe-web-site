@@ -53,7 +53,6 @@
         background: url("../../images/industr.png") no-repeat 50%;
         background-size: 135%;
     }
-
 }
 
 @media screen and (max-width: 1499px) {
@@ -278,6 +277,9 @@
     .category-send-message-block .right-labels .label-1 h2 {
         font-size: 20px;
     }
+    .footer-1 form {
+        height: 493px;
+    }
 
     /* CATEGORY-MAP-BLOCK */
     .category-map-block {
@@ -436,7 +438,6 @@
         left: 0;
         bottom: 35px;
     }
-
 
     /* CATEGORY-IMG-BLOCK */
     .category-img-block {
