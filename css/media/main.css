@@ -277,9 +277,6 @@
     .category-send-message-block .right-labels .label-1 h2 {
         font-size: 20px;
     }
-    .footer-1 form {
-        height: 493px;
-    }
 
     /* CATEGORY-MAP-BLOCK */
     .category-map-block {
@@ -372,7 +369,7 @@
     }
     .footer-1.active form {
         margin-top: 30px;
-        height: 500px;
+        height: 510px;
     }
     .footer-1 .label-2 {
         width: 240px;
