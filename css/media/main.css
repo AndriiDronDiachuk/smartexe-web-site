@@ -369,7 +369,7 @@
     }
     .footer-1.active form {
         margin-top: 30px;
-        height: 510px;
+        height: auto;
     }
     .footer-1 .label-2 {
         width: 240px;
