@@ -34,6 +34,38 @@
     /*.social {
         top: 300px;
     }*/
+
+    /* EVENT BLOCK */
+    .carousel .event-block {
+        width: 450px;
+    }
+    .carousel .event-block h3 {
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+    .carousel .event-block .background-block {
+        padding: 15px 0 20px;
+    }
+    .carousel .event-block .logo {
+        width: 130px;
+    }
+    .carousel .event-block .logo img {
+        width: 100px;
+    }
+    .carousel .event-block .text {
+        width: 320px;
+    }
+    .carousel .event-block .text h4 {
+        font-size: 20px;
+    }
+    .carousel .event-block .text p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .carousel .event-block .text .date {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 1899px) {
@@ -261,6 +293,38 @@
     .layer-7 span {
         font-size: 17px;
     }
+
+    /* EVENT BLOCK */
+    .carousel .event-block {
+        width: 425px;
+    }
+    .carousel .event-block h3 {
+        font-size: 20px;
+        padding: 5px 15px 6px;
+    }
+    .carousel .event-block .background-block {
+        padding: 10px 0 15px;
+    }
+    .carousel .event-block .logo {
+        width: 100px;
+    }
+    .carousel .event-block .logo img {
+        width: 75px;
+    }
+    .carousel .event-block .text {
+        width: 325px;
+    }
+    .carousel .event-block .text h4 {
+        font-size: 20px;
+    }
+    .carousel .event-block .text p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .carousel .event-block .text .date {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 1599px) {
@@ -289,6 +353,38 @@
     }
     .social ul {
         margin-top: 312px;
+    }
+
+    /* EVENT BLOCK */
+    .carousel .event-block {
+        width: 360px;
+    }
+    .carousel .event-block h3 {
+        font-size: 16px;
+        padding: 5px 15px 6px;
+    }
+    .carousel .event-block .background-block {
+        padding: 10px 0 25px;
+    }
+    .carousel .event-block .logo {
+        width: 90px;
+    }
+    .carousel .event-block .logo img {
+        width: 60px;
+    }
+    .carousel .event-block .text {
+        width: 270px;
+    }
+    .carousel .event-block .text h4 {
+        font-size: 16px;
+    }
+    .carousel .event-block .text p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .carousel .event-block .text .date {
+        margin-bottom: 5px;
+        font-size: 12px;
     }
 }
 
@@ -414,6 +510,39 @@
     /* LAYER-7 */
     .layer-7 .marquee {
         width: 928px;
+    }
+
+    /* EVENT BLOCK */
+    .carousel .event-block {
+        width: 300px;
+    }
+    .carousel .event-block h3 {
+        font-size: 14px;
+        padding: 5px 10px 6px;
+    }
+    .carousel .event-block .background-block {
+        padding: 5px 0 15px;
+    }
+    .carousel .event-block .logo {
+        width: 100px;
+    }
+    .carousel .event-block .logo img {
+        width: 80px;
+    }
+    .carousel .event-block .text {
+        width: 200px;
+        padding: 0;
+    }
+    .carousel .event-block .text h4 {
+        font-size: 16px;
+    }
+    .carousel .event-block .text p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .carousel .event-block .text .date {
+        margin-bottom: 5px;
+        font-size: 12px;
     }
 }
 
@@ -629,6 +758,66 @@
     .articles h2:after
     {
         display: none;
+    }
+
+    /* EVENT BLOCK */
+    .carousel .event-block {
+        display: none;
+    }
+
+    .event-block-tablet {
+        position: relative;
+        display: block;
+        background-color: #153d7d;
+        width: 450px;
+        margin: 10px auto 0;
+        color: #fff;
+    }
+    .event-block-tablet h3 {
+        font-family: 'SofiaProRegular', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .event-block-tablet .background-block {
+        display: flex;
+        background: rgba(0, 0, 0, 0) url("../../images/event_bgi.png") no-repeat 50%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        padding: 10px 0 15px;
+    }
+    .event-block-tablet .logo {
+        width: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .event-block-tablet .logo img {
+        width: 95px;
+    }
+    .event-block-tablet .text {
+        width: 320px;
+        box-sizing: border-box;
+    }
+    .event-block-tablet .text h4 {
+        margin: 0;
+        font-family: 'SofiaProRegular', sans-serif;
+        font-size: 18px;
+    }
+    .event-block-tablet .text p {
+        margin: 0;
+        font-family: 'SofiaProRegular', sans-serif;
+        font-size: 14px;
+    }
+    .event-block-tablet .text .date {
+        font-family: 'SofiaProBlack', sans-serif;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-size: 13px;
     }
 }
 
@@ -977,5 +1166,31 @@
         width: 95%;
         height: 15px;
         z-index: 1;
+    }
+
+    .event-block-tablet {
+        width: 320px;
+        margin: 10px auto 0;
+        color: #fff;
+    }
+    .event-block-tablet h3 {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .event-block-tablet .logo {
+        width: 110px;
+    }
+    .event-block-tablet .logo img {
+        width: 85px;
+    }
+    .event-block-tablet .text {
+        width: 210px;
+    }
+    .event-block-tablet .text h4 {
+        font-size: 16px;
+    }
+    .event-block-tablet .text p {
+        font-size: 14px;
+        line-height: 14px;
     }
 }
