@@ -762,62 +762,32 @@
 
     /* EVENT BLOCK */
     .carousel .event-block {
-        display: none;
+        width: 100%;
+        top: 0;
+        bottom: auto;
     }
-
-    .event-block-tablet {
-        position: relative;
-        display: block;
-        background-color: #153d7d;
-        width: 450px;
-        margin: 10px auto 0;
-        color: #fff;
+    .carousel .event-block .background-block {
+        padding: 5px 0;
+        background: #151f3a;
     }
-    .event-block-tablet h3 {
-        font-family: 'SofiaProRegular', sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin: 0;
-        padding: 10px 0;
-        text-align: center;
+    .carousel .event-block .logo {
+        width: 70px;
     }
-    .event-block-tablet .background-block {
+    .carousel .event-block .logo img {
+        width: 60px;
+    }
+    .carousel .event-block .text {
         display: flex;
-        background: rgba(0, 0, 0, 0) url("../../images/event_bgi.png") no-repeat 50%;
-        -webkit-background-size: cover;
-        background-size: cover;
-        padding: 10px 0 15px;
-    }
-    .event-block-tablet .logo {
-        width: 130px;
-        display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        margin: 0;
+        width: calc(100% - 70px);
     }
-    .event-block-tablet .logo img {
-        width: 95px;
-    }
-    .event-block-tablet .text {
-        width: 320px;
-        box-sizing: border-box;
-    }
-    .event-block-tablet .text h4 {
-        margin: 0;
-        font-family: 'SofiaProRegular', sans-serif;
-        font-size: 18px;
-    }
-    .event-block-tablet .text p {
-        margin: 0;
-        font-family: 'SofiaProRegular', sans-serif;
+    .carousel .event-block .text h4,
+    .carousel .event-block .text p,
+    .carousel .event-block .text .date {
         font-size: 14px;
-    }
-    .event-block-tablet .text .date {
-        font-family: 'SofiaProBlack', sans-serif;
-        margin-bottom: 10px;
-        text-transform: uppercase;
-        font-size: 13px;
+        line-height: 14px;
+        margin: 0;
     }
 }
 
@@ -1168,29 +1138,75 @@
         z-index: 1;
     }
 
-    .event-block-tablet {
-        width: 320px;
-        margin: 10px auto 0;
+    /* EVENT BLOCK*/
+    .carousel .event-block {
+        display: none;
+    }
+    .event-block-mobile {
+        position: relative;
+        display: block;
+        background-color: #f2f2f2;
+        padding-top: 10px;
+    }
+    .event-block-mobile > .inner {
+        background-color: #153d7d;
+        margin: 0 auto;
         color: #fff;
     }
-    .event-block-tablet h3 {
+    .event-block-mobile h3 {
+        font-family: 'SofiaProRegular', sans-serif;
         font-size: 16px;
-        padding: 5px 0;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
     }
-    .event-block-tablet .logo {
-        width: 110px;
+    .event-block-mobile .background-block {
+        background: rgba(0, 0, 0, 0) url("../../images/event_bgi.png") no-repeat 50%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        padding: 10px 0 15px;
+        margin: 0 auto;
     }
-    .event-block-tablet .logo img {
-        width: 85px;
+    .event-block-mobile .background-block > .inner {
+        display: flex;
+        width: 320px;
+        margin: 0 auto;
     }
-    .event-block-tablet .text {
-        width: 210px;
+    .event-block-mobile .container {
+        display: flex;
     }
-    .event-block-tablet .text h4 {
+    .event-block-mobile .logo {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .event-block-mobile .logo img {
+        width: 80px;
+    }
+    .event-block-mobile .text {
+        width: 220px;
+        box-sizing: border-box;
+    }
+    .event-block-mobile .text h4 {
+        margin: 0;
+        font-family: 'SofiaProRegular', sans-serif;
         font-size: 16px;
     }
-    .event-block-tablet .text p {
+    .event-block-mobile .text p {
+        margin: 0;
+        font-family: 'SofiaProRegular', sans-serif;
         font-size: 14px;
         line-height: 14px;
     }
+    .event-block-mobile .text .date {
+        font-family: 'SofiaProBlack', sans-serif;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
 }
