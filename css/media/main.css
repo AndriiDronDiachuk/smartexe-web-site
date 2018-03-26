@@ -53,7 +53,6 @@
         background: url("../../images/industr.png") no-repeat 50%;
         background-size: 135%;
     }
-
 }
 
 @media screen and (max-width: 1499px) {
@@ -345,7 +344,7 @@
     .footer-1 {
         height: auto;
         background: #fff url(../../images/mobile/footer_bgi.jpg) no-repeat 34% 60%;
-        background-size: 725%;
+        background-size: 760%;
         padding: 35px 0;
     }
     .footer-1 form {
@@ -370,7 +369,7 @@
     }
     .footer-1.active form {
         margin-top: 30px;
-        height: 500px;
+        height: auto;
     }
     .footer-1 .label-2 {
         width: 240px;
@@ -436,7 +435,6 @@
         left: 0;
         bottom: 35px;
     }
-
 
     /* CATEGORY-IMG-BLOCK */
     .category-img-block {
