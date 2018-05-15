@@ -685,60 +685,60 @@ a.fill-div {
 }
 
 /* EVENT BLOCK */
-.carousel .event-block {
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: auto;
-    z-index: 1;
-    background-color: #153d7d;
-    width: 510px;
-    color: #fff;
-}
-.carousel .event-block div {
-    height: auto;
-}
-.carousel .event-block h3 {
-    font-family: 'SofiaProRegular', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 10px 25px;
-}
-.carousel .event-block .background-block {
-    display: flex;
-    background: rgba(0, 0, 0, 0) url("../images/event_bgi.png") no-repeat 50%;
-    -webkit-background-size: cover;
-    background-size: cover;
-    padding: 20px 0 25px;
-}
-.carousel .event-block .logo {
-    width: 175px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.carousel .event-block .logo img {
-    width: 125px;
-}
-.carousel .event-block .text h4 {
-    margin: 0;
-    font-family: 'SofiaProRegular', sans-serif;
-    font-size: 26px;
-}
-.carousel .event-block .text p {
-    margin: 0;
-    font-family: 'SofiaProRegular', sans-serif;
-    font-size: 14px;
-}
-.carousel .event-block .text .date {
-    font-family: 'SofiaProBlack', sans-serif;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-size: 13px;
-}
-.event-block-mobile {
-    display: none;
-}
+/*.carousel .event-block {*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*height: auto;*/
+    /*z-index: 1;*/
+    /*background-color: #153d7d;*/
+    /*width: 510px;*/
+    /*color: #fff;*/
+/*}*/
+/*.carousel .event-block div {*/
+    /*height: auto;*/
+/*}*/
+/*.carousel .event-block h3 {*/
+    /*font-family: 'SofiaProRegular', sans-serif;*/
+    /*font-size: 20px;*/
+    /*font-weight: 400;*/
+    /*text-transform: uppercase;*/
+    /*margin: 0;*/
+    /*padding: 10px 25px;*/
+/*}*/
+/*.carousel .event-block .background-block {*/
+    /*display: flex;*/
+    /*background: rgba(0, 0, 0, 0) url("../images/event_bgi.png") no-repeat 50%;*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+    /*padding: 20px 0 25px;*/
+/*}*/
+/*.carousel .event-block .logo {*/
+    /*width: 175px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+/*.carousel .event-block .logo img {*/
+    /*width: 125px;*/
+/*}*/
+/*.carousel .event-block .text h4 {*/
+    /*margin: 0;*/
+    /*font-family: 'SofiaProRegular', sans-serif;*/
+    /*font-size: 26px;*/
+/*}*/
+/*.carousel .event-block .text p {*/
+    /*margin: 0;*/
+    /*font-family: 'SofiaProRegular', sans-serif;*/
+    /*font-size: 14px;*/
+/*}*/
+/*.carousel .event-block .text .date {*/
+    /*font-family: 'SofiaProBlack', sans-serif;*/
+    /*margin-bottom: 10px;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 13px;*/
+/*}*/
+/*.event-block-mobile {*/
+    /*display: none;*/
+/*}*/
