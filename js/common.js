@@ -80,20 +80,32 @@ $(document).ready(function($) {
     });
 
     var FBModalParams = "width=560, height=660, scrollbars=no, left=" + (($(window).width() - 560) / 2) + ', top=' + ((($(window).height() - 660) / 2) + 50);
-    $("#facebookShareLink").on("click",function(){
+    $("#facebookShareLink1").on("click",function(){
         window.open("https://www.facebook.com/sharer/sharer.php?u=http://www.smartexe.com/html/articles/articles-items/7_reasons_why_every_company_must_consider_a_nearshore_development_team.html", "pop", FBModalParams);
+        return false;
+    });
+    $("#facebookShareLink2").on("click",function(){
+        window.open("https://www.facebook.com/sharer/sharer.php?u=http://www.smartexe.com/html/articles/articles-items/access_is_the_new_ownership.html", "pop", FBModalParams);
         return false;
     });
 
     var TwitterModalParams = "width=700, height=460, scrollbars=no, left=" + (($(window).width() - 700) / 2) + ', top=' + ((($(window).height() - 460) / 2)  + 50);
-    $("#twitterShareLink").on("click",function(){
+    $("#twitterShareLink1").on("click",function(){
         window.open("https://twitter.com/share?text=7%20reasons%20why%20every%20company%20must%20consider%20a%20nearshore%20development%20team&url=http://www.smartexe.com/html/articles/articles-items/7_reasons_why_every_company_must_consider_a_nearshore_development_team.html&via=Smartexe", "pop", TwitterModalParams);
+        return false;
+    });
+    $("#twitterShareLink2").on("click",function(){
+        window.open("https://twitter.com/share?text=access%20is%20the%20new%20ownership&url=http://www.smartexe.com/html/articles/articles-items/access_is_the_new_ownership.html&via=Smartexe", "pop", TwitterModalParams);
         return false;
     });
 
     var LinkedinModalParams = "width=1000, height=750, scrollbars=no, left=" + (($(window).width() - 1000) / 2) + ', top=' + ((($(window).height() - 750) / 2) + 50);
-    $("#linkedinShareLink").on("click",function(){
+    $("#linkedinShareLink1").on("click",function(){
         window.open("http://www.linkedin.com/shareArticle?mini=true&url=http://www.smartexe.com/html/articles/articles-items/7_reasons_why_every_company_must_consider_a_nearshore_development_team.html&title=7%20reasons%20why%20every%20company%20must%20consider%20a%20nearshore%20development%20team", "pop", LinkedinModalParams);
+        return false;
+    });
+    $("#linkedinShareLink2").on("click",function(){
+        window.open("http://www.linkedin.com/shareArticle?mini=true&url=http://www.smartexe.com/html/articles/articles-items/access_is_the_new_ownership.html&title=access%20is%20the%20new%20ownership", "pop", LinkedinModalParams);
         return false;
     });
 
