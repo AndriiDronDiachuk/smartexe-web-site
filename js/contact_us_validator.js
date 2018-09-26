@@ -68,10 +68,10 @@ $(document).ready(function ($) {
 
         var dataArr = $(this).serializeArray();
 
-        if ($(this).valid()) {
-            $.getJSON('https://freegeoip.net/json/',
-                function (data) {
-                    var sendToEmail;
+        /*if ($(this).valid()) {
+            $.getJSON('http://api.ipstack.com/176.241.129.174?access_key=64b71bed33865fc7ad097f982fa579e5',
+                function (data) {*/
+                    /*var sendToEmail;
                     var sendSubject;
 
                     if (data !== undefined) {
@@ -97,17 +97,17 @@ $(document).ready(function ($) {
                     }
                     if (data.country_name === undefined || data.country_name === '') {
                         data.country_name = '-';
-                    }
+                    }*/
 
                     dataArr.push({
                         name: 'country',
-                        value: data.country_name
+                        value: '-'
                     },{
                         name: 'sendToEmail',
-                        value: sendToEmail
+                        value: 'contacteu@smartexe.com'
                     },{
                         name: 'sendSubject',
-                        value: sendSubject
+                        value: 'Smartexe - ContactUs / Other'
                     });
 
                     $.ajax({
@@ -132,8 +132,8 @@ $(document).ready(function ($) {
                     $('#message').val('').blur();
 
                     showSuccessSendMessage();
-                });
-        }
+                /*});
+        }*/
     });
 
     var successMessage = $('#success-message');

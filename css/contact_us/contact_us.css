@@ -239,10 +239,10 @@ textarea{
 }
 
 .map-region .label {
-    font-size: 14px;
+    font-size: 12px;
     float: left;
     text-align: left;
-    width: 180px;
+    width: 185px;
 }
 .IL {
     display: none;

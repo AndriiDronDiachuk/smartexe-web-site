@@ -40,16 +40,15 @@ $(document).ready(function($) {
         }
     });
 
-
-    $.getJSON('https://freegeoip.net/json/',
+    /*$.getJSON('http://api.ipstack.com/176.241.129.174?access_key=64b71bed33865fc7ad097f982fa579e5',
         function (data) {
             var  phoneNumber = '<span>Call Us: </span>';
             var  email;
 
             if (data !== undefined) {
                 if (data.country_code === 'IL') {
-                    phoneNumber += '+972-3-6133886'; // Israel
-                    email = 'info@smartexe.com'; // Israel
+                    phoneNumber += '+972 52-8713624'; // Israel
+                    email = 'contacteu@smartexe.com'; // Israel
 
                 }
                 else if (data.country_code === 'US' || data.country_code === 'CA') {
@@ -62,7 +61,7 @@ $(document).ready(function($) {
                 }
             }
             else {
-                phoneNumber += '+45-30-48-56-40';
+                phoneNumber += '+45 30485640';
                 email = 'contacteu@smartexe.com';
             }
 
@@ -73,7 +72,7 @@ $(document).ready(function($) {
             $('#header-phone')
                 .html(phoneNumber)
                 .css('opacity', 1);
-        });
+        });*/
 
     $('#contact-mobile').on('click', function () {
         $('.footer-1').toggleClass('active');

@@ -34,9 +34,11 @@ $('.div-region').on('click', function () {
             lng = 34.82323829999996;
             contentString = '<div class="marker-content">' +
                 '<h3>ISRAEL</h3>' +
-                '<p>23, Bar Kochva st., 7th Floor, Bney Brak, Israel</p>' +
-                '<p>+972-3-6133886</p>' +
-                '<strong><a class="marker-mail" href="mailto:info@smartexe.com" target="_blank" style="color: #000;">info@smartexe.com</a></strong>';
+                '<p>VTower, Floor 7,</p>' +
+                '<p>23, Bar Kochva st.,</p>' +
+                '<p>Bney Brak 5126002, Israel</p>' +
+                '<p>+972 52-8713624</p>' +
+                '<strong><a class="marker-mail" href="mailto:contacteu@smartexe.com" target="_blank" style="color: #000;">contacteu@smartexe.com</a></strong>';
 
             $('.map').css('display', 'block');
             $('.map').removeClass('submenu');
@@ -56,14 +58,14 @@ $('.div-region').on('click', function () {
     } else if (mapRegion === 'region-north-america') {
         if(!mapNorthAmericaVis) {
             mapId = 'map';
-            lat = 39.955780;
-            lng = -75.181968;
+            lat = 40.170080;
+            lng = -75.287200;
             contentString = '<div class="marker-content">' +
-                '<h3>NORTH AMERICA</h3>' +
-                '<p>Cira Centre - Connected to Amtrak 30th Street Station</p>' +
-                '<p>2929 Arch Street, Suite 1740, Philadelphia, PA 19104, USA</p>' +
-                '<p>+1 (215) 948-8178</p>' +
-                '<strong><a class="marker-mail" href="mailto:info@smartexe.com" target="_blank" style="color: #000;">info@smartexe.comm</a></strong>';
+                '<h3>USA</h3>' +
+		'<p>716 Dekalb Pike, Suite 235,</p>' +
+		'<p>Blue Bell, PA 19422, USA</p>' +
+                '<p>+1 (215) 565-6150</p>' +
+                '<strong><a class="marker-mail" href="mailto:contact@smartexe.com" target="_blank" style="color: #000;">contact@smartexe.com</a></strong>';
 
             $('.map').css('display', 'block');
             $('.map').removeClass('submenu');
@@ -85,10 +87,10 @@ $('.div-region').on('click', function () {
             lat = 56.162939;
             lng = 10.203921;
             contentString = '<div class="marker-content">' +
-                '<h3>WEST EUROPE</h3>' +
+                '<h3>EUROPE</h3>' +
                 '<p>Aarhus, Denmark</p>' +
                 '<p>+45-30-48-56-40</p>' +
-                '<strong><a class="marker-mail" href="mailto:info@smartexe.com" target="_blank" style="color: #000;">info@smartexe.com</a></strong>';
+                '<strong><a class="marker-mail" href="mailto:contacteu@smartexe.com" target="_blank" style="color: #000;">contacteu@smartexe.com</a></strong>';
 
             $('.map').css('display', 'block');
             $('.map').removeClass('submenu');
@@ -106,7 +108,7 @@ $('.div-region').on('click', function () {
         mapIsraelVis = false;
     }
 });
-
+/*
 $.getJSON('https://freegeoip.net/json/',
     function (data) {
         if (data !== undefined) {
@@ -114,4 +116,4 @@ $.getJSON('https://freegeoip.net/json/',
                 $('.IL').css('display', 'block');
             }
         }
-    });
+    });*/
