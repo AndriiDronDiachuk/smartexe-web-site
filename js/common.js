@@ -87,6 +87,10 @@ $(document).ready(function($) {
         window.open("https://www.facebook.com/sharer/sharer.php?u=http://www.smartexe.com/html/articles/articles-items/access_is_the_new_ownership.html", "pop", FBModalParams);
         return false;
     });
+    $("#facebookShareLink3").on("click",function(){
+        window.open("https://www.facebook.com/sharer/sharer.php?u=http://www.smartexe.com/html/articles/articles-items/in_house_vs_outsource.html", "pop", FBModalParams);
+        return false;
+    });
 
     var TwitterModalParams = "width=700, height=460, scrollbars=no, left=" + (($(window).width() - 700) / 2) + ', top=' + ((($(window).height() - 460) / 2)  + 50);
     $("#twitterShareLink1").on("click",function(){
@@ -97,6 +101,10 @@ $(document).ready(function($) {
         window.open("https://twitter.com/share?text=access%20is%20the%20new%20ownership&url=http://www.smartexe.com/html/articles/articles-items/access_is_the_new_ownership.html&via=Smartexe", "pop", TwitterModalParams);
         return false;
     });
+    $("#twitterShareLink3").on("click",function(){
+        window.open("https://twitter.com/share?text=In-house%20vs.%20outsource:%20how%20to%20make%20the%20right%20choice&url=http://www.smartexe.com/html/articles/articles-items/in_house_vs_outsource.html&via=Smartexe", "pop", TwitterModalParams);
+        return false;
+    });
 
     var LinkedinModalParams = "width=1000, height=750, scrollbars=no, left=" + (($(window).width() - 1000) / 2) + ', top=' + ((($(window).height() - 750) / 2) + 50);
     $("#linkedinShareLink1").on("click",function(){
@@ -105,6 +113,10 @@ $(document).ready(function($) {
     });
     $("#linkedinShareLink2").on("click",function(){
         window.open("http://www.linkedin.com/shareArticle?mini=true&url=http://www.smartexe.com/html/articles/articles-items/access_is_the_new_ownership.html&title=access%20is%20the%20new%20ownership", "pop", LinkedinModalParams);
+        return false;
+    });
+    $("#linkedinShareLink3").on("click",function(){
+        window.open("http://www.linkedin.com/shareArticle?mini=true&url=http://www.smartexe.com/html/articles/articles-items/in_house_vs_outsource.html&title=In-house%20vs.%20outsource:%20how%20to%20make%20the%20right%20choice", "pop", LinkedinModalParams);
         return false;
     });
 
