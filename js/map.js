@@ -1,5 +1,5 @@
 var mapId, lat, lng, contentString;
-var mapIsraelVis = false, mapNorthAmericaVis = false, mapEuropelVis = false;
+var mapIsraelVis = false, mapNorthAmericaVis = false, mapEuropelVis = false, mapAmericaLosAngeles = false;
 
 function initMap() {
     var uluru = {lat: lat, lng: lng};
@@ -54,16 +54,16 @@ $('.div-region').on('click', function () {
 
         mapNorthAmericaVis = false;
         mapEuropelVis = false;
-
+        mapAmericaLosAngeles = false;
     } else if (mapRegion === 'region-north-america') {
         if(!mapNorthAmericaVis) {
             mapId = 'map';
             lat = 40.170080;
             lng = -75.287200;
             contentString = '<div class="marker-content">' +
-                '<h3>USA</h3>' +
-		'<p>716 Dekalb Pike, Suite 235,</p>' +
-		'<p>Blue Bell, PA 19422, USA</p>' +
+                '<h3>Philadelphia PA</h3>' +
+                '<p>716 Dekalb Pike, Suite 235,</p>' +
+                '<p>Blue Bell, PA 19422, USA</p>' +
                 '<p>+1 (215) 565-6150</p>' +
                 '<strong><a class="marker-mail" href="mailto:contact@smartexe.com" target="_blank" style="color: #000;">contact@smartexe.com</a></strong>';
 
@@ -80,16 +80,44 @@ $('.div-region').on('click', function () {
         }
         mapEuropelVis = false;
         mapIsraelVis = false;
+        mapAmericaLosAngeles = false;
 
+    } else if (mapRegion === 'region-america-Los-Angeles') {
+        if(!mapAmericaLosAngeles) {
+            mapId = 'map';
+            lat = 33.652200;
+            lng = -117.747720;
+            contentString = '<div class="marker-content">' +
+                '<h3>Los Angeles, CA</h3>' +
+                '<p>200 Spectrum Center Drive,</p>' +
+                '<p>Irvine, CA 92618</p>' +
+                '<p>+1 (949) 331-8111</p>' +
+                '<strong><a class="marker-mail" href="mailto:contact@smartexe.com" target="_blank" style="color: #000;">contact@smartexe.com</a></strong>';
+
+            $('.map').css('display', 'block');
+            $('.map').removeClass('submenu');
+            initMap();
+            $('html, body').animate({
+                scrollTop: $(".category-google-map").offset().top
+            });
+            mapAmericaLosAngeles = true;
+        } else {
+            $('.map').addClass('submenu');
+            mapAmericaLosAngeles = false;
+        }
+        mapEuropelVis = false;
+        mapIsraelVis = false;
+        mapNorthAmericaVis = false;
     } else {
         if(!mapEuropelVis) {
             mapId = 'map';
-            lat = 56.162939;
-            lng = 10.203921;
+            lat = 56.046460;
+            lng = 9.919250;
             contentString = '<div class="marker-content">' +
                 '<h3>EUROPE</h3>' +
-                '<p>Aarhus, Denmark</p>' +
-                '<p>+45-30-48-56-40</p>' +
+                '<p>Godthabsvej 27,</p>' +
+                '<p>8660 Skanderborg, Denmark</p>' +
+                '<p>+45 30485640</p>' +
                 '<strong><a class="marker-mail" href="mailto:contacteu@smartexe.com" target="_blank" style="color: #000;">contacteu@smartexe.com</a></strong>';
 
             $('.map').css('display', 'block');
@@ -106,6 +134,7 @@ $('.div-region').on('click', function () {
 
         mapNorthAmericaVis = false;
         mapIsraelVis = false;
+        mapAmericaLosAngeles = false;
     }
 });
 /*
