@@ -1,5 +1,5 @@
 var mapId, lat, lng, contentString;
-var mapIsraelVis = false, mapEuropelVis = false, mapAmericaLosAngeles = false;
+var mapIsraelVis = false, mapNorthAmericaVis = false, mapEuropelVis = false, mapAmericaLosAngeles = false;
 
 function initMap() {
     var uluru = {lat: lat, lng: lng};
@@ -52,8 +52,36 @@ $('.div-region').on('click', function () {
             mapIsraelVis = false;
         }
 
+        mapNorthAmericaVis = false;
         mapEuropelVis = false;
         mapAmericaLosAngeles = false;
+    } else if (mapRegion === 'region-north-america') {
+        if(!mapNorthAmericaVis) {
+            mapId = 'map';
+            lat = 40.170080;
+            lng = -75.287200;
+            contentString = '<div class="marker-content">' +
+                '<h3>Philadelphia PA</h3>' +
+                '<p>716 Dekalb Pike, Suite 235,</p>' +
+                '<p>Blue Bell, PA 19422, USA</p>' +
+                '<p>+1 (215) 565-6150</p>' +
+                '<strong><a class="marker-mail" href="mailto:contact@smartexe.com" target="_blank" style="color: #000;">contact@smartexe.com</a></strong>';
+
+            $('.map').css('display', 'block');
+            $('.map').removeClass('submenu');
+            initMap();
+            $('html, body').animate({
+                scrollTop: $(".category-google-map").offset().top
+            });
+            mapNorthAmericaVis = true;
+        } else {
+            $('.map').addClass('submenu');
+            mapNorthAmericaVis = false;
+        }
+        mapEuropelVis = false;
+        mapIsraelVis = false;
+        mapAmericaLosAngeles = false;
+
     } else if (mapRegion === 'region-america-Los-Angeles') {
         if(!mapAmericaLosAngeles) {
             mapId = 'map';
@@ -79,6 +107,7 @@ $('.div-region').on('click', function () {
         }
         mapEuropelVis = false;
         mapIsraelVis = false;
+        mapNorthAmericaVis = false;
     } else {
         if(!mapEuropelVis) {
             mapId = 'map';
@@ -103,6 +132,7 @@ $('.div-region').on('click', function () {
             mapEuropelVis = false;
         }
 
+        mapNorthAmericaVis = false;
         mapIsraelVis = false;
         mapAmericaLosAngeles = false;
     }
