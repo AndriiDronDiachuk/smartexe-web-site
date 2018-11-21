@@ -7,7 +7,10 @@
     .map-region .label {
         width: 100%;
         float: none;
-        /* text-align: center; */
+        text-align: center;
+    }
+    .map-region .picture{
+        margin-bottom: 15px;
     }
 }
 @media screen and (max-width: 1023px) {
@@ -27,6 +30,17 @@
     }
 }
 @media screen and (max-width: 767px) {
+    .map-region .picture{
+        width: 150px;
+        float: left;
+        margin-bottom: 0;
+    }
+    .map-region .label {
+        float: left;
+        text-align: left;
+        width: 185px;
+    }
+
     .phone-input .form-error, .email-input .form-error {
         bottom: -20px;
     }
@@ -79,21 +93,15 @@
         padding-left: 8px;
         padding-right: 8px;
         margin: 0 auto;
-        min-width: 360px;
     }
     .map-region {
         margin-top: 20px;
         margin-bottom: 20px;
         text-align: center;
+        display: flex;
+        flex-direction: row;
     }
-    .map-region .label,
-    .map-region .picture {
-        /* margin-right: 0; */
-        width: 100%;
-    }
-    /* .map-region .label {
-        text-align: center;
-    } */
+    
     .category-google-map {
         padding-top: 80px;
     }

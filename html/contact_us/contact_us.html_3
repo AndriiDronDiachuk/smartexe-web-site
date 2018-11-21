@@ -343,7 +343,7 @@
 </div>
 <div class="container">
     <div class="category-office-maps-block row center-xs">
-        <div class="map-region col-sm-6 col-xs-12">
+        <div class="map-region col-sm-4 col-xs-12">
             <div class="picture picture-1 div-region" id="region-israel">
                 <img src="../../images/contact_us/israel_map.png">
             </div>
@@ -362,7 +362,7 @@
                 </p>
             </div>
         </div>
-        <div class="map-region col-sm-6 col-xs-12">
+        <div class="map-region col-sm-4 col-xs-12">
             <div class="picture picture-3 div-region" id="region-europe">
                 <img src="../../images/contact_us/europe_map.png">
             </div>
@@ -380,26 +380,7 @@
                 </p>
             </div>
         </div>
-        <div class="map-region col-sm-6 col-xs-12" >
-            <div class="picture picture-2 div-region" id="region-north-america">
-                <img src="../../images/contact_us/america_map1.png">
-            </div>
-            <div class="label">
-                <h2>USA</h2>
-                <h3>Philadelphia PA</h3>
-                <p>716 Dekalb Pike, Suite 235,</p>
-                <p>Blue Bell, PA 19422, USA</p>
-                <p>
-                Direct:
-                    <span>+1 (215) 565-6150</span>
-                </p>
-                <p>
-                    Email:
-                    <span><a href="mailto:contact@smartexe.com" target="_blank">contact@smartexe.com</a></span>
-                </p>
-            </div>
-        </div>
-        <div class="map-region col-sm-6 col-xs-12" >
+        <div class="map-region col-sm-4 col-xs-12" >
             <div class="picture picture-2 div-region" id="region-america-Los-Angeles">
                 <img src="../../images/contact_us/america_map2.png">
             </div>

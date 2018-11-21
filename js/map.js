@@ -1,5 +1,5 @@
 var mapId, lat, lng, contentString;
-var mapIsraelVis = false, mapEuropelVis = false, mapAmericaLosAngeles = false;
+var mapIsraelVis = false, mapKorea = false, mapEuropelVis = false, mapAmericaLosAngeles = false;
 
 function initMap() {
     var uluru = {lat: lat, lng: lng};
@@ -52,8 +52,35 @@ $('.div-region').on('click', function () {
             mapIsraelVis = false;
         }
 
+        mapKorea = false;
         mapEuropelVis = false;
         mapAmericaLosAngeles = false;
+    } else if (mapRegion === 'region-korea') {
+        if(!mapKorea) {
+            mapId = 'map';
+            lat = 37.540872;
+            lng = 127.055879;
+            contentString = '<div class="marker-content">' +
+                '<h3>KOREA</h3>' +
+                '<p>66, Seongsu2-ro, Seongdong-gu, Seoul</p>' +
+                '<p> +82-10-3793-9975</p>' +
+                '<strong><a class="marker-mail" href="mailto:contact@smartexe.com" target="_blank" style="color: #000;">contact@smartexe.com</a></strong>';
+
+            $('.map').css('display', 'block');
+            $('.map').removeClass('submenu');
+            initMap();
+            $('html, body').animate({
+                scrollTop: $(".category-google-map").offset().top
+            });
+            mapKorea = true;
+        } else {
+            $('.map').addClass('submenu');
+            mapKorea = false;
+        }
+        mapEuropelVis = false;
+        mapIsraelVis = false;
+        mapAmericaLosAngeles = false;
+
     } else if (mapRegion === 'region-america-Los-Angeles') {
         if(!mapAmericaLosAngeles) {
             mapId = 'map';
@@ -79,6 +106,7 @@ $('.div-region').on('click', function () {
         }
         mapEuropelVis = false;
         mapIsraelVis = false;
+        mapKorea = false;
     } else {
         if(!mapEuropelVis) {
             mapId = 'map';
@@ -103,6 +131,7 @@ $('.div-region').on('click', function () {
             mapEuropelVis = false;
         }
 
+        mapKorea = false;
         mapIsraelVis = false;
         mapAmericaLosAngeles = false;
     }

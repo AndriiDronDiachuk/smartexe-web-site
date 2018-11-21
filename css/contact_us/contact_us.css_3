@@ -227,24 +227,15 @@ textarea{
 /* under-map block */
 
 .map-region {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
-.map-region:first-of-type {
-    margin-bottom: 30px;
+
 }
 
 .map-region .picture {
     height: 150px;
     width: 150px;
     float: left;
-    margin-right: 30px;
-}
-
-.map-region .picture img{
-    cursor: pointer;
+    margin-right: 20px;
 }
 
 .map-region .label {
