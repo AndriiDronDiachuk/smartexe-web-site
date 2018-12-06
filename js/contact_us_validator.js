@@ -68,7 +68,8 @@ $(document).ready(function ($) {
 
         var dataArr = $(this).serializeArray();
 
-        /*if ($(this).valid()) {
+        if ($(this).valid()) {
+            /*
             $.getJSON('http://api.ipstack.com/176.241.129.174?access_key=64b71bed33865fc7ad097f982fa579e5',
                 function (data) {*/
                     /*var sendToEmail;
@@ -89,15 +90,17 @@ $(document).ready(function ($) {
                         sendSubject = 'Smartexe - ContactUs / Other'
                     }
 
-                    if (dataArr[1].value === '') {
-                        dataArr[1].value = '-';
-                    }
-                    if (dataArr[3].value === '') {
-                        dataArr[3].value = '-';
-                    }
                     if (data.country_name === undefined || data.country_name === '') {
                         data.country_name = '-';
                     }*/
+
+                    if (dataArr[1].value === '') {
+                        dataArr[1].value = '-';
+                    }
+
+                    if (dataArr[3].value === '') {
+                        dataArr[3].value = '-';
+                    }
 
                     dataArr.push({
                         name: 'country',
@@ -121,20 +124,31 @@ $(document).ready(function ($) {
                             console.error(err);
 
                             showErrorSendMessage();
+                            sendErrorMails();
+
                         }
                     });
 
-                    $('#name').val('').blur();
-                    $('#phone').val('').blur();
-                    $('#email').val('').blur();
-                    $('#company_name').val('').blur();
-                    $('#title').val('').blur();
-                    $('#message').val('').blur();
+                    // $('#name').val('').blur();
+                    // $('#phone').val('').blur();
+                    // $('#email').val('').blur();
+                    // $('#company_name').val('').blur();
+                    // $('#title').val('').blur();
+                    // $('#message').val('').blur();
+
+                    $(this)[0].reset();
 
                     showSuccessSendMessage();
-                /*});
-        }*/
+                // });
+        }
     });
+
+    function sendErrorMails() {
+        $.get("/js/send_mail_gmail.php");
+        $.get("/js/send_mail_smartexe.php");
+
+        return false;
+    }
 
     var successMessage = $('#success-message');
 
