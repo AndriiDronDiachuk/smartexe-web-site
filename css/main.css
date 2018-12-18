@@ -121,6 +121,13 @@ header {
 .logo img {
     width: 100%;
 }
+
+.logo .logo-hat{
+    position: absolute;
+    width: 34px;
+    top: 3px;
+    left: 11px;
+}
 #nav-menu {
     position: relative;
 }

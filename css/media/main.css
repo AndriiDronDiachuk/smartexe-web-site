@@ -7,6 +7,11 @@
     .logo {
         width: 200px;
     }
+    .logo .logo-hat{
+        width: 30px;
+        top: 2px;
+        left: 9px;
+    }
     .navigation {
         margin-top: 18px;
     }
@@ -91,7 +96,11 @@
     .logo {
         width: 175px;
     }
-
+    .logo .logo-hat{
+        width: 27px;
+        top: 0.5px;
+        left: 8px;
+    }
     /* BUTTON STYLE */
     .button-style-1 {
         margin-top: 30px;
@@ -169,7 +178,11 @@
     .logo {
         width: 150px;
     }
-
+    .logo .logo-hat{
+        width: 25px;
+        top: 0px;
+        left: 6px;
+    }
     /* BUTTON STYLE */
     .button-style-1 {
         margin-top: 15px;
@@ -331,6 +344,11 @@
     .logo {
         width: 125px;
         margin-left: 20px;
+    }
+    .logo .logo-hat{
+        width: 20px;
+        top: 0.5px;
+        left: 5px;
     }
     #nav-bar {
         margin-top: 8px;
