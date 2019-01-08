@@ -1,5 +1,5 @@
 $(document).ready(function($) {
-    $("header .logo a").prepend('<img src="/images/hat.png" class="logo-hat">')
+    // $("header .logo a").prepend('<img src="/images/hat.png" class="logo-hat">')
     $('#nav-bar').click(function() {
         $('#nav-menu').toggle( 'slide', {direction: 'right'}, 250 );
         $('body').toggleClass('body-shadow');
